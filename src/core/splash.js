@@ -1,5 +1,5 @@
 /**
- * Écran de démarrage : logo affiché 2 secondes minimum, puis fondu vers le menu.
+ * Écran de démarrage : logo affiché 4 secondes minimum, puis fondu vers le menu.
  * Affiché une seule fois par lancement de l'appli (pas à chaque changement de page).
  */
 const MIN_DURATION_MS = 4000;

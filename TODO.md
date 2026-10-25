@@ -5,7 +5,7 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 ## Phase 1 — Fondations ✅
 - ✅ Projet Vite + PWA (installable, hors connexion, chemins relatifs compatibles Capacitor)
 - ✅ Logo French ECU + icônes (Android, maskable, iPhone/iPad, favicon)
-- ✅ Écran de démarrage 2 s (une fois par lancement, animations réduites si demandé)
+- ✅ Écran de démarrage 4 s (réglé par Stéphane) (une fois par lancement, animations réduites si demandé)
 - ✅ Moteur multilingue 10 langues (FR, EN, ES, DE, IT, PT, NL, PL, TR, AR droite-à-gauche)
 - ✅ Format des nombres par langue + saisie « 2,5 » ou « 2.5 »
 - ✅ Unités métrique / impérial + choix par grandeur (19 grandeurs)
