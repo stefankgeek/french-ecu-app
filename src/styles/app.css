@@ -231,7 +231,11 @@ button, input, select { font: inherit; color: inherit; }
 .field__error { margin: 0; color: #ff9b9b; font-size: 12.5px; }
 .field__hint { margin: 0; color: var(--text-3); font-size: 12.5px; }
 
-.sim__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.sim__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+/* Boutons Valeurs par défaut / Partager / PDF : en bas de page, après les résultats */
+.sim__footer { margin-top: 6px; padding: 14px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.sim__footer .sim__actions:last-child { margin-bottom: 0; }
+@media (min-width: 900px) { .sim__footer .sim__actions { max-width: 720px; margin-inline: auto; } }
 .sim__actions .btn { flex: 1 1 auto; display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; }
 .sim__actions .btn .ico { width: 18px; height: 18px; }
 .btn:disabled { opacity: .55; cursor: wait; }

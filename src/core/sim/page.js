@@ -63,12 +63,6 @@ export function mountSimulator(root, spec) {
               <h2 class="panel__title">${esc(tt(g.title))}</h2>
               <div class="fields">${g.fields.map((id) => fieldHtml(byId[id])).join('')}</div>
             </section>`).join('')}
-          <div class="sim__actions">
-            <button class="btn btn--ghost" data-act="reset">${esc(t('sim.reset'))}</button>
-            <button class="btn btn--ghost" data-act="share">${esc(t('sim.share'))}</button>
-            <button class="btn btn--primary" data-act="pdf">${icon('download')}<span>${esc(t('sim.pdf'))}</span></button>
-          </div>
-          <div class="sim__actions sim__downloads" hidden></div>
         </div>
         <div class="sim__outputs" aria-live="polite">
           <section class="panel">
@@ -81,6 +75,14 @@ export function mountSimulator(root, spec) {
           <div class="sim__charts"></div>
         </div>
       </div>
+      <footer class="sim__footer">
+        <div class="sim__actions sim__downloads" hidden></div>
+        <div class="sim__actions">
+          <button class="btn btn--ghost" data-act="reset">${esc(t('sim.reset'))}</button>
+          <button class="btn btn--ghost" data-act="share">${esc(t('sim.share'))}</button>
+          <button class="btn btn--primary" data-act="pdf">${icon('download')}<span>${esc(t('sim.pdf'))}</span></button>
+        </div>
+      </footer>
     </div>`;
 
   function fieldHtml(f) {
@@ -291,7 +293,7 @@ export function mountSimulator(root, spec) {
   }
 
   /* ---------- Actions ---------- */
-  root.querySelector('.sim__actions').addEventListener('click', async (e) => {
+  root.querySelector('.sim__actions:not(.sim__downloads)').addEventListener('click', async (e) => {
     const act = e.target.closest('[data-act]')?.dataset.act;
     if (act === 'reset') {
       Object.assign(state, defaults);
