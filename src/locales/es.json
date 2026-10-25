@@ -139,6 +139,7 @@
     "volume": "Volumen",
     "injector_flow": "Caudal de inyector",
     "fuel_flow": "Caudal de combustible",
+    "liquid_flow": "Caudal de líquido",
     "mass_flow": "Caudal másico de aire",
     "air_flow": "Caudal volumétrico de aire",
     "power": "Potencia",
@@ -193,7 +194,12 @@
     "percent": "%",
     "months": "meses",
     "ratio": ":1",
-    "per_year": "/año"
+    "per_year": "/año",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Excelente",

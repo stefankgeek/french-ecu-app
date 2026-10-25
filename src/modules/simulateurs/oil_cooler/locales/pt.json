@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensiona um radiador de óleo: calor a dissipar, temperatura do óleo estabilizada e tamanho recomendado para manter a temperatura pretendida.",
+  "g_engine": "Motor e óleo",
+  "g_cooler": "Radiador",
+  "g_conditions": "Condições",
+  "flow_hint": "Caudal enviado ao radiador (muitas vezes 10–25 L/min pela placa sandwich)",
+  "speed_hint": "0 = parado ou nas boxes",
+  "coolant_hint": "Só radiador óleo/água",
+  "usage": {
+    "street": "Estrada",
+    "track": "Track days",
+    "race": "Competição / resistência"
+  },
+  "type": {
+    "air": "Óleo / ar",
+    "water": "Óleo / água (permutador)"
+  },
+  "in": {
+    "power": "Potência do motor",
+    "usage": "Utilização",
+    "oilFlow": "Caudal de óleo",
+    "target": "Temperatura do óleo pretendida",
+    "type": "Tipo de radiador",
+    "width": "Largura da colmeia",
+    "height": "Altura da colmeia",
+    "thickness": "Espessura da colmeia",
+    "ambient": "Temperatura exterior",
+    "speed": "Velocidade do veículo",
+    "coolant": "Temperatura do líquido de arrefecimento"
+  },
+  "rating": {
+    "excellent": "Bem dimensionado",
+    "good": "Adequado",
+    "oversized": "Sobredimensionado",
+    "undersized": "Subdimensionado",
+    "critical": "Muito insuficiente",
+    "impossible": "Impossível"
+  },
+  "r": {
+    "rating": "Dimensionamento",
+    "rating_note": "Comparação entre temperatura estabilizada e pretendida",
+    "heat": "Calor a dissipar pelo óleo",
+    "heat_note": "≈ {p} % da potência do motor (estimativa)",
+    "eq": "Temperatura do óleo estabilizada",
+    "eq_note": "À entrada do radiador; pretendida: {t}",
+    "outlet": "Temperatura à saída do radiador",
+    "outlet_note": "Arrefecimento de {d} no radiador",
+    "capacity": "Capacidade à temperatura pretendida",
+    "capacity_note": "Calor dissipado com óleo a {t}",
+    "eff": "Eficácia do permutador",
+    "eff_note": "Parte da diferença de temperatura aproveitada",
+    "size": "Tamanho recomendado (largura × altura)",
+    "size_none": "Inalcançável com este tipo de radiador",
+    "size_note": "Mesma espessura ({th}) e mesmas proporções",
+    "air": "Velocidade do ar na colmeia",
+    "air_note": "≈ 30 % da velocidade do veículo (mín. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Um radiador óleo/água não desce abaixo da temperatura do líquido de arrefecimento: aponte mais alto ou use um radiador óleo/ar.",
+    "undersized": "Radiador demasiado pequeno: aumente a área, a espessura, o caudal de óleo ou melhore a entrada de ar (tomada, conduta).",
+    "thermostat": "Radiador mais do que suficiente: monte uma placa sandwich com termóstato para o óleo chegar depressa aos 90–100 °C.",
+    "too_hot": "Óleo acima de 130 °C: degradação rápida e risco para as bronzinas.",
+    "fan": "A baixa velocidade um radiador óleo/ar quase não arrefece: preveja um ventilador para paragens e filas.",
+    "method": "Estimativa (método eficácia-NTU): confirme com a ficha do fabricante. Perda de carga não calculada (normalmente menos de 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Temperatura do óleo estabilizada em função da velocidade",
+    "speed": "Velocidade",
+    "temp": "Temperatura",
+    "eq": "Óleo estabilizado",
+    "target": "Pretendida"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "intro": "Oblicza idealny rozdział siły hamowania przód/tył na podstawie przeniesienia obciążenia oraz opóźnienie faktycznie osiągalne przy Twoim ustawieniu.",
+  "g_vehicle": "Pojazd",
+  "g_braking": "Hamowanie",
+  "cg_hint": "Samochód seryjny ≈ 450–550 mm, wyścigowy ≈ 300–400 mm",
+  "decel_hint": "≈ przyczepność opon: drogowe 0,8–1,0 g, semi-slick 1,1–1,3 g, slick od 1,4 g",
+  "bias_hint": "Udział siły hamowania na przedniej osi",
+  "in": {
+    "mass": "Masa pojazdu (z kierowcą)",
+    "front": "Masa na przedniej osi",
+    "wheelbase": "Rozstaw osi",
+    "cg": "Wysokość środka ciężkości",
+    "trackFront": "Rozstaw kół przednich",
+    "trackRear": "Rozstaw kół tylnych",
+    "decel": "Docelowe maksymalne opóźnienie",
+    "bias": "Obecny rozdział (przód)",
+    "speed": "Prędkość początkowa",
+    "lateral": "Przyspieszenie boczne w zakręcie"
+  },
+  "r": {
+    "optimal": "Idealny rozdział (przód)",
+    "optimal_note": "Wszystkie 4 koła jednocześnie na granicy przy {a} g",
+    "balance": "Ocena ustawienia",
+    "diff": "Odchyłka od ideału: {d} pkt",
+    "amax": "Maksymalne osiągalne opóźnienie",
+    "distance": "Droga hamowania",
+    "distance_note": "Od {s}, bez czasu reakcji; idealne ustawienie: {d}",
+    "transfer": "Przeniesienie obciążenia do przodu",
+    "transfer_note": "Stosunek wysokości środka ciężkości do rozstawu osi: {h}",
+    "static": "Obciążenie statyczne",
+    "dynamic": "Obciążenie przy maksymalnym hamowaniu",
+    "front_rear": "Przód / tył",
+    "inner_front": "Wewnętrzne koło przednie w zakręcie",
+    "inner_note": "Przy {g} g; 0 = koło się odrywa"
+  },
+  "balance": {
+    "optimal": "Optymalne",
+    "acceptable": "Dopuszczalne",
+    "adjust": "Do korekty",
+    "dangerous": "Niebezpieczne"
+  },
+  "lock": {
+    "front": "Przednie koła blokują się pierwsze ({e}% potencjału)",
+    "rear": "Tylne koła blokują się pierwsze: niestabilnie ({e}% potencjału)",
+    "both": "Obie osie jednocześnie na granicy ({e}% potencjału)"
+  },
+  "warn": {
+    "rear_lock": "Za dużo hamowania z tyłu: tylna oś blokuje się przed przednią i auto może wpaść w obrót. Zwiększ udział przodu.",
+    "front_bias": "Ustawienie wyraźnie na przód: auto stabilne, ale dłuższa droga hamowania i mocno obciążone przednie opony.",
+    "high_cg": "Wysoki środek ciężkości względem rozstawu osi: duże przeniesienie obciążenia, tył mocno się odciąża przy hamowaniu.",
+    "unbalanced": "Nietypowy rozkład mas: sprawdź ważenie osi.",
+    "wheel_lift": "Przy tym przyspieszeniu bocznym wewnętrzne koło się odrywa: ryzyko blokady i utraty trakcji."
+  },
+  "setup": {
+    "street": "Ustawienie drogowe: zostaw zapas na przód dla stabilności (+3 do +5 pkt).",
+    "sport": "Sport / semi-slick: celuj w ideał ±2 pkt, reguluj korektorem.",
+    "track": "Tor / slick: celuj w ideał, potem dopracuj w jeździe (blokada przodu = przesuń rozdział do tyłu)."
+  },
+  "chart": {
+    "decel_title": "Osiągalne opóźnienie w zależności od rozdziału",
+    "bias": "Rozdział na przód",
+    "decel": "Opóźnienie",
+    "target": "Cel",
+    "load_title": "Obciążenie osi",
+    "static": "W spoczynku",
+    "braking": "Podczas hamowania",
+    "load": "Obciążenie",
+    "front": "Przód",
+    "rear": "Tył",
+    "lateral_title": "Obciążenie kół w zakręcie przy {g} g",
+    "in_front": "Przednie wewnętrzne",
+    "out_front": "Przednie zewnętrzne",
+    "in_rear": "Tylne wewnętrzne",
+    "out_rear": "Tylne zewnętrzne"
+  }
+}

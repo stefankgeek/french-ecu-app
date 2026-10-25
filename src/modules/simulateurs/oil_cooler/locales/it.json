@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensiona un radiatore dell'olio: calore da smaltire, temperatura dell'olio stabilizzata e misura consigliata per mantenere la temperatura obiettivo.",
+  "g_engine": "Motore e olio",
+  "g_cooler": "Radiatore",
+  "g_conditions": "Condizioni",
+  "flow_hint": "Portata inviata al radiatore (spesso 10–25 L/min tramite la piastra sandwich)",
+  "speed_hint": "0 = fermo o ai box",
+  "coolant_hint": "Solo radiatore olio/acqua",
+  "usage": {
+    "street": "Strada",
+    "track": "Track day",
+    "race": "Gara / endurance"
+  },
+  "type": {
+    "air": "Olio / aria",
+    "water": "Olio / acqua (scambiatore)"
+  },
+  "in": {
+    "power": "Potenza motore",
+    "usage": "Uso",
+    "oilFlow": "Portata dell'olio",
+    "target": "Temperatura olio obiettivo",
+    "type": "Tipo di radiatore",
+    "width": "Larghezza della massa radiante",
+    "height": "Altezza della massa radiante",
+    "thickness": "Spessore della massa radiante",
+    "ambient": "Temperatura esterna",
+    "speed": "Velocità del veicolo",
+    "coolant": "Temperatura del liquido di raffreddamento"
+  },
+  "rating": {
+    "excellent": "Ben dimensionato",
+    "good": "Adeguato",
+    "oversized": "Sovradimensionato",
+    "undersized": "Sottodimensionato",
+    "critical": "Molto insufficiente",
+    "impossible": "Impossibile"
+  },
+  "r": {
+    "rating": "Dimensionamento",
+    "rating_note": "Confronto tra temperatura stabilizzata e obiettivo",
+    "heat": "Calore da smaltire tramite l'olio",
+    "heat_note": "≈ {p} % della potenza motore (stima)",
+    "eq": "Temperatura olio stabilizzata",
+    "eq_note": "All'ingresso del radiatore; obiettivo: {t}",
+    "outlet": "Temperatura all'uscita del radiatore",
+    "outlet_note": "Raffreddamento di {d} nel radiatore",
+    "capacity": "Capacità alla temperatura obiettivo",
+    "capacity_note": "Calore smaltito con olio a {t}",
+    "eff": "Efficienza dello scambiatore",
+    "eff_note": "Quota della differenza di temperatura recuperata",
+    "size": "Misura consigliata (larghezza × altezza)",
+    "size_none": "Irraggiungibile con questo tipo di radiatore",
+    "size_note": "Stesso spessore ({th}) e stesse proporzioni",
+    "air": "Velocità dell'aria nella massa radiante",
+    "air_note": "≈ 30 % della velocità del veicolo (min. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Un radiatore olio/acqua non può scendere sotto la temperatura del liquido di raffreddamento: punta più in alto o usa un radiatore olio/aria.",
+    "undersized": "Radiatore troppo piccolo: aumenta superficie, spessore o portata dell'olio, oppure migliora l'afflusso d'aria (presa, convogliatore).",
+    "thermostat": "Radiatore più che sufficiente: monta una piastra sandwich con termostato perché l'olio arrivi presto a 90–100 °C.",
+    "too_hot": "Olio oltre 130 °C: degrado rapido e rischio per le bronzine.",
+    "fan": "A bassa velocità un radiatore olio/aria raffredda pochissimo: prevedi una ventola per soste e code.",
+    "method": "Stima (metodo efficienza-NTU): verifica con la scheda del produttore. Perdita di carico non calcolata (di solito meno di 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Temperatura olio stabilizzata in funzione della velocità",
+    "speed": "Velocità",
+    "temp": "Temperatura",
+    "eq": "Olio stabilizzato",
+    "target": "Obiettivo"
+  }
+}

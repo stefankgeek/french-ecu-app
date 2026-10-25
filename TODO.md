@@ -12,7 +12,7 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 - ✅ Menu par catégories + recherche + réglages
 - ✅ Message « Nouvelle version disponible » + bouton « Installer »
 - ✅ Contrôle automatique des traductions avant publication
-- ✅ 164 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
+- ✅ 189 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
 - ✅ Publication automatique GitHub Pages
 
 ## Phase 2 — Portage des logiciels 🔄
@@ -23,7 +23,7 @@ comparaison des résultats avec l'ancien site.
   graphiques mobiles (Chart.js 4), export PDF (toutes langues, arabe compris), lien de partage,
   mémorisation des dernières valeurs
 - ✅ Carburant : injecteurs, débit pompe, E85, lambda/AFR, NOS — 75/75 résultats identiques à l'ancien site
-- ⏳ Export PDF : éviter qu'un saut de page coupe une ligne de tableau
+- ✅ Export PDF : plus aucune ligne de tableau, carte ou graphique coupé entre deux pages ; grandes tables découpées en blocs de colonnes
 - ✅ Suralimentation (v0.3.0) : turbo, wastegate, intercooler, échappement — formules de l'ancien site
   fausses, réécrites sur des bases physiques (détail en tête de chaque calc.js), 20 tests de cohérence
   - Turbo : densité au collecteur, débit corrigé (formule inversée), rapport de pression, T° échappement
@@ -44,10 +44,17 @@ comparaison des résultats avec l'ancien site.
   - Embiellage : reconstruit (couple affiché 0 N·m à cause d'une erreur kN·m, course figée, pression sans combustion)
   - Harmonics3+ : reconstruit en synthèse moteur + diagnostic (pas d'avance à l'allumage chiffrée, risque de cliquetis)
   - Données carburant : PCI de l'E85 corrigé (29,3 MJ/kg)
-- ⏳ Cartographie : générateur de tables ECU
-- ⏳ Châssis : répartition de freinage, radiateur d'huile
+- ✅ Cartographie (v0.5.0) : générateur de cartes de départ (carburant, avance, VE, lambda + 7 courbes),
+  tables colorées, export CSV (.zip) et JSON, 8 calculateurs + CSV générique
+  - Ancien site : carburant ∝ pression² en turbo, VE 150–300 %, pression d'essence ignorée, contrôle
+    injecteurs sans la suralimentation, démarrage bloqué à 20 ms (cm³ pris pour des litres), chauffe
+    discontinue à 0 °C, correction d'air plafonnée, correction baro appliquée en speed-density
+- ✅ Châssis (v0.5.0) : répartition de freinage, radiateur d'huile
+  - Freinage : distance fausse (adhérence comptée deux fois) ; ajout de la décélération réellement
+    atteignable selon le réglage et de l'essieu qui bloque en premier
+  - Radiateur d'huile : modèle faux (huile pouvant sortir à −120 °C, huile/eau calculé contre l'air,
+    débit d'huile inventé) → méthode efficacité-NTU, température stabilisée, taille conseillée
 - ⏳ Aide-mémoire (filetages, couples, inserts, capteurs, turbo, jeux…)
-- ⏳ À vérifier avec Stéphane : radiateur d'huile (−120 °C)
 - ✅ Corrections de formules validées par Stéphane (v0.2.1, 25/10/2026) :
   - Injecteurs : débit nominal ramené à 3 bar (Q ∝ √P, plus de correction inversée) ; temps d'injection
     par cylindre (≈ 15,8 ms au lieu de ~1 ms) ; conversion lb/h ↔ cc/min selon la densité du carburant ;

@@ -138,6 +138,7 @@
     "volume": "Volumen",
     "injector_flow": "Düsendurchfluss",
     "fuel_flow": "Kraftstoffdurchfluss",
+    "liquid_flow": "Flüssigkeitsdurchfluss",
     "mass_flow": "Luftmassenstrom",
     "air_flow": "Luftvolumenstrom",
     "power": "Leistung",
@@ -192,7 +193,12 @@
     "percent": "%",
     "months": "Monate",
     "ratio": ":1",
-    "per_year": "/Jahr"
+    "per_year": "/Jahr",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Sehr gut",

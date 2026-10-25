@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensiona un radiador de aceite: calor a evacuar, temperatura de aceite estabilizada y tamaño recomendado para mantener la temperatura deseada.",
+  "g_engine": "Motor y aceite",
+  "g_cooler": "Radiador",
+  "g_conditions": "Condiciones",
+  "flow_hint": "Caudal enviado al radiador (a menudo 10–25 L/min mediante la placa sándwich)",
+  "speed_hint": "0 = parado o en boxes",
+  "coolant_hint": "Solo radiador aceite/agua",
+  "usage": {
+    "street": "Carretera",
+    "track": "Tandas en circuito",
+    "race": "Carreras / resistencia"
+  },
+  "type": {
+    "air": "Aceite / aire",
+    "water": "Aceite / agua (intercambiador)"
+  },
+  "in": {
+    "power": "Potencia del motor",
+    "usage": "Uso",
+    "oilFlow": "Caudal de aceite",
+    "target": "Temperatura de aceite deseada",
+    "type": "Tipo de radiador",
+    "width": "Anchura del panal",
+    "height": "Altura del panal",
+    "thickness": "Espesor del panal",
+    "ambient": "Temperatura exterior",
+    "speed": "Velocidad del vehículo",
+    "coolant": "Temperatura del refrigerante"
+  },
+  "rating": {
+    "excellent": "Bien dimensionado",
+    "good": "Correcto",
+    "oversized": "Sobredimensionado",
+    "undersized": "Subdimensionado",
+    "critical": "Muy insuficiente",
+    "impossible": "Imposible"
+  },
+  "r": {
+    "rating": "Dimensionamiento",
+    "rating_note": "Comparación entre la temperatura estabilizada y la deseada",
+    "heat": "Calor a evacuar por el aceite",
+    "heat_note": "≈ {p} % de la potencia del motor (estimación)",
+    "eq": "Temperatura de aceite estabilizada",
+    "eq_note": "A la entrada del radiador; deseada: {t}",
+    "outlet": "Temperatura a la salida del radiador",
+    "outlet_note": "Enfriamiento de {d} en el radiador",
+    "capacity": "Capacidad a la temperatura deseada",
+    "capacity_note": "Calor evacuado con aceite a {t}",
+    "eff": "Eficacia del intercambiador",
+    "eff_note": "Parte de la diferencia de temperatura aprovechada",
+    "size": "Tamaño recomendado (ancho × alto)",
+    "size_none": "Inalcanzable con este tipo de radiador",
+    "size_note": "Mismo espesor ({th}) y mismas proporciones",
+    "air": "Velocidad del aire en el panal",
+    "air_note": "≈ 30 % de la velocidad del vehículo (mín. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Un radiador aceite/agua no puede bajar de la temperatura del refrigerante: apunte más alto o use un radiador aceite/aire.",
+    "undersized": "Radiador demasiado pequeño: aumente la superficie, el espesor, el caudal de aceite o mejore la entrada de aire (toma, conducto).",
+    "thermostat": "Radiador más que suficiente: monte una placa sándwich con termostato para que el aceite llegue rápido a 90–100 °C.",
+    "too_hot": "Aceite por encima de 130 °C: degradación rápida y riesgo para los cojinetes.",
+    "fan": "A baja velocidad un radiador aceite/aire apenas enfría: prevea un ventilador para paradas y colas.",
+    "method": "Estimación (método eficacia-NTU): compruébelo con la ficha del fabricante. Pérdida de carga no calculada (normalmente menos de 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Temperatura de aceite estabilizada según la velocidad",
+    "speed": "Velocidad",
+    "temp": "Temperatura",
+    "eq": "Aceite estabilizado",
+    "target": "Deseada"
+  }
+}

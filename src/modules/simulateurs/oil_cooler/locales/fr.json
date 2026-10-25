@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensionne un radiateur d'huile : chaleur à évacuer, température d'huile stabilisée et taille conseillée pour tenir la température visée.",
+  "g_engine": "Moteur et huile",
+  "g_cooler": "Radiateur",
+  "g_conditions": "Conditions",
+  "flow_hint": "Débit envoyé au radiateur (souvent 10–25 L/min via la plaque sandwich)",
+  "speed_hint": "0 = à l'arrêt ou dans les stands",
+  "coolant_hint": "Radiateur huile/eau uniquement",
+  "usage": {
+    "street": "Route",
+    "track": "Piste (journées circuit)",
+    "race": "Course / endurance"
+  },
+  "type": {
+    "air": "Huile / air",
+    "water": "Huile / eau (échangeur)"
+  },
+  "in": {
+    "power": "Puissance moteur",
+    "usage": "Usage",
+    "oilFlow": "Débit d'huile",
+    "target": "Température d'huile visée",
+    "type": "Type de radiateur",
+    "width": "Largeur du faisceau",
+    "height": "Hauteur du faisceau",
+    "thickness": "Épaisseur du faisceau",
+    "ambient": "Température extérieure",
+    "speed": "Vitesse du véhicule",
+    "coolant": "Température du liquide de refroidissement"
+  },
+  "rating": {
+    "excellent": "Bien dimensionné",
+    "good": "Correct",
+    "oversized": "Surdimensionné",
+    "undersized": "Sous-dimensionné",
+    "critical": "Très insuffisant",
+    "impossible": "Impossible"
+  },
+  "r": {
+    "rating": "Dimensionnement",
+    "rating_note": "Comparaison entre température stabilisée et température visée",
+    "heat": "Chaleur à évacuer par l'huile",
+    "heat_note": "≈ {p} % de la puissance moteur (estimation)",
+    "eq": "Température d'huile stabilisée",
+    "eq_note": "À l'entrée du radiateur ; visée : {t}",
+    "outlet": "Température en sortie de radiateur",
+    "outlet_note": "Refroidissement de {d} dans le radiateur",
+    "capacity": "Capacité à la température visée",
+    "capacity_note": "Chaleur évacuée avec de l'huile à {t}",
+    "eff": "Efficacité de l'échangeur",
+    "eff_note": "Part de l'écart de température récupérée",
+    "size": "Taille conseillée (largeur × hauteur)",
+    "size_none": "Hors d'atteinte avec ce type de radiateur",
+    "size_note": "Même épaisseur ({th}) et mêmes proportions",
+    "air": "Vitesse de l'air dans le faisceau",
+    "air_note": "≈ 30 % de la vitesse du véhicule (mini 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Un radiateur huile/eau ne peut pas descendre sous la température du liquide de refroidissement : visez plus haut ou utilisez un radiateur huile/air.",
+    "undersized": "Radiateur trop petit : augmentez la surface, l'épaisseur, le débit d'huile ou améliorez l'arrivée d'air (écope, conduit).",
+    "thermostat": "Radiateur largement suffisant : montez une plaque sandwich thermostatée pour que l'huile monte vite à 90–100 °C.",
+    "too_hot": "Huile au-delà de 130 °C : dégradation rapide et risque pour les coussinets.",
+    "fan": "À faible vitesse, un radiateur huile/air ne refroidit presque plus : prévoyez un ventilateur pour les arrêts et les files d'attente.",
+    "method": "Estimation (méthode efficacité-NTU) : vérifiez avec la fiche du fabricant. Perte de charge non calculée (en général moins de 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Température d'huile stabilisée selon la vitesse",
+    "speed": "Vitesse",
+    "temp": "Température",
+    "eq": "Huile stabilisée",
+    "target": "Visée"
+  }
+}

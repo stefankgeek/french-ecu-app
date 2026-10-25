@@ -1,0 +1,76 @@
+{
+  "intro": "Calcula el reparto de frenada ideal delantero/trasero a partir de la transferencia de carga, y la deceleración que realmente se alcanza con su ajuste.",
+  "g_vehicle": "Vehículo",
+  "g_braking": "Frenada",
+  "cg_hint": "Coche de serie ≈ 450–550 mm, coche de carreras ≈ 300–400 mm",
+  "decel_hint": "≈ adherencia de los neumáticos: carretera 0,8–1,0 g, semislick 1,1–1,3 g, slick 1,4 g o más",
+  "bias_hint": "Parte de la fuerza de frenado en el eje delantero",
+  "in": {
+    "mass": "Masa del vehículo (con piloto)",
+    "front": "Masa en el eje delantero",
+    "wheelbase": "Batalla",
+    "cg": "Altura del centro de gravedad",
+    "trackFront": "Vía delantera",
+    "trackRear": "Vía trasera",
+    "decel": "Deceleración máxima objetivo",
+    "bias": "Reparto actual (delante)",
+    "speed": "Velocidad inicial",
+    "lateral": "Aceleración lateral en curva"
+  },
+  "r": {
+    "optimal": "Reparto ideal (delante)",
+    "optimal_note": "Las 4 ruedas al límite a la vez a {a} g",
+    "balance": "Equilibrio del ajuste",
+    "diff": "Diferencia con el ideal: {d} puntos",
+    "amax": "Deceleración máxima alcanzable",
+    "distance": "Distancia de frenado",
+    "distance_note": "Desde {s}, sin tiempo de reacción; ajuste ideal: {d}",
+    "transfer": "Transferencia de carga hacia delante",
+    "transfer_note": "Relación altura CG / batalla: {h}",
+    "static": "Carga estática",
+    "dynamic": "Carga en frenada máxima",
+    "front_rear": "Delante / detrás",
+    "inner_front": "Rueda delantera interior en curva",
+    "inner_note": "A {g} g; 0 = la rueda se levanta"
+  },
+  "balance": {
+    "optimal": "Óptimo",
+    "acceptable": "Aceptable",
+    "adjust": "A ajustar",
+    "dangerous": "Peligroso"
+  },
+  "lock": {
+    "front": "Las ruedas delanteras bloquean primero ({e} % del potencial)",
+    "rear": "Las ruedas traseras bloquean primero: inestable ({e} % del potencial)",
+    "both": "Ambos ejes al límite a la vez ({e} % del potencial)"
+  },
+  "warn": {
+    "rear_lock": "Demasiada frenada atrás: el eje trasero bloquea antes que el delantero y el coche puede trompear. Aumente la parte delantera.",
+    "front_bias": "Ajuste claramente hacia delante: coche estable pero distancias de frenado más largas y neumáticos delanteros muy cargados.",
+    "high_cg": "Centro de gravedad alto respecto a la batalla: gran transferencia de carga, la trasera se aligera mucho al frenar.",
+    "unbalanced": "Reparto de masas inusual: compruebe el pesaje por eje.",
+    "wheel_lift": "Una rueda interior se levanta con esta aceleración lateral: riesgo de bloqueo y pérdida de tracción."
+  },
+  "setup": {
+    "street": "Ajuste de calle: deje margen hacia delante por estabilidad (+3 a +5 puntos).",
+    "sport": "Ajuste deportivo / semislick: busque el ideal ±2 puntos y ajuste con el repartidor.",
+    "track": "Ajuste circuito / slick: busque el ideal y afine rodando (bloqueo delantero = retrasar el reparto)."
+  },
+  "chart": {
+    "decel_title": "Deceleración alcanzable según el reparto",
+    "bias": "Reparto delantero",
+    "decel": "Deceleración",
+    "target": "Objetivo",
+    "load_title": "Carga por eje",
+    "static": "En parado",
+    "braking": "En frenada",
+    "load": "Carga",
+    "front": "Delante",
+    "rear": "Detrás",
+    "lateral_title": "Carga por rueda en curva a {g} g",
+    "in_front": "Delantera interior",
+    "out_front": "Delantera exterior",
+    "in_rear": "Trasera interior",
+    "out_rear": "Trasera exterior"
+  }
+}

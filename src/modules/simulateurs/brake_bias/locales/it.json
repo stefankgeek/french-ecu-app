@@ -1,0 +1,76 @@
+{
+  "intro": "Calcola la ripartizione di frenata ideale anteriore/posteriore dal trasferimento di carico e la decelerazione realmente raggiungibile con la tua regolazione.",
+  "g_vehicle": "Veicolo",
+  "g_braking": "Frenata",
+  "cg_hint": "Auto di serie ≈ 450–550 mm, auto da corsa ≈ 300–400 mm",
+  "decel_hint": "≈ aderenza degli pneumatici: strada 0,8–1,0 g, semi-slick 1,1–1,3 g, slick da 1,4 g in su",
+  "bias_hint": "Quota della forza frenante all'anteriore",
+  "in": {
+    "mass": "Massa del veicolo (con pilota)",
+    "front": "Massa sull'asse anteriore",
+    "wheelbase": "Passo",
+    "cg": "Altezza del baricentro",
+    "trackFront": "Carreggiata anteriore",
+    "trackRear": "Carreggiata posteriore",
+    "decel": "Decelerazione massima obiettivo",
+    "bias": "Ripartizione attuale (anteriore)",
+    "speed": "Velocità iniziale",
+    "lateral": "Accelerazione laterale in curva"
+  },
+  "r": {
+    "optimal": "Ripartizione ideale (anteriore)",
+    "optimal_note": "Tutte e 4 le ruote al limite insieme a {a} g",
+    "balance": "Bilanciamento della regolazione",
+    "diff": "Scarto dall'ideale: {d} punti",
+    "amax": "Decelerazione massima raggiungibile",
+    "distance": "Spazio di frenata",
+    "distance_note": "Da {s}, senza tempo di reazione; regolazione ideale: {d}",
+    "transfer": "Trasferimento di carico in avanti",
+    "transfer_note": "Rapporto altezza baricentro / passo: {h}",
+    "static": "Carico statico",
+    "dynamic": "Carico in frenata massima",
+    "front_rear": "Anteriore / posteriore",
+    "inner_front": "Ruota anteriore interna in curva",
+    "inner_note": "A {g} g; 0 = la ruota si solleva"
+  },
+  "balance": {
+    "optimal": "Ottimale",
+    "acceptable": "Accettabile",
+    "adjust": "Da regolare",
+    "dangerous": "Pericoloso"
+  },
+  "lock": {
+    "front": "Le ruote anteriori bloccano per prime ({e} % del potenziale)",
+    "rear": "Le ruote posteriori bloccano per prime: instabile ({e} % del potenziale)",
+    "both": "Entrambi gli assi al limite insieme ({e} % del potenziale)"
+  },
+  "warn": {
+    "rear_lock": "Troppa frenata al posteriore: il retrotreno blocca prima dell'avantreno e l'auto può girarsi. Aumenta la quota anteriore.",
+    "front_bias": "Regolazione nettamente sull'anteriore: auto stabile ma spazi di frenata più lunghi e pneumatici anteriori sollecitati.",
+    "high_cg": "Baricentro alto rispetto al passo: forte trasferimento di carico, il posteriore si alleggerisce molto in frenata.",
+    "unbalanced": "Distribuzione dei pesi insolita: verifica la pesatura per asse.",
+    "wheel_lift": "Una ruota interna si solleva con questa accelerazione laterale: rischio di bloccaggio e perdita di trazione."
+  },
+  "setup": {
+    "street": "Regolazione stradale: lascia un margine all'anteriore per la stabilità (da +3 a +5 punti).",
+    "sport": "Regolazione sportiva / semi-slick: punta all'ideale ±2 punti, regola con il ripartitore.",
+    "track": "Regolazione pista / slick: punta all'ideale, poi affina girando (bloccaggio anteriore = sposta la ripartizione indietro)."
+  },
+  "chart": {
+    "decel_title": "Decelerazione raggiungibile in funzione della ripartizione",
+    "bias": "Ripartizione anteriore",
+    "decel": "Decelerazione",
+    "target": "Obiettivo",
+    "load_title": "Carico per asse",
+    "static": "Da fermo",
+    "braking": "In frenata",
+    "load": "Carico",
+    "front": "Anteriore",
+    "rear": "Posteriore",
+    "lateral_title": "Carico per ruota in curva a {g} g",
+    "in_front": "Anteriore interna",
+    "out_front": "Anteriore esterna",
+    "in_rear": "Posteriore interna",
+    "out_rear": "Posteriore esterna"
+  }
+}

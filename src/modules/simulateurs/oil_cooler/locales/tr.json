@@ -1,0 +1,73 @@
+{
+  "intro": "Yağ soğutucusunu boyutlandırır: atılacak ısı, kararlı yağ sıcaklığı ve hedef sıcaklığı korumak için gereken boyut.",
+  "g_engine": "Motor ve yağ",
+  "g_cooler": "Soğutucu",
+  "g_conditions": "Koşullar",
+  "flow_hint": "Soğutucuya giden debi (genellikle sandviç plaka ile 10–25 L/dk)",
+  "speed_hint": "0 = duruşta veya pitte",
+  "coolant_hint": "Yalnızca yağ/su soğutucu",
+  "usage": {
+    "street": "Yol",
+    "track": "Pist günleri",
+    "race": "Yarış / dayanıklılık"
+  },
+  "type": {
+    "air": "Yağ / hava",
+    "water": "Yağ / su (eşanjör)"
+  },
+  "in": {
+    "power": "Motor gücü",
+    "usage": "Kullanım",
+    "oilFlow": "Yağ debisi",
+    "target": "Hedef yağ sıcaklığı",
+    "type": "Soğutucu tipi",
+    "width": "Petek genişliği",
+    "height": "Petek yüksekliği",
+    "thickness": "Petek kalınlığı",
+    "ambient": "Dış sıcaklık",
+    "speed": "Araç hızı",
+    "coolant": "Soğutma suyu sıcaklığı"
+  },
+  "rating": {
+    "excellent": "İyi boyutlandırılmış",
+    "good": "Yeterli",
+    "oversized": "Gereğinden büyük",
+    "undersized": "Yetersiz",
+    "critical": "Çok yetersiz",
+    "impossible": "İmkânsız"
+  },
+  "r": {
+    "rating": "Boyutlandırma",
+    "rating_note": "Kararlı sıcaklık ile hedefin karşılaştırması",
+    "heat": "Yağ üzerinden atılacak ısı",
+    "heat_note": "Motor gücünün ≈ %{p}'i (tahmin)",
+    "eq": "Kararlı yağ sıcaklığı",
+    "eq_note": "Soğutucu girişinde; hedef: {t}",
+    "outlet": "Soğutucu çıkış sıcaklığı",
+    "outlet_note": "Soğutucuda {d} soğuma",
+    "capacity": "Hedef sıcaklıkta kapasite",
+    "capacity_note": "{t} yağ ile atılan ısı",
+    "eff": "Eşanjör etkinliği",
+    "eff_note": "Sıcaklık farkının kullanılan payı",
+    "size": "Önerilen boyut (genişlik × yükseklik)",
+    "size_none": "Bu soğutucu tipiyle ulaşılamaz",
+    "size_note": "Aynı kalınlık ({th}) ve oranlar",
+    "air": "Petekteki hava hızı",
+    "air_note": "Araç hızının ≈ %30'u (en az 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Yağ/su soğutucu, soğutma suyu sıcaklığının altına inemez: daha yüksek hedef seçin veya yağ/hava soğutucu kullanın.",
+    "undersized": "Soğutucu çok küçük: alanı, kalınlığı veya yağ debisini artırın ya da hava girişini iyileştirin (kepçe, kanal).",
+    "thermostat": "Soğutucu fazlasıyla yeterli: yağın hızla 90–100 °C'ye ulaşması için termostatlı sandviç plaka takın.",
+    "too_hot": "Yağ 130 °C üzerinde: hızlı bozulma ve yataklar için risk.",
+    "fan": "Düşük hızda yağ/hava soğutucu neredeyse soğutmaz: duruşlar ve kuyruklar için fan öngörün.",
+    "method": "Tahmin (etkinlik-NTU yöntemi): üretici veri sayfasıyla doğrulayın. Basınç kaybı hesaplanmaz (genellikle 0,5 bar altı)."
+  },
+  "chart": {
+    "speed_title": "Hıza göre kararlı yağ sıcaklığı",
+    "speed": "Hız",
+    "temp": "Sıcaklık",
+    "eq": "Kararlı yağ",
+    "target": "Hedef"
+  }
+}

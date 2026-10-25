@@ -138,6 +138,7 @@
     "volume": "Volume",
     "injector_flow": "Injectordebiet",
     "fuel_flow": "Brandstofdebiet",
+    "liquid_flow": "Vloeistofdebiet",
     "mass_flow": "Luchtmassastroom",
     "air_flow": "Luchtvolumestroom",
     "power": "Vermogen",
@@ -192,7 +193,12 @@
     "percent": "%",
     "months": "maanden",
     "ratio": ":1",
-    "per_year": "/jaar"
+    "per_year": "/jaar",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Uitstekend",

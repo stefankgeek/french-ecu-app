@@ -1,0 +1,76 @@
+{
+  "intro": "Berekent de ideale remkrachtverdeling voor/achter op basis van gewichtsoverdracht, en de vertraging die u met uw instelling echt haalt.",
+  "g_vehicle": "Voertuig",
+  "g_braking": "Remmen",
+  "cg_hint": "Seriewagen ≈ 450–550 mm, racewagen ≈ 300–400 mm",
+  "decel_hint": "≈ bandengrip: straat 0,8–1,0 g, semi-slick 1,1–1,3 g, slick 1,4 g en meer",
+  "bias_hint": "Aandeel van de remkracht vooraan",
+  "in": {
+    "mass": "Voertuigmassa (met bestuurder)",
+    "front": "Massa op de vooras",
+    "wheelbase": "Wielbasis",
+    "cg": "Hoogte zwaartepunt",
+    "trackFront": "Spoorbreedte voor",
+    "trackRear": "Spoorbreedte achter",
+    "decel": "Beoogde maximale vertraging",
+    "bias": "Huidige verdeling (voor)",
+    "speed": "Beginsnelheid",
+    "lateral": "Zijdelingse versnelling in de bocht"
+  },
+  "r": {
+    "optimal": "Ideale verdeling (voor)",
+    "optimal_note": "Alle 4 wielen tegelijk aan de limiet bij {a} g",
+    "balance": "Beoordeling van de instelling",
+    "diff": "Afwijking van het ideaal: {d} punten",
+    "amax": "Maximaal haalbare vertraging",
+    "distance": "Remweg",
+    "distance_note": "Vanaf {s}, zonder reactietijd; ideale instelling: {d}",
+    "transfer": "Gewichtsoverdracht naar voren",
+    "transfer_note": "Verhouding zwaartepunthoogte / wielbasis: {h}",
+    "static": "Statische last",
+    "dynamic": "Last bij maximaal remmen",
+    "front_rear": "Voor / achter",
+    "inner_front": "Binnenste voorwiel in de bocht",
+    "inner_note": "Bij {g} g; 0 = wiel komt los"
+  },
+  "balance": {
+    "optimal": "Optimaal",
+    "acceptable": "Aanvaardbaar",
+    "adjust": "Bijstellen",
+    "dangerous": "Gevaarlijk"
+  },
+  "lock": {
+    "front": "De voorwielen blokkeren eerst ({e} % van het potentieel)",
+    "rear": "De achterwielen blokkeren eerst: instabiel ({e} % van het potentieel)",
+    "both": "Beide assen tegelijk aan de limiet ({e} % van het potentieel)"
+  },
+  "warn": {
+    "rear_lock": "Te veel remkracht achter: de achteras blokkeert vóór de vooras en de auto kan spinnen. Verhoog het aandeel voor.",
+    "front_bias": "Instelling duidelijk naar voren: stabiele auto maar langere remwegen en zwaar belaste voorbanden.",
+    "high_cg": "Hoog zwaartepunt t.o.v. de wielbasis: grote gewichtsoverdracht, de achterkant wordt bij remmen erg licht.",
+    "unbalanced": "Ongebruikelijke gewichtsverdeling: controleer de asweging.",
+    "wheel_lift": "Een binnenwiel komt los bij deze zijdelingse versnelling: risico op blokkeren en tractieverlies."
+  },
+  "setup": {
+    "street": "Straatinstelling: houd wat marge naar voren voor stabiliteit (+3 tot +5 punten).",
+    "sport": "Sport / semi-slick: mik op het ideaal ±2 punten, stel af met de remkrachtregelaar.",
+    "track": "Circuit / slick: mik op het ideaal en verfijn tijdens het rijden (voorwielen blokkeren = verdeling naar achteren)."
+  },
+  "chart": {
+    "decel_title": "Haalbare vertraging afhankelijk van de remkrachtverdeling",
+    "bias": "Verdeling voor",
+    "decel": "Vertraging",
+    "target": "Doel",
+    "load_title": "Last per as",
+    "static": "Stilstaand",
+    "braking": "Bij remmen",
+    "load": "Last",
+    "front": "Voor",
+    "rear": "Achter",
+    "lateral_title": "Last per wiel in de bocht bij {g} g",
+    "in_front": "Voor binnen",
+    "out_front": "Voor buiten",
+    "in_rear": "Achter binnen",
+    "out_rear": "Achter buiten"
+  }
+}

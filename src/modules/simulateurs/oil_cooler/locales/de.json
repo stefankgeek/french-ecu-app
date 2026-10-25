@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensioniert einen Ölkühler: abzuführende Wärme, stabilisierte Öltemperatur und nötige Größe, um die Zieltemperatur zu halten.",
+  "g_engine": "Motor und Öl",
+  "g_cooler": "Kühler",
+  "g_conditions": "Bedingungen",
+  "flow_hint": "Durchfluss zum Kühler (oft 10–25 L/min über die Sandwichplatte)",
+  "speed_hint": "0 = Stillstand oder Box",
+  "coolant_hint": "Nur Öl-Wasser-Kühler",
+  "usage": {
+    "street": "Straße",
+    "track": "Trackdays",
+    "race": "Rennen / Langstrecke"
+  },
+  "type": {
+    "air": "Öl / Luft",
+    "water": "Öl / Wasser (Wärmetauscher)"
+  },
+  "in": {
+    "power": "Motorleistung",
+    "usage": "Einsatz",
+    "oilFlow": "Öldurchfluss",
+    "target": "Ziel-Öltemperatur",
+    "type": "Kühlerart",
+    "width": "Netzbreite",
+    "height": "Netzhöhe",
+    "thickness": "Netztiefe",
+    "ambient": "Außentemperatur",
+    "speed": "Fahrzeuggeschwindigkeit",
+    "coolant": "Kühlmitteltemperatur"
+  },
+  "rating": {
+    "excellent": "Gut dimensioniert",
+    "good": "Ausreichend",
+    "oversized": "Überdimensioniert",
+    "undersized": "Unterdimensioniert",
+    "critical": "Viel zu klein",
+    "impossible": "Unmöglich"
+  },
+  "r": {
+    "rating": "Dimensionierung",
+    "rating_note": "Vergleich stabilisierte Temperatur / Zieltemperatur",
+    "heat": "Über das Öl abzuführende Wärme",
+    "heat_note": "≈ {p} % der Motorleistung (Schätzung)",
+    "eq": "Stabilisierte Öltemperatur",
+    "eq_note": "Am Kühlereintritt; Ziel: {t}",
+    "outlet": "Temperatur am Kühleraustritt",
+    "outlet_note": "Abkühlung um {d} im Kühler",
+    "capacity": "Leistung bei Zieltemperatur",
+    "capacity_note": "Abgeführte Wärme bei Öl mit {t}",
+    "eff": "Wirkungsgrad des Wärmetauschers",
+    "eff_note": "Genutzter Anteil der Temperaturdifferenz",
+    "size": "Empfohlene Größe (Breite × Höhe)",
+    "size_none": "Mit dieser Kühlerart nicht erreichbar",
+    "size_note": "Gleiche Tiefe ({th}) und Proportionen",
+    "air": "Luftgeschwindigkeit im Netz",
+    "air_note": "≈ 30 % der Fahrzeuggeschwindigkeit (min. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Ein Öl-Wasser-Kühler kann nicht unter die Kühlmitteltemperatur kühlen: höheres Ziel wählen oder einen Öl-Luft-Kühler verwenden.",
+    "undersized": "Kühler zu klein: Fläche, Tiefe oder Öldurchfluss erhöhen oder die Luftzufuhr verbessern (Hutze, Luftführung).",
+    "thermostat": "Kühler mehr als ausreichend: Thermostat-Sandwichplatte einbauen, damit das Öl schnell 90–100 °C erreicht.",
+    "too_hot": "Öl über 130 °C: schneller Abbau und Gefahr für die Lager.",
+    "fan": "Bei niedriger Geschwindigkeit kühlt ein Öl-Luft-Kühler kaum: Lüfter für Stopps und Wartezeiten vorsehen.",
+    "method": "Schätzung (Effektivitäts-NTU-Methode): mit dem Herstellerdatenblatt prüfen. Druckverlust nicht berechnet (meist unter 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Stabilisierte Öltemperatur über der Geschwindigkeit",
+    "speed": "Geschwindigkeit",
+    "temp": "Temperatur",
+    "eq": "Stabilisiertes Öl",
+    "target": "Ziel"
+  }
+}

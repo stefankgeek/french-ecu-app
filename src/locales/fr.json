@@ -138,6 +138,7 @@
     "volume": "Volume",
     "injector_flow": "Débit injecteur",
     "fuel_flow": "Débit carburant",
+    "liquid_flow": "Débit de liquide",
     "mass_flow": "Débit massique d'air",
     "air_flow": "Débit d'air volumique",
     "power": "Puissance",
@@ -192,7 +193,12 @@
     "percent": "%",
     "months": "mois",
     "ratio": ":1",
-    "per_year": "/an"
+    "per_year": "/an",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Excellent",

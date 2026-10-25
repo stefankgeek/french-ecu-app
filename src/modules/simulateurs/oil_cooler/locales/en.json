@@ -1,0 +1,73 @@
+{
+  "intro": "Sizes an oil cooler: heat to reject, stabilised oil temperature and the size needed to hold your target temperature.",
+  "g_engine": "Engine and oil",
+  "g_cooler": "Cooler",
+  "g_conditions": "Conditions",
+  "flow_hint": "Flow sent to the cooler (often 10–25 L/min through the sandwich plate)",
+  "speed_hint": "0 = stationary or in the pits",
+  "coolant_hint": "Oil/water cooler only",
+  "usage": {
+    "street": "Road",
+    "track": "Track days",
+    "race": "Racing / endurance"
+  },
+  "type": {
+    "air": "Oil / air",
+    "water": "Oil / water (heat exchanger)"
+  },
+  "in": {
+    "power": "Engine power",
+    "usage": "Use",
+    "oilFlow": "Oil flow",
+    "target": "Target oil temperature",
+    "type": "Cooler type",
+    "width": "Core width",
+    "height": "Core height",
+    "thickness": "Core thickness",
+    "ambient": "Ambient temperature",
+    "speed": "Vehicle speed",
+    "coolant": "Coolant temperature"
+  },
+  "rating": {
+    "excellent": "Well sized",
+    "good": "Adequate",
+    "oversized": "Oversized",
+    "undersized": "Undersized",
+    "critical": "Far too small",
+    "impossible": "Impossible"
+  },
+  "r": {
+    "rating": "Sizing",
+    "rating_note": "Stabilised temperature compared with the target",
+    "heat": "Heat to reject through the oil",
+    "heat_note": "≈ {p}% of engine power (estimate)",
+    "eq": "Stabilised oil temperature",
+    "eq_note": "At cooler inlet; target: {t}",
+    "outlet": "Cooler outlet temperature",
+    "outlet_note": "Cooled by {d} in the cooler",
+    "capacity": "Capacity at target temperature",
+    "capacity_note": "Heat rejected with oil at {t}",
+    "eff": "Exchanger effectiveness",
+    "eff_note": "Share of the temperature difference recovered",
+    "size": "Recommended size (width × height)",
+    "size_none": "Out of reach with this cooler type",
+    "size_note": "Same thickness ({th}) and proportions",
+    "air": "Air speed through the core",
+    "air_note": "≈ 30% of vehicle speed (min 2 m/s)"
+  },
+  "warn": {
+    "impossible": "An oil/water cooler cannot go below coolant temperature: aim higher or use an oil/air cooler.",
+    "undersized": "Cooler too small: increase area, thickness or oil flow, or improve airflow (scoop, ducting).",
+    "thermostat": "Cooler more than big enough: fit a thermostatic sandwich plate so the oil quickly reaches 90–100 °C.",
+    "too_hot": "Oil above 130 °C: rapid breakdown and risk to the bearings.",
+    "fan": "At low speed an oil/air cooler barely cools: fit a fan for stops and queues.",
+    "method": "Estimate (effectiveness-NTU method): check against the manufacturer's data sheet. Pressure drop not calculated (usually below 0.5 bar)."
+  },
+  "chart": {
+    "speed_title": "Stabilised oil temperature versus vehicle speed",
+    "speed": "Speed",
+    "temp": "Temperature",
+    "eq": "Stabilised oil",
+    "target": "Target"
+  }
+}

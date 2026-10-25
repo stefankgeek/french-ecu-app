@@ -1,0 +1,76 @@
+{
+  "intro": "Calcula a repartição de travagem ideal dianteira/traseira a partir da transferência de carga e a desaceleração realmente atingível com a sua afinação.",
+  "g_vehicle": "Veículo",
+  "g_braking": "Travagem",
+  "cg_hint": "Carro de série ≈ 450–550 mm, carro de corrida ≈ 300–400 mm",
+  "decel_hint": "≈ aderência dos pneus: estrada 0,8–1,0 g, semi-slick 1,1–1,3 g, slick 1,4 g ou mais",
+  "bias_hint": "Parte da força de travagem à frente",
+  "in": {
+    "mass": "Massa do veículo (com piloto)",
+    "front": "Massa no eixo dianteiro",
+    "wheelbase": "Distância entre eixos",
+    "cg": "Altura do centro de gravidade",
+    "trackFront": "Via dianteira",
+    "trackRear": "Via traseira",
+    "decel": "Desaceleração máxima pretendida",
+    "bias": "Repartição atual (frente)",
+    "speed": "Velocidade inicial",
+    "lateral": "Aceleração lateral em curva"
+  },
+  "r": {
+    "optimal": "Repartição ideal (frente)",
+    "optimal_note": "As 4 rodas no limite ao mesmo tempo a {a} g",
+    "balance": "Equilíbrio da afinação",
+    "diff": "Diferença para o ideal: {d} pontos",
+    "amax": "Desaceleração máxima atingível",
+    "distance": "Distância de travagem",
+    "distance_note": "A partir de {s}, sem tempo de reação; afinação ideal: {d}",
+    "transfer": "Transferência de carga para a frente",
+    "transfer_note": "Relação altura CG / distância entre eixos: {h}",
+    "static": "Carga estática",
+    "dynamic": "Carga em travagem máxima",
+    "front_rear": "Frente / trás",
+    "inner_front": "Roda dianteira interior em curva",
+    "inner_note": "A {g} g; 0 = a roda levanta"
+  },
+  "balance": {
+    "optimal": "Ótimo",
+    "acceptable": "Aceitável",
+    "adjust": "A ajustar",
+    "dangerous": "Perigoso"
+  },
+  "lock": {
+    "front": "As rodas dianteiras bloqueiam primeiro ({e} % do potencial)",
+    "rear": "As rodas traseiras bloqueiam primeiro: instável ({e} % do potencial)",
+    "both": "Os dois eixos no limite ao mesmo tempo ({e} % do potencial)"
+  },
+  "warn": {
+    "rear_lock": "Travagem traseira excessiva: a traseira bloqueia antes da frente e o carro pode entrar em pião. Aumente a parte dianteira.",
+    "front_bias": "Afinação claramente à frente: carro estável mas distâncias de travagem maiores e pneus dianteiros muito solicitados.",
+    "high_cg": "Centro de gravidade alto em relação à distância entre eixos: grande transferência de carga, a traseira fica muito leve ao travar.",
+    "unbalanced": "Distribuição de massas invulgar: verifique a pesagem por eixo.",
+    "wheel_lift": "Uma roda interior levanta com esta aceleração lateral: risco de bloqueio e perda de tração."
+  },
+  "setup": {
+    "street": "Afinação de estrada: mantenha margem à frente para a estabilidade (+3 a +5 pontos).",
+    "sport": "Afinação desportiva / semi-slick: aponte ao ideal ±2 pontos e ajuste com o repartidor.",
+    "track": "Afinação de pista / slick: aponte ao ideal e afine em andamento (bloqueio dianteiro = recuar a repartição)."
+  },
+  "chart": {
+    "decel_title": "Desaceleração atingível em função da repartição",
+    "bias": "Repartição dianteira",
+    "decel": "Desaceleração",
+    "target": "Objetivo",
+    "load_title": "Carga por eixo",
+    "static": "Parado",
+    "braking": "Em travagem",
+    "load": "Carga",
+    "front": "Frente",
+    "rear": "Trás",
+    "lateral_title": "Carga por roda em curva a {g} g",
+    "in_front": "Dianteira interior",
+    "out_front": "Dianteira exterior",
+    "in_rear": "Traseira interior",
+    "out_rear": "Traseira exterior"
+  }
+}

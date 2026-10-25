@@ -1,0 +1,76 @@
+{
+  "intro": "Calcule la répartition de freinage idéale avant/arrière d'après le transfert de charge, et la décélération réellement atteignable avec votre réglage.",
+  "g_vehicle": "Véhicule",
+  "g_braking": "Freinage",
+  "cg_hint": "Voiture de série ≈ 450–550 mm, voiture de course ≈ 300–400 mm",
+  "decel_hint": "≈ adhérence des pneus : route 0,8–1,0 g, semi-slick 1,1–1,3 g, slick 1,4 g et plus",
+  "bias_hint": "Part de l'effort de freinage à l'avant",
+  "in": {
+    "mass": "Masse du véhicule (pilote compris)",
+    "front": "Masse sur l'essieu avant",
+    "wheelbase": "Empattement",
+    "cg": "Hauteur du centre de gravité",
+    "trackFront": "Voie avant",
+    "trackRear": "Voie arrière",
+    "decel": "Décélération maxi visée",
+    "bias": "Répartition actuelle (avant)",
+    "speed": "Vitesse de départ",
+    "lateral": "Accélération latérale en virage"
+  },
+  "r": {
+    "optimal": "Répartition idéale (avant)",
+    "optimal_note": "Les 4 roues à la limite en même temps à {a} g",
+    "balance": "Équilibre du réglage",
+    "diff": "Écart avec l'idéal : {d} points",
+    "amax": "Décélération maxi atteignable",
+    "distance": "Distance de freinage",
+    "distance_note": "Depuis {s}, sans temps de réaction ; réglage idéal : {d}",
+    "transfer": "Transfert de charge vers l'avant",
+    "transfer_note": "Rapport hauteur CG / empattement : {h}",
+    "static": "Charge statique",
+    "dynamic": "Charge au freinage maxi",
+    "front_rear": "Avant / arrière",
+    "inner_front": "Roue avant intérieure en virage",
+    "inner_note": "À {g} g ; 0 = la roue décolle"
+  },
+  "balance": {
+    "optimal": "Optimal",
+    "acceptable": "Acceptable",
+    "adjust": "À ajuster",
+    "dangerous": "Dangereux"
+  },
+  "lock": {
+    "front": "Les roues avant bloquent en premier ({e} % du potentiel)",
+    "rear": "Les roues arrière bloquent en premier : instable ({e} % du potentiel)",
+    "both": "Les deux essieux à la limite ensemble ({e} % du potentiel)"
+  },
+  "warn": {
+    "rear_lock": "Trop de freinage à l'arrière : l'arrière bloque avant l'avant, la voiture peut partir en tête-à-queue. Augmentez la part avant.",
+    "front_bias": "Réglage nettement sur l'avant : voiture stable mais distances de freinage plus longues et pneus avant sollicités.",
+    "high_cg": "Centre de gravité haut par rapport à l'empattement : fort transfert de charge, l'arrière s'allège beaucoup au freinage.",
+    "unbalanced": "Répartition des masses inhabituelle : vérifiez la pesée par essieu.",
+    "wheel_lift": "Une roue intérieure décolle à cette accélération latérale : risque de blocage et de perte de motricité."
+  },
+  "setup": {
+    "street": "Réglage route : gardez une marge sur l'avant pour la stabilité (+3 à +5 points).",
+    "sport": "Réglage sport / semi-slick : visez l'idéal à ±2 points, ajustez au répartiteur.",
+    "track": "Réglage piste / slick : visez l'idéal, puis affinez en roulant (blocage avant = reculer la répartition)."
+  },
+  "chart": {
+    "decel_title": "Décélération atteignable selon la répartition",
+    "bias": "Répartition avant",
+    "decel": "Décélération",
+    "target": "Objectif",
+    "load_title": "Charge par essieu",
+    "static": "À l'arrêt",
+    "braking": "Au freinage",
+    "load": "Charge",
+    "front": "Avant",
+    "rear": "Arrière",
+    "lateral_title": "Charge par roue en virage à {g} g",
+    "in_front": "Avant intérieure",
+    "out_front": "Avant extérieure",
+    "in_rear": "Arrière intérieure",
+    "out_rear": "Arrière extérieure"
+  }
+}

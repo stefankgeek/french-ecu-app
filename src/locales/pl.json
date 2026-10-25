@@ -140,6 +140,7 @@
     "volume": "Objętość",
     "injector_flow": "Wydatek wtryskiwacza",
     "fuel_flow": "Przepływ paliwa",
+    "liquid_flow": "Przepływ cieczy",
     "mass_flow": "Masowy przepływ powietrza",
     "air_flow": "Objętościowy przepływ powietrza",
     "power": "Moc",
@@ -194,7 +195,12 @@
     "percent": "%",
     "months": "mies.",
     "ratio": ":1",
-    "per_year": "/rok"
+    "per_year": "/rok",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Doskonały",

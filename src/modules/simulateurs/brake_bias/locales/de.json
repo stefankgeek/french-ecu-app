@@ -1,0 +1,76 @@
+{
+  "intro": "Berechnet die ideale Bremskraftverteilung vorne/hinten aus der Achslastverlagerung und die mit Ihrer Einstellung tatsächlich erreichbare Verzögerung.",
+  "g_vehicle": "Fahrzeug",
+  "g_braking": "Bremsen",
+  "cg_hint": "Serienauto ≈ 450–550 mm, Rennwagen ≈ 300–400 mm",
+  "decel_hint": "≈ Reifenhaftung: Straße 0,8–1,0 g, Semi-Slick 1,1–1,3 g, Slick ab 1,4 g",
+  "bias_hint": "Anteil der Bremskraft an der Vorderachse",
+  "in": {
+    "mass": "Fahrzeugmasse (mit Fahrer)",
+    "front": "Masse auf der Vorderachse",
+    "wheelbase": "Radstand",
+    "cg": "Schwerpunkthöhe",
+    "trackFront": "Spurweite vorne",
+    "trackRear": "Spurweite hinten",
+    "decel": "Angestrebte Höchstverzögerung",
+    "bias": "Aktuelle Verteilung (vorne)",
+    "speed": "Ausgangsgeschwindigkeit",
+    "lateral": "Querbeschleunigung in der Kurve"
+  },
+  "r": {
+    "optimal": "Ideale Verteilung (vorne)",
+    "optimal_note": "Alle 4 Räder gleichzeitig am Limit bei {a} g",
+    "balance": "Bewertung der Einstellung",
+    "diff": "Abweichung vom Ideal: {d} Punkte",
+    "amax": "Erreichbare Höchstverzögerung",
+    "distance": "Bremsweg",
+    "distance_note": "Aus {s}, ohne Reaktionszeit; ideale Einstellung: {d}",
+    "transfer": "Lastverlagerung nach vorne",
+    "transfer_note": "Verhältnis Schwerpunkthöhe / Radstand: {h}",
+    "static": "Statische Last",
+    "dynamic": "Last bei Vollbremsung",
+    "front_rear": "Vorne / hinten",
+    "inner_front": "Kurveninneres Vorderrad",
+    "inner_note": "Bei {g} g; 0 = Rad hebt ab"
+  },
+  "balance": {
+    "optimal": "Optimal",
+    "acceptable": "Akzeptabel",
+    "adjust": "Anpassen",
+    "dangerous": "Gefährlich"
+  },
+  "lock": {
+    "front": "Die Vorderräder blockieren zuerst ({e} % des Potenzials)",
+    "rear": "Die Hinterräder blockieren zuerst: instabil ({e} % des Potenzials)",
+    "both": "Beide Achsen erreichen gleichzeitig das Limit ({e} % des Potenzials)"
+  },
+  "warn": {
+    "rear_lock": "Zu viel Bremskraft hinten: Die Hinterachse blockiert vor der Vorderachse, das Auto kann sich drehen. Anteil vorne erhöhen.",
+    "front_bias": "Deutlich frontlastige Einstellung: stabiles Auto, aber längere Bremswege und stark belastete Vorderreifen.",
+    "high_cg": "Hoher Schwerpunkt im Verhältnis zum Radstand: starke Lastverlagerung, das Heck wird beim Bremsen sehr leicht.",
+    "unbalanced": "Ungewöhnliche Gewichtsverteilung: Achslasten nachwiegen.",
+    "wheel_lift": "Ein kurveninneres Rad hebt bei dieser Querbeschleunigung ab: Gefahr des Blockierens und Traktionsverlust."
+  },
+  "setup": {
+    "street": "Straßeneinstellung: etwas Reserve nach vorne für die Stabilität lassen (+3 bis +5 Punkte).",
+    "sport": "Sport / Semi-Slick: Ideal ±2 Punkte anstreben, mit dem Bremskraftregler einstellen.",
+    "track": "Rennstrecke / Slick: Ideal anstreben, dann beim Fahren feinjustieren (Vorderräder blockieren = Verteilung nach hinten)."
+  },
+  "chart": {
+    "decel_title": "Erreichbare Verzögerung je nach Bremskraftverteilung",
+    "bias": "Verteilung vorne",
+    "decel": "Verzögerung",
+    "target": "Ziel",
+    "load_title": "Last pro Achse",
+    "static": "Im Stand",
+    "braking": "Beim Bremsen",
+    "load": "Last",
+    "front": "Vorne",
+    "rear": "Hinten",
+    "lateral_title": "Last pro Rad in der Kurve bei {g} g",
+    "in_front": "Vorne innen",
+    "out_front": "Vorne außen",
+    "in_rear": "Hinten innen",
+    "out_rear": "Hinten außen"
+  }
+}

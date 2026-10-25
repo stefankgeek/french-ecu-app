@@ -1,0 +1,73 @@
+{
+  "intro": "Dimensioneert een oliekoeler: af te voeren warmte, gestabiliseerde olietemperatuur en benodigde maat om de doeltemperatuur te halen.",
+  "g_engine": "Motor en olie",
+  "g_cooler": "Koeler",
+  "g_conditions": "Omstandigheden",
+  "flow_hint": "Debiet naar de koeler (vaak 10–25 L/min via de sandwichplaat)",
+  "speed_hint": "0 = stilstand of in de pits",
+  "coolant_hint": "Alleen olie/water-koeler",
+  "usage": {
+    "street": "Straat",
+    "track": "Circuitdagen",
+    "race": "Race / endurance"
+  },
+  "type": {
+    "air": "Olie / lucht",
+    "water": "Olie / water (warmtewisselaar)"
+  },
+  "in": {
+    "power": "Motorvermogen",
+    "usage": "Gebruik",
+    "oilFlow": "Oliedebiet",
+    "target": "Beoogde olietemperatuur",
+    "type": "Type koeler",
+    "width": "Breedte koelblok",
+    "height": "Hoogte koelblok",
+    "thickness": "Dikte koelblok",
+    "ambient": "Buitentemperatuur",
+    "speed": "Voertuigsnelheid",
+    "coolant": "Koelvloeistoftemperatuur"
+  },
+  "rating": {
+    "excellent": "Goed gedimensioneerd",
+    "good": "Voldoende",
+    "oversized": "Overgedimensioneerd",
+    "undersized": "Ondergedimensioneerd",
+    "critical": "Veel te klein",
+    "impossible": "Onmogelijk"
+  },
+  "r": {
+    "rating": "Dimensionering",
+    "rating_note": "Vergelijking gestabiliseerde temperatuur / doel",
+    "heat": "Via de olie af te voeren warmte",
+    "heat_note": "≈ {p} % van het motorvermogen (schatting)",
+    "eq": "Gestabiliseerde olietemperatuur",
+    "eq_note": "Aan de koelerinlaat; doel: {t}",
+    "outlet": "Temperatuur aan de koeleruitlaat",
+    "outlet_note": "{d} afkoeling in de koeler",
+    "capacity": "Capaciteit bij doeltemperatuur",
+    "capacity_note": "Afgevoerde warmte met olie van {t}",
+    "eff": "Rendement van de warmtewisselaar",
+    "eff_note": "Benut deel van het temperatuurverschil",
+    "size": "Aanbevolen maat (breedte × hoogte)",
+    "size_none": "Niet haalbaar met dit type koeler",
+    "size_note": "Zelfde dikte ({th}) en verhoudingen",
+    "air": "Luchtsnelheid door het koelblok",
+    "air_note": "≈ 30 % van de voertuigsnelheid (min. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Een olie/water-koeler kan niet onder de koelvloeistoftemperatuur koelen: kies een hoger doel of een olie/lucht-koeler.",
+    "undersized": "Koeler te klein: vergroot oppervlak, dikte of oliedebiet, of verbeter de luchttoevoer (scoop, luchtkanaal).",
+    "thermostat": "Koeler ruim voldoende: monteer een sandwichplaat met thermostaat zodat de olie snel 90–100 °C haalt.",
+    "too_hot": "Olie boven 130 °C: snelle afbraak en risico voor de lagers.",
+    "fan": "Bij lage snelheid koelt een olie/lucht-koeler nauwelijks: voorzie een ventilator voor stops en wachtrijen.",
+    "method": "Schatting (effectiviteit-NTU-methode): controleer met het datasheet van de fabrikant. Drukverlies niet berekend (meestal minder dan 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Gestabiliseerde olietemperatuur afhankelijk van de snelheid",
+    "speed": "Snelheid",
+    "temp": "Temperatuur",
+    "eq": "Gestabiliseerde olie",
+    "target": "Doel"
+  }
+}

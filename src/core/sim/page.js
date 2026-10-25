@@ -68,6 +68,7 @@ export function mountSimulator(root, spec) {
             <button class="btn btn--ghost" data-act="share">${esc(t('sim.share'))}</button>
             <button class="btn btn--primary" data-act="pdf">${icon('download')}<span>${esc(t('sim.pdf'))}</span></button>
           </div>
+          <div class="sim__actions sim__downloads" hidden></div>
         </div>
         <div class="sim__outputs" aria-live="polite">
           <section class="panel">
@@ -195,7 +196,25 @@ export function mountSimulator(root, spec) {
     renderResults(lastView);
     renderTables(lastView.tables);
     renderCharts(lastView.charts);
+    renderDownloads(lastView.downloads);
   }
+
+  /** Boutons d'export propres au logiciel (ex. tables CSV pour un calculateur). */
+  function renderDownloads(list) {
+    const box = $('.sim__downloads');
+    box.hidden = !list.length;
+    box.innerHTML = list.map((d, i) => `<button class="btn btn--ghost" data-dl="${i}">${icon('download')}<span>${esc(d.label)}</span></button>`).join('');
+  }
+  root.querySelector('.sim__downloads').addEventListener('click', async (e) => {
+    const i = e.target.closest('[data-dl]')?.dataset.dl;
+    if (i === undefined || !lastView) return;
+    try {
+      const d = lastView.downloads[+i];
+      const blob = await d.build();
+      const { saveFile } = await import('../download.js');
+      await saveFile(blob, d.filename);
+    } catch (err) { console.error(err); toast(t('sim.pdf_error')); }
+  });
 
   function buildView(r) {
     return {
@@ -203,6 +222,7 @@ export function mountSimulator(root, spec) {
       notes: spec.notes ? spec.notes(r, ctx) : [],
       tables: spec.tables ? spec.tables(r, ctx) : [],
       charts: spec.charts ? spec.charts(r, ctx) : [],
+      downloads: spec.downloads ? spec.downloads(r, ctx) : [],
     };
   }
 
@@ -235,11 +255,20 @@ export function mountSimulator(root, spec) {
       <section class="panel">
         <h2 class="panel__title">${esc(tb.title)}</h2>
         ${tb.intro ? `<p class="hint">${esc(tb.intro)}</p>` : ''}
-        <div class="table-wrap"><table class="table ${tb.wrap ? 'table--wrap' : ''}">
+        <div class="table-wrap"><table class="table ${tb.wrap ? 'table--wrap' : ''} ${tb.grid ? 'table--grid' : ''}" ${tb.grid ? 'dir="ltr"' : ''}>
           <thead><tr>${tb.columns.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead>
-          <tbody>${tb.rows.map((row) => `<tr class="${row.status ? 'is-' + row.status : ''} ${row.highlight ? 'is-highlight' : ''}">${row.cells.map((c) => `<td dir="auto">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+          <tbody>${tb.rows.map((row) => `<tr class="${row.status ? 'is-' + row.status : ''} ${row.highlight ? 'is-highlight' : ''}">${row.cells.map(cellHtml).join('')}</tr>`).join('')}</tbody>
         </table></div>
       </section>`).join('');
+  }
+
+  /** Cellule : texte simple, ou {v, bg, fg} pour une carte colorée (table de calculateur). */
+  function cellHtml(c) {
+    if (c && typeof c === 'object') {
+      const style = [c.bg ? `background:${c.bg}` : '', c.fg ? `color:${c.fg}` : ''].filter(Boolean).join(';');
+      return `<td${style ? ` style="${style}"` : ''}>${esc(c.v)}</td>`;
+    }
+    return `<td dir="auto">${esc(c)}</td>`;
   }
 
   async function renderCharts(specs) {

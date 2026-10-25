@@ -30,10 +30,10 @@ export const MODULES = [
   { id: 'conrod', category: 'engine', icon: 'conrod', color: '#7b68ee', status: 'ready', load: () => import('./simulateurs/conrod/index.js') },
   { id: 'harmonics', category: 'engine', icon: 'wave', color: '#4a90e2', status: 'ready', load: () => import('./simulateurs/harmonics/index.js') },
   // Cartographie
-  { id: 'ecu_map', category: 'ecu', icon: 'chip', color: '#7b68ee', status: 'soon' },
+  { id: 'ecu_map', category: 'ecu', icon: 'chip', color: '#7b68ee', status: 'ready', load: () => import('./simulateurs/ecu_map/index.js') },
   // Châssis & refroidissement
-  { id: 'brake_bias', category: 'chassis', icon: 'brake', color: '#ff3b30', status: 'soon' },
-  { id: 'oil_cooler', category: 'chassis', icon: 'oil', color: '#30d158', status: 'soon' },
+  { id: 'brake_bias', category: 'chassis', icon: 'brake', color: '#ff3b30', status: 'ready', load: () => import('./simulateurs/brake_bias/index.js') },
+  { id: 'oil_cooler', category: 'chassis', icon: 'oil', color: '#30d158', status: 'ready', load: () => import('./simulateurs/oil_cooler/index.js') },
 ];
 
 /** Aide-mémoire (section à part dans le menu). */

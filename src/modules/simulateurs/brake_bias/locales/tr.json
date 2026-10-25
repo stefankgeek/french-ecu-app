@@ -1,0 +1,76 @@
+{
+  "intro": "Yük transferine göre ideal ön/arka fren dağılımını ve ayarınızla gerçekten ulaşılabilen yavaşlamayı hesaplar.",
+  "g_vehicle": "Araç",
+  "g_braking": "Frenleme",
+  "cg_hint": "Seri araç ≈ 450–550 mm, yarış aracı ≈ 300–400 mm",
+  "decel_hint": "≈ lastik tutuşu: yol 0,8–1,0 g, yarı slick 1,1–1,3 g, slick 1,4 g ve üzeri",
+  "bias_hint": "Fren kuvvetinin öndeki payı",
+  "in": {
+    "mass": "Araç kütlesi (sürücü dahil)",
+    "front": "Ön akstaki kütle",
+    "wheelbase": "Dingil mesafesi",
+    "cg": "Ağırlık merkezi yüksekliği",
+    "trackFront": "Ön iz genişliği",
+    "trackRear": "Arka iz genişliği",
+    "decel": "Hedef azami yavaşlama",
+    "bias": "Mevcut dağılım (ön)",
+    "speed": "Başlangıç hızı",
+    "lateral": "Virajda yanal ivme"
+  },
+  "r": {
+    "optimal": "İdeal dağılım (ön)",
+    "optimal_note": "{a} g'de 4 tekerlek aynı anda sınırda",
+    "balance": "Ayar değerlendirmesi",
+    "diff": "İdealden fark: {d} puan",
+    "amax": "Ulaşılabilir azami yavaşlama",
+    "distance": "Fren mesafesi",
+    "distance_note": "{s} hızdan, tepki süresi hariç; ideal ayar: {d}",
+    "transfer": "Öne yük transferi",
+    "transfer_note": "AM yüksekliği / dingil mesafesi oranı: {h}",
+    "static": "Statik yük",
+    "dynamic": "Azami frenlemede yük",
+    "front_rear": "Ön / arka",
+    "inner_front": "Virajda iç ön tekerlek",
+    "inner_note": "{g} g'de; 0 = tekerlek kalkar"
+  },
+  "balance": {
+    "optimal": "Optimum",
+    "acceptable": "Kabul edilebilir",
+    "adjust": "Ayarlanmalı",
+    "dangerous": "Tehlikeli"
+  },
+  "lock": {
+    "front": "Önce ön tekerlekler kilitlenir (potansiyelin %{e}'i)",
+    "rear": "Önce arka tekerlekler kilitlenir: dengesiz (potansiyelin %{e}'i)",
+    "both": "İki aks aynı anda sınırda (potansiyelin %{e}'i)"
+  },
+  "warn": {
+    "rear_lock": "Arkada fazla frenleme: arka aks önden önce kilitlenir ve araç savrulabilir. Ön payı artırın.",
+    "front_bias": "Ayar belirgin şekilde önde: araç dengeli ama fren mesafesi uzun ve ön lastikler çok yüklü.",
+    "high_cg": "Dingil mesafesine göre yüksek ağırlık merkezi: büyük yük transferi, frenlemede arka çok hafifler.",
+    "unbalanced": "Olağandışı ağırlık dağılımı: aks tartımını kontrol edin.",
+    "wheel_lift": "Bu yanal ivmede bir iç tekerlek kalkıyor: kilitlenme ve çekiş kaybı riski."
+  },
+  "setup": {
+    "street": "Yol ayarı: denge için önde pay bırakın (+3 ile +5 puan).",
+    "sport": "Spor / yarı slick: ideali ±2 puan hedefleyin, fren dağıtıcıyla ayarlayın.",
+    "track": "Pist / slick: ideali hedefleyin, sonra sürüşte ince ayar yapın (ön kilitlenme = dağılımı geriye alın)."
+  },
+  "chart": {
+    "decel_title": "Dağılıma göre ulaşılabilir yavaşlama",
+    "bias": "Ön dağılım",
+    "decel": "Yavaşlama",
+    "target": "Hedef",
+    "load_title": "Aks başına yük",
+    "static": "Duruşta",
+    "braking": "Frenlemede",
+    "load": "Yük",
+    "front": "Ön",
+    "rear": "Arka",
+    "lateral_title": "{g} g virajda tekerlek başına yük",
+    "in_front": "Ön iç",
+    "out_front": "Ön dış",
+    "in_rear": "Arka iç",
+    "out_rear": "Arka dış"
+  }
+}

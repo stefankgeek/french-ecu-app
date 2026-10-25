@@ -142,6 +142,7 @@
     "volume": "الحجم",
     "injector_flow": "تدفق البخاخ",
     "fuel_flow": "تدفق الوقود",
+    "liquid_flow": "تدفق السائل",
     "mass_flow": "التدفق الكتلي للهواء",
     "air_flow": "التدفق الحجمي للهواء",
     "power": "القدرة",
@@ -196,7 +197,12 @@
     "percent": "%",
     "months": "شهر",
     "ratio": ":1",
-    "per_year": "/سنة"
+    "per_year": "/سنة",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "ممتاز",

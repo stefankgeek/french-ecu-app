@@ -1,0 +1,73 @@
+{
+  "intro": "Dobiera chłodnicę oleju: ciepło do odprowadzenia, ustaloną temperaturę oleju i rozmiar potrzebny do utrzymania temperatury docelowej.",
+  "g_engine": "Silnik i olej",
+  "g_cooler": "Chłodnica",
+  "g_conditions": "Warunki",
+  "flow_hint": "Przepływ kierowany do chłodnicy (zwykle 10–25 L/min przez płytę kanapkową)",
+  "speed_hint": "0 = postój lub w boksie",
+  "coolant_hint": "Tylko chłodnica olej/woda",
+  "usage": {
+    "street": "Droga",
+    "track": "Dni torowe",
+    "race": "Wyścigi / wytrzymałość"
+  },
+  "type": {
+    "air": "Olej / powietrze",
+    "water": "Olej / woda (wymiennik)"
+  },
+  "in": {
+    "power": "Moc silnika",
+    "usage": "Zastosowanie",
+    "oilFlow": "Przepływ oleju",
+    "target": "Docelowa temperatura oleju",
+    "type": "Typ chłodnicy",
+    "width": "Szerokość rdzenia",
+    "height": "Wysokość rdzenia",
+    "thickness": "Grubość rdzenia",
+    "ambient": "Temperatura otoczenia",
+    "speed": "Prędkość pojazdu",
+    "coolant": "Temperatura płynu chłodzącego"
+  },
+  "rating": {
+    "excellent": "Dobrze dobrana",
+    "good": "Wystarczająca",
+    "oversized": "Przewymiarowana",
+    "undersized": "Za mała",
+    "critical": "Zdecydowanie za mała",
+    "impossible": "Niemożliwe"
+  },
+  "r": {
+    "rating": "Dobór",
+    "rating_note": "Porównanie temperatury ustalonej z docelową",
+    "heat": "Ciepło do odprowadzenia przez olej",
+    "heat_note": "≈ {p}% mocy silnika (szacunek)",
+    "eq": "Ustalona temperatura oleju",
+    "eq_note": "Na wlocie chłodnicy; cel: {t}",
+    "outlet": "Temperatura na wylocie chłodnicy",
+    "outlet_note": "Schłodzenie o {d} w chłodnicy",
+    "capacity": "Wydajność przy temperaturze docelowej",
+    "capacity_note": "Ciepło odprowadzone przy oleju {t}",
+    "eff": "Skuteczność wymiennika",
+    "eff_note": "Wykorzystana część różnicy temperatur",
+    "size": "Zalecany rozmiar (szer. × wys.)",
+    "size_none": "Nieosiągalne tym typem chłodnicy",
+    "size_note": "Ta sama grubość ({th}) i proporcje",
+    "air": "Prędkość powietrza w rdzeniu",
+    "air_note": "≈ 30% prędkości pojazdu (min. 2 m/s)"
+  },
+  "warn": {
+    "impossible": "Chłodnica olej/woda nie schłodzi oleju poniżej temperatury płynu chłodzącego: wybierz wyższy cel lub chłodnicę olej/powietrze.",
+    "undersized": "Chłodnica za mała: zwiększ powierzchnię, grubość lub przepływ oleju albo popraw dopływ powietrza (wlot, kanał).",
+    "thermostat": "Chłodnica z dużym zapasem: zamontuj płytę kanapkową z termostatem, aby olej szybko osiągał 90–100 °C.",
+    "too_hot": "Olej powyżej 130 °C: szybka degradacja i ryzyko dla panewek.",
+    "fan": "Przy małej prędkości chłodnica olej/powietrze prawie nie chłodzi: przewidź wentylator na postoje i kolejki.",
+    "method": "Szacunek (metoda skuteczność-NTU): sprawdź z kartą producenta. Spadek ciśnienia nie jest liczony (zwykle poniżej 0,5 bar)."
+  },
+  "chart": {
+    "speed_title": "Ustalona temperatura oleju w zależności od prędkości",
+    "speed": "Prędkość",
+    "temp": "Temperatura",
+    "eq": "Olej ustalony",
+    "target": "Cel"
+  }
+}

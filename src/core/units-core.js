@@ -73,6 +73,10 @@ export const QUANTITIES = {
     galh: { ...lin(3.785411784), symbol: 'gal/h', decimals: 1 },
     ccmin: { ...lin(0.06), symbol: 'cc/min', decimals: 0 },
   } },
+  liquid_flow: { base: 'Lmin', units: {
+    Lmin: { ...lin(1), symbol: 'L/min', decimals: 1 },
+    galmin: { ...lin(3.785411784), symbol: 'gal/min', decimals: 2 },
+  } },
   mass_flow: { base: 'gs', units: {
     gs: { ...lin(1), symbol: 'g/s', decimals: 1 },
     lbmin: { ...lin(LB_G / 60), symbol: 'lb/min', decimals: 1 },
@@ -155,14 +159,14 @@ export const QUANTITIES = {
 export const SYSTEMS = {
   metric: {
     pressure: 'bar', pressure_abs: 'bara', temperature: 'C', temperature_delta: 'dC', length: 'mm',
-    displacement: 'cc', volume: 'L', injector_flow: 'ccmin', fuel_flow: 'Lh', mass_flow: 'gs',
+    displacement: 'cc', volume: 'L', injector_flow: 'ccmin', fuel_flow: 'Lh', liquid_flow: 'Lmin', mass_flow: 'gs',
     air_flow: 'Lmin', power: 'ch', torque: 'Nm', speed: 'ms', vehicle_speed: 'kmh', mass: 'kg',
     small_mass: 'g', force: 'N', spring_rate: 'Nmm', length_m: 'm', distance: 'km', flow_velocity: 'ms',
     fuel_economy: 'L100', price_volume: 'perL', bsfc: 'gkWh', stress: 'MPa',
   },
   imperial: {
     pressure: 'psi', pressure_abs: 'psia', temperature: 'F', temperature_delta: 'dF', length: 'in',
-    displacement: 'ci', volume: 'galUS', injector_flow: 'lbh', fuel_flow: 'galh', mass_flow: 'lbmin',
+    displacement: 'ci', volume: 'galUS', injector_flow: 'lbh', fuel_flow: 'galh', liquid_flow: 'galmin', mass_flow: 'lbmin',
     air_flow: 'cfm', power: 'hp', torque: 'lbft', speed: 'ftmin', vehicle_speed: 'mph', mass: 'lb',
     small_mass: 'oz', force: 'lbf', spring_rate: 'lbin', length_m: 'ft', distance: 'mi', flow_velocity: 'fts',
     fuel_economy: 'mpgUS', price_volume: 'perGal', bsfc: 'lbhph', stress: 'ksi',

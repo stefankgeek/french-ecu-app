@@ -138,6 +138,7 @@
     "volume": "Hacim",
     "injector_flow": "Enjektör debisi",
     "fuel_flow": "Yakıt debisi",
+    "liquid_flow": "Sıvı debisi",
     "mass_flow": "Hava kütle debisi",
     "air_flow": "Hacimsel hava debisi",
     "power": "Güç",
@@ -192,7 +193,12 @@
     "percent": "%",
     "months": "ay",
     "ratio": ":1",
-    "per_year": "/yıl"
+    "per_year": "/yıl",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Mükemmel",

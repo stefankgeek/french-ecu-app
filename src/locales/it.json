@@ -139,6 +139,7 @@
     "volume": "Volume",
     "injector_flow": "Portata iniettore",
     "fuel_flow": "Portata carburante",
+    "liquid_flow": "Portata di liquido",
     "mass_flow": "Portata massica d'aria",
     "air_flow": "Portata volumetrica d'aria",
     "power": "Potenza",
@@ -193,7 +194,12 @@
     "percent": "%",
     "months": "mesi",
     "ratio": ":1",
-    "per_year": "/anno"
+    "per_year": "/anno",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Eccellente",

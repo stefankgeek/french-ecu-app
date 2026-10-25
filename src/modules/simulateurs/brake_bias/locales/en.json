@@ -1,0 +1,76 @@
+{
+  "intro": "Works out the ideal front/rear brake balance from weight transfer, and the deceleration you can really reach with your setting.",
+  "g_vehicle": "Vehicle",
+  "g_braking": "Braking",
+  "cg_hint": "Road car ≈ 450–550 mm, race car ≈ 300–400 mm",
+  "decel_hint": "≈ tyre grip: road 0.8–1.0 g, semi-slick 1.1–1.3 g, slick 1.4 g and up",
+  "bias_hint": "Share of braking force at the front",
+  "in": {
+    "mass": "Vehicle mass (with driver)",
+    "front": "Mass on the front axle",
+    "wheelbase": "Wheelbase",
+    "cg": "Centre of gravity height",
+    "trackFront": "Front track",
+    "trackRear": "Rear track",
+    "decel": "Target maximum deceleration",
+    "bias": "Current balance (front)",
+    "speed": "Starting speed",
+    "lateral": "Cornering lateral acceleration"
+  },
+  "r": {
+    "optimal": "Ideal balance (front)",
+    "optimal_note": "All 4 wheels at the limit together at {a} g",
+    "balance": "Setting balance",
+    "diff": "Difference from ideal: {d} points",
+    "amax": "Maximum achievable deceleration",
+    "distance": "Braking distance",
+    "distance_note": "From {s}, without reaction time; ideal setting: {d}",
+    "transfer": "Load transfer to the front",
+    "transfer_note": "CG height / wheelbase ratio: {h}",
+    "static": "Static load",
+    "dynamic": "Load under maximum braking",
+    "front_rear": "Front / rear",
+    "inner_front": "Inside front wheel in a corner",
+    "inner_note": "At {g} g; 0 = the wheel lifts"
+  },
+  "balance": {
+    "optimal": "Optimal",
+    "acceptable": "Acceptable",
+    "adjust": "Needs adjusting",
+    "dangerous": "Dangerous"
+  },
+  "lock": {
+    "front": "Front wheels lock first ({e}% of potential)",
+    "rear": "Rear wheels lock first: unstable ({e}% of potential)",
+    "both": "Both axles reach the limit together ({e}% of potential)"
+  },
+  "warn": {
+    "rear_lock": "Too much rear braking: the rear locks before the front and the car may spin. Move the balance forward.",
+    "front_bias": "Setting clearly front-biased: stable car but longer stopping distances and overworked front tyres.",
+    "high_cg": "High centre of gravity for the wheelbase: large load transfer, the rear goes very light under braking.",
+    "unbalanced": "Unusual weight distribution: check the corner weights.",
+    "wheel_lift": "An inside wheel lifts at this lateral acceleration: risk of lock-up and loss of traction."
+  },
+  "setup": {
+    "street": "Road setup: keep some front margin for stability (+3 to +5 points).",
+    "sport": "Sport / semi-slick setup: aim for the ideal ±2 points, adjust with the bias valve.",
+    "track": "Track / slick setup: aim for the ideal, then fine-tune on track (front lock-up = move the balance rearward)."
+  },
+  "chart": {
+    "decel_title": "Achievable deceleration versus brake balance",
+    "bias": "Front balance",
+    "decel": "Deceleration",
+    "target": "Target",
+    "load_title": "Load per axle",
+    "static": "Static",
+    "braking": "Braking",
+    "load": "Load",
+    "front": "Front",
+    "rear": "Rear",
+    "lateral_title": "Load per wheel cornering at {g} g",
+    "in_front": "Inside front",
+    "out_front": "Outside front",
+    "in_rear": "Inside rear",
+    "out_rear": "Outside rear"
+  }
+}

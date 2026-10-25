@@ -138,6 +138,7 @@
     "volume": "Volume",
     "injector_flow": "Injector flow",
     "fuel_flow": "Fuel flow",
+    "liquid_flow": "Liquid flow",
     "mass_flow": "Air mass flow",
     "air_flow": "Volumetric air flow",
     "power": "Power",
@@ -192,7 +193,12 @@
     "percent": "%",
     "months": "months",
     "ratio": ":1",
-    "per_year": "/yr"
+    "per_year": "/yr",
+    "g": "g",
+    "lambda": "λ",
+    "volt": "V",
+    "kpa": "kPa",
+    "factor": "×"
   },
   "rating": {
     "excellent": "Excellent",
