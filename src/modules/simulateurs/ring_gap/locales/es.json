@@ -1,0 +1,54 @@
+{
+  "intro": "Calcula la luz entre puntas de los segmentos según el diámetro y el uso del motor (método de los fabricantes de segmentos).",
+  "g_engine": "Motor",
+  "engine": {
+    "four_stroke": "4 tiempos",
+    "two_stroke": "2 tiempos"
+  },
+  "app": {
+    "naturally_aspirated": "Atmosférico de calle",
+    "naturally_aspirated_racing": "Atmosférico de competición",
+    "forced_induction": "Turbo / compresor",
+    "heavy_load_high_heat": "Carga o calor elevados (nitro, resistencia)",
+    "snow_marine": "Moto de nieve / náutica"
+  },
+  "in": {
+    "engine": "Tipo de motor",
+    "application": "Uso",
+    "bore": "Diámetro del cilindro"
+  },
+  "r": {
+    "top": "Segmento de fuego (1.º)",
+    "second": "Segmento de estanqueidad (2.º)",
+    "oil": "Raíles del segmento rascador",
+    "oil_note": "Valor mínimo",
+    "max": "Máximo tolerado: {v}",
+    "method": "Método",
+    "method_text": "Diámetro {b}\" × {t} (1.º) y × {s} (2.º), convertido a mm."
+  },
+  "warn": {
+    "never_under": "Nunca monte una luz inferior al mínimo: en caliente las puntas se tocan y el segmento se rompe o raya el cilindro.",
+    "over_ok": "Una luz algo mayor (hasta +30 %) no afecta de forma apreciable a la estanqueidad."
+  },
+  "table": {
+    "title": "Procedimiento de medición y ajuste",
+    "step": "Paso"
+  },
+  "step": {
+    "s1": "Limpie el cilindro y el segmento; mida cada segmento en el cilindro donde irá montado.",
+    "s2": "Coloque el segmento en el cilindro y escuádrelo con un pistón invertido, unos 15–20 mm por debajo del plano de culata.",
+    "s3": "Mida la luz con una galga de espesores: debe entrar con un ligero roce.",
+    "s4": "Si la luz es demasiado pequeña, lime una sola punta con una lima de segmentos, de fuera hacia dentro, poco a poco.",
+    "s5": "Desbarbe la punta limada con una piedra fina para no rayar el cilindro.",
+    "s6": "Vuelva a comprobar y marque cada segmento con su cilindro y su ranura."
+  },
+  "chart": {
+    "title": "Luz recomendada por segmento",
+    "top": "1.er segmento",
+    "second": "2.º segmento",
+    "oil": "Rascador",
+    "gap": "Luz",
+    "min": "Mínimo",
+    "max": "Máximo tolerado"
+  }
+}

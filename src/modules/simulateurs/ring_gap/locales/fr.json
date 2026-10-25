@@ -1,0 +1,54 @@
+{
+  "intro": "Calcule le jeu à la coupe des segments selon l'alésage et l'usage du moteur (méthode des fabricants de segments).",
+  "g_engine": "Moteur",
+  "engine": {
+    "four_stroke": "4 temps",
+    "two_stroke": "2 temps"
+  },
+  "app": {
+    "naturally_aspirated": "Atmosphérique route",
+    "naturally_aspirated_racing": "Atmosphérique compétition",
+    "forced_induction": "Turbo / compresseur",
+    "heavy_load_high_heat": "Forte charge / chaleur (NOS, endurance)",
+    "snow_marine": "Motoneige / marine"
+  },
+  "in": {
+    "engine": "Type de moteur",
+    "application": "Usage",
+    "bore": "Alésage"
+  },
+  "r": {
+    "top": "Segment de feu (1er)",
+    "second": "Segment d'étanchéité (2e)",
+    "oil": "Rails du segment racleur",
+    "oil_note": "Valeur minimale",
+    "max": "Maximum toléré : {v}",
+    "method": "Méthode",
+    "method_text": "Alésage {b}\" × {t} (1er) et × {s} (2e), converti en mm."
+  },
+  "warn": {
+    "never_under": "Ne jamais monter un jeu inférieur au minimum : à chaud, les extrémités se touchent et le segment casse ou raye le cylindre.",
+    "over_ok": "Un jeu un peu plus grand (jusqu'à +30 %) reste sans conséquence notable sur l'étanchéité."
+  },
+  "table": {
+    "title": "Procédure de mesure et d'ajustage",
+    "step": "Étape"
+  },
+  "step": {
+    "s1": "Nettoyez le cylindre et le segment ; mesurez chaque segment dans le cylindre où il sera monté.",
+    "s2": "Placez le segment dans l'alésage et poussez-le bien d'équerre avec la tête d'un piston retourné, à environ 15–20 mm sous le plan de joint.",
+    "s3": "Mesurez le jeu avec une cale d'épaisseur : elle doit passer avec un léger frottement.",
+    "s4": "Si le jeu est trop faible, limez une seule extrémité avec une lime à segments, de l'extérieur vers l'intérieur, par petites passes.",
+    "s5": "Ébavurez l'extrémité limée avec une pierre fine pour éviter de rayer le cylindre.",
+    "s6": "Contrôlez à nouveau, puis repérez chaque segment avec son cylindre et sa gorge."
+  },
+  "chart": {
+    "title": "Jeu conseillé par segment",
+    "top": "1er segment",
+    "second": "2e segment",
+    "oil": "Racleur",
+    "gap": "Jeu",
+    "min": "Minimum",
+    "max": "Maximum toléré"
+  }
+}

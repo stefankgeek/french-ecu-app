@@ -1,0 +1,62 @@
+{
+  "intro": "Prüft, ob die Feder das Ventil bei der Zieldrehzahl sicher führt (kein Ventilflattern) und nicht auf Block geht.",
+  "g_cam": "Nocke und Drehzahl",
+  "g_masses": "Bewegte Massen",
+  "g_spring": "Feder",
+  "duration_hint": "Öffnungsdauer bei 0,050\" (1,27 mm) oder Herstellerangabe",
+  "follower_hint": "Schlepphebel oder Tassenstößel; 0 bei direkter Betätigung",
+  "single": "Einfach",
+  "dual": "Doppelt",
+  "in": {
+    "lift": "Ventilhub",
+    "duration": "Öffnungsdauer",
+    "rpm": "Zieldrehzahl",
+    "valve": "Ventilmasse",
+    "retainer": "Masse Federteller",
+    "springMass": "Federmasse",
+    "follower": "Masse Stößel / Kipphebel",
+    "rate": "Federrate",
+    "freeHeight": "Ungespannte Länge",
+    "installed": "Einbaulänge",
+    "coilBind": "Blocklänge",
+    "dual": "Federart"
+  },
+  "risk": {
+    "low": "Geringes Risiko",
+    "moderate": "Mäßiges Risiko",
+    "high": "Hohes Risiko",
+    "critical": "Ventilflattern sicher"
+  },
+  "r": {
+    "margin": "Sicherheitsreserve",
+    "seat": "Federkraft bei geschlossenem Ventil",
+    "seat_note": "Vorspannung {p}",
+    "open": "Federkraft bei offenem Ventil",
+    "required": "Benötigte Kraft bei Drehzahl",
+    "required_note": "Max. Verzögerung ≈ {g} g",
+    "bind": "Abstand bis Blocklänge",
+    "bind_note": "Empfohlen: mindestens 1,5 mm",
+    "rpm_limit": "Empfohlene Höchstdrehzahl",
+    "rpm_limit_note": "Mit {m} % Reserve",
+    "mass": "Bewegte Masse",
+    "mass_note": "Ventil + Teller + ½ Feder + Stößel"
+  },
+  "warn": {
+    "increase_rate": "Reserve zu gering: härtere Feder oder leichtere Teile (Titanventile oder -teller).",
+    "use_dual": "Reserve zu gering: härtere Doppelfedern verwenden oder den Ventiltrieb erleichtern.",
+    "bind": "Abstand bis Blocklänge zu gering: Die Feder kann brechen oder die Nockenwelle blockieren.",
+    "rpm": "Die Zieldrehzahl liegt über der empfohlenen Höchstdrehzahl dieser Feder.",
+    "method": "Harmonisches Nockenmodell: Eine aggressive Nocke (kurze Rampen) braucht 10 bis 20 % mehr Kraft."
+  },
+  "chart": {
+    "force_title": "Federkraft und benötigte Kraft über dem Hub",
+    "lift": "Hub",
+    "force": "Kraft",
+    "spring": "Feder",
+    "required": "Benötigt",
+    "margin_title": "Sicherheitsreserve über der Drehzahl",
+    "rpm": "Drehzahl",
+    "margin": "Reserve",
+    "target": "Ziel"
+  }
+}

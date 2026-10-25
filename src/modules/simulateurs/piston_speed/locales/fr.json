@@ -1,0 +1,54 @@
+{
+  "intro": "Calcule la vitesse du piston, son accélération et les forces d'inertie, avec le régime maximal conseillé.",
+  "g_geometry": "Géométrie et régime",
+  "g_masses": "Masses en mouvement",
+  "rod_hint": "Un tiers est compté comme masse alternative",
+  "in": {
+    "stroke": "Course",
+    "rod": "Entraxe de bielle",
+    "rpm": "Régime",
+    "piston": "Masse du piston",
+    "pin": "Masse de l'axe",
+    "rings": "Masse des segments",
+    "rodMass": "Masse de la bielle"
+  },
+  "r": {
+    "mean": "Vitesse moyenne du piston",
+    "max": "Vitesse maximale du piston",
+    "max_note": "Atteinte vers {a}° après le PMH",
+    "accel": "Accélération au PMH",
+    "force": "Force d'inertie au PMH",
+    "force_note": "Tire sur la bielle à chaque tour",
+    "recip": "Masse alternative",
+    "recip_note": "Piston + axe + segments + ⅓ de la bielle",
+    "ratio": "Rapport bielle / course",
+    "limit": "Régime maximal conseillé",
+    "limit_note": "Pour une vitesse moyenne de {v}"
+  },
+  "rate": {
+    "excellent": "Très faible sollicitation",
+    "good": "Usage routier sûr",
+    "acceptable": "Sportif : pièces de qualité",
+    "high": "Élevé : pièces forgées",
+    "extreme": "Extrême : compétition uniquement"
+  },
+  "rod": {
+    "increase_rod": "Bielle courte : efforts latéraux élevés",
+    "good": "Rapport correct",
+    "excellent": "Très bon rapport"
+  },
+  "warn": {
+    "reduce_rpm": "Régime nettement au-dessus de la limite conseillée : réduisez le régime ou la course.",
+    "forged": "Vitesse moyenne élevée : pistons et bielles forgés recommandés.",
+    "heavy": "Masse alternative élevée : des pièces plus légères réduiraient les efforts."
+  },
+  "chart": {
+    "crank_title": "Vitesse et accélération du piston sur un tour",
+    "angle": "Angle vilebrequin",
+    "velocity": "Vitesse",
+    "accel": "Accélération",
+    "force_title": "Force d'inertie au PMH selon le régime",
+    "rpm": "Régime",
+    "force": "Force"
+  }
+}

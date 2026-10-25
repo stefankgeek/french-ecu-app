@@ -1,0 +1,62 @@
+{
+  "intro": "Comprueba que el muelle controla la válvula al régimen deseado (sin flotación) y que no llega a espiras juntas.",
+  "g_cam": "Leva y régimen",
+  "g_masses": "Masas arrastradas",
+  "g_spring": "Muelle",
+  "duration_hint": "Duración a 0,050\" (1,27 mm) o anunciada",
+  "follower_hint": "Balancín o empujador; 0 si es de ataque directo",
+  "single": "Simple",
+  "dual": "Doble",
+  "in": {
+    "lift": "Alzada de válvula",
+    "duration": "Duración",
+    "rpm": "Régimen objetivo",
+    "valve": "Masa de la válvula",
+    "retainer": "Masa del platillo",
+    "springMass": "Masa del muelle",
+    "follower": "Masa empujador / balancín",
+    "rate": "Rigidez del muelle",
+    "freeHeight": "Altura libre",
+    "installed": "Altura montada",
+    "coilBind": "Altura a espiras juntas",
+    "dual": "Tipo de muelle"
+  },
+  "risk": {
+    "low": "Riesgo bajo",
+    "moderate": "Riesgo moderado",
+    "high": "Riesgo alto",
+    "critical": "Flotación segura"
+  },
+  "r": {
+    "margin": "Margen de seguridad",
+    "seat": "Fuerza con válvula cerrada",
+    "seat_note": "Precarga de {p}",
+    "open": "Fuerza con válvula abierta",
+    "required": "Fuerza necesaria al régimen",
+    "required_note": "Deceleración máx. ≈ {g} g",
+    "bind": "Reserva hasta espiras juntas",
+    "bind_note": "Recomendado: al menos 1,5 mm",
+    "rpm_limit": "Régimen máximo recomendado",
+    "rpm_limit_note": "Con un {m} % de margen",
+    "mass": "Masa en movimiento",
+    "mass_note": "Válvula + platillo + ½ muelle + empujador"
+  },
+  "warn": {
+    "increase_rate": "Margen insuficiente: muelle más rígido o piezas más ligeras (válvulas o platillos de titanio).",
+    "use_dual": "Margen insuficiente: pase a muelles dobles más rígidos o aligere el conjunto.",
+    "bind": "Reserva hasta espiras juntas demasiado pequeña: el muelle puede romperse o bloquear el árbol.",
+    "rpm": "El régimen objetivo supera el máximo recomendado para este muelle.",
+    "method": "Modelo de leva armónica: una leva agresiva (rampas cortas) requiere entre un 10 y un 20 % más de fuerza."
+  },
+  "chart": {
+    "force_title": "Fuerza del muelle y fuerza necesaria según la alzada",
+    "lift": "Alzada",
+    "force": "Fuerza",
+    "spring": "Muelle",
+    "required": "Necesaria",
+    "margin_title": "Margen de seguridad según el régimen",
+    "rpm": "Régimen",
+    "margin": "Margen",
+    "target": "Objetivo"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "intro": "Berechnet die statische, dynamische (nockenwellenabhängige) und effektive Verdichtung unter Ladedruck sowie die empfohlene Oktanzahl.",
+  "g_engine": "Motor",
+  "g_chamber": "Brennraum und Kolben",
+  "g_cam": "Nockenwelle und Aufladung",
+  "deck_hint": "Positiv: Kolben unter der Dichtfläche; negativ: Kolben steht über",
+  "ivc_hint": "Einlass schließt nach UT (Gesamtöffnungsdauer)",
+  "boost_hint": "0 bei einem Saugmotor",
+  "in": {
+    "bore": "Bohrung",
+    "stroke": "Hub",
+    "rod": "Pleuellänge (Mitte–Mitte)",
+    "cylinders": "Zylinderzahl",
+    "chamber": "Brennraumvolumen (Zylinderkopf)",
+    "gasketBore": "Bohrung der Kopfdichtung",
+    "gasketThickness": "Dicke der verpressten Dichtung",
+    "deck": "Kolbenrückstand im OT",
+    "pistonType": "Kolbenboden",
+    "pistonCc": "Volumen von Kuppel oder Mulde",
+    "reliefs": "Volumen der Ventiltaschen",
+    "ivc": "Einlass schließt",
+    "boost": "Ladedruck"
+  },
+  "piston": {
+    "flat": "Flach",
+    "dished": "Mit Mulde",
+    "domed": "Mit Kuppel"
+  },
+  "r": {
+    "static": "Statisches Verdichtungsverhältnis",
+    "dynamic": "Dynamisches Verdichtungsverhältnis",
+    "dynamic_note": "{pct} % des Hubs werden tatsächlich verdichtet",
+    "effective": "Effektive Verdichtung unter Ladedruck",
+    "effective_note": "Saugmotor-Äquivalent der aufgeladenen Füllung",
+    "octane": "Empfohlene Oktanzahl",
+    "cranking": "Theoretischer Kompressionsdruck",
+    "cranking_note": "Beim Anlassen, ohne Leckage (ein Kompressionsprüfer zeigt weniger)",
+    "gain": "Theoretischer Wirkungsgrad vs. 9:1",
+    "gain_note": "Otto-Prozess, γ = 1,3",
+    "displacement": "Gesamthubraum",
+    "clearance": "Kompressionsvolumen pro Zylinder",
+    "swept": "Hubvolumen pro Zylinder: {v}"
+  },
+  "fuel": {
+    "sp95": "Super 95 reicht",
+    "sp98": "Super Plus 98 empfohlen",
+    "race": "Rennkraftstoff (≈ 100–102)",
+    "e85": "E85 oder hochoktaniger Rennkraftstoff"
+  },
+  "warn": {
+    "high_na": "Hohe statische Verdichtung für einen Saugmotor: Nockenwelle (dynamische Verdichtung) und Kraftstoff prüfen.",
+    "high_boost": "Hohe statische Verdichtung für einen aufgeladenen Motor: Klopfen wahrscheinlich ohne hochoktanigen Kraftstoff.",
+    "low": "Niedrige Verdichtung: Wirkungsgrad und Drehmoment sinken.",
+    "indicative": "Die empfohlene Oktanzahl ist eine Werkstattregel: Zündzeitpunkt und Einspritzart spielen eine große Rolle."
+  },
+  "chart": {
+    "ivc_title": "Dynamische Verdichtung in Abhängigkeit vom Einlassschluss",
+    "ivc": "Einlass schließt (° nach UT)",
+    "dcr": "Dynamische Verdichtung",
+    "static": "Statische Verdichtung",
+    "parts_title": "Zusammensetzung des Kompressionsvolumens",
+    "volume": "Volumen"
+  },
+  "part": {
+    "chamber": "Brennraum",
+    "gasket": "Dichtung",
+    "deck": "Kolbenrückstand",
+    "piston": "Kolbenboden",
+    "reliefs": "Ventiltaschen"
+  }
+}

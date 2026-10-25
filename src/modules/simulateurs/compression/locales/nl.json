@@ -1,0 +1,71 @@
+{
+  "intro": "Berekent de statische, dynamische (nokkenasafhankelijke) en effectieve compressieverhouding onder druk, met het aanbevolen octaangetal.",
+  "g_engine": "Motor",
+  "g_chamber": "Verbrandingskamer en zuiger",
+  "g_cam": "Nokkenas en drukvulling",
+  "deck_hint": "Positief: zuiger onder het pakkingvlak; negatief: zuiger steekt uit",
+  "ivc_hint": "Inlaat sluit na ODP (opgegeven duur)",
+  "boost_hint": "0 voor een atmosferische motor",
+  "in": {
+    "bore": "Boring",
+    "stroke": "Slag",
+    "rod": "Drijfstanglengte (hart op hart)",
+    "cylinders": "Aantal cilinders",
+    "chamber": "Volume verbrandingskamer (cilinderkop)",
+    "gasketBore": "Boring koppakking",
+    "gasketThickness": "Dikte samengedrukte pakking",
+    "deck": "Zuigerterugstand in BDP",
+    "pistonType": "Zuigerbodem",
+    "pistonCc": "Volume koepel of kom",
+    "reliefs": "Volume klepuitsparingen",
+    "ivc": "Inlaat sluit",
+    "boost": "Turbodruk"
+  },
+  "piston": {
+    "flat": "Vlak",
+    "dished": "Met kom",
+    "domed": "Met koepel"
+  },
+  "r": {
+    "static": "Statische compressieverhouding",
+    "dynamic": "Dynamische compressieverhouding",
+    "dynamic_note": "{pct} % van de slag wordt echt gecomprimeerd",
+    "effective": "Effectieve verhouding onder druk",
+    "effective_note": "Atmosferisch equivalent van de vulling onder druk",
+    "octane": "Aanbevolen octaangetal",
+    "cranking": "Theoretische compressiedruk",
+    "cranking_note": "Bij starten, zonder lekkage (een compressiemeter leest lager)",
+    "gain": "Theoretisch rendement t.o.v. 9:1",
+    "gain_note": "Ottocyclus, γ = 1,3",
+    "displacement": "Totale cilinderinhoud",
+    "clearance": "Compressievolume per cilinder",
+    "swept": "Slagvolume per cilinder: {v}"
+  },
+  "fuel": {
+    "sp95": "Euro 95 volstaat",
+    "sp98": "Super 98 aanbevolen",
+    "race": "Racebrandstof (≈ 100–102)",
+    "e85": "E85 of racebrandstof met hoog octaangetal"
+  },
+  "warn": {
+    "high_na": "Hoge statische verhouding voor een atmosferische motor: controleer de nokkenas (dynamische verhouding) en de brandstof.",
+    "high_boost": "Hoge statische verhouding voor een motor met drukvulling: pingelen waarschijnlijk zonder brandstof met hoog octaangetal.",
+    "low": "Lage verhouding: rendement en koppel dalen.",
+    "indicative": "Het aanbevolen octaangetal is een werkplaatsregel: het werkelijke ontstekingstijdstip en het injectietype tellen sterk mee."
+  },
+  "chart": {
+    "ivc_title": "Dynamische verhouding afhankelijk van het sluiten van de inlaat",
+    "ivc": "Inlaat sluit (° na ODP)",
+    "dcr": "Dynamische verhouding",
+    "static": "Statische verhouding",
+    "parts_title": "Samenstelling van het compressievolume",
+    "volume": "Volume"
+  },
+  "part": {
+    "chamber": "Kamer",
+    "gasket": "Pakking",
+    "deck": "Terugstand",
+    "piston": "Zuigerbodem",
+    "reliefs": "Uitsparingen"
+  }
+}

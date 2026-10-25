@@ -1,0 +1,54 @@
+{
+  "intro": "Calcola velocità del pistone, accelerazione e forze d'inerzia, con il regime massimo consigliato.",
+  "g_geometry": "Geometria e regime",
+  "g_masses": "Masse in movimento",
+  "rod_hint": "Un terzo conta come massa alterna",
+  "in": {
+    "stroke": "Corsa",
+    "rod": "Interasse della biella",
+    "rpm": "Regime",
+    "piston": "Massa del pistone",
+    "pin": "Massa dello spinotto",
+    "rings": "Massa delle fasce",
+    "rodMass": "Massa della biella"
+  },
+  "r": {
+    "mean": "Velocità media del pistone",
+    "max": "Velocità massima del pistone",
+    "max_note": "Raggiunta a circa {a}° dopo il PMS",
+    "accel": "Accelerazione al PMS",
+    "force": "Forza d'inerzia al PMS",
+    "force_note": "Tira sulla biella a ogni giro",
+    "recip": "Massa alterna",
+    "recip_note": "Pistone + spinotto + fasce + ⅓ della biella",
+    "ratio": "Rapporto biella / corsa",
+    "limit": "Regime massimo consigliato",
+    "limit_note": "Per una velocità media di {v}"
+  },
+  "rate": {
+    "excellent": "Sollecitazione molto bassa",
+    "good": "Uso stradale sicuro",
+    "acceptable": "Sportivo: componenti di qualità",
+    "high": "Alto: componenti forgiati",
+    "extreme": "Estremo: solo competizione"
+  },
+  "rod": {
+    "increase_rod": "Biella corta: forti spinte laterali",
+    "good": "Rapporto corretto",
+    "excellent": "Ottimo rapporto"
+  },
+  "warn": {
+    "reduce_rpm": "Regime nettamente sopra il limite consigliato: riduci il regime o la corsa.",
+    "forged": "Velocità media elevata: consigliati pistoni e bielle forgiati.",
+    "heavy": "Massa alterna elevata: componenti più leggeri ridurrebbero le forze."
+  },
+  "chart": {
+    "crank_title": "Velocità e accelerazione del pistone in un giro",
+    "angle": "Angolo di manovella",
+    "velocity": "Velocità",
+    "accel": "Accelerazione",
+    "force_title": "Forza d'inerzia al PMS in funzione del regime",
+    "rpm": "Regime",
+    "force": "Forza"
+  }
+}

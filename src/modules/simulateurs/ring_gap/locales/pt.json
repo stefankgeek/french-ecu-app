@@ -1,0 +1,54 @@
+{
+  "intro": "Calcula a folga entre pontas dos segmentos em função do diâmetro e do uso do motor (método dos fabricantes de segmentos).",
+  "g_engine": "Motor",
+  "engine": {
+    "four_stroke": "4 tempos",
+    "two_stroke": "2 tempos"
+  },
+  "app": {
+    "naturally_aspirated": "Atmosférico de estrada",
+    "naturally_aspirated_racing": "Atmosférico de competição",
+    "forced_induction": "Turbo / compressor",
+    "heavy_load_high_heat": "Carga ou calor elevados (nitro, resistência)",
+    "snow_marine": "Moto de neve / náutica"
+  },
+  "in": {
+    "engine": "Tipo de motor",
+    "application": "Utilização",
+    "bore": "Diâmetro do cilindro"
+  },
+  "r": {
+    "top": "Segmento de fogo (1.º)",
+    "second": "Segmento de estanquidade (2.º)",
+    "oil": "Lâminas do segmento raspador",
+    "oil_note": "Valor mínimo",
+    "max": "Máximo tolerado: {v}",
+    "method": "Método",
+    "method_text": "Diâmetro {b}\" × {t} (1.º) e × {s} (2.º), convertido em mm."
+  },
+  "warn": {
+    "never_under": "Nunca monte uma folga inferior ao mínimo: a quente, as pontas tocam-se e o segmento parte ou risca o cilindro.",
+    "over_ok": "Uma folga ligeiramente maior (até +30 %) não tem efeito sensível na estanquidade."
+  },
+  "table": {
+    "title": "Procedimento de medição e ajuste",
+    "step": "Passo"
+  },
+  "step": {
+    "s1": "Limpe o cilindro e o segmento; meça cada segmento no cilindro onde será montado.",
+    "s2": "Coloque o segmento no cilindro e esquadre-o com um pistão invertido, cerca de 15–20 mm abaixo da face do bloco.",
+    "s3": "Meça a folga com um apalpa-folgas: deve entrar com um ligeiro atrito.",
+    "s4": "Se a folga for pequena demais, lime apenas uma ponta com uma lima de segmentos, de fora para dentro, aos poucos.",
+    "s5": "Retire a rebarba da ponta limada com uma pedra fina para não riscar o cilindro.",
+    "s6": "Verifique de novo e marque cada segmento com o seu cilindro e ranhura."
+  },
+  "chart": {
+    "title": "Folga recomendada por segmento",
+    "top": "1.º segmento",
+    "second": "2.º segmento",
+    "oil": "Raspador",
+    "gap": "Folga",
+    "min": "Mínimo",
+    "max": "Máximo tolerado"
+  }
+}

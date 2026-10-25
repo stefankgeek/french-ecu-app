@@ -1,0 +1,67 @@
+{
+  "intro": "Analizuje fazy rozrządu: zakładkę, LSA, momenty otwarcia i zamknięcia, stopień dynamiczny i zakres mocy.",
+  "g_cam": "Wałek rozrządu",
+  "g_engine": "Silnik",
+  "incl_hint": "Oś krzywki dolotowej w stopniach po GMP",
+  "excl_hint": "Oś krzywki wydechowej w stopniach przed GMP",
+  "rodratio_hint": "Długość korbowodu ÷ skok (1,6 jeśli nieznane)",
+  "in": {
+    "inDur": "Czas otwarcia dolotu (katalogowy)",
+    "exDur": "Czas otwarcia wydechu (katalogowy)",
+    "inCl": "Oś krzywki dolotowej",
+    "exCl": "Oś krzywki wydechowej",
+    "inLift": "Wznios dolotu",
+    "exLift": "Wznios wydechu",
+    "displacement": "Pojemność skokowa",
+    "cylinders": "Liczba cylindrów",
+    "boost": "Zasilanie",
+    "cr": "Statyczny stopień sprężania",
+    "rodRatio": "Stosunek korbowód / skok"
+  },
+  "induction": {
+    "na": "Wolnossący",
+    "turbo": "Turbo",
+    "supercharger": "Kompresor mechaniczny"
+  },
+  "r": {
+    "overlap": "Zakładka",
+    "lsa": "Kąt rozstawu krzywek (LSA)",
+    "advance": "Ustawienie: {a}",
+    "timing": "Otwarcia i zamknięcia",
+    "timing_text": "OD {ivo}° przed GMP · ZD {ivc}° po DMP · OW {evo}° przed DMP · ZW {evc}° po GMP",
+    "dcr": "Dynamiczny stopień sprężania",
+    "dcr_note": "Dolot zamyka się {ivc}° po DMP",
+    "band": "Szacowany zakres mocy",
+    "band_note": "Orientacyjnie: zależy też od głowicy i dolotu",
+    "vacuum": "Podciśnienie na biegu jałowym",
+    "idle": "Jakość biegu jałowego",
+    "ecu": "Strojenie ECU"
+  },
+  "usage": {
+    "street": "Drogowy",
+    "street_perf": "Sportowa droga",
+    "track": "Tor",
+    "race": "Wyścigi",
+    "drag": "Drag racing"
+  },
+  "ecu": {
+    "optional": "Opcjonalne",
+    "recommended": "Zalecane",
+    "mandatory": "Niezbędne"
+  },
+  "warn": {
+    "overlap_high": "Duża zakładka: nierówny bieg jałowy i mały moment na dole.",
+    "overlap_boost": "Dużo zakładki jak na silnik doładowany: część ładunku ucieka do wydechu.",
+    "lsa_tight": "Wąski LSA: duży moment w wąskim zakresie, trudny bieg jałowy.",
+    "lsa_wide": "Szeroki LSA: łagodny bieg jałowy, nieco mniej mocy szczytowej.",
+    "dcr_low": "Niski stopień dynamiczny: słaby dół; zwiększ stopień statyczny lub zamknij dolot wcześniej.",
+    "dcr_high": "Wysoki stopień dynamiczny w silniku wolnossącym: ryzyko spalania stukowego na zwykłym paliwie."
+  },
+  "chart": {
+    "lift_title": "Wznios zaworów w zależności od kąta obrotu wału",
+    "angle": "Kąt obrotu wału (°, 0 = GMP zakładki)",
+    "lift": "Wznios",
+    "intake": "Dolot",
+    "exhaust": "Wydech"
+  }
+}

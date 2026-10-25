@@ -1,0 +1,54 @@
+{
+  "intro": "Berechnet das Stoßspiel der Kolbenringe aus Bohrung und Einsatzzweck (Methode der Ringhersteller).",
+  "g_engine": "Motor",
+  "engine": {
+    "four_stroke": "Viertakt",
+    "two_stroke": "Zweitakt"
+  },
+  "app": {
+    "naturally_aspirated": "Saugmotor Straße",
+    "naturally_aspirated_racing": "Saugmotor Rennsport",
+    "forced_induction": "Turbo / Kompressor",
+    "heavy_load_high_heat": "Hohe Last / Hitze (Lachgas, Langstrecke)",
+    "snow_marine": "Schneemobil / Boot"
+  },
+  "in": {
+    "engine": "Motorart",
+    "application": "Einsatz",
+    "bore": "Bohrung"
+  },
+  "r": {
+    "top": "Erster Ring (Verdichtungsring)",
+    "second": "Zweiter Ring",
+    "oil": "Stahlbänder des Ölabstreifrings",
+    "oil_note": "Mindestwert",
+    "max": "Maximal zulässig: {v}",
+    "method": "Methode",
+    "method_text": "Bohrung {b}\" × {t} (1.) und × {s} (2.), in mm umgerechnet."
+  },
+  "warn": {
+    "never_under": "Nie weniger als das Mindestspiel montieren: Im warmen Zustand stoßen die Enden an, der Ring bricht oder beschädigt die Zylinderwand.",
+    "over_ok": "Ein etwas größeres Spiel (bis +30 %) hat keinen merklichen Einfluss auf die Abdichtung."
+  },
+  "table": {
+    "title": "Mess- und Anpassvorgang",
+    "step": "Schritt"
+  },
+  "step": {
+    "s1": "Zylinder und Ring reinigen; jeden Ring im Zylinder messen, in den er eingebaut wird.",
+    "s2": "Ring in die Bohrung legen und mit einem umgedrehten Kolben etwa 15–20 mm unter der Dichtfläche rechtwinklig ausrichten.",
+    "s3": "Spiel mit einer Fühlerlehre messen: Sie soll mit leichtem Widerstand hineingleiten.",
+    "s4": "Ist das Spiel zu klein, nur ein Ende mit einer Ringfeile von außen nach innen in kleinen Schritten feilen.",
+    "s5": "Das gefeilte Ende mit einem feinen Stein entgraten, damit die Zylinderwand nicht verkratzt.",
+    "s6": "Erneut prüfen und jeden Ring mit Zylinder und Nut kennzeichnen."
+  },
+  "chart": {
+    "title": "Empfohlenes Spiel je Ring",
+    "top": "1. Ring",
+    "second": "2. Ring",
+    "oil": "Ölring",
+    "gap": "Spiel",
+    "min": "Minimum",
+    "max": "Maximal zulässig"
+  }
+}

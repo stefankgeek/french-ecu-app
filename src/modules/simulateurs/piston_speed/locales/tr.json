@@ -1,0 +1,54 @@
+{
+  "intro": "Piston hızını, ivmesini ve atalet kuvvetlerini, önerilen azami devirle birlikte hesaplar.",
+  "g_geometry": "Geometri ve devir",
+  "g_masses": "Hareketli kütleler",
+  "rod_hint": "Üçte biri ileri-geri hareket eden kütle sayılır",
+  "in": {
+    "stroke": "Strok",
+    "rod": "Biyel boyu",
+    "rpm": "Devir",
+    "piston": "Piston kütlesi",
+    "pin": "Piston pimi kütlesi",
+    "rings": "Segman kütlesi",
+    "rodMass": "Biyel kütlesi"
+  },
+  "r": {
+    "mean": "Ortalama piston hızı",
+    "max": "Azami piston hızı",
+    "max_note": "ÜÖN'den yaklaşık {a}° sonra ulaşılır",
+    "accel": "ÜÖN'de ivme",
+    "force": "ÜÖN'de atalet kuvveti",
+    "force_note": "Her turda biyeli çeker",
+    "recip": "İleri-geri hareket eden kütle",
+    "recip_note": "Piston + pim + segmanlar + biyelin ⅓'ü",
+    "ratio": "Biyel / strok oranı",
+    "limit": "Önerilen azami devir",
+    "limit_note": "{v} ortalama hız için"
+  },
+  "rate": {
+    "excellent": "Çok düşük zorlanma",
+    "good": "Yol kullanımı için güvenli",
+    "acceptable": "Sportif: kaliteli parçalar gerekir",
+    "high": "Yüksek: dövme parçalar",
+    "extreme": "Aşırı: yalnızca yarış"
+  },
+  "rod": {
+    "increase_rod": "Kısa biyel: yüksek yan kuvvetler",
+    "good": "Uygun oran",
+    "excellent": "Çok iyi oran"
+  },
+  "warn": {
+    "reduce_rpm": "Devir önerilen sınırın açıkça üzerinde: devri veya stroğu azaltın.",
+    "forged": "Ortalama piston hızı yüksek: dövme piston ve biyel önerilir.",
+    "heavy": "İleri-geri kütle yüksek: daha hafif parçalar kuvvetleri azaltır."
+  },
+  "chart": {
+    "crank_title": "Bir turda piston hızı ve ivmesi",
+    "angle": "Krank açısı",
+    "velocity": "Hız",
+    "accel": "İvme",
+    "force_title": "Devire göre ÜÖN'de atalet kuvveti",
+    "rpm": "Devir",
+    "force": "Kuvvet"
+  }
+}

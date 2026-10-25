@@ -1,0 +1,67 @@
+{
+  "intro": "Analyseert de nokkenastiming: overlap, LSA, openen en sluiten, dynamische compressie en vermogensband.",
+  "g_cam": "Nokkenas",
+  "g_engine": "Motor",
+  "incl_hint": "Hartlijn inlaatnok, in graden na BDP",
+  "excl_hint": "Hartlijn uitlaatnok, in graden vóór BDP",
+  "rodratio_hint": "Drijfstanglengte ÷ slag (1,6 indien onbekend)",
+  "in": {
+    "inDur": "Duur inlaat (opgegeven)",
+    "exDur": "Duur uitlaat (opgegeven)",
+    "inCl": "Hartlijn inlaatnok",
+    "exCl": "Hartlijn uitlaatnok",
+    "inLift": "Lichthoogte inlaat",
+    "exLift": "Lichthoogte uitlaat",
+    "displacement": "Cilinderinhoud",
+    "cylinders": "Aantal cilinders",
+    "boost": "Inlaat",
+    "cr": "Statische compressieverhouding",
+    "rodRatio": "Verhouding drijfstang / slag"
+  },
+  "induction": {
+    "na": "Atmosferisch",
+    "turbo": "Turbo",
+    "supercharger": "Compressor"
+  },
+  "r": {
+    "overlap": "Overlap",
+    "lsa": "Nokhoek (LSA)",
+    "advance": "Afstelling: {a}",
+    "timing": "Openen en sluiten",
+    "timing_text": "IO {ivo}° vóór BDP · IS {ivc}° na ODP · UO {evo}° vóór ODP · US {evc}° na BDP",
+    "dcr": "Dynamische compressieverhouding",
+    "dcr_note": "Inlaat sluit {ivc}° na ODP",
+    "band": "Geschatte vermogensband",
+    "band_note": "Indicatief: hangt ook af van kop en inlaat",
+    "vacuum": "Onderdruk stationair",
+    "idle": "Kwaliteit stationair",
+    "ecu": "Herprogrammering"
+  },
+  "usage": {
+    "street": "Straat",
+    "street_perf": "Sportief op straat",
+    "track": "Circuit",
+    "race": "Wedstrijd",
+    "drag": "Dragrace"
+  },
+  "ecu": {
+    "optional": "Optioneel",
+    "recommended": "Aanbevolen",
+    "mandatory": "Onmisbaar"
+  },
+  "warn": {
+    "overlap_high": "Grote overlap: onrustig stationair en weinig koppel onderin.",
+    "overlap_boost": "Veel overlap voor een motor met drukvulling: een deel van de vulling verdwijnt in de uitlaat.",
+    "lsa_tight": "Krappe LSA: veel koppel in een smalle band, lastig stationair.",
+    "lsa_wide": "Ruime LSA: rustig stationair maar iets minder topvermogen.",
+    "dcr_low": "Lage dynamische verhouding: zwak onderin; verhoog de statische compressie of sluit de inlaat eerder.",
+    "dcr_high": "Hoge dynamische verhouding voor een atmosferische motor: kans op pingelen met gewone brandstof."
+  },
+  "chart": {
+    "lift_title": "Klepslag afhankelijk van de krukhoek",
+    "angle": "Krukhoek (°, 0 = overlap-BDP)",
+    "lift": "Lichthoogte",
+    "intake": "Inlaat",
+    "exhaust": "Uitlaat"
+  }
+}

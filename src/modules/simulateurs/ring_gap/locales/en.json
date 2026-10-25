@@ -1,0 +1,54 @@
+{
+  "intro": "Works out ring end gap from bore and engine use (ring manufacturers' method).",
+  "g_engine": "Engine",
+  "engine": {
+    "four_stroke": "4-stroke",
+    "two_stroke": "2-stroke"
+  },
+  "app": {
+    "naturally_aspirated": "Naturally aspirated street",
+    "naturally_aspirated_racing": "Naturally aspirated racing",
+    "forced_induction": "Turbo / supercharged",
+    "heavy_load_high_heat": "Heavy load / high heat (nitrous, endurance)",
+    "snow_marine": "Snowmobile / marine"
+  },
+  "in": {
+    "engine": "Engine type",
+    "application": "Use",
+    "bore": "Bore"
+  },
+  "r": {
+    "top": "Top ring",
+    "second": "Second ring",
+    "oil": "Oil ring rails",
+    "oil_note": "Minimum value",
+    "max": "Maximum allowed: {v}",
+    "method": "Method",
+    "method_text": "Bore {b}\" × {t} (top) and × {s} (second), converted to mm."
+  },
+  "warn": {
+    "never_under": "Never run less than the minimum gap: when hot, the ends butt together and the ring breaks or scores the bore.",
+    "over_ok": "A slightly larger gap (up to +30%) has no noticeable effect on sealing."
+  },
+  "table": {
+    "title": "Measuring and filing procedure",
+    "step": "Step"
+  },
+  "step": {
+    "s1": "Clean the bore and ring; measure each ring in the cylinder it will be fitted to.",
+    "s2": "Place the ring in the bore and square it with an upside-down piston, about 15–20 mm below the deck.",
+    "s3": "Measure the gap with a feeler gauge: it should slide in with light drag.",
+    "s4": "If the gap is too small, file one end only with a ring filer, from the outside in, a little at a time.",
+    "s5": "Deburr the filed end with a fine stone so it cannot scratch the bore.",
+    "s6": "Check again, then mark each ring with its cylinder and groove."
+  },
+  "chart": {
+    "title": "Recommended gap per ring",
+    "top": "Top ring",
+    "second": "Second ring",
+    "oil": "Oil ring",
+    "gap": "Gap",
+    "min": "Minimum",
+    "max": "Maximum allowed"
+  }
+}

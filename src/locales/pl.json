@@ -155,7 +155,8 @@
     "flow_velocity": "Prędkość przepływu",
     "fuel_economy": "Zużycie paliwa",
     "price_volume": "Cena paliwa",
-    "bsfc": "Jednostkowe zużycie paliwa (BSFC)"
+    "bsfc": "Jednostkowe zużycie paliwa (BSFC)",
+    "stress": "Naprężenie mechaniczne"
   },
   "update": {
     "available": "Dostępna nowa wersja",

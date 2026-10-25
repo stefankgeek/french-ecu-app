@@ -1,0 +1,54 @@
+{
+  "intro": "Calcola la luce tra le punte delle fasce in base all'alesaggio e all'uso del motore (metodo dei produttori di fasce).",
+  "g_engine": "Motore",
+  "engine": {
+    "four_stroke": "4 tempi",
+    "two_stroke": "2 tempi"
+  },
+  "app": {
+    "naturally_aspirated": "Aspirato stradale",
+    "naturally_aspirated_racing": "Aspirato da competizione",
+    "forced_induction": "Turbo / compressore",
+    "heavy_load_high_heat": "Carico o calore elevati (protossido, endurance)",
+    "snow_marine": "Motoslitta / nautica"
+  },
+  "in": {
+    "engine": "Tipo di motore",
+    "application": "Uso",
+    "bore": "Alesaggio"
+  },
+  "r": {
+    "top": "Prima fascia (di tenuta)",
+    "second": "Seconda fascia",
+    "oil": "Lamelle del raschiaolio",
+    "oil_note": "Valore minimo",
+    "max": "Massimo tollerato: {v}",
+    "method": "Metodo",
+    "method_text": "Alesaggio {b}\" × {t} (1ª) e × {s} (2ª), convertito in mm."
+  },
+  "warn": {
+    "never_under": "Non montare mai una luce inferiore al minimo: a caldo le punte si toccano e la fascia si rompe o riga il cilindro.",
+    "over_ok": "Una luce leggermente maggiore (fino a +30 %) non ha effetti apprezzabili sulla tenuta."
+  },
+  "table": {
+    "title": "Procedura di misura e aggiustaggio",
+    "step": "Passo"
+  },
+  "step": {
+    "s1": "Pulisci cilindro e fascia; misura ogni fascia nel cilindro in cui verrà montata.",
+    "s2": "Inserisci la fascia nell'alesaggio e mettila in squadra con un pistone capovolto, a circa 15–20 mm sotto il piano.",
+    "s3": "Misura la luce con uno spessimetro: deve entrare con un leggero attrito.",
+    "s4": "Se la luce è troppo piccola, lima una sola punta con l'apposita lima per fasce, dall'esterno verso l'interno, poco alla volta.",
+    "s5": "Sbava la punta limata con una pietra fine per non rigare il cilindro.",
+    "s6": "Ricontrolla, poi contrassegna ogni fascia con il suo cilindro e la sua cava."
+  },
+  "chart": {
+    "title": "Luce consigliata per fascia",
+    "top": "1ª fascia",
+    "second": "2ª fascia",
+    "oil": "Raschiaolio",
+    "gap": "Luce",
+    "min": "Minimo",
+    "max": "Massimo tollerato"
+  }
+}

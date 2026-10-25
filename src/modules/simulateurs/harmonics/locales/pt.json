@@ -1,0 +1,67 @@
+{
+  "intro": "Síntese completa do motor: potência, binário, caudal de ar, injetores, risco de detonação e diagnóstico automático.",
+  "g_engine": "Motor",
+  "g_boost": "Sobrealimentação e combustível",
+  "g_misc": "Diversos",
+  "rpm_hint": "Regime de potência máxima",
+  "in": {
+    "displacement": "Cilindrada",
+    "cylinders": "Número de cilindros",
+    "cr": "Taxa de compressão",
+    "rpm": "Regime",
+    "ve": "Rendimento volumétrico",
+    "inDuration": "Duração de admissão",
+    "boost": "Pressão de sobrealimentação",
+    "fuel": "Combustível",
+    "ambient": "Temperatura exterior",
+    "etaC": "Rendimento do compressor",
+    "icEff": "Eficácia do intercooler",
+    "rail": "Pressão de combustível",
+    "drivetrain": "Rendimento da transmissão"
+  },
+  "r": {
+    "power": "Potência do motor",
+    "power_note": "A {rpm}",
+    "torque": "Binário",
+    "wheel": "Potência às rodas",
+    "wheel_note": "Rendimento da transmissão {e} %",
+    "air": "Caudal de ar",
+    "injector": "Injetores recomendados",
+    "injector_note": "Caudal nominal a {p}, ciclo 80 %",
+    "knock": "Risco de detonação",
+    "knock_note": "Octanas necessárias ≈ {need}, combustível ≈ {have}",
+    "dcr": "Taxa de compressão dinâmica",
+    "ecr": "Taxa efetiva com pressão: {e} : 1",
+    "pr": "Relação de pressão",
+    "t2": "T.ª à saída do compressor",
+    "tman": "T.ª no coletor de admissão",
+    "otto": "Rendimento térmico teórico",
+    "otto_note": "Ciclo Otto com gases reais",
+    "runner": "Comprimento da conduta de admissão",
+    "runner_note": "Sintonizado na 4.ª harmónica",
+    "plenum": "Volume de plenum recomendado",
+    "plenum_note": "Em relação à cilindrada",
+    "heat": "Calor a dissipar",
+    "heat_note": "Para o circuito de arrefecimento"
+  },
+  "knock": {
+    "low": "Baixo",
+    "medium": "Moderado",
+    "high": "Elevado"
+  },
+  "diag": {
+    "knock_high": "Detonação muito provável: combustível com mais octanas, menos pressão ou compressão mais baixa.",
+    "knock_medium": "Detonação possível: avanço prudente e combustível de qualidade.",
+    "hot_charge": "Ar de admissão muito quente: recomenda-se um intercooler mais eficaz.",
+    "pr_high": "Relação de pressão acima de 3: verifique se o compressor se mantém na zona de bom rendimento.",
+    "big_injectors": "Injetores de grande caudal: verifique o ralenti e a linearidade em aberturas curtas.",
+    "cr_boost": "Compressão elevada para um motor sobrealimentado: a margem à detonação é reduzida.",
+    "all_ok": "Nenhum ponto bloqueante detetado nesta configuração."
+  },
+  "chart": {
+    "boost_title": "Potência e binário em função da pressão de sobrealimentação",
+    "boost": "Pressão",
+    "power": "Potência",
+    "torque": "Binário"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "intro": "Controleert of de veer de klep bij het doeltoerental onder controle houdt (geen klepzweven) en niet op blok gaat.",
+  "g_cam": "Nok en toerental",
+  "g_masses": "Aangedreven massa's",
+  "g_spring": "Veer",
+  "duration_hint": "Openingsduur bij 0,050\" (1,27 mm) of opgegeven",
+  "follower_hint": "Tuimelaar of klepstoter; 0 bij directe bediening",
+  "single": "Enkel",
+  "dual": "Dubbel",
+  "in": {
+    "lift": "Klepslag",
+    "duration": "Openingsduur",
+    "rpm": "Doeltoerental",
+    "valve": "Massa klep",
+    "retainer": "Massa veerschotel",
+    "springMass": "Massa veer",
+    "follower": "Massa stoter / tuimelaar",
+    "rate": "Veerstijfheid",
+    "freeHeight": "Vrije lengte",
+    "installed": "Inbouwlengte",
+    "coilBind": "Bloklengte",
+    "dual": "Veertype"
+  },
+  "risk": {
+    "low": "Laag risico",
+    "moderate": "Matig risico",
+    "high": "Hoog risico",
+    "critical": "Klepzweven zeker"
+  },
+  "r": {
+    "margin": "Veiligheidsmarge",
+    "seat": "Veerkracht bij gesloten klep",
+    "seat_note": "Voorspanning {p}",
+    "open": "Veerkracht bij open klep",
+    "required": "Benodigde kracht bij toerental",
+    "required_note": "Max. vertraging ≈ {g} g",
+    "bind": "Ruimte tot bloklengte",
+    "bind_note": "Aanbevolen: minstens 1,5 mm",
+    "rpm_limit": "Aanbevolen maximaal toerental",
+    "rpm_limit_note": "Met {m} % marge",
+    "mass": "Bewegende massa",
+    "mass_note": "Klep + schotel + ½ veer + stoter"
+  },
+  "warn": {
+    "increase_rate": "Marge te klein: stijvere veer of lichtere onderdelen (titanium kleppen of schotels).",
+    "use_dual": "Marge te klein: kies stijvere dubbele veren of maak het klepmechanisme lichter.",
+    "bind": "Ruimte tot bloklengte te klein: de veer kan breken of de nokkenas blokkeren.",
+    "rpm": "Het doeltoerental ligt boven het aanbevolen maximum voor deze veer.",
+    "method": "Harmonisch nokmodel: een agressieve nok (korte hellingen) vraagt 10 tot 20 % meer kracht."
+  },
+  "chart": {
+    "force_title": "Veerkracht en benodigde kracht afhankelijk van de klepslag",
+    "lift": "Klepslag",
+    "force": "Kracht",
+    "spring": "Veer",
+    "required": "Benodigd",
+    "margin_title": "Veiligheidsmarge afhankelijk van het toerental",
+    "rpm": "Toerental",
+    "margin": "Marge",
+    "target": "Doel"
+  }
+}

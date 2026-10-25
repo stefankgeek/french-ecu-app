@@ -1,0 +1,67 @@
+{
+  "intro": "Analysiert die Steuerzeiten einer Nockenwelle: Überschneidung, Spreizung (LSA), Öffnungs- und Schließzeiten, dynamische Verdichtung und Leistungsband.",
+  "g_cam": "Nockenwelle",
+  "g_engine": "Motor",
+  "incl_hint": "Einlass-Spreizung in Grad nach OT",
+  "excl_hint": "Auslass-Spreizung in Grad vor OT",
+  "rodratio_hint": "Pleuellänge ÷ Hub (1,6 falls unbekannt)",
+  "in": {
+    "inDur": "Öffnungsdauer Einlass (Katalog)",
+    "exDur": "Öffnungsdauer Auslass (Katalog)",
+    "inCl": "Einlass-Spreizung",
+    "exCl": "Auslass-Spreizung",
+    "inLift": "Ventilhub Einlass",
+    "exLift": "Ventilhub Auslass",
+    "displacement": "Hubraum",
+    "cylinders": "Zylinderzahl",
+    "boost": "Aufladung",
+    "cr": "Statische Verdichtung",
+    "rodRatio": "Verhältnis Pleuel / Hub"
+  },
+  "induction": {
+    "na": "Saugmotor",
+    "turbo": "Turbo",
+    "supercharger": "Kompressor"
+  },
+  "r": {
+    "overlap": "Überschneidung",
+    "lsa": "Nockenspreizung (LSA)",
+    "advance": "Einbaulage: {a}",
+    "timing": "Öffnungs- und Schließzeiten",
+    "timing_text": "EÖ {ivo}° v. OT · ES {ivc}° n. UT · AÖ {evo}° v. UT · AS {evc}° n. OT",
+    "dcr": "Dynamische Verdichtung",
+    "dcr_note": "Einlass schließt {ivc}° nach UT",
+    "band": "Geschätztes Leistungsband",
+    "band_note": "Richtwert: hängt auch von Kopf und Ansaugung ab",
+    "vacuum": "Unterdruck im Leerlauf",
+    "idle": "Leerlaufqualität",
+    "ecu": "Softwareanpassung"
+  },
+  "usage": {
+    "street": "Straße",
+    "street_perf": "Sportliche Straße",
+    "track": "Rennstrecke",
+    "race": "Wettbewerb",
+    "drag": "Dragrace"
+  },
+  "ecu": {
+    "optional": "Optional",
+    "recommended": "Empfohlen",
+    "mandatory": "Unverzichtbar"
+  },
+  "warn": {
+    "overlap_high": "Große Überschneidung: unruhiger Leerlauf und wenig Drehmoment unten.",
+    "overlap_boost": "Viel Überschneidung für einen aufgeladenen Motor: ein Teil der Füllung geht ins Abgas.",
+    "lsa_tight": "Enge Spreizung: viel Drehmoment in einem schmalen Band, schwieriger Leerlauf.",
+    "lsa_wide": "Weite Spreizung: ruhiger Leerlauf, etwas weniger Spitzenleistung.",
+    "dcr_low": "Niedrige dynamische Verdichtung: schwach untenherum; statische Verdichtung erhöhen oder Einlass früher schließen.",
+    "dcr_high": "Hohe dynamische Verdichtung für einen Saugmotor: Klopfgefahr mit normalem Kraftstoff."
+  },
+  "chart": {
+    "lift_title": "Ventilhub über dem Kurbelwinkel",
+    "angle": "Kurbelwinkel (°, 0 = Überschneidungs-OT)",
+    "lift": "Hub",
+    "intake": "Einlass",
+    "exhaust": "Auslass"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "intro": "Synthèse complète du moteur : puissance, couple, débit d'air, injecteurs, risque de cliquetis et diagnostic automatique.",
+  "g_engine": "Moteur",
+  "g_boost": "Suralimentation et carburant",
+  "g_misc": "Divers",
+  "rpm_hint": "Régime de puissance maxi",
+  "in": {
+    "displacement": "Cylindrée",
+    "cylinders": "Nombre de cylindres",
+    "cr": "Taux de compression",
+    "rpm": "Régime",
+    "ve": "Rendement volumétrique",
+    "inDuration": "Durée d'admission",
+    "boost": "Pression de suralimentation",
+    "fuel": "Carburant",
+    "ambient": "Température extérieure",
+    "etaC": "Rendement du compresseur",
+    "icEff": "Efficacité de l'intercooler",
+    "rail": "Pression d'essence",
+    "drivetrain": "Rendement de transmission"
+  },
+  "r": {
+    "power": "Puissance moteur",
+    "power_note": "À {rpm}",
+    "torque": "Couple",
+    "wheel": "Puissance aux roues",
+    "wheel_note": "Rendement de transmission {e} %",
+    "air": "Débit d'air",
+    "injector": "Injecteurs conseillés",
+    "injector_note": "Débit nominal à {p}, duty 80 %",
+    "knock": "Risque de cliquetis",
+    "knock_note": "Indice d'octane nécessaire ≈ {need}, carburant ≈ {have}",
+    "dcr": "Taux de compression dynamique",
+    "ecr": "Taux effectif avec pression : {e} : 1",
+    "pr": "Rapport de pression",
+    "t2": "T° en sortie de compresseur",
+    "tman": "T° au collecteur d'admission",
+    "otto": "Rendement thermique théorique",
+    "otto_note": "Cycle d'Otto avec gaz réels",
+    "runner": "Longueur de pipe d'admission",
+    "runner_note": "Accord sur la 4e harmonique",
+    "plenum": "Volume de plenum conseillé",
+    "plenum_note": "Rapporté à la cylindrée",
+    "heat": "Chaleur à évacuer",
+    "heat_note": "Vers le circuit de refroidissement"
+  },
+  "knock": {
+    "low": "Faible",
+    "medium": "Modéré",
+    "high": "Élevé"
+  },
+  "diag": {
+    "knock_high": "Cliquetis très probable : carburant à plus fort indice d'octane, moins de pression ou taux de compression plus bas.",
+    "knock_medium": "Cliquetis possible : avance à l'allumage prudente et carburant de qualité.",
+    "hot_charge": "Air d'admission très chaud : un intercooler plus efficace est conseillé.",
+    "pr_high": "Rapport de pression supérieur à 3 : vérifiez que le compresseur sort de sa zone de bon rendement.",
+    "big_injectors": "Injecteurs de gros débit : vérifiez le ralenti et la linéarité aux faibles ouvertures.",
+    "cr_boost": "Taux de compression élevé pour un moteur suralimenté : la marge au cliquetis est réduite.",
+    "all_ok": "Aucun point bloquant détecté pour cette configuration."
+  },
+  "chart": {
+    "boost_title": "Puissance et couple selon la pression de suralimentation",
+    "boost": "Pression",
+    "power": "Puissance",
+    "torque": "Couple"
+  }
+}

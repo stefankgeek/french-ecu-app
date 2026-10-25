@@ -1,0 +1,67 @@
+{
+  "intro": "Analizza la fasatura di un albero a camme: incrocio, LSA, aperture e chiusure, rapporto dinamico e arco di potenza.",
+  "g_cam": "Albero a camme",
+  "g_engine": "Motore",
+  "incl_hint": "Centro camma aspirazione, in gradi dopo il PMS",
+  "excl_hint": "Centro camma scarico, in gradi prima del PMS",
+  "rodratio_hint": "Interasse biella ÷ corsa (1,6 se sconosciuto)",
+  "in": {
+    "inDur": "Durata aspirazione (dichiarata)",
+    "exDur": "Durata scarico (dichiarata)",
+    "inCl": "Centro camma aspirazione",
+    "exCl": "Centro camma scarico",
+    "inLift": "Alzata aspirazione",
+    "exLift": "Alzata scarico",
+    "displacement": "Cilindrata",
+    "cylinders": "Numero di cilindri",
+    "boost": "Alimentazione",
+    "cr": "Rapporto di compressione statico",
+    "rodRatio": "Rapporto biella / corsa"
+  },
+  "induction": {
+    "na": "Aspirato",
+    "turbo": "Turbo",
+    "supercharger": "Compressore volumetrico"
+  },
+  "r": {
+    "overlap": "Incrocio",
+    "lsa": "Angolo tra le camme (LSA)",
+    "advance": "Fasatura: {a}",
+    "timing": "Aperture e chiusure",
+    "timing_text": "AA {ivo}° prima PMS · CA {ivc}° dopo PMI · AS {evo}° prima PMI · CS {evc}° dopo PMS",
+    "dcr": "Rapporto di compressione dinamico",
+    "dcr_note": "L'aspirazione chiude {ivc}° dopo il PMI",
+    "band": "Arco di potenza stimato",
+    "band_note": "Indicativo: dipende anche da testata e aspirazione",
+    "vacuum": "Depressione al minimo",
+    "idle": "Qualità del minimo",
+    "ecu": "Rimappatura"
+  },
+  "usage": {
+    "street": "Uso stradale",
+    "street_perf": "Strada sportiva",
+    "track": "Pista",
+    "race": "Competizione",
+    "drag": "Accelerazione (drag)"
+  },
+  "ecu": {
+    "optional": "Facoltativa",
+    "recommended": "Consigliata",
+    "mandatory": "Indispensabile"
+  },
+  "warn": {
+    "overlap_high": "Incrocio ampio: minimo irregolare e poca coppia ai bassi.",
+    "overlap_boost": "Molto incrocio per un motore sovralimentato: parte della carica finisce allo scarico.",
+    "lsa_tight": "LSA stretto: molta coppia in un arco ristretto, minimo difficile.",
+    "lsa_wide": "LSA ampio: minimo dolce ma un po' meno potenza.",
+    "dcr_low": "Rapporto dinamico basso: motore vuoto ai bassi; aumenta il rapporto statico o chiudi prima l'aspirazione.",
+    "dcr_high": "Rapporto dinamico alto per un aspirato: rischio di detonazione con benzina comune."
+  },
+  "chart": {
+    "lift_title": "Alzata delle valvole in funzione dell'angolo di manovella",
+    "angle": "Angolo di manovella (°, 0 = PMS d'incrocio)",
+    "lift": "Alzata",
+    "intake": "Aspirazione",
+    "exhaust": "Scarico"
+  }
+}

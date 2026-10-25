@@ -1,0 +1,62 @@
+{
+  "intro": "Vérifie que le ressort tient la soupape au régime visé (pas d'affolement) et qu'il ne travaille pas à spires jointives.",
+  "g_cam": "Came et régime",
+  "g_masses": "Masses entraînées",
+  "g_spring": "Ressort",
+  "duration_hint": "Durée à 0,050\" (1,27 mm) ou annoncée",
+  "follower_hint": "Linguet ou poussoir ; 0 si attaque directe",
+  "single": "Simple",
+  "dual": "Double",
+  "in": {
+    "lift": "Levée de soupape",
+    "duration": "Durée d'ouverture",
+    "rpm": "Régime visé",
+    "valve": "Masse de la soupape",
+    "retainer": "Masse de la coupelle",
+    "springMass": "Masse du ressort",
+    "follower": "Masse poussoir / culbuteur",
+    "rate": "Raideur du ressort",
+    "freeHeight": "Hauteur libre",
+    "installed": "Hauteur montée",
+    "coilBind": "Hauteur spires jointives",
+    "dual": "Type de ressort"
+  },
+  "risk": {
+    "low": "Risque faible",
+    "moderate": "Risque modéré",
+    "high": "Risque élevé",
+    "critical": "Affolement certain"
+  },
+  "r": {
+    "margin": "Marge de sécurité",
+    "seat": "Effort soupape fermée",
+    "seat_note": "Précharge de {p}",
+    "open": "Effort soupape ouverte",
+    "required": "Effort nécessaire au régime",
+    "required_note": "Décélération maxi ≈ {g} g",
+    "bind": "Réserve avant spires jointives",
+    "bind_note": "Recommandé : au moins 1,5 mm",
+    "rpm_limit": "Régime maxi conseillé",
+    "rpm_limit_note": "Avec {m} % de marge",
+    "mass": "Masse en mouvement",
+    "mass_note": "Soupape + coupelle + ½ ressort + poussoir"
+  },
+  "warn": {
+    "increase_rate": "Marge insuffisante : ressort plus raide ou pièces plus légères (soupapes, coupelles titane).",
+    "use_dual": "Marge insuffisante : passez à des ressorts doubles plus raides ou allégez l'ensemble.",
+    "bind": "Réserve avant spires jointives trop faible : le ressort risque de casser ou de bloquer l'arbre.",
+    "rpm": "Le régime visé dépasse le régime maxi conseillé pour ce ressort.",
+    "method": "Modèle de came harmonique : une came agressive (rampes courtes) demande 10 à 20 % d'effort en plus."
+  },
+  "chart": {
+    "force_title": "Effort du ressort et effort nécessaire selon la levée",
+    "lift": "Levée",
+    "force": "Effort",
+    "spring": "Ressort",
+    "required": "Nécessaire",
+    "margin_title": "Marge de sécurité selon le régime",
+    "rpm": "Régime",
+    "margin": "Marge",
+    "target": "Objectif"
+  }
+}

@@ -154,7 +154,8 @@
     "flow_velocity": "Velocidade de escoamento",
     "fuel_economy": "Consumo",
     "price_volume": "Preço do combustível",
-    "bsfc": "Consumo específico (BSFC)"
+    "bsfc": "Consumo específico (BSFC)",
+    "stress": "Tensão mecânica"
   },
   "update": {
     "available": "Nova versão disponível",

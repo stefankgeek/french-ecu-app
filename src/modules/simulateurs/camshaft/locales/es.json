@@ -1,0 +1,67 @@
+{
+  "intro": "Analiza el calado de un árbol de levas: cruce, LSA, aperturas y cierres, relación dinámica y rango de potencia.",
+  "g_cam": "Árbol de levas",
+  "g_engine": "Motor",
+  "incl_hint": "Centro de leva de admisión, en grados tras el PMS",
+  "excl_hint": "Centro de leva de escape, en grados antes del PMS",
+  "rodratio_hint": "Distancia entre ejes de biela ÷ carrera (1,6 si se desconoce)",
+  "in": {
+    "inDur": "Duración de admisión (anunciada)",
+    "exDur": "Duración de escape (anunciada)",
+    "inCl": "Centro de leva de admisión",
+    "exCl": "Centro de leva de escape",
+    "inLift": "Alzada de admisión",
+    "exLift": "Alzada de escape",
+    "displacement": "Cilindrada",
+    "cylinders": "Número de cilindros",
+    "boost": "Alimentación",
+    "cr": "Relación de compresión estática",
+    "rodRatio": "Relación biela / carrera"
+  },
+  "induction": {
+    "na": "Atmosférico",
+    "turbo": "Turbo",
+    "supercharger": "Compresor volumétrico"
+  },
+  "r": {
+    "overlap": "Cruce",
+    "lsa": "Ángulo entre levas (LSA)",
+    "advance": "Calado: {a}",
+    "timing": "Aperturas y cierres",
+    "timing_text": "AAA {ivo}° antes PMS · RCA {ivc}° tras PMI · AAE {evo}° antes PMI · RCE {evc}° tras PMS",
+    "dcr": "Relación de compresión dinámica",
+    "dcr_note": "La admisión cierra {ivc}° tras el PMI",
+    "band": "Rango de potencia estimado",
+    "band_note": "Orientativo: también depende de la culata y la admisión",
+    "vacuum": "Depresión al ralentí",
+    "idle": "Calidad del ralentí",
+    "ecu": "Reprogramación"
+  },
+  "usage": {
+    "street": "Uso en carretera",
+    "street_perf": "Carretera deportiva",
+    "track": "Circuito",
+    "race": "Competición",
+    "drag": "Aceleración (drag)"
+  },
+  "ecu": {
+    "optional": "Opcional",
+    "recommended": "Recomendada",
+    "mandatory": "Imprescindible"
+  },
+  "warn": {
+    "overlap_high": "Cruce grande: ralentí inestable y poco par a bajo régimen.",
+    "overlap_boost": "Mucho cruce para un motor sobrealimentado: parte de la carga se pierde por el escape.",
+    "lsa_tight": "LSA cerrado: mucho par en un rango estrecho, ralentí difícil.",
+    "lsa_wide": "LSA abierto: ralentí suave pero algo menos de potencia.",
+    "dcr_low": "Relación dinámica baja: poco par abajo; sube la compresión estática o cierra antes la admisión.",
+    "dcr_high": "Relación dinámica alta para un atmosférico: riesgo de picado con gasolina normal."
+  },
+  "chart": {
+    "lift_title": "Alzada de válvulas según el ángulo del cigüeñal",
+    "angle": "Ángulo del cigüeñal (°, 0 = PMS de cruce)",
+    "lift": "Alzada",
+    "intake": "Admisión",
+    "exhaust": "Escape"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "intro": "Statik, dinamik (eksantriğe bağlı) ve turbo altındaki efektif sıkıştırma oranını ve önerilen oktanı hesaplar.",
+  "g_engine": "Motor",
+  "g_chamber": "Yanma odası ve piston",
+  "g_cam": "Eksantrik ve aşırı doldurma",
+  "deck_hint": "Pozitif: piston blok yüzeyinin altında; negatif: piston taşıyor",
+  "ivc_hint": "Emme kapanışı ADN'den sonra (katalog süresi)",
+  "boost_hint": "Atmosferik motor için 0",
+  "in": {
+    "bore": "Silindir çapı",
+    "stroke": "Strok",
+    "rod": "Biyel eksenler arası mesafe",
+    "cylinders": "Silindir sayısı",
+    "chamber": "Yanma odası hacmi (kapak)",
+    "gasketBore": "Silindir kapak contası çapı",
+    "gasketThickness": "Sıkıştırılmış conta kalınlığı",
+    "deck": "ÜÖN'de piston çekikliği",
+    "pistonType": "Piston tepesi",
+    "pistonCc": "Kubbe veya çukur hacmi",
+    "reliefs": "Supap cebi hacmi",
+    "ivc": "Emme supabı kapanışı",
+    "boost": "Turbo basıncı"
+  },
+  "piston": {
+    "flat": "Düz",
+    "dished": "Çukur",
+    "domed": "Kubbeli"
+  },
+  "r": {
+    "static": "Statik sıkıştırma oranı",
+    "dynamic": "Dinamik sıkıştırma oranı",
+    "dynamic_note": "Stroğun %{pct}'i gerçekten sıkıştırılıyor",
+    "effective": "Basınç altında efektif oran",
+    "effective_note": "Basınçlı dolgunun atmosferik eşdeğeri",
+    "octane": "Önerilen oktan",
+    "cranking": "Teorik kompresyon basıncı",
+    "cranking_note": "Marşta, kaçaksız (kompresyon ölçer daha düşük gösterir)",
+    "gain": "9:1'e göre teorik verim",
+    "gain_note": "Otto çevrimi, γ = 1,3",
+    "displacement": "Toplam silindir hacmi",
+    "clearance": "Silindir başına ölü hacim",
+    "swept": "Silindir başına süpürme hacmi: {v}"
+  },
+  "fuel": {
+    "sp95": "95 oktan yeterli",
+    "sp98": "98 oktan önerilir",
+    "race": "Yarış yakıtı (≈ 100–102)",
+    "e85": "E85 veya yüksek oktanlı yarış yakıtı"
+  },
+  "warn": {
+    "high_na": "Atmosferik motor için statik oran yüksek: eksantriği (dinamik oran) ve yakıtı kontrol edin.",
+    "high_boost": "Aşırı doldurmalı motor için statik oran yüksek: yüksek oktanlı yakıt olmadan vuruntu muhtemel.",
+    "low": "Oran düşük: verim ve tork düşer.",
+    "indicative": "Önerilen oktan bir atölye kuralıdır: gerçek ateşleme avansı ve enjeksiyon tipi çok etkilidir."
+  },
+  "chart": {
+    "ivc_title": "Emme kapanışına göre dinamik oran",
+    "ivc": "Emme kapanışı (ADN sonrası °)",
+    "dcr": "Dinamik oran",
+    "static": "Statik oran",
+    "parts_title": "Ölü hacmin bileşimi",
+    "volume": "Hacim"
+  },
+  "part": {
+    "chamber": "Oda",
+    "gasket": "Conta",
+    "deck": "Çekiklik",
+    "piston": "Piston tepesi",
+    "reliefs": "Supap cepleri"
+  }
+}

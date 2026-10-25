@@ -22,13 +22,13 @@ export const MODULES = [
   { id: 'intercooler', category: 'boost', icon: 'cooler', color: '#007aff', status: 'ready', load: () => import('./simulateurs/intercooler/index.js') },
   { id: 'exhaust', category: 'boost', icon: 'exhaust', color: '#ff9f0a', status: 'ready', load: () => import('./simulateurs/exhaust/index.js') },
   // Moteur
-  { id: 'compression', category: 'engine', icon: 'piston', color: '#34c759', status: 'soon' },
-  { id: 'camshaft', category: 'engine', icon: 'cam', color: '#af52de', status: 'soon' },
-  { id: 'piston_speed', category: 'engine', icon: 'speed', color: '#ff6b6b', status: 'soon' },
-  { id: 'valve_spring', category: 'engine', icon: 'spring', color: '#bf5af2', status: 'soon' },
-  { id: 'ring_gap', category: 'engine', icon: 'ring', color: '#ff453a', status: 'soon' },
-  { id: 'conrod', category: 'engine', icon: 'conrod', color: '#7b68ee', status: 'soon' },
-  { id: 'harmonics', category: 'engine', icon: 'wave', color: '#4a90e2', status: 'soon' },
+  { id: 'compression', category: 'engine', icon: 'piston', color: '#34c759', status: 'ready', load: () => import('./simulateurs/compression/index.js') },
+  { id: 'camshaft', category: 'engine', icon: 'cam', color: '#af52de', status: 'ready', load: () => import('./simulateurs/camshaft/index.js') },
+  { id: 'piston_speed', category: 'engine', icon: 'speed', color: '#ff6b6b', status: 'ready', load: () => import('./simulateurs/piston_speed/index.js') },
+  { id: 'valve_spring', category: 'engine', icon: 'spring', color: '#bf5af2', status: 'ready', load: () => import('./simulateurs/valve_spring/index.js') },
+  { id: 'ring_gap', category: 'engine', icon: 'ring', color: '#ff453a', status: 'ready', load: () => import('./simulateurs/ring_gap/index.js') },
+  { id: 'conrod', category: 'engine', icon: 'conrod', color: '#7b68ee', status: 'ready', load: () => import('./simulateurs/conrod/index.js') },
+  { id: 'harmonics', category: 'engine', icon: 'wave', color: '#4a90e2', status: 'ready', load: () => import('./simulateurs/harmonics/index.js') },
   // Cartographie
   { id: 'ecu_map', category: 'ecu', icon: 'chip', color: '#7b68ee', status: 'soon' },
   // Châssis & refroidissement

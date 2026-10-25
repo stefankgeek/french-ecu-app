@@ -1,0 +1,67 @@
+{
+  "intro": "Eksantrik zamanlamasını analiz eder: bindirme, LSA, açılma ve kapanma noktaları, dinamik sıkıştırma ve güç bandı.",
+  "g_cam": "Eksantrik mili",
+  "g_engine": "Motor",
+  "incl_hint": "Emme lob merkezi, ÜÖN'den sonra derece",
+  "excl_hint": "Egzoz lob merkezi, ÜÖN'den önce derece",
+  "rodratio_hint": "Biyel boyu ÷ strok (bilinmiyorsa 1,6)",
+  "in": {
+    "inDur": "Emme süresi (katalog)",
+    "exDur": "Egzoz süresi (katalog)",
+    "inCl": "Emme lob merkezi",
+    "exCl": "Egzoz lob merkezi",
+    "inLift": "Emme supap kalkışı",
+    "exLift": "Egzoz supap kalkışı",
+    "displacement": "Silindir hacmi",
+    "cylinders": "Silindir sayısı",
+    "boost": "Besleme",
+    "cr": "Statik sıkıştırma oranı",
+    "rodRatio": "Biyel / strok oranı"
+  },
+  "induction": {
+    "na": "Atmosferik",
+    "turbo": "Turbo",
+    "supercharger": "Süperşarj"
+  },
+  "r": {
+    "overlap": "Bindirme",
+    "lsa": "Lob ayrım açısı (LSA)",
+    "advance": "Ayar: {a}",
+    "timing": "Açılma ve kapanma noktaları",
+    "timing_text": "EA {ivo}° ÜÖN önce · EK {ivc}° AÖN sonra · GA {evo}° AÖN önce · GK {evc}° ÜÖN sonra",
+    "dcr": "Dinamik sıkıştırma oranı",
+    "dcr_note": "Emme AÖN'den {ivc}° sonra kapanır",
+    "band": "Tahmini güç bandı",
+    "band_note": "Yaklaşık değer: silindir kapağına ve emmeye de bağlıdır",
+    "vacuum": "Rölantide vakum",
+    "idle": "Rölanti kalitesi",
+    "ecu": "ECU ayarı"
+  },
+  "usage": {
+    "street": "Yol kullanımı",
+    "street_perf": "Sportif yol",
+    "track": "Pist",
+    "race": "Yarış",
+    "drag": "Drag"
+  },
+  "ecu": {
+    "optional": "İsteğe bağlı",
+    "recommended": "Önerilir",
+    "mandatory": "Şart"
+  },
+  "warn": {
+    "overlap_high": "Bindirme fazla: düzensiz rölanti ve düşük devirde az tork.",
+    "overlap_boost": "Aşırı doldurmalı motor için bindirme fazla: dolgunun bir kısmı egzoza kaçar.",
+    "lsa_tight": "Dar LSA: dar bir bantta yüksek tork, zor rölanti.",
+    "lsa_wide": "Geniş LSA: yumuşak rölanti ama biraz daha az güç.",
+    "dcr_low": "Dinamik oran düşük: altta zayıf; statik oranı artırın veya emmeyi daha erken kapatın.",
+    "dcr_high": "Atmosferik motor için dinamik oran yüksek: normal yakıtla vuruntu riski."
+  },
+  "chart": {
+    "lift_title": "Krank açısına göre supap kalkışı",
+    "angle": "Krank açısı (°, 0 = bindirme ÜÖN)",
+    "lift": "Kalkış",
+    "intake": "Emme",
+    "exhaust": "Egzoz"
+  }
+}

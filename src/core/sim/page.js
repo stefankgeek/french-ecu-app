@@ -235,7 +235,7 @@ export function mountSimulator(root, spec) {
       <section class="panel">
         <h2 class="panel__title">${esc(tb.title)}</h2>
         ${tb.intro ? `<p class="hint">${esc(tb.intro)}</p>` : ''}
-        <div class="table-wrap"><table class="table">
+        <div class="table-wrap"><table class="table ${tb.wrap ? 'table--wrap' : ''}">
           <thead><tr>${tb.columns.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead>
           <tbody>${tb.rows.map((row) => `<tr class="${row.status ? 'is-' + row.status : ''} ${row.highlight ? 'is-highlight' : ''}">${row.cells.map((c) => `<td dir="auto">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
         </table></div>

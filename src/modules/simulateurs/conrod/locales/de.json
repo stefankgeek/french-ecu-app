@@ -1,0 +1,72 @@
+{
+  "intro": "Schätzt Kräfte und Spannungen an Pleuel, Kolbenbolzen und Hubzapfen mit Sicherheitsfaktoren.",
+  "g_engine": "Motor",
+  "g_parts": "Bauteile",
+  "rpm_hint": "Drehzahl des maximalen Drehmoments (höchster Druck)",
+  "kit_hint": "Kolben + Bolzen + Ringe + Sicherungen",
+  "shank_hint": "Kleinster Querschnitt des Pleuelschafts",
+  "in": {
+    "bore": "Bohrung",
+    "stroke": "Hub",
+    "rod": "Pleuellänge",
+    "cylinders": "Zylinderzahl",
+    "cr": "Verdichtungsverhältnis",
+    "boost": "Ladedruck",
+    "rpm": "Drehzahl max. Drehmoment",
+    "rpmMax": "Höchstdrehzahl (Begrenzer)",
+    "pistonKit": "Masse Kolben komplett",
+    "rodMass": "Pleuelmasse",
+    "material": "Pleuelwerkstoff",
+    "shankArea": "Schaftquerschnitt",
+    "pinOd": "Bolzen-Außen-Ø",
+    "pinId": "Bolzen-Innen-Ø",
+    "crankpin": "Hubzapfen-Ø",
+    "bearingWidth": "Lagerbreite"
+  },
+  "mat": {
+    "pm": "Serie, Sintermetall",
+    "forged_4340": "Geschmiedet, Stahl 4340",
+    "billet_300m": "Aus dem Vollen, Stahl 300M",
+    "alu_7075": "Aluminium 7075",
+    "titanium": "Titan"
+  },
+  "rating": {
+    "excellent": "Ausgezeichnet",
+    "good": "Gut",
+    "limit": "Grenzwertig",
+    "failure": "Bruch wahrscheinlich"
+  },
+  "r": {
+    "overall": "Gesamturteil Kurbeltrieb",
+    "overall_note": "Nach dem kleinsten Sicherheitsfaktor",
+    "peak": "Maximaler Verbrennungsdruck",
+    "peak_note": "Geschätzt aus Verdichtung und Ansaugdruck",
+    "gas": "Gaskraft auf den Kolben",
+    "comp": "Druckspannung",
+    "tens": "Zugspannung",
+    "pin": "Scherspannung im Bolzen",
+    "sf": "Sicherheit ×{f}: {v}",
+    "bearing": "Lagerdruck",
+    "bearing_note": "Empfohlen: unter 50 MPa",
+    "torque": "Geschätztes Drehmoment",
+    "torque_note": "Effektiver Mitteldruck ≈ {b} bar",
+    "power": "Geschätzte Leistung",
+    "power_note": "Bei {rpm}"
+  },
+  "warn": {
+    "failure": "Mindestens ein Bauteil überschreitet seine Grenze: Bruchgefahr. Bauteil verstärken oder Ladedruck / Drehzahl senken.",
+    "limit": "Geringe Reserve an mindestens einem Bauteil: nur gelegentlicher Einsatz, Qualitätsteile unerlässlich.",
+    "bearing": "Hoher Lagerdruck: verstärkte Lager und passendes Öl empfohlen.",
+    "method": "Schätzung: Knickung, Ermüdung und Spannungsspitzen werden nicht berechnet. Mit dem Pleuelhersteller abklären."
+  },
+  "chart": {
+    "forces_title": "Pleuelkräfte über einen Zyklus (Drehzahl max. Drehmoment)",
+    "angle": "Kurbelwinkel",
+    "force": "Kraft",
+    "rod": "Pleuel (gesamt)",
+    "gas": "Gas",
+    "inertia": "Massenkraft",
+    "pressure_title": "Zylinderdruck",
+    "pressure": "Druck"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "intro": "Yayın hedef devirde supabı kontrol edip etmediğini (supap yüzmesi olmadan) ve sarımların birbirine değmediğini kontrol eder.",
+  "g_cam": "Kam ve devir",
+  "g_masses": "Tahrik edilen kütleler",
+  "g_spring": "Yay",
+  "duration_hint": "0,050\" (1,27 mm) açıklık süresi veya katalog değeri",
+  "follower_hint": "Külbütör veya itici; doğrudan tahrikte 0",
+  "single": "Tekli",
+  "dual": "Çiftli",
+  "in": {
+    "lift": "Supap kalkışı",
+    "duration": "Açık kalma süresi",
+    "rpm": "Hedef devir",
+    "valve": "Supap kütlesi",
+    "retainer": "Yay tablası kütlesi",
+    "springMass": "Yay kütlesi",
+    "follower": "İtici / külbütör kütlesi",
+    "rate": "Yay sertliği",
+    "freeHeight": "Serbest boy",
+    "installed": "Montaj boyu",
+    "coilBind": "Sarım temas boyu",
+    "dual": "Yay tipi"
+  },
+  "risk": {
+    "low": "Düşük risk",
+    "moderate": "Orta risk",
+    "high": "Yüksek risk",
+    "critical": "Supap yüzmesi kesin"
+  },
+  "r": {
+    "margin": "Güvenlik payı",
+    "seat": "Supap kapalıyken kuvvet",
+    "seat_note": "{p} ön yük",
+    "open": "Supap açıkken kuvvet",
+    "required": "Devirde gereken kuvvet",
+    "required_note": "Azami yavaşlama ≈ {g} g",
+    "bind": "Sarım temasına kalan pay",
+    "bind_note": "Önerilen: en az 1,5 mm",
+    "rpm_limit": "Önerilen azami devir",
+    "rpm_limit_note": "%{m} pay ile",
+    "mass": "Hareketli kütle",
+    "mass_note": "Supap + tabla + ½ yay + itici"
+  },
+  "warn": {
+    "increase_rate": "Pay yetersiz: daha sert yay veya daha hafif parçalar (titanyum supap veya tabla).",
+    "use_dual": "Pay yetersiz: daha sert çiftli yaylara geçin veya supap mekanizmasını hafifletin.",
+    "bind": "Sarım temasına kalan pay çok az: yay kırılabilir veya eksantriği kilitleyebilir.",
+    "rpm": "Hedef devir bu yay için önerilen azami devri aşıyor.",
+    "method": "Harmonik kam modeli: agresif bir kam (kısa rampalar) %10–20 daha fazla kuvvet gerektirir."
+  },
+  "chart": {
+    "force_title": "Kalkışa göre yay kuvveti ve gereken kuvvet",
+    "lift": "Kalkış",
+    "force": "Kuvvet",
+    "spring": "Yay",
+    "required": "Gereken",
+    "margin_title": "Devire göre güvenlik payı",
+    "rpm": "Devir",
+    "margin": "Pay",
+    "target": "Hedef"
+  }
+}

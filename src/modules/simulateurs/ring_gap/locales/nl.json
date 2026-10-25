@@ -1,0 +1,54 @@
+{
+  "intro": "Berekent de stootvoeg van de zuigerveren op basis van boring en gebruik (methode van de verenfabrikanten).",
+  "g_engine": "Motor",
+  "engine": {
+    "four_stroke": "Viertakt",
+    "two_stroke": "Tweetakt"
+  },
+  "app": {
+    "naturally_aspirated": "Atmosferisch straat",
+    "naturally_aspirated_racing": "Atmosferisch race",
+    "forced_induction": "Turbo / compressor",
+    "heavy_load_high_heat": "Zware belasting / hitte (lachgas, endurance)",
+    "snow_marine": "Sneeuwscooter / marine"
+  },
+  "in": {
+    "engine": "Motortype",
+    "application": "Gebruik",
+    "bore": "Boring"
+  },
+  "r": {
+    "top": "Bovenste veer (compressieveer)",
+    "second": "Tweede veer",
+    "oil": "Stalen lamellen van de olieveer",
+    "oil_note": "Minimumwaarde",
+    "max": "Maximaal toegestaan: {v}",
+    "method": "Methode",
+    "method_text": "Boring {b}\" × {t} (1e) en × {s} (2e), omgerekend naar mm."
+  },
+  "warn": {
+    "never_under": "Monteer nooit minder dan de minimale voeg: warm raken de uiteinden elkaar en breekt de veer of beschadigt ze de cilinder.",
+    "over_ok": "Een iets grotere voeg (tot +30 %) heeft geen merkbaar effect op de afdichting."
+  },
+  "table": {
+    "title": "Meet- en afstelprocedure",
+    "step": "Stap"
+  },
+  "step": {
+    "s1": "Reinig cilinder en veer; meet elke veer in de cilinder waarin ze gemonteerd wordt.",
+    "s2": "Plaats de veer in de boring en zet ze haaks met een omgekeerde zuiger, ongeveer 15–20 mm onder het blokvlak.",
+    "s3": "Meet de voeg met een voelermaat: die moet er met lichte weerstand in schuiven.",
+    "s4": "Is de voeg te klein, vijl dan slechts één uiteinde met een verenvijl, van buiten naar binnen, telkens een beetje.",
+    "s5": "Ontbraam het gevijlde uiteinde met een fijne steen zodat de cilinder niet bekrast.",
+    "s6": "Controleer opnieuw en markeer elke veer met haar cilinder en groef."
+  },
+  "chart": {
+    "title": "Aanbevolen voeg per veer",
+    "top": "1e veer",
+    "second": "2e veer",
+    "oil": "Olieveer",
+    "gap": "Voeg",
+    "min": "Minimum",
+    "max": "Maximaal toegestaan"
+  }
+}

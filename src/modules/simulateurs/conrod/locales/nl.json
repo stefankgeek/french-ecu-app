@@ -1,0 +1,72 @@
+{
+  "intro": "Schat krachten en spanningen op drijfstang, zuigerpen en kruktap, met veiligheidsfactoren.",
+  "g_engine": "Motor",
+  "g_parts": "Onderdelen",
+  "rpm_hint": "Toerental van maximaal koppel (hoogste druk)",
+  "kit_hint": "Zuiger + pen + veren + borgclips",
+  "shank_hint": "Kleinste doorsnede van de drijfstangschacht",
+  "in": {
+    "bore": "Boring",
+    "stroke": "Slag",
+    "rod": "Drijfstanglengte",
+    "cylinders": "Aantal cilinders",
+    "cr": "Compressieverhouding",
+    "boost": "Laaddruk",
+    "rpm": "Toerental max. koppel",
+    "rpmMax": "Maximaal toerental (begrenzer)",
+    "pistonKit": "Massa complete zuiger",
+    "rodMass": "Massa drijfstang",
+    "material": "Materiaal drijfstang",
+    "shankArea": "Doorsnede schacht",
+    "pinOd": "Buiten-Ø zuigerpen",
+    "pinId": "Binnen-Ø zuigerpen",
+    "crankpin": "Ø kruktap",
+    "bearingWidth": "Lagerbreedte"
+  },
+  "mat": {
+    "pm": "Origineel, gesinterd",
+    "forged_4340": "Gesmeed staal 4340",
+    "billet_300m": "Uit massief staal 300M",
+    "alu_7075": "Aluminium 7075",
+    "titanium": "Titanium"
+  },
+  "rating": {
+    "excellent": "Uitstekend",
+    "good": "Goed",
+    "limit": "Grensgeval",
+    "failure": "Breuk waarschijnlijk"
+  },
+  "r": {
+    "overall": "Oordeel krukmechanisme",
+    "overall_note": "Op basis van de laagste veiligheidsfactor",
+    "peak": "Maximale verbrandingsdruk",
+    "peak_note": "Geschat uit compressie en inlaatdruk",
+    "gas": "Gaskracht op de zuiger",
+    "comp": "Drukspanning",
+    "tens": "Trekspanning",
+    "pin": "Afschuifspanning pen",
+    "sf": "Veiligheid ×{f}: {v}",
+    "bearing": "Lagerdruk",
+    "bearing_note": "Aanbevolen: onder 50 MPa",
+    "torque": "Geschat koppel",
+    "torque_note": "Gemiddelde effectieve druk ≈ {b} bar",
+    "power": "Geschat vermogen",
+    "power_note": "Bij {rpm}"
+  },
+  "warn": {
+    "failure": "Minstens één onderdeel overschrijdt zijn grens: breukgevaar. Versterk dat onderdeel of verlaag laaddruk / toerental.",
+    "limit": "Kleine marge op minstens één onderdeel: alleen incidenteel gebruik, kwaliteitsonderdelen noodzakelijk.",
+    "bearing": "Hoge lagerdruk: versterkte lagers en geschikte olie aanbevolen.",
+    "method": "Schatting: knik, vermoeiing en spanningsconcentraties worden niet berekend. Controleer bij de drijfstangfabrikant."
+  },
+  "chart": {
+    "forces_title": "Drijfstangkrachten over één cyclus (toerental max. koppel)",
+    "angle": "Krukhoek",
+    "force": "Kracht",
+    "rod": "Drijfstang (totaal)",
+    "gas": "Gas",
+    "inertia": "Traagheid",
+    "pressure_title": "Cilinderdruk",
+    "pressure": "Druk"
+  }
+}

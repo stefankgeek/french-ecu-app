@@ -1,0 +1,71 @@
+{
+  "intro": "Works out static, dynamic (camshaft-dependent) and effective boosted compression ratio, with the recommended octane.",
+  "g_engine": "Engine",
+  "g_chamber": "Chamber and piston",
+  "g_cam": "Camshaft and boost",
+  "deck_hint": "Positive: piston below the deck; negative: piston above the deck",
+  "ivc_hint": "Intake closing after BDC (advertised duration)",
+  "boost_hint": "0 for a naturally aspirated engine",
+  "in": {
+    "bore": "Bore",
+    "stroke": "Stroke",
+    "rod": "Rod length (centre to centre)",
+    "cylinders": "Number of cylinders",
+    "chamber": "Combustion chamber volume (head)",
+    "gasketBore": "Head gasket bore",
+    "gasketThickness": "Compressed gasket thickness",
+    "deck": "Piston deck clearance at TDC",
+    "pistonType": "Piston crown",
+    "pistonCc": "Dome or dish volume",
+    "reliefs": "Valve relief volume",
+    "ivc": "Intake valve closing",
+    "boost": "Boost pressure"
+  },
+  "piston": {
+    "flat": "Flat top",
+    "dished": "Dished",
+    "domed": "Domed"
+  },
+  "r": {
+    "static": "Static compression ratio",
+    "dynamic": "Dynamic compression ratio",
+    "dynamic_note": "{pct}% of the stroke actually compressed",
+    "effective": "Effective ratio under boost",
+    "effective_note": "Naturally aspirated equivalent of the boosted charge",
+    "octane": "Recommended octane",
+    "cranking": "Theoretical cranking pressure",
+    "cranking_note": "At cranking speed, no leakage (a gauge reads lower)",
+    "gain": "Theoretical efficiency vs 9:1",
+    "gain_note": "Otto cycle, γ = 1.3",
+    "displacement": "Total displacement",
+    "clearance": "Clearance volume per cylinder",
+    "swept": "Swept volume per cylinder: {v}"
+  },
+  "fuel": {
+    "sp95": "95 RON is enough",
+    "sp98": "98 RON recommended",
+    "race": "Race fuel (≈ 100–102)",
+    "e85": "E85 or high-octane race fuel"
+  },
+  "warn": {
+    "high_na": "High static ratio for a naturally aspirated engine: check the camshaft (dynamic ratio) and the fuel.",
+    "high_boost": "High static ratio for a boosted engine: knock is likely without high-octane fuel.",
+    "low": "Low ratio: efficiency and torque drop.",
+    "indicative": "The recommended octane is a workshop rule: actual ignition timing and injection type matter a lot."
+  },
+  "chart": {
+    "ivc_title": "Dynamic ratio versus intake closing",
+    "ivc": "Intake closing (° after BDC)",
+    "dcr": "Dynamic ratio",
+    "static": "Static ratio",
+    "parts_title": "Clearance volume breakdown",
+    "volume": "Volume"
+  },
+  "part": {
+    "chamber": "Chamber",
+    "gasket": "Gasket",
+    "deck": "Deck clearance",
+    "piston": "Piston crown",
+    "reliefs": "Valve reliefs"
+  }
+}

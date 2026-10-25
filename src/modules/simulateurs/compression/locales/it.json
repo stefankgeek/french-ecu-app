@@ -1,0 +1,71 @@
+{
+  "intro": "Calcola il rapporto di compressione statico, dinamico (in base all'albero a camme) ed effettivo in sovralimentazione, con il numero di ottano consigliato.",
+  "g_engine": "Motore",
+  "g_chamber": "Camera e pistone",
+  "g_cam": "Albero a camme e sovralimentazione",
+  "deck_hint": "Positivo: pistone sotto il piano della testata; negativo: pistone sporgente",
+  "ivc_hint": "Chiusura aspirazione dopo il PMI (durata dichiarata)",
+  "boost_hint": "0 per un motore aspirato",
+  "in": {
+    "bore": "Alesaggio",
+    "stroke": "Corsa",
+    "rod": "Interasse della biella",
+    "cylinders": "Numero di cilindri",
+    "chamber": "Volume della camera (testata)",
+    "gasketBore": "Diametro della guarnizione di testa",
+    "gasketThickness": "Spessore della guarnizione compressa",
+    "deck": "Arretramento del pistone al PMS",
+    "pistonType": "Cielo del pistone",
+    "pistonCc": "Volume della cupola o dello scavo",
+    "reliefs": "Volume degli incavi valvole",
+    "ivc": "Chiusura dell'aspirazione",
+    "boost": "Pressione di sovralimentazione"
+  },
+  "piston": {
+    "flat": "Piatto",
+    "dished": "Con scavo",
+    "domed": "Con cupola"
+  },
+  "r": {
+    "static": "Rapporto di compressione statico",
+    "dynamic": "Rapporto di compressione dinamico",
+    "dynamic_note": "{pct} % della corsa realmente compressa",
+    "effective": "Rapporto effettivo in pressione",
+    "effective_note": "Equivalente aspirato della carica sovralimentata",
+    "octane": "Ottano consigliato",
+    "cranking": "Pressione di compressione teorica",
+    "cranking_note": "Al trascinamento, senza perdite (un compressometro legge meno)",
+    "gain": "Rendimento teorico rispetto a 9:1",
+    "gain_note": "Ciclo Otto, γ = 1,3",
+    "displacement": "Cilindrata totale",
+    "clearance": "Volume morto per cilindro",
+    "swept": "Volume spazzato per cilindro: {v}"
+  },
+  "fuel": {
+    "sp95": "Basta la 95",
+    "sp98": "Consigliata la 98",
+    "race": "Carburante da competizione (≈ 100–102)",
+    "e85": "E85 o carburante da competizione ad alto ottano"
+  },
+  "warn": {
+    "high_na": "Rapporto statico elevato per un aspirato: controlla l'albero a camme (rapporto dinamico) e il carburante.",
+    "high_boost": "Rapporto statico elevato per un motore sovralimentato: detonazione probabile senza carburante ad alto ottano.",
+    "low": "Rapporto basso: rendimento e coppia in calo.",
+    "indicative": "L'ottano consigliato è una regola d'officina: l'anticipo realmente usato e il tipo di iniezione contano molto."
+  },
+  "chart": {
+    "ivc_title": "Rapporto dinamico in funzione della chiusura dell'aspirazione",
+    "ivc": "Chiusura aspirazione (° dopo PMI)",
+    "dcr": "Rapporto dinamico",
+    "static": "Rapporto statico",
+    "parts_title": "Composizione del volume morto",
+    "volume": "Volume"
+  },
+  "part": {
+    "chamber": "Camera",
+    "gasket": "Guarnizione",
+    "deck": "Arretramento",
+    "piston": "Cielo pistone",
+    "reliefs": "Incavi"
+  }
+}

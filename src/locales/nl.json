@@ -153,7 +153,8 @@
     "flow_velocity": "Stroomsnelheid",
     "fuel_economy": "Verbruik",
     "price_volume": "Brandstofprijs",
-    "bsfc": "Specifiek verbruik (BSFC)"
+    "bsfc": "Specifiek verbruik (BSFC)",
+    "stress": "Mechanische spanning"
   },
   "update": {
     "available": "Nieuwe versie beschikbaar",

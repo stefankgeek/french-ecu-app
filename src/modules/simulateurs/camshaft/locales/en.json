@@ -1,0 +1,67 @@
+{
+  "intro": "Analyses camshaft timing: overlap, LSA, opening and closing points, dynamic compression and powerband.",
+  "g_cam": "Camshaft",
+  "g_engine": "Engine",
+  "incl_hint": "Intake centreline, degrees after TDC",
+  "excl_hint": "Exhaust centreline, degrees before TDC",
+  "rodratio_hint": "Rod length ÷ stroke (1.6 if unknown)",
+  "in": {
+    "inDur": "Intake duration (advertised)",
+    "exDur": "Exhaust duration (advertised)",
+    "inCl": "Intake centreline",
+    "exCl": "Exhaust centreline",
+    "inLift": "Intake lift",
+    "exLift": "Exhaust lift",
+    "displacement": "Displacement",
+    "cylinders": "Number of cylinders",
+    "boost": "Induction",
+    "cr": "Static compression ratio",
+    "rodRatio": "Rod / stroke ratio"
+  },
+  "induction": {
+    "na": "Naturally aspirated",
+    "turbo": "Turbo",
+    "supercharger": "Supercharger"
+  },
+  "r": {
+    "overlap": "Overlap",
+    "lsa": "Lobe separation angle (LSA)",
+    "advance": "Installed advance: {a}",
+    "timing": "Opening and closing points",
+    "timing_text": "IVO {ivo}° BTDC · IVC {ivc}° ABDC · EVO {evo}° BBDC · EVC {evc}° ATDC",
+    "dcr": "Dynamic compression ratio",
+    "dcr_note": "Intake closes {ivc}° after BDC",
+    "band": "Estimated powerband",
+    "band_note": "Indicative: also depends on the head and intake",
+    "vacuum": "Idle vacuum",
+    "idle": "Idle quality",
+    "ecu": "ECU tuning"
+  },
+  "usage": {
+    "street": "Street",
+    "street_perf": "Fast road",
+    "track": "Track",
+    "race": "Race",
+    "drag": "Drag racing"
+  },
+  "ecu": {
+    "optional": "Optional",
+    "recommended": "Recommended",
+    "mandatory": "Essential"
+  },
+  "warn": {
+    "overlap_high": "Large overlap: rough idle and little low-rpm torque.",
+    "overlap_boost": "A lot of overlap for a boosted engine: part of the charge is lost to the exhaust.",
+    "lsa_tight": "Tight LSA: strong torque over a narrow band, difficult idle.",
+    "lsa_wide": "Wide LSA: smooth idle but slightly less peak power.",
+    "dcr_low": "Low dynamic ratio: weak low end; raise static compression or close the intake earlier.",
+    "dcr_high": "High dynamic ratio for a naturally aspirated engine: knock risk on pump fuel."
+  },
+  "chart": {
+    "lift_title": "Valve lift versus crank angle",
+    "angle": "Crank angle (°, 0 = overlap TDC)",
+    "lift": "Lift",
+    "intake": "Intake",
+    "exhaust": "Exhaust"
+  }
+}

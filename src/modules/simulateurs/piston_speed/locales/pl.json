@@ -1,0 +1,54 @@
+{
+  "intro": "Oblicza prędkość tłoka, przyspieszenie i siły bezwładności oraz zalecane maksymalne obroty.",
+  "g_geometry": "Geometria i obroty",
+  "g_masses": "Masy w ruchu",
+  "rod_hint": "Jedna trzecia liczy się jako masa posuwista",
+  "in": {
+    "stroke": "Skok",
+    "rod": "Rozstaw osi korbowodu",
+    "rpm": "Obroty",
+    "piston": "Masa tłoka",
+    "pin": "Masa sworznia",
+    "rings": "Masa pierścieni",
+    "rodMass": "Masa korbowodu"
+  },
+  "r": {
+    "mean": "Średnia prędkość tłoka",
+    "max": "Maksymalna prędkość tłoka",
+    "max_note": "Osiągana około {a}° po GMP",
+    "accel": "Przyspieszenie w GMP",
+    "force": "Siła bezwładności w GMP",
+    "force_note": "Rozciąga korbowód przy każdym obrocie",
+    "recip": "Masa posuwista",
+    "recip_note": "Tłok + sworzeń + pierścienie + ⅓ korbowodu",
+    "ratio": "Stosunek korbowód / skok",
+    "limit": "Zalecane maksymalne obroty",
+    "limit_note": "Przy średniej prędkości {v}"
+  },
+  "rate": {
+    "excellent": "Bardzo małe obciążenie",
+    "good": "Bezpieczne w ruchu drogowym",
+    "acceptable": "Sportowe: części dobrej jakości",
+    "high": "Wysokie: części kute",
+    "extreme": "Ekstremalne: tylko wyścigi"
+  },
+  "rod": {
+    "increase_rod": "Krótki korbowód: duże siły boczne",
+    "good": "Poprawny stosunek",
+    "excellent": "Bardzo dobry stosunek"
+  },
+  "warn": {
+    "reduce_rpm": "Obroty wyraźnie powyżej zalecanego limitu: zmniejsz obroty lub skok.",
+    "forged": "Wysoka średnia prędkość tłoka: zalecane kute tłoki i korbowody.",
+    "heavy": "Duża masa posuwista: lżejsze części zmniejszyłyby obciążenia."
+  },
+  "chart": {
+    "crank_title": "Prędkość i przyspieszenie tłoka w ciągu jednego obrotu",
+    "angle": "Kąt obrotu wału",
+    "velocity": "Prędkość",
+    "accel": "Przyspieszenie",
+    "force_title": "Siła bezwładności w GMP w zależności od obrotów",
+    "rpm": "Obroty",
+    "force": "Siła"
+  }
+}

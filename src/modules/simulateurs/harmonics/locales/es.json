@@ -1,0 +1,67 @@
+{
+  "intro": "Síntesis completa del motor: potencia, par, caudal de aire, inyectores, riesgo de picado y diagnóstico automático.",
+  "g_engine": "Motor",
+  "g_boost": "Sobrealimentación y combustible",
+  "g_misc": "Varios",
+  "rpm_hint": "Régimen de potencia máxima",
+  "in": {
+    "displacement": "Cilindrada",
+    "cylinders": "Número de cilindros",
+    "cr": "Relación de compresión",
+    "rpm": "Régimen",
+    "ve": "Rendimiento volumétrico",
+    "inDuration": "Duración de admisión",
+    "boost": "Presión de sobrealimentación",
+    "fuel": "Combustible",
+    "ambient": "Temperatura exterior",
+    "etaC": "Rendimiento del compresor",
+    "icEff": "Eficacia del intercooler",
+    "rail": "Presión de combustible",
+    "drivetrain": "Rendimiento de la transmisión"
+  },
+  "r": {
+    "power": "Potencia del motor",
+    "power_note": "A {rpm}",
+    "torque": "Par",
+    "wheel": "Potencia en rueda",
+    "wheel_note": "Rendimiento de transmisión {e} %",
+    "air": "Caudal de aire",
+    "injector": "Inyectores recomendados",
+    "injector_note": "Caudal nominal a {p}, ciclo 80 %",
+    "knock": "Riesgo de picado",
+    "knock_note": "Octanaje necesario ≈ {need}, combustible ≈ {have}",
+    "dcr": "Relación de compresión dinámica",
+    "ecr": "Relación efectiva con presión: {e} : 1",
+    "pr": "Relación de presión",
+    "t2": "T.ª a la salida del compresor",
+    "tman": "T.ª en el colector de admisión",
+    "otto": "Rendimiento térmico teórico",
+    "otto_note": "Ciclo Otto con gases reales",
+    "runner": "Longitud del conducto de admisión",
+    "runner_note": "Sintonizado en el 4.º armónico",
+    "plenum": "Volumen de plénum recomendado",
+    "plenum_note": "En relación con la cilindrada",
+    "heat": "Calor a evacuar",
+    "heat_note": "Hacia el circuito de refrigeración"
+  },
+  "knock": {
+    "low": "Bajo",
+    "medium": "Moderado",
+    "high": "Alto"
+  },
+  "diag": {
+    "knock_high": "Picado muy probable: combustible de más octanos, menos presión o menor compresión.",
+    "knock_medium": "Picado posible: avance de encendido prudente y combustible de calidad.",
+    "hot_charge": "Aire de admisión muy caliente: se recomienda un intercooler más eficaz.",
+    "pr_high": "Relación de presión superior a 3: compruebe que el compresor sigue en su zona de buen rendimiento.",
+    "big_injectors": "Inyectores de gran caudal: compruebe el ralentí y la linealidad con aperturas cortas.",
+    "cr_boost": "Compresión elevada para un motor sobrealimentado: el margen frente al picado se reduce.",
+    "all_ok": "No se detecta ningún punto bloqueante en esta configuración."
+  },
+  "chart": {
+    "boost_title": "Potencia y par según la presión de sobrealimentación",
+    "boost": "Presión",
+    "power": "Potencia",
+    "torque": "Par"
+  }
+}

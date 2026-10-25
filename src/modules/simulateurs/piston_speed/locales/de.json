@@ -1,0 +1,54 @@
+{
+  "intro": "Berechnet Kolbengeschwindigkeit, Beschleunigung und Massenkräfte sowie die empfohlene Höchstdrehzahl.",
+  "g_geometry": "Geometrie und Drehzahl",
+  "g_masses": "Bewegte Massen",
+  "rod_hint": "Ein Drittel zählt als oszillierende Masse",
+  "in": {
+    "stroke": "Hub",
+    "rod": "Pleuellänge",
+    "rpm": "Drehzahl",
+    "piston": "Kolbenmasse",
+    "pin": "Masse des Kolbenbolzens",
+    "rings": "Masse der Kolbenringe",
+    "rodMass": "Pleuelmasse"
+  },
+  "r": {
+    "mean": "Mittlere Kolbengeschwindigkeit",
+    "max": "Maximale Kolbengeschwindigkeit",
+    "max_note": "Erreicht bei etwa {a}° nach OT",
+    "accel": "Beschleunigung im OT",
+    "force": "Massenkraft im OT",
+    "force_note": "Zieht bei jeder Umdrehung am Pleuel",
+    "recip": "Oszillierende Masse",
+    "recip_note": "Kolben + Bolzen + Ringe + ⅓ des Pleuels",
+    "ratio": "Verhältnis Pleuel / Hub",
+    "limit": "Empfohlene Höchstdrehzahl",
+    "limit_note": "Für eine mittlere Geschwindigkeit von {v}"
+  },
+  "rate": {
+    "excellent": "Sehr geringe Belastung",
+    "good": "Sicher im Straßenbetrieb",
+    "acceptable": "Sportlich: Qualitätsteile nötig",
+    "high": "Hoch: geschmiedete Teile",
+    "extreme": "Extrem: nur Motorsport"
+  },
+  "rod": {
+    "increase_rod": "Kurzes Pleuel: hohe Seitenkräfte",
+    "good": "Gutes Verhältnis",
+    "excellent": "Sehr gutes Verhältnis"
+  },
+  "warn": {
+    "reduce_rpm": "Drehzahl deutlich über der empfohlenen Grenze: Drehzahl oder Hub reduzieren.",
+    "forged": "Hohe mittlere Kolbengeschwindigkeit: geschmiedete Kolben und Pleuel empfohlen.",
+    "heavy": "Hohe oszillierende Masse: leichtere Teile würden die Kräfte verringern."
+  },
+  "chart": {
+    "crank_title": "Kolbengeschwindigkeit und -beschleunigung über eine Umdrehung",
+    "angle": "Kurbelwinkel",
+    "velocity": "Geschwindigkeit",
+    "accel": "Beschleunigung",
+    "force_title": "Massenkraft im OT über der Drehzahl",
+    "rpm": "Drehzahl",
+    "force": "Kraft"
+  }
+}

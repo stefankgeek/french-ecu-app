@@ -1,0 +1,67 @@
+{
+  "intro": "Komplette Motorsynthese: Leistung, Drehmoment, Luftdurchsatz, Einspritzdüsen, Klopfrisiko und automatische Diagnose.",
+  "g_engine": "Motor",
+  "g_boost": "Aufladung und Kraftstoff",
+  "g_misc": "Sonstiges",
+  "rpm_hint": "Drehzahl der Höchstleistung",
+  "in": {
+    "displacement": "Hubraum",
+    "cylinders": "Zylinderzahl",
+    "cr": "Verdichtungsverhältnis",
+    "rpm": "Drehzahl",
+    "ve": "Liefergrad",
+    "inDuration": "Einlass-Öffnungsdauer",
+    "boost": "Ladedruck",
+    "fuel": "Kraftstoff",
+    "ambient": "Außentemperatur",
+    "etaC": "Verdichterwirkungsgrad",
+    "icEff": "Wirkungsgrad Ladeluftkühler",
+    "rail": "Kraftstoffdruck",
+    "drivetrain": "Wirkungsgrad Antriebsstrang"
+  },
+  "r": {
+    "power": "Motorleistung",
+    "power_note": "Bei {rpm}",
+    "torque": "Drehmoment",
+    "wheel": "Radleistung",
+    "wheel_note": "Wirkungsgrad Antriebsstrang {e} %",
+    "air": "Luftdurchsatz",
+    "injector": "Empfohlene Einspritzdüsen",
+    "injector_note": "Nenndurchfluss bei {p}, 80 % Tastverhältnis",
+    "knock": "Klopfrisiko",
+    "knock_note": "Benötigte Oktanzahl ≈ {need}, Kraftstoff ≈ {have}",
+    "dcr": "Dynamisches Verdichtungsverhältnis",
+    "ecr": "Effektives Verhältnis mit Ladedruck: {e} : 1",
+    "pr": "Druckverhältnis",
+    "t2": "Temperatur nach Verdichter",
+    "tman": "Temperatur im Ansaugkrümmer",
+    "otto": "Theoretischer thermischer Wirkungsgrad",
+    "otto_note": "Otto-Kreisprozess mit realen Gasen",
+    "runner": "Länge des Saugrohrs",
+    "runner_note": "Abgestimmt auf die 4. Harmonische",
+    "plenum": "Empfohlenes Sammlervolumen",
+    "plenum_note": "Bezogen auf den Hubraum",
+    "heat": "Abzuführende Wärme",
+    "heat_note": "An den Kühlkreislauf"
+  },
+  "knock": {
+    "low": "Gering",
+    "medium": "Mäßig",
+    "high": "Hoch"
+  },
+  "diag": {
+    "knock_high": "Klopfen sehr wahrscheinlich: Kraftstoff mit höherer Oktanzahl, weniger Ladedruck oder geringere Verdichtung.",
+    "knock_medium": "Klopfen möglich: vorsichtige Zündung und hochwertiger Kraftstoff.",
+    "hot_charge": "Sehr heiße Ansaugluft: ein wirksamerer Ladeluftkühler wird empfohlen.",
+    "pr_high": "Druckverhältnis über 3: prüfen, ob der Verdichter im guten Wirkungsgradbereich bleibt.",
+    "big_injectors": "Großvolumige Düsen: Leerlauf und Linearität bei kurzen Öffnungszeiten prüfen.",
+    "cr_boost": "Hohe Verdichtung für einen aufgeladenen Motor: die Klopfreserve ist gering.",
+    "all_ok": "Für diese Konfiguration wurde kein kritischer Punkt gefunden."
+  },
+  "chart": {
+    "boost_title": "Leistung und Drehmoment über dem Ladedruck",
+    "boost": "Ladedruck",
+    "power": "Leistung",
+    "torque": "Drehmoment"
+  }
+}

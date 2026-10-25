@@ -1,0 +1,67 @@
+{
+  "intro": "Analisa o calado de uma árvore de cames: cruzamento, LSA, aberturas e fechos, taxa dinâmica e faixa de potência.",
+  "g_cam": "Árvore de cames",
+  "g_engine": "Motor",
+  "incl_hint": "Centro do came de admissão, em graus após o PMS",
+  "excl_hint": "Centro do came de escape, em graus antes do PMS",
+  "rodratio_hint": "Entre-eixos da biela ÷ curso (1,6 se desconhecido)",
+  "in": {
+    "inDur": "Duração da admissão (anunciada)",
+    "exDur": "Duração do escape (anunciada)",
+    "inCl": "Centro do came de admissão",
+    "exCl": "Centro do came de escape",
+    "inLift": "Levantamento de admissão",
+    "exLift": "Levantamento de escape",
+    "displacement": "Cilindrada",
+    "cylinders": "Número de cilindros",
+    "boost": "Alimentação",
+    "cr": "Taxa de compressão estática",
+    "rodRatio": "Relação biela / curso"
+  },
+  "induction": {
+    "na": "Atmosférico",
+    "turbo": "Turbo",
+    "supercharger": "Compressor volumétrico"
+  },
+  "r": {
+    "overlap": "Cruzamento",
+    "lsa": "Ângulo entre cames (LSA)",
+    "advance": "Calado: {a}",
+    "timing": "Aberturas e fechos",
+    "timing_text": "AA {ivo}° antes PMS · FA {ivc}° após PMI · AE {evo}° antes PMI · FE {evc}° após PMS",
+    "dcr": "Taxa de compressão dinâmica",
+    "dcr_note": "A admissão fecha {ivc}° após o PMI",
+    "band": "Faixa de potência estimada",
+    "band_note": "Indicativo: depende também da cabeça e da admissão",
+    "vacuum": "Depressão ao ralenti",
+    "idle": "Qualidade do ralenti",
+    "ecu": "Reprogramação"
+  },
+  "usage": {
+    "street": "Estrada",
+    "street_perf": "Estrada desportiva",
+    "track": "Pista",
+    "race": "Competição",
+    "drag": "Arranque (drag)"
+  },
+  "ecu": {
+    "optional": "Facultativa",
+    "recommended": "Recomendada",
+    "mandatory": "Indispensável"
+  },
+  "warn": {
+    "overlap_high": "Cruzamento grande: ralenti instável e pouco binário em baixo.",
+    "overlap_boost": "Muito cruzamento para um motor sobrealimentado: parte da carga perde-se no escape.",
+    "lsa_tight": "LSA apertado: muito binário numa faixa estreita, ralenti difícil.",
+    "lsa_wide": "LSA largo: ralenti suave mas um pouco menos de potência.",
+    "dcr_low": "Taxa dinâmica baixa: motor fraco em baixo; aumente a taxa estática ou feche a admissão mais cedo.",
+    "dcr_high": "Taxa dinâmica elevada para um atmosférico: risco de detonação com gasolina comum."
+  },
+  "chart": {
+    "lift_title": "Levantamento das válvulas em função do ângulo da cambota",
+    "angle": "Ângulo da cambota (°, 0 = PMS de cruzamento)",
+    "lift": "Levantamento",
+    "intake": "Admissão",
+    "exhaust": "Escape"
+  }
+}

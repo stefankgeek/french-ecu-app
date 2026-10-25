@@ -1,0 +1,62 @@
+{
+  "intro": "Verifica se a mola controla a válvula ao regime pretendido (sem flutuação) e não chega a espiras unidas.",
+  "g_cam": "Came e regime",
+  "g_masses": "Massas arrastadas",
+  "g_spring": "Mola",
+  "duration_hint": "Duração a 0,050\" (1,27 mm) ou anunciada",
+  "follower_hint": "Balanceiro ou impulsor; 0 se for de ataque direto",
+  "single": "Simples",
+  "dual": "Dupla",
+  "in": {
+    "lift": "Elevação da válvula",
+    "duration": "Duração",
+    "rpm": "Regime pretendido",
+    "valve": "Massa da válvula",
+    "retainer": "Massa do prato",
+    "springMass": "Massa da mola",
+    "follower": "Massa impulsor / balanceiro",
+    "rate": "Rigidez da mola",
+    "freeHeight": "Altura livre",
+    "installed": "Altura montada",
+    "coilBind": "Altura de espiras unidas",
+    "dual": "Tipo de mola"
+  },
+  "risk": {
+    "low": "Risco baixo",
+    "moderate": "Risco moderado",
+    "high": "Risco elevado",
+    "critical": "Flutuação certa"
+  },
+  "r": {
+    "margin": "Margem de segurança",
+    "seat": "Força com válvula fechada",
+    "seat_note": "Pré-carga de {p}",
+    "open": "Força com válvula aberta",
+    "required": "Força necessária ao regime",
+    "required_note": "Desaceleração máx. ≈ {g} g",
+    "bind": "Reserva até espiras unidas",
+    "bind_note": "Recomendado: pelo menos 1,5 mm",
+    "rpm_limit": "Regime máximo recomendado",
+    "rpm_limit_note": "Com {m} % de margem",
+    "mass": "Massa em movimento",
+    "mass_note": "Válvula + prato + ½ mola + impulsor"
+  },
+  "warn": {
+    "increase_rate": "Margem insuficiente: mola mais rígida ou peças mais leves (válvulas ou pratos em titânio).",
+    "use_dual": "Margem insuficiente: passe a molas duplas mais rígidas ou alivie o conjunto.",
+    "bind": "Reserva até espiras unidas demasiado pequena: a mola pode partir ou bloquear a árvore.",
+    "rpm": "O regime pretendido ultrapassa o máximo recomendado para esta mola.",
+    "method": "Modelo de came harmónica: uma came agressiva (rampas curtas) exige 10 a 20 % mais força."
+  },
+  "chart": {
+    "force_title": "Força da mola e força necessária em função da elevação",
+    "lift": "Elevação",
+    "force": "Força",
+    "spring": "Mola",
+    "required": "Necessária",
+    "margin_title": "Margem de segurança em função do regime",
+    "rpm": "Regime",
+    "margin": "Margem",
+    "target": "Objetivo"
+  }
+}

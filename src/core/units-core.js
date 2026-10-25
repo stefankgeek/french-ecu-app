@@ -125,6 +125,10 @@ export const QUANTITIES = {
     ms: { ...lin(1), symbol: 'm/s', decimals: 2 },
     fts: { ...lin(0.3048), symbol: 'ft/s', decimals: 2 },
   } },
+  stress: { base: 'MPa', units: {
+    MPa: { ...lin(1), symbol: 'MPa', decimals: 0 },
+    ksi: { ...lin(6.894757293), symbol: 'ksi', decimals: 1 },
+  } },
   // Consommation : relation INVERSE entre L/100 km et mpg (pas un simple facteur)
   fuel_economy: { base: 'L100', units: {
     L100: { ...lin(1), symbol: 'L/100 km', decimals: 1 },
@@ -154,14 +158,14 @@ export const SYSTEMS = {
     displacement: 'cc', volume: 'L', injector_flow: 'ccmin', fuel_flow: 'Lh', mass_flow: 'gs',
     air_flow: 'Lmin', power: 'ch', torque: 'Nm', speed: 'ms', vehicle_speed: 'kmh', mass: 'kg',
     small_mass: 'g', force: 'N', spring_rate: 'Nmm', length_m: 'm', distance: 'km', flow_velocity: 'ms',
-    fuel_economy: 'L100', price_volume: 'perL', bsfc: 'gkWh',
+    fuel_economy: 'L100', price_volume: 'perL', bsfc: 'gkWh', stress: 'MPa',
   },
   imperial: {
     pressure: 'psi', pressure_abs: 'psia', temperature: 'F', temperature_delta: 'dF', length: 'in',
     displacement: 'ci', volume: 'galUS', injector_flow: 'lbh', fuel_flow: 'galh', mass_flow: 'lbmin',
     air_flow: 'cfm', power: 'hp', torque: 'lbft', speed: 'ftmin', vehicle_speed: 'mph', mass: 'lb',
     small_mass: 'oz', force: 'lbf', spring_rate: 'lbin', length_m: 'ft', distance: 'mi', flow_velocity: 'fts',
-    fuel_economy: 'mpgUS', price_volume: 'perGal', bsfc: 'lbhph',
+    fuel_economy: 'mpgUS', price_volume: 'perGal', bsfc: 'lbhph', stress: 'ksi',
   },
 };
 

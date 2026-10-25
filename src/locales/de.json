@@ -153,7 +153,8 @@
     "flow_velocity": "Strömungsgeschwindigkeit",
     "fuel_economy": "Verbrauch",
     "price_volume": "Kraftstoffpreis",
-    "bsfc": "Spezifischer Verbrauch (BSFC)"
+    "bsfc": "Spezifischer Verbrauch (BSFC)",
+    "stress": "Mechanische Spannung"
   },
   "update": {
     "available": "Neue Version verfügbar",

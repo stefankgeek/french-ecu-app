@@ -280,3 +280,4 @@ button, input, select { font: inherit; color: inherit; }
   .table th { padding: 8px 6px; font-size: 11px; letter-spacing: .02em; }
   .table td { padding: 9px 6px; }
 }
+.table--wrap td { white-space: normal; line-height: 1.45; }

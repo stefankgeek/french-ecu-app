@@ -1,0 +1,72 @@
+{
+  "intro": "Stima carichi e tensioni su biella, spinotto e perno di manovella, con coefficienti di sicurezza.",
+  "g_engine": "Motore",
+  "g_parts": "Componenti",
+  "rpm_hint": "Regime di coppia massima (pressione massima)",
+  "kit_hint": "Pistone + spinotto + fasce + fermi",
+  "shank_hint": "Sezione più debole del fusto della biella",
+  "in": {
+    "bore": "Alesaggio",
+    "stroke": "Corsa",
+    "rod": "Interasse della biella",
+    "cylinders": "Numero di cilindri",
+    "cr": "Rapporto di compressione",
+    "boost": "Pressione di sovralimentazione",
+    "rpm": "Regime di coppia massima",
+    "rpmMax": "Regime massimo (limitatore)",
+    "pistonKit": "Massa del pistone completo",
+    "rodMass": "Massa della biella",
+    "material": "Materiale della biella",
+    "shankArea": "Sezione del fusto",
+    "pinOd": "Ø esterno dello spinotto",
+    "pinId": "Ø interno dello spinotto",
+    "crankpin": "Ø del perno di manovella",
+    "bearingWidth": "Larghezza del cuscinetto"
+  },
+  "mat": {
+    "pm": "Sinterizzata di serie",
+    "forged_4340": "Forgiata acciaio 4340",
+    "billet_300m": "Dal pieno acciaio 300M",
+    "alu_7075": "Alluminio 7075",
+    "titanium": "Titanio"
+  },
+  "rating": {
+    "excellent": "Eccellente",
+    "good": "Buono",
+    "limit": "Al limite",
+    "failure": "Rottura probabile"
+  },
+  "r": {
+    "overall": "Giudizio sul manovellismo",
+    "overall_note": "In base al coefficiente di sicurezza più basso",
+    "peak": "Pressione di combustione massima",
+    "peak_note": "Stimata da compressione e pressione di aspirazione",
+    "gas": "Forza dei gas sul pistone",
+    "comp": "Tensione di compressione",
+    "tens": "Tensione di trazione",
+    "pin": "Taglio dello spinotto",
+    "sf": "Sicurezza ×{f}: {v}",
+    "bearing": "Pressione sul cuscinetto",
+    "bearing_note": "Consigliato: sotto 50 MPa",
+    "torque": "Coppia stimata",
+    "torque_note": "Pressione media effettiva ≈ {b} bar",
+    "power": "Potenza stimata",
+    "power_note": "A {rpm}"
+  },
+  "warn": {
+    "failure": "Almeno un componente supera il suo limite: rischio di rottura. Rinforza quel componente o riduci pressione / regime.",
+    "limit": "Margine ridotto su almeno un componente: solo uso occasionale, componenti di qualità indispensabili.",
+    "bearing": "Pressione elevata sul cuscinetto: consigliati cuscinetti rinforzati e olio adeguato.",
+    "method": "Stima: carico di punta, fatica e concentrazioni di tensione non sono calcolati. Verifica con il produttore delle bielle."
+  },
+  "chart": {
+    "forces_title": "Carichi sulla biella in un ciclo (regime di coppia massima)",
+    "angle": "Angolo di manovella",
+    "force": "Forza",
+    "rod": "Biella (totale)",
+    "gas": "Gas",
+    "inertia": "Inerzia",
+    "pressure_title": "Pressione nel cilindro",
+    "pressure": "Pressione"
+  }
+}

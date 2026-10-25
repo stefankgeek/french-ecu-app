@@ -1,0 +1,72 @@
+{
+  "intro": "Estima esforços e tensões na biela, cavilhão e moente, com coeficientes de segurança.",
+  "g_engine": "Motor",
+  "g_parts": "Peças",
+  "rpm_hint": "Regime de binário máximo (pressão máxima)",
+  "kit_hint": "Pistão + cavilhão + segmentos + freios",
+  "shank_hint": "Secção mais fraca do corpo da biela",
+  "in": {
+    "bore": "Diâmetro",
+    "stroke": "Curso",
+    "rod": "Entre-eixos da biela",
+    "cylinders": "Número de cilindros",
+    "cr": "Taxa de compressão",
+    "boost": "Pressão de sobrealimentação",
+    "rpm": "Regime de binário máximo",
+    "rpmMax": "Regime máximo (corte)",
+    "pistonKit": "Massa do pistão completo",
+    "rodMass": "Massa da biela",
+    "material": "Material da biela",
+    "shankArea": "Secção do corpo da biela",
+    "pinOd": "Ø exterior do cavilhão",
+    "pinId": "Ø interior do cavilhão",
+    "crankpin": "Ø do moente",
+    "bearingWidth": "Largura do casquilho"
+  },
+  "mat": {
+    "pm": "Sinterizada de origem",
+    "forged_4340": "Forjada aço 4340",
+    "billet_300m": "Maquinada aço 300M",
+    "alu_7075": "Alumínio 7075",
+    "titanium": "Titânio"
+  },
+  "rating": {
+    "excellent": "Excelente",
+    "good": "Bom",
+    "limit": "No limite",
+    "failure": "Rutura provável"
+  },
+  "r": {
+    "overall": "Balanço do conjunto móvel",
+    "overall_note": "Segundo o coeficiente de segurança mais baixo",
+    "peak": "Pressão de combustão máxima",
+    "peak_note": "Estimada a partir da compressão e da pressão de admissão",
+    "gas": "Força dos gases no pistão",
+    "comp": "Tensão de compressão",
+    "tens": "Tensão de tração",
+    "pin": "Corte do cavilhão",
+    "sf": "Segurança ×{f}: {v}",
+    "bearing": "Pressão no casquilho",
+    "bearing_note": "Recomendado: menos de 50 MPa",
+    "torque": "Binário estimado",
+    "torque_note": "Pressão média efetiva ≈ {b} bar",
+    "power": "Potência estimada",
+    "power_note": "A {rpm}"
+  },
+  "warn": {
+    "failure": "Pelo menos uma peça ultrapassa o seu limite: risco de rutura. Reforce essa peça ou reduza a pressão / o regime.",
+    "limit": "Margem reduzida em pelo menos uma peça: só uso pontual, peças de qualidade indispensáveis.",
+    "bearing": "Pressão elevada no casquilho: recomendam-se casquilhos reforçados e óleo adequado.",
+    "method": "Estimativa: encurvadura, fadiga e concentrações de tensão não são calculadas. Confirme com o fabricante das bielas."
+  },
+  "chart": {
+    "forces_title": "Esforços na biela num ciclo (regime de binário máximo)",
+    "angle": "Ângulo da cambota",
+    "force": "Força",
+    "rod": "Biela (total)",
+    "gas": "Gases",
+    "inertia": "Inércia",
+    "pressure_title": "Pressão no cilindro",
+    "pressure": "Pressão"
+  }
+}

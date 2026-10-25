@@ -1,0 +1,54 @@
+{
+  "intro": "Segman ağız aralığını silindir çapına ve motor kullanımına göre hesaplar (segman üreticilerinin yöntemi).",
+  "g_engine": "Motor",
+  "engine": {
+    "four_stroke": "4 zamanlı",
+    "two_stroke": "2 zamanlı"
+  },
+  "app": {
+    "naturally_aspirated": "Atmosferik yol",
+    "naturally_aspirated_racing": "Atmosferik yarış",
+    "forced_induction": "Turbo / kompresör",
+    "heavy_load_high_heat": "Ağır yük / yüksek ısı (nitro, dayanıklılık)",
+    "snow_marine": "Kar motosikleti / deniz"
+  },
+  "in": {
+    "engine": "Motor tipi",
+    "application": "Kullanım",
+    "bore": "Silindir çapı"
+  },
+  "r": {
+    "top": "1. segman (kompresyon)",
+    "second": "2. segman",
+    "oil": "Yağ segmanı çelik bantları",
+    "oil_note": "Asgari değer",
+    "max": "İzin verilen azami: {v}",
+    "method": "Yöntem",
+    "method_text": "Çap {b}\" × {t} (1.) ve × {s} (2.), mm'ye çevrilmiş."
+  },
+  "warn": {
+    "never_under": "Asla asgari aralığın altına inmeyin: sıcakken uçlar birbirine değer, segman kırılır veya silindiri çizer.",
+    "over_ok": "Biraz daha büyük aralık (+%30'a kadar) sızdırmazlığı belirgin şekilde etkilemez."
+  },
+  "table": {
+    "title": "Ölçme ve ayarlama prosedürü",
+    "step": "Adım"
+  },
+  "step": {
+    "s1": "Silindiri ve segmanı temizleyin; her segmanı takılacağı silindirde ölçün.",
+    "s2": "Segmanı silindire yerleştirin ve ters çevrilmiş bir pistonla, blok yüzeyinin yaklaşık 15–20 mm altında düz hizalayın.",
+    "s3": "Aralığı sentil ile ölçün: hafif sürtünmeyle girmelidir.",
+    "s4": "Aralık küçükse, segman eğesiyle yalnızca bir ucu dıştan içe doğru azar azar eğeleyin.",
+    "s5": "Silindiri çizmemesi için eğelenen ucun çapağını ince bir taşla alın.",
+    "s6": "Tekrar kontrol edin, ardından her segmanı silindiri ve yuvasıyla işaretleyin."
+  },
+  "chart": {
+    "title": "Segman başına önerilen aralık",
+    "top": "1. segman",
+    "second": "2. segman",
+    "oil": "Yağ segmanı",
+    "gap": "Aralık",
+    "min": "Asgari",
+    "max": "İzin verilen azami"
+  }
+}

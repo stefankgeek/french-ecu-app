@@ -1,0 +1,71 @@
+{
+  "intro": "Calcule le taux de compression statique, dynamique (selon l'arbre à cames) et effectif sous pression, avec l'octane conseillé.",
+  "g_engine": "Moteur",
+  "g_chamber": "Chambre et piston",
+  "g_cam": "Arbre à cames et suralimentation",
+  "deck_hint": "Positif : piston sous le plan de joint ; négatif : piston qui dépasse",
+  "ivc_hint": "Fermeture admission après le PMB (durée annoncée)",
+  "boost_hint": "0 pour un moteur atmosphérique",
+  "in": {
+    "bore": "Alésage",
+    "stroke": "Course",
+    "rod": "Entraxe de bielle",
+    "cylinders": "Nombre de cylindres",
+    "chamber": "Volume de la chambre (culasse)",
+    "gasketBore": "Diamètre du joint de culasse",
+    "gasketThickness": "Épaisseur du joint comprimé",
+    "deck": "Retrait du piston au PMH",
+    "pistonType": "Tête de piston",
+    "pistonCc": "Volume du dôme ou de la cuvette",
+    "reliefs": "Volume des encoches de soupapes",
+    "ivc": "Fermeture de l'admission",
+    "boost": "Pression de suralimentation"
+  },
+  "piston": {
+    "flat": "Plate",
+    "dished": "Creuse (cuvette)",
+    "domed": "Bombée (dôme)"
+  },
+  "r": {
+    "static": "Taux de compression statique",
+    "dynamic": "Taux de compression dynamique",
+    "dynamic_note": "{pct} % de la course réellement comprimée",
+    "effective": "Taux effectif sous pression",
+    "effective_note": "Équivalent atmosphérique de la charge suralimentée",
+    "octane": "Octane conseillé",
+    "cranking": "Pression de compression théorique",
+    "cranking_note": "Au démarreur, sans fuite (un compressiomètre lit moins)",
+    "gain": "Rendement théorique vs 9:1",
+    "gain_note": "Cycle d'Otto, γ = 1,3",
+    "displacement": "Cylindrée totale",
+    "clearance": "Volume mort par cylindre",
+    "swept": "Volume balayé par cylindre : {v}"
+  },
+  "fuel": {
+    "sp95": "SP95 suffit",
+    "sp98": "SP98 conseillé",
+    "race": "Carburant course (≈ 100–102)",
+    "e85": "E85 ou carburant course à haut indice"
+  },
+  "warn": {
+    "high_na": "Taux statique élevé pour un atmosphérique : vérifiez l'arbre à cames (taux dynamique) et le carburant.",
+    "high_boost": "Taux statique élevé pour un moteur suralimenté : cliquetis probable sans carburant à haut indice.",
+    "low": "Taux faible : rendement et couple en baisse.",
+    "indicative": "L'octane conseillé est une règle d'atelier : l'avance réellement utilisée et le type d'injection comptent beaucoup."
+  },
+  "chart": {
+    "ivc_title": "Taux dynamique selon la fermeture de l'admission",
+    "ivc": "Fermeture admission (° après PMB)",
+    "dcr": "Taux dynamique",
+    "static": "Taux statique",
+    "parts_title": "Composition du volume mort",
+    "volume": "Volume"
+  },
+  "part": {
+    "chamber": "Chambre",
+    "gasket": "Joint",
+    "deck": "Retrait piston",
+    "piston": "Tête de piston",
+    "reliefs": "Encoches"
+  }
+}

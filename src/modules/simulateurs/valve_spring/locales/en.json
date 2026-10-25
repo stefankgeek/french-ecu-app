@@ -1,0 +1,62 @@
+{
+  "intro": "Checks that the spring controls the valve at the target speed (no float) and does not reach coil bind.",
+  "g_cam": "Cam and engine speed",
+  "g_masses": "Driven masses",
+  "g_spring": "Spring",
+  "duration_hint": "Duration at 0.050\" (1.27 mm) or advertised",
+  "follower_hint": "Rocker or bucket; 0 for direct acting",
+  "single": "Single",
+  "dual": "Dual",
+  "in": {
+    "lift": "Valve lift",
+    "duration": "Duration",
+    "rpm": "Target engine speed",
+    "valve": "Valve mass",
+    "retainer": "Retainer mass",
+    "springMass": "Spring mass",
+    "follower": "Follower / rocker mass",
+    "rate": "Spring rate",
+    "freeHeight": "Free height",
+    "installed": "Installed height",
+    "coilBind": "Coil bind height",
+    "dual": "Spring type"
+  },
+  "risk": {
+    "low": "Low risk",
+    "moderate": "Moderate risk",
+    "high": "High risk",
+    "critical": "Valve float certain"
+  },
+  "r": {
+    "margin": "Safety margin",
+    "seat": "Seat pressure",
+    "seat_note": "Preload of {p}",
+    "open": "Open pressure",
+    "required": "Force required at speed",
+    "required_note": "Peak deceleration ≈ {g} g",
+    "bind": "Coil bind clearance",
+    "bind_note": "Recommended: at least 1.5 mm",
+    "rpm_limit": "Recommended maximum rpm",
+    "rpm_limit_note": "With {m}% margin",
+    "mass": "Moving mass",
+    "mass_note": "Valve + retainer + ½ spring + follower"
+  },
+  "warn": {
+    "increase_rate": "Margin too small: stiffer spring or lighter parts (titanium valves or retainers).",
+    "use_dual": "Margin too small: switch to stiffer dual springs or lighten the valvetrain.",
+    "bind": "Coil bind clearance too small: the spring may break or lock the camshaft.",
+    "rpm": "The target speed exceeds the recommended maximum for this spring.",
+    "method": "Harmonic cam model: an aggressive cam (short ramps) needs 10 to 20% more force."
+  },
+  "chart": {
+    "force_title": "Spring force and required force versus lift",
+    "lift": "Lift",
+    "force": "Force",
+    "spring": "Spring",
+    "required": "Required",
+    "margin_title": "Safety margin versus engine speed",
+    "rpm": "Engine speed",
+    "margin": "Margin",
+    "target": "Target"
+  }
+}

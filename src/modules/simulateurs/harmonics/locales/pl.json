@@ -1,0 +1,67 @@
+{
+  "intro": "Pełna synteza silnika: moc, moment, przepływ powietrza, wtryskiwacze, ryzyko spalania stukowego i automatyczna diagnoza.",
+  "g_engine": "Silnik",
+  "g_boost": "Doładowanie i paliwo",
+  "g_misc": "Inne",
+  "rpm_hint": "Obroty mocy maksymalnej",
+  "in": {
+    "displacement": "Pojemność skokowa",
+    "cylinders": "Liczba cylindrów",
+    "cr": "Stopień sprężania",
+    "rpm": "Obroty",
+    "ve": "Sprawność napełniania",
+    "inDuration": "Czas otwarcia dolotu",
+    "boost": "Ciśnienie doładowania",
+    "fuel": "Paliwo",
+    "ambient": "Temperatura otoczenia",
+    "etaC": "Sprawność sprężarki",
+    "icEff": "Skuteczność intercoolera",
+    "rail": "Ciśnienie paliwa",
+    "drivetrain": "Sprawność układu napędowego"
+  },
+  "r": {
+    "power": "Moc silnika",
+    "power_note": "Przy {rpm}",
+    "torque": "Moment obrotowy",
+    "wheel": "Moc na kołach",
+    "wheel_note": "Sprawność układu napędowego {e}%",
+    "air": "Przepływ powietrza",
+    "injector": "Zalecane wtryskiwacze",
+    "injector_note": "Wydatek nominalny przy {p}, wypełnienie 80%",
+    "knock": "Ryzyko spalania stukowego",
+    "knock_note": "Wymagana liczba oktanowa ≈ {need}, paliwo ≈ {have}",
+    "dcr": "Dynamiczny stopień sprężania",
+    "ecr": "Efektywny stopień z doładowaniem: {e} : 1",
+    "pr": "Spręż",
+    "t2": "Temperatura za sprężarką",
+    "tman": "Temperatura w kolektorze dolotowym",
+    "otto": "Teoretyczna sprawność cieplna",
+    "otto_note": "Obieg Otto z gazami rzeczywistymi",
+    "runner": "Długość kanału dolotowego",
+    "runner_note": "Strojenie na 4. harmoniczną",
+    "plenum": "Zalecana objętość komory",
+    "plenum_note": "W stosunku do pojemności",
+    "heat": "Ciepło do odprowadzenia",
+    "heat_note": "Do układu chłodzenia"
+  },
+  "knock": {
+    "low": "Niskie",
+    "medium": "Umiarkowane",
+    "high": "Wysokie"
+  },
+  "diag": {
+    "knock_high": "Spalanie stukowe bardzo prawdopodobne: paliwo o wyższej liczbie oktanowej, mniejsze doładowanie lub niższy stopień sprężania.",
+    "knock_medium": "Spalanie stukowe możliwe: ostrożne wyprzedzenie zapłonu i dobre paliwo.",
+    "hot_charge": "Bardzo gorące powietrze dolotowe: zalecany skuteczniejszy intercooler.",
+    "pr_high": "Spręż powyżej 3: sprawdź, czy sprężarka pozostaje w obszarze dobrej sprawności.",
+    "big_injectors": "Wtryskiwacze o dużym wydatku: sprawdź bieg jałowy i liniowość przy krótkich czasach otwarcia.",
+    "cr_boost": "Wysoki stopień sprężania jak na silnik doładowany: mniejszy zapas przed spalaniem stukowym.",
+    "all_ok": "Nie wykryto żadnych krytycznych problemów dla tej konfiguracji."
+  },
+  "chart": {
+    "boost_title": "Moc i moment w zależności od ciśnienia doładowania",
+    "boost": "Doładowanie",
+    "power": "Moc",
+    "torque": "Moment"
+  }
+}

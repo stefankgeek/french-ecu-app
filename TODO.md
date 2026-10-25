@@ -12,7 +12,7 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 - ✅ Menu par catégories + recherche + réglages
 - ✅ Message « Nouvelle version disponible » + bouton « Installer »
 - ✅ Contrôle automatique des traductions avant publication
-- ✅ 80 tests automatiques (conversions, traductions, nombres)
+- ✅ 164 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
 - ✅ Publication automatique GitHub Pages
 
 ## Phase 2 — Portage des logiciels 🔄
@@ -33,11 +33,21 @@ comparaison des résultats avec l'ancien site.
   - Intercooler : débit d'air ×500 trop grand, perte de charge > 1 bar → méthode efficacité-NTU + Darcy
   - Échappement : CFM avec des cm³ au lieu de pouces cubes (×16), pertes ∝ débit², perte de pompage réelle
 - ✅ Graphiques en barres : toutes les étiquettes visibles (retour à la ligne)
-- ⏳ Moteur : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage, Harmonics3+
+- ✅ Moteur (v0.4.0) : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage, Harmonics3+
+  — 30 tests de cohérence physique (tests/engine.test.js)
+  - Compression : taux dynamique géométrique (bielle), octane conseillé d'après le taux dynamique, gain Otto
+  - Arbre à cames : croisement faux (288° au lieu de 60°) → (durée adm + durée éch)/2 − 2·LSA ;
+    plage de régime selon la durée et la cylindrée unitaire ; taux dynamique avec le vrai taux
+  - Vitesse piston : accélération avec r/L (et non course/bielle), vraie vitesse maxi, ⅓ de la bielle en masse alternative
+  - Ressorts : la durée de came n'était pas utilisée → décélération harmonique ; masses, hauteur libre, N/mm
+  - Segments : méthode juste, reprise telle quelle (alésage en pouces × coefficient)
+  - Embiellage : reconstruit (couple affiché 0 N·m à cause d'une erreur kN·m, course figée, pression sans combustion)
+  - Harmonics3+ : reconstruit en synthèse moteur + diagnostic (pas d'avance à l'allumage chiffrée, risque de cliquetis)
+  - Données carburant : PCI de l'E85 corrigé (29,3 MJ/kg)
 - ⏳ Cartographie : générateur de tables ECU
 - ⏳ Châssis : répartition de freinage, radiateur d'huile
 - ⏳ Aide-mémoire (filetages, couples, inserts, capteurs, turbo, jeux…)
-- ⏳ À vérifier avec Stéphane : Bielle (couple 0 Nm par défaut), radiateur d'huile (−120 °C)
+- ⏳ À vérifier avec Stéphane : radiateur d'huile (−120 °C)
 - ✅ Corrections de formules validées par Stéphane (v0.2.1, 25/10/2026) :
   - Injecteurs : débit nominal ramené à 3 bar (Q ∝ √P, plus de correction inversée) ; temps d'injection
     par cylindre (≈ 15,8 ms au lieu de ~1 ms) ; conversion lb/h ↔ cc/min selon la densité du carburant ;

@@ -1,0 +1,54 @@
+{
+  "intro": "Oblicza luz zamka pierścieni tłokowych na podstawie średnicy cylindra i zastosowania silnika (metoda producentów pierścieni).",
+  "g_engine": "Silnik",
+  "engine": {
+    "four_stroke": "Czterosuwowy",
+    "two_stroke": "Dwusuwowy"
+  },
+  "app": {
+    "naturally_aspirated": "Wolnossący drogowy",
+    "naturally_aspirated_racing": "Wolnossący wyczynowy",
+    "forced_induction": "Turbo / kompresor",
+    "heavy_load_high_heat": "Duże obciążenie / temperatura (podtlenek, wytrzymałość)",
+    "snow_marine": "Skuter śnieżny / łódź"
+  },
+  "in": {
+    "engine": "Typ silnika",
+    "application": "Zastosowanie",
+    "bore": "Średnica cylindra"
+  },
+  "r": {
+    "top": "Pierwszy pierścień (uszczelniający)",
+    "second": "Drugi pierścień",
+    "oil": "Taśmy pierścienia zgarniającego",
+    "oil_note": "Wartość minimalna",
+    "max": "Maksimum dopuszczalne: {v}",
+    "method": "Metoda",
+    "method_text": "Średnica {b}\" × {t} (1.) i × {s} (2.), przeliczone na mm."
+  },
+  "warn": {
+    "never_under": "Nigdy nie montuj luzu mniejszego niż minimum: na gorąco końce się stykają, a pierścień pęka lub rysuje cylinder.",
+    "over_ok": "Nieco większy luz (do +30%) nie wpływa zauważalnie na szczelność."
+  },
+  "table": {
+    "title": "Procedura pomiaru i dopasowania",
+    "step": "Krok"
+  },
+  "step": {
+    "s1": "Oczyść cylinder i pierścień; mierz każdy pierścień w cylindrze, w którym będzie zamontowany.",
+    "s2": "Włóż pierścień do cylindra i wyrównaj go odwróconym tłokiem, ok. 15–20 mm poniżej płaszczyzny bloku.",
+    "s3": "Zmierz luz szczelinomierzem: powinien wchodzić z lekkim oporem.",
+    "s4": "Jeśli luz jest za mały, piłuj tylko jeden koniec pilnikiem do pierścieni, od zewnątrz do środka, po trochu.",
+    "s5": "Usuń zadzior z piłowanego końca drobnym kamieniem, aby nie porysować cylindra.",
+    "s6": "Sprawdź ponownie i oznacz każdy pierścień jego cylindrem i rowkiem."
+  },
+  "chart": {
+    "title": "Zalecany luz dla każdego pierścienia",
+    "top": "1. pierścień",
+    "second": "2. pierścień",
+    "oil": "Zgarniający",
+    "gap": "Luz",
+    "min": "Minimum",
+    "max": "Maksimum dopuszczalne"
+  }
+}

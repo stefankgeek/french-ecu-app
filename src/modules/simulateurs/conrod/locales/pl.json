@@ -1,0 +1,72 @@
+{
+  "intro": "Szacuje siły i naprężenia w korbowodzie, sworzniu tłokowym i czopie korbowym wraz ze współczynnikami bezpieczeństwa.",
+  "g_engine": "Silnik",
+  "g_parts": "Części",
+  "rpm_hint": "Obroty maksymalnego momentu (najwyższe ciśnienie)",
+  "kit_hint": "Tłok + sworzeń + pierścienie + zabezpieczenia",
+  "shank_hint": "Najmniejszy przekrój trzonu korbowodu",
+  "in": {
+    "bore": "Średnica cylindra",
+    "stroke": "Skok",
+    "rod": "Rozstaw osi korbowodu",
+    "cylinders": "Liczba cylindrów",
+    "cr": "Stopień sprężania",
+    "boost": "Ciśnienie doładowania",
+    "rpm": "Obroty maks. momentu",
+    "rpmMax": "Obroty maksymalne (odcięcie)",
+    "pistonKit": "Masa kompletnego tłoka",
+    "rodMass": "Masa korbowodu",
+    "material": "Materiał korbowodu",
+    "shankArea": "Przekrój trzonu",
+    "pinOd": "Ø zewnętrzna sworznia",
+    "pinId": "Ø wewnętrzna sworznia",
+    "crankpin": "Ø czopa korbowego",
+    "bearingWidth": "Szerokość panewki"
+  },
+  "mat": {
+    "pm": "Seryjny spiekany",
+    "forged_4340": "Kuty, stal 4340",
+    "billet_300m": "Frezowany, stal 300M",
+    "alu_7075": "Aluminium 7075",
+    "titanium": "Tytan"
+  },
+  "rating": {
+    "excellent": "Doskonale",
+    "good": "Dobrze",
+    "limit": "Na granicy",
+    "failure": "Prawdopodobne zniszczenie"
+  },
+  "r": {
+    "overall": "Ocena układu korbowego",
+    "overall_note": "Według najniższego współczynnika bezpieczeństwa",
+    "peak": "Maksymalne ciśnienie spalania",
+    "peak_note": "Szacowane ze sprężania i ciśnienia dolotowego",
+    "gas": "Siła gazów na tłok",
+    "comp": "Naprężenie ściskające",
+    "tens": "Naprężenie rozciągające",
+    "pin": "Ścinanie sworznia",
+    "sf": "Bezpieczeństwo ×{f}: {v}",
+    "bearing": "Nacisk na panewkę",
+    "bearing_note": "Zalecane: poniżej 50 MPa",
+    "torque": "Szacowany moment",
+    "torque_note": "Średnie ciśnienie użyteczne ≈ {b} bar",
+    "power": "Szacowana moc",
+    "power_note": "Przy {rpm}"
+  },
+  "warn": {
+    "failure": "Co najmniej jedna część przekracza swoją granicę: ryzyko zniszczenia. Wzmocnij tę część lub zmniejsz doładowanie / obroty.",
+    "limit": "Mały zapas na co najmniej jednej części: tylko okazjonalne użycie, niezbędne części dobrej jakości.",
+    "bearing": "Wysoki nacisk na panewkę: zalecane wzmocnione panewki i odpowiedni olej.",
+    "method": "Szacunek: wyboczenie, zmęczenie i spiętrzenia naprężeń nie są liczone. Potwierdź u producenta korbowodów."
+  },
+  "chart": {
+    "forces_title": "Siły w korbowodzie w jednym cyklu (obroty maks. momentu)",
+    "angle": "Kąt obrotu wału",
+    "force": "Siła",
+    "rod": "Korbowód (łącznie)",
+    "gas": "Gazy",
+    "inertia": "Bezwładność",
+    "pressure_title": "Ciśnienie w cylindrze",
+    "pressure": "Ciśnienie"
+  }
+}

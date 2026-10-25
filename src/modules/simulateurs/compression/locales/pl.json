@@ -1,0 +1,71 @@
+{
+  "intro": "Oblicza statyczny, dynamiczny (zależny od wałka rozrządu) i efektywny pod doładowaniem stopień sprężania oraz zalecaną liczbę oktanową.",
+  "g_engine": "Silnik",
+  "g_chamber": "Komora spalania i tłok",
+  "g_cam": "Wałek rozrządu i doładowanie",
+  "deck_hint": "Dodatnie: tłok poniżej płaszczyzny bloku; ujemne: tłok wystaje",
+  "ivc_hint": "Zamknięcie dolotu po DMP (czas otwarcia katalogowy)",
+  "boost_hint": "0 dla silnika wolnossącego",
+  "in": {
+    "bore": "Średnica cylindra",
+    "stroke": "Skok",
+    "rod": "Rozstaw osi korbowodu",
+    "cylinders": "Liczba cylindrów",
+    "chamber": "Objętość komory (głowica)",
+    "gasketBore": "Średnica uszczelki pod głowicą",
+    "gasketThickness": "Grubość uszczelki po dociśnięciu",
+    "deck": "Cofnięcie tłoka w GMP",
+    "pistonType": "Denko tłoka",
+    "pistonCc": "Objętość kopułki lub wgłębienia",
+    "reliefs": "Objętość wybrań zaworowych",
+    "ivc": "Zamknięcie zaworu dolotowego",
+    "boost": "Ciśnienie doładowania"
+  },
+  "piston": {
+    "flat": "Płaskie",
+    "dished": "Wklęsłe",
+    "domed": "Wypukłe (kopułka)"
+  },
+  "r": {
+    "static": "Statyczny stopień sprężania",
+    "dynamic": "Dynamiczny stopień sprężania",
+    "dynamic_note": "{pct}% skoku faktycznie sprężane",
+    "effective": "Efektywny stopień pod doładowaniem",
+    "effective_note": "Odpowiednik wolnossący ładunku doładowanego",
+    "octane": "Zalecana liczba oktanowa",
+    "cranking": "Teoretyczne ciśnienie sprężania",
+    "cranking_note": "Na rozruszniku, bez nieszczelności (miernik pokaże mniej)",
+    "gain": "Sprawność teoretyczna względem 9:1",
+    "gain_note": "Obieg Otto, γ = 1,3",
+    "displacement": "Całkowita pojemność skokowa",
+    "clearance": "Objętość komory na cylinder",
+    "swept": "Objętość skokowa cylindra: {v}"
+  },
+  "fuel": {
+    "sp95": "Wystarczy 95",
+    "sp98": "Zalecane 98",
+    "race": "Paliwo wyścigowe (≈ 100–102)",
+    "e85": "E85 lub wysokooktanowe paliwo wyścigowe"
+  },
+  "warn": {
+    "high_na": "Wysoki stopień statyczny dla silnika wolnossącego: sprawdź wałek rozrządu (stopień dynamiczny) i paliwo.",
+    "high_boost": "Wysoki stopień statyczny dla silnika doładowanego: spalanie stukowe prawdopodobne bez paliwa wysokooktanowego.",
+    "low": "Niski stopień: spada sprawność i moment.",
+    "indicative": "Zalecana liczba oktanowa to reguła warsztatowa: rzeczywiste wyprzedzenie i rodzaj wtrysku mają duże znaczenie."
+  },
+  "chart": {
+    "ivc_title": "Stopień dynamiczny w zależności od zamknięcia dolotu",
+    "ivc": "Zamknięcie dolotu (° po DMP)",
+    "dcr": "Stopień dynamiczny",
+    "static": "Stopień statyczny",
+    "parts_title": "Skład objętości komory",
+    "volume": "Objętość"
+  },
+  "part": {
+    "chamber": "Komora",
+    "gasket": "Uszczelka",
+    "deck": "Cofnięcie",
+    "piston": "Denko tłoka",
+    "reliefs": "Wybrania"
+  }
+}

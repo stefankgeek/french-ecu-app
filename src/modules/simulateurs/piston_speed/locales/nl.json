@@ -1,0 +1,54 @@
+{
+  "intro": "Berekent zuigersnelheid, versnelling en traagheidskrachten, met het aanbevolen maximale toerental.",
+  "g_geometry": "Geometrie en toerental",
+  "g_masses": "Bewegende massa's",
+  "rod_hint": "Een derde telt als heen-en-weergaande massa",
+  "in": {
+    "stroke": "Slag",
+    "rod": "Drijfstanglengte",
+    "rpm": "Toerental",
+    "piston": "Massa zuiger",
+    "pin": "Massa zuigerpen",
+    "rings": "Massa zuigerveren",
+    "rodMass": "Massa drijfstang"
+  },
+  "r": {
+    "mean": "Gemiddelde zuigersnelheid",
+    "max": "Maximale zuigersnelheid",
+    "max_note": "Bereikt rond {a}° na BDP",
+    "accel": "Versnelling in BDP",
+    "force": "Traagheidskracht in BDP",
+    "force_note": "Trekt bij elke omwenteling aan de drijfstang",
+    "recip": "Heen-en-weergaande massa",
+    "recip_note": "Zuiger + pen + veren + ⅓ van de drijfstang",
+    "ratio": "Verhouding drijfstang / slag",
+    "limit": "Aanbevolen maximaal toerental",
+    "limit_note": "Bij een gemiddelde snelheid van {v}"
+  },
+  "rate": {
+    "excellent": "Zeer lage belasting",
+    "good": "Veilig voor straatgebruik",
+    "acceptable": "Sportief: kwaliteitsonderdelen nodig",
+    "high": "Hoog: gesmede onderdelen",
+    "extreme": "Extreem: alleen racegebruik"
+  },
+  "rod": {
+    "increase_rod": "Korte drijfstang: hoge zijdelingse krachten",
+    "good": "Correcte verhouding",
+    "excellent": "Zeer goede verhouding"
+  },
+  "warn": {
+    "reduce_rpm": "Toerental duidelijk boven de aanbevolen grens: verlaag toerental of slag.",
+    "forged": "Hoge gemiddelde zuigersnelheid: gesmede zuigers en drijfstangen aanbevolen.",
+    "heavy": "Hoge heen-en-weergaande massa: lichtere onderdelen verlagen de krachten."
+  },
+  "chart": {
+    "crank_title": "Zuigersnelheid en -versnelling over één omwenteling",
+    "angle": "Krukhoek",
+    "velocity": "Snelheid",
+    "accel": "Versnelling",
+    "force_title": "Traagheidskracht in BDP afhankelijk van het toerental",
+    "rpm": "Toerental",
+    "force": "Kracht"
+  }
+}

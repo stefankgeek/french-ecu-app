@@ -1,0 +1,67 @@
+{
+  "intro": "Analyse le calage d'un arbre à cames : croisement, LSA, ouvertures et fermetures, taux dynamique et plage de puissance.",
+  "g_cam": "Arbre à cames",
+  "g_engine": "Moteur",
+  "incl_hint": "Centre de came admission, en degrés après le PMH",
+  "excl_hint": "Centre de came échappement, en degrés avant le PMH",
+  "rodratio_hint": "Entraxe de bielle ÷ course (1,6 si inconnu)",
+  "in": {
+    "inDur": "Durée admission (annoncée)",
+    "exDur": "Durée échappement (annoncée)",
+    "inCl": "Centre de came admission",
+    "exCl": "Centre de came échappement",
+    "inLift": "Levée admission",
+    "exLift": "Levée échappement",
+    "displacement": "Cylindrée",
+    "cylinders": "Nombre de cylindres",
+    "boost": "Alimentation",
+    "cr": "Taux de compression statique",
+    "rodRatio": "Rapport bielle / course"
+  },
+  "induction": {
+    "na": "Atmosphérique",
+    "turbo": "Turbo",
+    "supercharger": "Compresseur volumétrique"
+  },
+  "r": {
+    "overlap": "Croisement",
+    "lsa": "Angle entre les cames (LSA)",
+    "advance": "Calage : {a}",
+    "timing": "Ouvertures et fermetures",
+    "timing_text": "OA {ivo}° av. PMH · FA {ivc}° ap. PMB · OE {evo}° av. PMB · FE {evc}° ap. PMH",
+    "dcr": "Taux de compression dynamique",
+    "dcr_note": "Fermeture admission {ivc}° après PMB",
+    "band": "Plage de puissance estimée",
+    "band_note": "Indicatif : dépend aussi de la culasse et de l'admission",
+    "vacuum": "Dépression au ralenti",
+    "idle": "Qualité du ralenti",
+    "ecu": "Reprogrammation"
+  },
+  "usage": {
+    "street": "Usage routier",
+    "street_perf": "Route sportive",
+    "track": "Circuit",
+    "race": "Compétition",
+    "drag": "Dragster"
+  },
+  "ecu": {
+    "optional": "Facultative",
+    "recommended": "Recommandée",
+    "mandatory": "Indispensable"
+  },
+  "warn": {
+    "overlap_high": "Croisement important : ralenti instable et peu de couple à bas régime.",
+    "overlap_boost": "Beaucoup de croisement pour un moteur suralimenté : une partie de la charge part à l'échappement.",
+    "lsa_tight": "LSA serré : beaucoup de couple sur une plage étroite, ralenti difficile.",
+    "lsa_wide": "LSA large : ralenti doux mais puissance un peu en retrait.",
+    "dcr_low": "Taux dynamique bas : moteur creux en bas, augmentez le taux statique ou fermez l'admission plus tôt.",
+    "dcr_high": "Taux dynamique élevé pour un atmosphérique : risque de cliquetis avec de l'essence courante."
+  },
+  "chart": {
+    "lift_title": "Levée des soupapes selon l'angle vilebrequin",
+    "angle": "Angle vilebrequin (°, 0 = PMH de croisement)",
+    "lift": "Levée",
+    "intake": "Admission",
+    "exhaust": "Échappement"
+  }
+}

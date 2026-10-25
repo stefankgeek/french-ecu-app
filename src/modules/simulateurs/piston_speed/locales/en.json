@@ -1,0 +1,54 @@
+{
+  "intro": "Works out piston speed, acceleration and inertia forces, with the recommended maximum engine speed.",
+  "g_geometry": "Geometry and engine speed",
+  "g_masses": "Moving masses",
+  "rod_hint": "One third counts as reciprocating mass",
+  "in": {
+    "stroke": "Stroke",
+    "rod": "Rod length",
+    "rpm": "Engine speed",
+    "piston": "Piston mass",
+    "pin": "Pin mass",
+    "rings": "Ring mass",
+    "rodMass": "Connecting rod mass"
+  },
+  "r": {
+    "mean": "Mean piston speed",
+    "max": "Maximum piston speed",
+    "max_note": "Reached about {a}° after TDC",
+    "accel": "Acceleration at TDC",
+    "force": "Inertia force at TDC",
+    "force_note": "Pulls on the rod every revolution",
+    "recip": "Reciprocating mass",
+    "recip_note": "Piston + pin + rings + ⅓ of the rod",
+    "ratio": "Rod / stroke ratio",
+    "limit": "Recommended maximum rpm",
+    "limit_note": "For a mean speed of {v}"
+  },
+  "rate": {
+    "excellent": "Very low stress",
+    "good": "Safe for street use",
+    "acceptable": "Sporty: quality parts needed",
+    "high": "High: forged parts",
+    "extreme": "Extreme: racing only"
+  },
+  "rod": {
+    "increase_rod": "Short rod: high side loads",
+    "good": "Correct ratio",
+    "excellent": "Very good ratio"
+  },
+  "warn": {
+    "reduce_rpm": "Engine speed well above the recommended limit: reduce rpm or stroke.",
+    "forged": "High mean piston speed: forged pistons and rods recommended.",
+    "heavy": "High reciprocating mass: lighter parts would reduce the loads."
+  },
+  "chart": {
+    "crank_title": "Piston velocity and acceleration over one revolution",
+    "angle": "Crank angle",
+    "velocity": "Velocity",
+    "accel": "Acceleration",
+    "force_title": "Inertia force at TDC versus engine speed",
+    "rpm": "Engine speed",
+    "force": "Force"
+  }
+}

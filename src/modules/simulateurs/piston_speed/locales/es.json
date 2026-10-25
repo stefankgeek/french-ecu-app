@@ -1,0 +1,54 @@
+{
+  "intro": "Calcula la velocidad del pistón, su aceleración y las fuerzas de inercia, con el régimen máximo recomendado.",
+  "g_geometry": "Geometría y régimen",
+  "g_masses": "Masas en movimiento",
+  "rod_hint": "Un tercio cuenta como masa alternativa",
+  "in": {
+    "stroke": "Carrera",
+    "rod": "Distancia entre ejes de biela",
+    "rpm": "Régimen",
+    "piston": "Masa del pistón",
+    "pin": "Masa del bulón",
+    "rings": "Masa de los segmentos",
+    "rodMass": "Masa de la biela"
+  },
+  "r": {
+    "mean": "Velocidad media del pistón",
+    "max": "Velocidad máxima del pistón",
+    "max_note": "Se alcanza hacia {a}° tras el PMS",
+    "accel": "Aceleración en el PMS",
+    "force": "Fuerza de inercia en el PMS",
+    "force_note": "Tira de la biela en cada vuelta",
+    "recip": "Masa alternativa",
+    "recip_note": "Pistón + bulón + segmentos + ⅓ de la biela",
+    "ratio": "Relación biela / carrera",
+    "limit": "Régimen máximo recomendado",
+    "limit_note": "Para una velocidad media de {v}"
+  },
+  "rate": {
+    "excellent": "Esfuerzo muy bajo",
+    "good": "Uso en carretera seguro",
+    "acceptable": "Deportivo: piezas de calidad",
+    "high": "Alto: piezas forjadas",
+    "extreme": "Extremo: solo competición"
+  },
+  "rod": {
+    "increase_rod": "Biela corta: esfuerzos laterales elevados",
+    "good": "Relación correcta",
+    "excellent": "Muy buena relación"
+  },
+  "warn": {
+    "reduce_rpm": "Régimen claramente por encima del límite recomendado: reduce el régimen o la carrera.",
+    "forged": "Velocidad media alta: se recomiendan pistones y bielas forjados.",
+    "heavy": "Masa alternativa elevada: piezas más ligeras reducirían los esfuerzos."
+  },
+  "chart": {
+    "crank_title": "Velocidad y aceleración del pistón en una vuelta",
+    "angle": "Ángulo del cigüeñal",
+    "velocity": "Velocidad",
+    "accel": "Aceleración",
+    "force_title": "Fuerza de inercia en el PMS según el régimen",
+    "rpm": "Régimen",
+    "force": "Fuerza"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "intro": "Estima los esfuerzos y tensiones en la biela, el bulón y la muñequilla, con coeficientes de seguridad.",
+  "g_engine": "Motor",
+  "g_parts": "Piezas",
+  "rpm_hint": "Régimen de par máximo (presión máxima)",
+  "kit_hint": "Pistón + bulón + segmentos + clips",
+  "shank_hint": "Sección más débil del cuerpo de la biela",
+  "in": {
+    "bore": "Diámetro",
+    "stroke": "Carrera",
+    "rod": "Distancia entre ejes de biela",
+    "cylinders": "Número de cilindros",
+    "cr": "Relación de compresión",
+    "boost": "Presión de sobrealimentación",
+    "rpm": "Régimen de par máximo",
+    "rpmMax": "Régimen máximo (corte)",
+    "pistonKit": "Masa del pistón completo",
+    "rodMass": "Masa de la biela",
+    "material": "Material de la biela",
+    "shankArea": "Sección del cuerpo de biela",
+    "pinOd": "Ø exterior del bulón",
+    "pinId": "Ø interior del bulón",
+    "crankpin": "Ø de la muñequilla",
+    "bearingWidth": "Anchura del cojinete"
+  },
+  "mat": {
+    "pm": "Sinterizada de serie",
+    "forged_4340": "Forjada acero 4340",
+    "billet_300m": "Mecanizada acero 300M",
+    "alu_7075": "Aluminio 7075",
+    "titanium": "Titanio"
+  },
+  "rating": {
+    "excellent": "Excelente",
+    "good": "Bueno",
+    "limit": "Al límite",
+    "failure": "Rotura probable"
+  },
+  "r": {
+    "overall": "Balance del tren alternativo",
+    "overall_note": "Según el coeficiente de seguridad más bajo",
+    "peak": "Presión de combustión máxima",
+    "peak_note": "Estimada a partir de la compresión y la presión de admisión",
+    "gas": "Fuerza de los gases sobre el pistón",
+    "comp": "Tensión de compresión",
+    "tens": "Tensión de tracción",
+    "pin": "Cizalladura del bulón",
+    "sf": "Seguridad ×{f}: {v}",
+    "bearing": "Presión en el cojinete",
+    "bearing_note": "Recomendado: menos de 50 MPa",
+    "torque": "Par estimado",
+    "torque_note": "Presión media efectiva ≈ {b} bar",
+    "power": "Potencia estimada",
+    "power_note": "A {rpm}"
+  },
+  "warn": {
+    "failure": "Al menos una pieza supera su límite: riesgo de rotura. Refuerce esa pieza o reduzca la presión / el régimen.",
+    "limit": "Margen escaso en al menos una pieza: solo uso puntual, piezas de calidad imprescindibles.",
+    "bearing": "Presión elevada en el cojinete: se recomiendan cojinetes reforzados y aceite adecuado.",
+    "method": "Estimación: no se calculan pandeo, fatiga ni concentraciones de tensión. Valide con el fabricante de bielas."
+  },
+  "chart": {
+    "forces_title": "Esfuerzos en la biela durante un ciclo (régimen de par máximo)",
+    "angle": "Ángulo del cigüeñal",
+    "force": "Fuerza",
+    "rod": "Biela (total)",
+    "gas": "Gases",
+    "inertia": "Inercia",
+    "pressure_title": "Presión en el cilindro",
+    "pressure": "Presión"
+  }
+}

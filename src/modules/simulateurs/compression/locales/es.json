@@ -1,0 +1,71 @@
+{
+  "intro": "Calcula la relación de compresión estática, dinámica (según el árbol de levas) y efectiva con sobrealimentación, con el octanaje recomendado.",
+  "g_engine": "Motor",
+  "g_chamber": "Cámara y pistón",
+  "g_cam": "Árbol de levas y sobrealimentación",
+  "deck_hint": "Positivo: pistón por debajo del plano de junta; negativo: pistón que sobresale",
+  "ivc_hint": "Cierre de admisión tras el PMI (duración anunciada)",
+  "boost_hint": "0 para un motor atmosférico",
+  "in": {
+    "bore": "Diámetro",
+    "stroke": "Carrera",
+    "rod": "Distancia entre ejes de biela",
+    "cylinders": "Número de cilindros",
+    "chamber": "Volumen de la cámara (culata)",
+    "gasketBore": "Diámetro de la junta de culata",
+    "gasketThickness": "Espesor de la junta comprimida",
+    "deck": "Retroceso del pistón en el PMS",
+    "pistonType": "Cabeza del pistón",
+    "pistonCc": "Volumen de la cúpula o del vaciado",
+    "reliefs": "Volumen de las cajeras de válvulas",
+    "ivc": "Cierre de la admisión",
+    "boost": "Presión de sobrealimentación"
+  },
+  "piston": {
+    "flat": "Plana",
+    "dished": "Cóncava",
+    "domed": "Con cúpula"
+  },
+  "r": {
+    "static": "Relación de compresión estática",
+    "dynamic": "Relación de compresión dinámica",
+    "dynamic_note": "{pct} % de la carrera realmente comprimida",
+    "effective": "Relación efectiva con presión",
+    "effective_note": "Equivalente atmosférico de la carga sobrealimentada",
+    "octane": "Octanaje recomendado",
+    "cranking": "Presión de compresión teórica",
+    "cranking_note": "Con el motor de arranque, sin fugas (un compresímetro marca menos)",
+    "gain": "Rendimiento teórico frente a 9:1",
+    "gain_note": "Ciclo Otto, γ = 1,3",
+    "displacement": "Cilindrada total",
+    "clearance": "Volumen muerto por cilindro",
+    "swept": "Volumen barrido por cilindro: {v}"
+  },
+  "fuel": {
+    "sp95": "Basta con 95",
+    "sp98": "Se recomienda 98",
+    "race": "Combustible de competición (≈ 100–102)",
+    "e85": "E85 o combustible de competición de alto octanaje"
+  },
+  "warn": {
+    "high_na": "Relación estática alta para un atmosférico: revisa el árbol de levas (relación dinámica) y el combustible.",
+    "high_boost": "Relación estática alta para un motor sobrealimentado: picado probable sin combustible de alto octanaje.",
+    "low": "Relación baja: el rendimiento y el par disminuyen.",
+    "indicative": "El octanaje recomendado es una regla de taller: el avance real y el tipo de inyección influyen mucho."
+  },
+  "chart": {
+    "ivc_title": "Relación dinámica según el cierre de la admisión",
+    "ivc": "Cierre de admisión (° tras PMI)",
+    "dcr": "Relación dinámica",
+    "static": "Relación estática",
+    "parts_title": "Composición del volumen muerto",
+    "volume": "Volumen"
+  },
+  "part": {
+    "chamber": "Cámara",
+    "gasket": "Junta",
+    "deck": "Retroceso",
+    "piston": "Cabeza de pistón",
+    "reliefs": "Cajeras"
+  }
+}

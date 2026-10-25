@@ -1,0 +1,72 @@
+{
+  "intro": "Biyel, piston pimi ve krank muylusundaki kuvvet ve gerilmeleri güvenlik katsayılarıyla tahmin eder.",
+  "g_engine": "Motor",
+  "g_parts": "Parçalar",
+  "rpm_hint": "Azami tork devri (en yüksek basınç)",
+  "kit_hint": "Piston + pim + segmanlar + segman klipsleri",
+  "shank_hint": "Biyel gövdesinin en küçük kesiti",
+  "in": {
+    "bore": "Silindir çapı",
+    "stroke": "Strok",
+    "rod": "Biyel boyu",
+    "cylinders": "Silindir sayısı",
+    "cr": "Sıkıştırma oranı",
+    "boost": "Turbo basıncı",
+    "rpm": "Azami tork devri",
+    "rpmMax": "Azami devir (kesici)",
+    "pistonKit": "Komple piston kütlesi",
+    "rodMass": "Biyel kütlesi",
+    "material": "Biyel malzemesi",
+    "shankArea": "Gövde kesiti",
+    "pinOd": "Pim dış Ø",
+    "pinId": "Pim iç Ø",
+    "crankpin": "Krank muylu Ø",
+    "bearingWidth": "Yatak genişliği"
+  },
+  "mat": {
+    "pm": "Orijinal sinter",
+    "forged_4340": "Dövme 4340 çelik",
+    "billet_300m": "Bloktan işlenmiş 300M çelik",
+    "alu_7075": "7075 alüminyum",
+    "titanium": "Titanyum"
+  },
+  "rating": {
+    "excellent": "Mükemmel",
+    "good": "İyi",
+    "limit": "Sınırda",
+    "failure": "Kırılma olası"
+  },
+  "r": {
+    "overall": "Krank mekanizması değerlendirmesi",
+    "overall_note": "En düşük güvenlik katsayısına göre",
+    "peak": "Azami yanma basıncı",
+    "peak_note": "Sıkıştırma ve emme basıncından tahmin edilir",
+    "gas": "Pistona etki eden gaz kuvveti",
+    "comp": "Basma gerilmesi",
+    "tens": "Çekme gerilmesi",
+    "pin": "Pim kesme gerilmesi",
+    "sf": "Güvenlik ×{f}: {v}",
+    "bearing": "Yatak basıncı",
+    "bearing_note": "Önerilen: 50 MPa altı",
+    "torque": "Tahmini tork",
+    "torque_note": "Ortalama efektif basınç ≈ {b} bar",
+    "power": "Tahmini güç",
+    "power_note": "{rpm} devirde"
+  },
+  "warn": {
+    "failure": "En az bir parça sınırını aşıyor: kırılma riski. O parçayı güçlendirin veya basıncı / devri düşürün.",
+    "limit": "En az bir parçada pay düşük: yalnızca ara sıra kullanım, kaliteli parçalar şart.",
+    "bearing": "Yatak basıncı yüksek: güçlendirilmiş yataklar ve uygun yağ önerilir.",
+    "method": "Tahmin: burkulma, yorulma ve gerilme yığılmaları hesaplanmaz. Biyel üreticisiyle doğrulayın."
+  },
+  "chart": {
+    "forces_title": "Bir çevrimde biyel kuvvetleri (azami tork devri)",
+    "angle": "Krank açısı",
+    "force": "Kuvvet",
+    "rod": "Biyel (toplam)",
+    "gas": "Gaz",
+    "inertia": "Atalet",
+    "pressure_title": "Silindir basıncı",
+    "pressure": "Basınç"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "intro": "Estimates loads and stresses on the connecting rod, piston pin and crankpin, with safety factors.",
+  "g_engine": "Engine",
+  "g_parts": "Parts",
+  "rpm_hint": "Peak torque speed (highest pressure)",
+  "kit_hint": "Piston + pin + rings + clips",
+  "shank_hint": "Smallest cross-section of the rod beam",
+  "in": {
+    "bore": "Bore",
+    "stroke": "Stroke",
+    "rod": "Rod length",
+    "cylinders": "Number of cylinders",
+    "cr": "Compression ratio",
+    "boost": "Boost pressure",
+    "rpm": "Peak torque rpm",
+    "rpmMax": "Maximum rpm (limiter)",
+    "pistonKit": "Complete piston mass",
+    "rodMass": "Rod mass",
+    "material": "Rod material",
+    "shankArea": "Beam cross-section",
+    "pinOd": "Pin outer Ø",
+    "pinId": "Pin inner Ø",
+    "crankpin": "Crankpin Ø",
+    "bearingWidth": "Bearing width"
+  },
+  "mat": {
+    "pm": "Stock powder metal",
+    "forged_4340": "Forged 4340 steel",
+    "billet_300m": "Billet 300M steel",
+    "alu_7075": "7075 aluminium",
+    "titanium": "Titanium"
+  },
+  "rating": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "limit": "Borderline",
+    "failure": "Likely failure"
+  },
+  "r": {
+    "overall": "Rotating assembly verdict",
+    "overall_note": "Based on the lowest safety factor",
+    "peak": "Peak combustion pressure",
+    "peak_note": "Estimated from compression ratio and intake pressure",
+    "gas": "Gas force on the piston",
+    "comp": "Compressive stress",
+    "tens": "Tensile stress",
+    "pin": "Pin shear stress",
+    "sf": "Safety ×{f}: {v}",
+    "bearing": "Bearing pressure",
+    "bearing_note": "Recommended: below 50 MPa",
+    "torque": "Estimated torque",
+    "torque_note": "Brake mean effective pressure ≈ {b} bar",
+    "power": "Estimated power",
+    "power_note": "At {rpm}"
+  },
+  "warn": {
+    "failure": "At least one part exceeds its limit: failure risk. Upgrade that part or reduce boost / rpm.",
+    "limit": "Low margin on at least one part: occasional use only, quality parts essential.",
+    "bearing": "High bearing pressure: uprated bearings and suitable oil recommended.",
+    "method": "Estimate: buckling, fatigue and stress concentrations are not calculated. Confirm with the rod manufacturer."
+  },
+  "chart": {
+    "forces_title": "Rod loads over one cycle (peak torque speed)",
+    "angle": "Crank angle",
+    "force": "Force",
+    "rod": "Rod (total)",
+    "gas": "Gas",
+    "inertia": "Inertia",
+    "pressure_title": "Cylinder pressure",
+    "pressure": "Pressure"
+  }
+}

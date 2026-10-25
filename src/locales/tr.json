@@ -153,7 +153,8 @@
     "flow_velocity": "Akış hızı",
     "fuel_economy": "Yakıt tüketimi",
     "price_volume": "Yakıt fiyatı",
-    "bsfc": "Özgül yakıt tüketimi (BSFC)"
+    "bsfc": "Özgül yakıt tüketimi (BSFC)",
+    "stress": "Mekanik gerilme"
   },
   "update": {
     "available": "Yeni sürüm mevcut",

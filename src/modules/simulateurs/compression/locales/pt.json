@@ -1,0 +1,71 @@
+{
+  "intro": "Calcula a taxa de compressão estática, dinâmica (consoante a árvore de cames) e efetiva com sobrealimentação, com o índice de octano recomendado.",
+  "g_engine": "Motor",
+  "g_chamber": "Câmara e pistão",
+  "g_cam": "Árvore de cames e sobrealimentação",
+  "deck_hint": "Positivo: pistão abaixo do plano da junta; negativo: pistão saliente",
+  "ivc_hint": "Fecho da admissão após o PMI (duração anunciada)",
+  "boost_hint": "0 para um motor atmosférico",
+  "in": {
+    "bore": "Diâmetro",
+    "stroke": "Curso",
+    "rod": "Entre-eixos da biela",
+    "cylinders": "Número de cilindros",
+    "chamber": "Volume da câmara (cabeça)",
+    "gasketBore": "Diâmetro da junta da cabeça",
+    "gasketThickness": "Espessura da junta comprimida",
+    "deck": "Recuo do pistão no PMS",
+    "pistonType": "Cabeça do pistão",
+    "pistonCc": "Volume da cúpula ou da cavidade",
+    "reliefs": "Volume dos rebaixos das válvulas",
+    "ivc": "Fecho da admissão",
+    "boost": "Pressão de sobrealimentação"
+  },
+  "piston": {
+    "flat": "Plana",
+    "dished": "Côncava",
+    "domed": "Com cúpula"
+  },
+  "r": {
+    "static": "Taxa de compressão estática",
+    "dynamic": "Taxa de compressão dinâmica",
+    "dynamic_note": "{pct} % do curso realmente comprimido",
+    "effective": "Taxa efetiva sob pressão",
+    "effective_note": "Equivalente atmosférico da carga sobrealimentada",
+    "octane": "Octano recomendado",
+    "cranking": "Pressão de compressão teórica",
+    "cranking_note": "Ao motor de arranque, sem fugas (um compressómetro lê menos)",
+    "gain": "Rendimento teórico face a 9:1",
+    "gain_note": "Ciclo Otto, γ = 1,3",
+    "displacement": "Cilindrada total",
+    "clearance": "Volume morto por cilindro",
+    "swept": "Volume varrido por cilindro: {v}"
+  },
+  "fuel": {
+    "sp95": "A 95 chega",
+    "sp98": "Recomenda-se a 98",
+    "race": "Combustível de competição (≈ 100–102)",
+    "e85": "E85 ou combustível de competição de alto octano"
+  },
+  "warn": {
+    "high_na": "Taxa estática elevada para um atmosférico: verifique a árvore de cames (taxa dinâmica) e o combustível.",
+    "high_boost": "Taxa estática elevada para um motor sobrealimentado: detonação provável sem combustível de alto octano.",
+    "low": "Taxa baixa: rendimento e binário diminuem.",
+    "indicative": "O octano recomendado é uma regra de oficina: o avanço realmente usado e o tipo de injeção contam muito."
+  },
+  "chart": {
+    "ivc_title": "Taxa dinâmica em função do fecho da admissão",
+    "ivc": "Fecho da admissão (° após PMI)",
+    "dcr": "Taxa dinâmica",
+    "static": "Taxa estática",
+    "parts_title": "Composição do volume morto",
+    "volume": "Volume"
+  },
+  "part": {
+    "chamber": "Câmara",
+    "gasket": "Junta",
+    "deck": "Recuo",
+    "piston": "Cabeça do pistão",
+    "reliefs": "Rebaixos"
+  }
+}

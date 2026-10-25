@@ -1,0 +1,62 @@
+{
+  "intro": "Sprawdza, czy sprężyna utrzymuje zawór przy docelowych obrotach (bez zawisania) i nie dochodzi do zblokowania zwojów.",
+  "g_cam": "Krzywka i obroty",
+  "g_masses": "Masy napędzane",
+  "g_spring": "Sprężyna",
+  "duration_hint": "Czas otwarcia przy 0,050\" (1,27 mm) lub katalogowy",
+  "follower_hint": "Dźwigienka lub popychacz; 0 przy napędzie bezpośrednim",
+  "single": "Pojedyncza",
+  "dual": "Podwójna",
+  "in": {
+    "lift": "Wznios zaworu",
+    "duration": "Czas otwarcia",
+    "rpm": "Docelowe obroty",
+    "valve": "Masa zaworu",
+    "retainer": "Masa talerzyka",
+    "springMass": "Masa sprężyny",
+    "follower": "Masa popychacza / dźwigienki",
+    "rate": "Sztywność sprężyny",
+    "freeHeight": "Wysokość swobodna",
+    "installed": "Wysokość montażowa",
+    "coilBind": "Wysokość przy zblokowaniu",
+    "dual": "Rodzaj sprężyny"
+  },
+  "risk": {
+    "low": "Niskie ryzyko",
+    "moderate": "Umiarkowane ryzyko",
+    "high": "Wysokie ryzyko",
+    "critical": "Pewne zawisanie zaworu"
+  },
+  "r": {
+    "margin": "Margines bezpieczeństwa",
+    "seat": "Siła przy zamkniętym zaworze",
+    "seat_note": "Napięcie wstępne {p}",
+    "open": "Siła przy otwartym zaworze",
+    "required": "Wymagana siła przy obrotach",
+    "required_note": "Maks. opóźnienie ≈ {g} g",
+    "bind": "Zapas do zblokowania zwojów",
+    "bind_note": "Zalecane: co najmniej 1,5 mm",
+    "rpm_limit": "Zalecane maksymalne obroty",
+    "rpm_limit_note": "Przy marginesie {m}%",
+    "mass": "Masa w ruchu",
+    "mass_note": "Zawór + talerzyk + ½ sprężyny + popychacz"
+  },
+  "warn": {
+    "increase_rate": "Za mały margines: sztywniejsza sprężyna lub lżejsze części (tytanowe zawory lub talerzyki).",
+    "use_dual": "Za mały margines: zastosuj sztywniejsze sprężyny podwójne lub odciąż rozrząd.",
+    "bind": "Za mały zapas do zblokowania: sprężyna może pęknąć lub zablokować wałek.",
+    "rpm": "Docelowe obroty przekraczają zalecane maksimum dla tej sprężyny.",
+    "method": "Model krzywki harmonicznej: agresywna krzywka (krótkie rampy) wymaga 10–20% większej siły."
+  },
+  "chart": {
+    "force_title": "Siła sprężyny i siła wymagana w zależności od wzniosu",
+    "lift": "Wznios",
+    "force": "Siła",
+    "spring": "Sprężyna",
+    "required": "Wymagana",
+    "margin_title": "Margines bezpieczeństwa w zależności od obrotów",
+    "rpm": "Obroty",
+    "margin": "Margines",
+    "target": "Cel"
+  }
+}

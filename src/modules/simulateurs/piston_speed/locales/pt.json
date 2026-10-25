@@ -1,0 +1,54 @@
+{
+  "intro": "Calcula a velocidade do pistão, a aceleração e as forças de inércia, com o regime máximo recomendado.",
+  "g_geometry": "Geometria e regime",
+  "g_masses": "Massas em movimento",
+  "rod_hint": "Um terço conta como massa alternativa",
+  "in": {
+    "stroke": "Curso",
+    "rod": "Entre-eixos da biela",
+    "rpm": "Regime",
+    "piston": "Massa do pistão",
+    "pin": "Massa do cavilhão",
+    "rings": "Massa dos segmentos",
+    "rodMass": "Massa da biela"
+  },
+  "r": {
+    "mean": "Velocidade média do pistão",
+    "max": "Velocidade máxima do pistão",
+    "max_note": "Atingida por volta de {a}° após o PMS",
+    "accel": "Aceleração no PMS",
+    "force": "Força de inércia no PMS",
+    "force_note": "Puxa a biela em cada rotação",
+    "recip": "Massa alternativa",
+    "recip_note": "Pistão + cavilhão + segmentos + ⅓ da biela",
+    "ratio": "Relação biela / curso",
+    "limit": "Regime máximo recomendado",
+    "limit_note": "Para uma velocidade média de {v}"
+  },
+  "rate": {
+    "excellent": "Esforço muito baixo",
+    "good": "Uso em estrada seguro",
+    "acceptable": "Desportivo: peças de qualidade",
+    "high": "Elevado: peças forjadas",
+    "extreme": "Extremo: só competição"
+  },
+  "rod": {
+    "increase_rod": "Biela curta: esforços laterais elevados",
+    "good": "Relação correta",
+    "excellent": "Muito boa relação"
+  },
+  "warn": {
+    "reduce_rpm": "Regime claramente acima do limite recomendado: reduza o regime ou o curso.",
+    "forged": "Velocidade média elevada: recomendam-se pistões e bielas forjados.",
+    "heavy": "Massa alternativa elevada: peças mais leves reduziriam os esforços."
+  },
+  "chart": {
+    "crank_title": "Velocidade e aceleração do pistão numa rotação",
+    "angle": "Ângulo da cambota",
+    "velocity": "Velocidade",
+    "accel": "Aceleração",
+    "force_title": "Força de inércia no PMS em função do regime",
+    "rpm": "Regime",
+    "force": "Força"
+  }
+}

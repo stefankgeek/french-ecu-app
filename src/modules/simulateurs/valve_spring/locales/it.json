@@ -1,0 +1,62 @@
+{
+  "intro": "Verifica che la molla controlli la valvola al regime desiderato (niente sfarfallamento) e non vada a pacco.",
+  "g_cam": "Camma e regime",
+  "g_masses": "Masse trascinate",
+  "g_spring": "Molla",
+  "duration_hint": "Durata a 0,050\" (1,27 mm) o dichiarata",
+  "follower_hint": "Bilanciere o punteria; 0 se ad azionamento diretto",
+  "single": "Singola",
+  "dual": "Doppia",
+  "in": {
+    "lift": "Alzata valvola",
+    "duration": "Durata",
+    "rpm": "Regime obiettivo",
+    "valve": "Massa della valvola",
+    "retainer": "Massa del piattello",
+    "springMass": "Massa della molla",
+    "follower": "Massa punteria / bilanciere",
+    "rate": "Rigidezza della molla",
+    "freeHeight": "Altezza libera",
+    "installed": "Altezza di montaggio",
+    "coilBind": "Altezza a pacco",
+    "dual": "Tipo di molla"
+  },
+  "risk": {
+    "low": "Rischio basso",
+    "moderate": "Rischio moderato",
+    "high": "Rischio alto",
+    "critical": "Sfarfallamento certo"
+  },
+  "r": {
+    "margin": "Margine di sicurezza",
+    "seat": "Carico a valvola chiusa",
+    "seat_note": "Precarico di {p}",
+    "open": "Carico a valvola aperta",
+    "required": "Forza necessaria al regime",
+    "required_note": "Decelerazione max ≈ {g} g",
+    "bind": "Riserva prima del pacco",
+    "bind_note": "Consigliato: almeno 1,5 mm",
+    "rpm_limit": "Regime massimo consigliato",
+    "rpm_limit_note": "Con {m} % di margine",
+    "mass": "Massa in movimento",
+    "mass_note": "Valvola + piattello + ½ molla + punteria"
+  },
+  "warn": {
+    "increase_rate": "Margine insufficiente: molla più rigida o componenti più leggeri (valvole o piattelli in titanio).",
+    "use_dual": "Margine insufficiente: passa a molle doppie più rigide o alleggerisci la distribuzione.",
+    "bind": "Riserva prima del pacco troppo ridotta: la molla può rompersi o bloccare l'albero.",
+    "rpm": "Il regime obiettivo supera il massimo consigliato per questa molla.",
+    "method": "Modello di camma armonica: una camma aggressiva (rampe corte) richiede dal 10 al 20 % di forza in più."
+  },
+  "chart": {
+    "force_title": "Forza della molla e forza necessaria in funzione dell'alzata",
+    "lift": "Alzata",
+    "force": "Forza",
+    "spring": "Molla",
+    "required": "Necessaria",
+    "margin_title": "Margine di sicurezza in funzione del regime",
+    "rpm": "Regime",
+    "margin": "Margine",
+    "target": "Obiettivo"
+  }
+}

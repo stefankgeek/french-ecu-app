@@ -1,0 +1,72 @@
+{
+  "intro": "Estime les efforts et contraintes sur la bielle, l'axe de piston et le maneton, avec des coefficients de sécurité.",
+  "g_engine": "Moteur",
+  "g_parts": "Pièces",
+  "rpm_hint": "Régime du couple maxi (pression maxi)",
+  "kit_hint": "Piston + axe + segments + clips",
+  "shank_hint": "Section la plus faible du corps de bielle",
+  "in": {
+    "bore": "Alésage",
+    "stroke": "Course",
+    "rod": "Entraxe de bielle",
+    "cylinders": "Nombre de cylindres",
+    "cr": "Taux de compression",
+    "boost": "Pression de suralimentation",
+    "rpm": "Régime de couple maxi",
+    "rpmMax": "Régime maxi (rupteur)",
+    "pistonKit": "Masse piston complet",
+    "rodMass": "Masse de la bielle",
+    "material": "Matériau de la bielle",
+    "shankArea": "Section du corps de bielle",
+    "pinOd": "Ø extérieur de l'axe",
+    "pinId": "Ø intérieur de l'axe",
+    "crankpin": "Ø du maneton",
+    "bearingWidth": "Largeur du coussinet"
+  },
+  "mat": {
+    "pm": "Frittée d'origine",
+    "forged_4340": "Forgée acier 4340",
+    "billet_300m": "Taillée masse acier 300M",
+    "alu_7075": "Aluminium 7075",
+    "titanium": "Titane"
+  },
+  "rating": {
+    "excellent": "Excellent",
+    "good": "Bon",
+    "limit": "Limite",
+    "failure": "Rupture probable"
+  },
+  "r": {
+    "overall": "Bilan de l'embiellage",
+    "overall_note": "Selon le plus faible coefficient de sécurité",
+    "peak": "Pression de combustion maxi",
+    "peak_note": "Estimée d'après le taux et la pression d'admission",
+    "gas": "Force des gaz sur le piston",
+    "comp": "Contrainte en compression",
+    "tens": "Contrainte en traction",
+    "pin": "Cisaillement de l'axe",
+    "sf": "Sécurité ×{f} : {v}",
+    "bearing": "Pression sur le coussinet",
+    "bearing_note": "Conseillé : moins de 50 MPa",
+    "torque": "Couple estimé",
+    "torque_note": "Pression moyenne effective ≈ {b} bar",
+    "power": "Puissance estimée",
+    "power_note": "À {rpm}"
+  },
+  "warn": {
+    "failure": "Au moins une pièce dépasse sa limite : risque de rupture. Renforcez la pièce concernée ou réduisez la pression / le régime.",
+    "limit": "Marge faible sur au moins une pièce : à réserver à un usage ponctuel, pièces de qualité indispensables.",
+    "bearing": "Pression sur coussinet élevée : coussinets renforcés et huile adaptée recommandés.",
+    "method": "Estimation : le flambage, la fatigue et les concentrations de contraintes ne sont pas calculés. Validez avec le fabricant de bielles."
+  },
+  "chart": {
+    "forces_title": "Efforts sur la bielle sur un cycle (régime de couple maxi)",
+    "angle": "Angle vilebrequin",
+    "force": "Force",
+    "rod": "Bielle (total)",
+    "gas": "Gaz",
+    "inertia": "Inertie",
+    "pressure_title": "Pression dans le cylindre",
+    "pressure": "Pression"
+  }
+}
