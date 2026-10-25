@@ -1,0 +1,59 @@
+{
+  "intro": "Works out the compressor operating point: pressure ratio, corrected flow to read the turbo map, temperatures and estimated power.",
+  "g_engine": "Engine",
+  "g_air": "Ambient air",
+  "g_turbo": "Turbo and intercooler",
+  "manifold_hint": "Absolute manifold pressure (1 bar of boost ≈ 2.0 bar abs)",
+  "atm_hint": "1.013 at sea level",
+  "ic_hint": "0% without an intercooler",
+  "ref_garrett": "Garrett map (29 °C / 0.962 bar)",
+  "ref_std": "Standard conditions (15 °C / 1.013 bar)",
+  "in": {
+    "displacement": "Displacement",
+    "rpm": "Engine speed",
+    "ve": "Volumetric efficiency",
+    "manifold": "Manifold pressure",
+    "ambient": "Ambient temperature",
+    "atm": "Atmospheric pressure",
+    "etaC": "Compressor efficiency",
+    "icEff": "Intercooler efficiency",
+    "dpIc": "Intercooler and piping pressure drop",
+    "dpInlet": "Air filter pressure drop",
+    "fuel": "Fuel",
+    "ref": "Compressor map reference"
+  },
+  "r": {
+    "pr": "Pressure ratio",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Boost pressure (gauge)",
+    "corrected": "Corrected flow (for the map)",
+    "ref_garrett": "Garrett reference",
+    "ref_std": "Standard reference",
+    "air": "Actual air flow",
+    "t2": "Compressor outlet temperature",
+    "tman": "Manifold temperature",
+    "tman_note": "After intercooler ({e}% efficiency)",
+    "power": "Estimated power",
+    "power_note": "≈ 10 hp per lb/min of air",
+    "exhaust": "Recommended exhaust diameter",
+    "exhaust_note": "Downpipe, inside diameter"
+  },
+  "warn": {
+    "pr_high": "Pressure ratio above 3: you need a suitable compressor, check its map (surge line).",
+    "t2_high": "Very hot air at the compressor outlet: an efficient intercooler is essential.",
+    "eta_low": "Low compressor efficiency: the point is probably outside the map's efficient zone.",
+    "no_ic": "Without an intercooler, hot air lowers density and increases the risk of knock.",
+    "ok": "Parameters within usual ranges."
+  },
+  "chart": {
+    "line_title": "Corrected flow and power versus engine speed",
+    "rpm": "Engine speed",
+    "flow": "Corrected flow",
+    "power": "Power",
+    "temp_title": "Air temperatures",
+    "temp": "Temperature",
+    "t_amb": "Ambient",
+    "t_comp": "Compressor outlet",
+    "t_man": "Manifold"
+  }
+}

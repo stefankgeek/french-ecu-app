@@ -1,0 +1,66 @@
+{
+  "intro": "Controleert wastegate-maat, veer en drukregeling om de doeldruk zonder boost creep vast te houden.",
+  "g_target": "Doel",
+  "g_wastegate": "Wastegate en regeling",
+  "type_internal": "Intern (klep)",
+  "type_external": "Extern",
+  "control_manual": "Zonder regelaar (alleen veer)",
+  "control_mbc": "Handmatige regelaar (MBC)",
+  "control_ebc": "Elektronische regelaar (EBC)",
+  "in": {
+    "power": "Beoogd vermogen",
+    "boost": "Beoogde turbodruk (relatief)",
+    "type": "Type wastegate",
+    "valve": "Klepdiameter",
+    "spring": "Veerdruk",
+    "control": "Regeling"
+  },
+  "r": {
+    "required": "Benodigde klepdiameter",
+    "required_note": "Vuistregel van de fabrikanten",
+    "capacity": "Capaciteit van de wastegate",
+    "creep": "Risico op boost creep",
+    "spring": "Aanbevolen veer",
+    "spring_manual": "Zonder regelaar: veer = beoogde druk",
+    "spring_ctrl": "Met regelaar: ongeveer 70 % van het doel",
+    "expected": "Verkregen druk",
+    "max_ctrl": "Maximaal regelbare druk",
+    "max_ctrl_note": "Ongeveer 2 × de veerdruk",
+    "duty": "Geschatte EBC-duty cycle",
+    "duty_note": "Lineaire benadering, op de auto bijstellen",
+    "exhaust": "Uitlaatgasdebiet"
+  },
+  "fit": {
+    "optimal": "Juiste maat",
+    "undersized": "Te klein",
+    "oversized": "Groter dan nodig"
+  },
+  "creep": {
+    "none": "Geen",
+    "low": "Laag",
+    "moderate": "Matig",
+    "high": "Hoog"
+  },
+  "warn": {
+    "creep_high": "Klep duidelijk te klein: de druk kan blijven stijgen (boost creep).",
+    "creep_moderate": "Klep krap: lichte boost creep bij hoge toeren mogelijk.",
+    "use_external": "De behoefte overschrijdt de capaciteit van een interne klep: stap over op een externe wastegate.",
+    "spring_manual": "Zonder regelaar is de druk gelijk aan de veerdruk: kies een veer gelijk aan de beoogde druk.",
+    "spring_low": "Veer zwak ten opzichte van het doel: onstabiele regeling en drukpieken mogelijk.",
+    "spring_high": "Veer dicht bij het doel: de regelaar heeft bijna geen marge meer.",
+    "target_unreachable": "Doel hoger dan de regelaar met deze veer kan vasthouden: monteer een stuggere veer.",
+    "oversized": "Klep veel groter dan nodig: iets minder fijne regeling, maar veilig."
+  },
+  "table": {
+    "title": "Klepmaten vergeleken",
+    "valve": "Klep",
+    "capacity": "Capaciteit",
+    "verdict": "Oordeel"
+  },
+  "chart": {
+    "ebc_title": "Druk afhankelijk van de duty cycle (elektronische regelaar)",
+    "duty": "Duty cycle (%)",
+    "boost": "Verkregen druk",
+    "target": "Beoogde druk"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "intro": "Estime l'efficacité de l'intercooler, la température de sortie, la perte de charge et le gain de puissance réel.",
+  "g_engine": "Moteur et air",
+  "g_core": "Faisceau",
+  "g_piping": "Durites et refroidissement",
+  "tin_hint": "Température de sortie compresseur (voir Calibrage turbo)",
+  "corew_hint": "Longueur parcourue par l'air de suralimentation",
+  "type_air": "Air/air",
+  "type_water": "Air/eau",
+  "in": {
+    "displacement": "Cylindrée",
+    "rpm": "Régime",
+    "ve": "Rendement volumétrique",
+    "boost": "Pression de suralimentation (relative)",
+    "tIn": "Température d'entrée",
+    "ambient": "Température ambiante",
+    "type": "Type d'échangeur",
+    "coreW": "Longueur du faisceau",
+    "coreH": "Hauteur du faisceau",
+    "coreT": "Épaisseur du faisceau",
+    "fins": "Densité d'ailettes",
+    "pipeD": "Diamètre des durites",
+    "pipeL": "Longueur totale des durites",
+    "speed": "Vitesse du véhicule",
+    "fan": "Ventilateur d'appoint"
+  },
+  "r": {
+    "eff": "Efficacité",
+    "tout": "Température de sortie",
+    "tout_note": "Entrée {t}",
+    "drop": "Baisse de température",
+    "dp": "Perte de charge",
+    "dp_note": "Faisceau {core} · durites {pipe}",
+    "air": "Débit d'air",
+    "vpipe": "Vitesse dans les durites",
+    "gain": "Gain de puissance (densité)",
+    "gain_note": "Sur une puissance estimée de {p}",
+    "loss": "Perte due à la perte de charge",
+    "loss_note": "Seulement si la pression n'est pas régulée au collecteur"
+  },
+  "warn": {
+    "dp_high": "Perte de charge élevée : faisceau trop petit ou durites trop étroites pour ce débit.",
+    "eff_low": "Efficacité faible : faisceau trop petit pour ce débit d'air.",
+    "low_speed": "Efficacité faible à basse vitesse : un ventilateur d'appoint ou un meilleur emplacement aiderait.",
+    "pipe_small": "Air trop rapide dans les durites (plus de 60 m/s) : passez à un diamètre supérieur.",
+    "water_note": "Air/eau : très efficace sur des accélérations courtes, mais l'eau chauffe sur une utilisation prolongée."
+  },
+  "chart": {
+    "eff_title": "Efficacité selon la vitesse du véhicule",
+    "speed": "Vitesse",
+    "eff": "Efficacité (%)",
+    "dp_title": "Perte de charge selon le régime",
+    "rpm": "Régime",
+    "dp": "Perte de charge",
+    "balance_title": "Bilan de puissance",
+    "gain": "Gain",
+    "loss": "Perte",
+    "net": "Net",
+    "power": "Puissance"
+  }
+}

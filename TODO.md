@@ -24,7 +24,15 @@ comparaison des résultats avec l'ancien site.
   mémorisation des dernières valeurs
 - ✅ Carburant : injecteurs, débit pompe, E85, lambda/AFR, NOS — 75/75 résultats identiques à l'ancien site
 - ⏳ Export PDF : éviter qu'un saut de page coupe une ligne de tableau
-- ⏳ Suralimentation : turbo, wastegate, intercooler, échappement
+- ✅ Suralimentation (v0.3.0) : turbo, wastegate, intercooler, échappement — formules de l'ancien site
+  fausses, réécrites sur des bases physiques (détail en tête de chaque calc.js), 20 tests de cohérence
+  - Turbo : densité au collecteur, débit corrigé (formule inversée), rapport de pression, T° échappement
+    fantaisiste supprimée, diamètre d'échappement (donnait plusieurs mètres)
+  - Wastegate : soupape conseillée ≈ 3 mm → règle des fabricants (Ø 38 ≈ 450 hp à 1 bar), ressort,
+    pression obtenue, rapport cyclique EBC, risque de boost creep
+  - Intercooler : débit d'air ×500 trop grand, perte de charge > 1 bar → méthode efficacité-NTU + Darcy
+  - Échappement : CFM avec des cm³ au lieu de pouces cubes (×16), pertes ∝ débit², perte de pompage réelle
+- ✅ Graphiques en barres : toutes les étiquettes visibles (retour à la ligne)
 - ⏳ Moteur : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage, Harmonics3+
 - ⏳ Cartographie : générateur de tables ECU
 - ⏳ Châssis : répartition de freinage, radiateur d'huile

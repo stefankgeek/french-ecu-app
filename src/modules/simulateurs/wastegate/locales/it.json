@@ -1,0 +1,66 @@
+{
+  "intro": "Verifica dimensione della wastegate, molla e regolazione per mantenere la pressione obiettivo senza «boost creep».",
+  "g_target": "Obiettivo",
+  "g_wastegate": "Wastegate e regolazione",
+  "type_internal": "Interna (valvola a clapet)",
+  "type_external": "Esterna",
+  "control_manual": "Senza regolatore (solo molla)",
+  "control_mbc": "Regolatore manuale (MBC)",
+  "control_ebc": "Regolatore elettronico (EBC)",
+  "in": {
+    "power": "Potenza obiettivo",
+    "boost": "Pressione obiettivo (relativa)",
+    "type": "Tipo di wastegate",
+    "valve": "Diametro della valvola",
+    "spring": "Pressione della molla",
+    "control": "Regolazione"
+  },
+  "r": {
+    "required": "Diametro della valvola necessario",
+    "required_note": "Regola empirica dei costruttori",
+    "capacity": "Capacità della wastegate",
+    "creep": "Rischio di «boost creep»",
+    "spring": "Molla consigliata",
+    "spring_manual": "Senza regolatore: molla = pressione obiettivo",
+    "spring_ctrl": "Con regolatore: circa il 70 % dell'obiettivo",
+    "expected": "Pressione ottenuta",
+    "max_ctrl": "Pressione massima controllabile",
+    "max_ctrl_note": "Circa 2 × la pressione della molla",
+    "duty": "Duty cycle EBC stimato",
+    "duty_note": "Approssimazione lineare, da affinare sull'auto",
+    "exhaust": "Portata dei gas di scarico"
+  },
+  "fit": {
+    "optimal": "Dimensione adatta",
+    "undersized": "Troppo piccola",
+    "oversized": "Più grande del necessario"
+  },
+  "creep": {
+    "none": "Nessuno",
+    "low": "Basso",
+    "moderate": "Moderato",
+    "high": "Alto"
+  },
+  "warn": {
+    "creep_high": "Valvola nettamente troppo piccola: la pressione può continuare a salire (boost creep).",
+    "creep_moderate": "Valvola al limite: possibile un leggero boost creep agli alti regimi.",
+    "use_external": "Il fabbisogno supera la capacità di una valvola interna: passa a una wastegate esterna.",
+    "spring_manual": "Senza regolatore la pressione è quella della molla: scegli una molla pari alla pressione obiettivo.",
+    "spring_low": "Molla debole rispetto all'obiettivo: regolazione instabile e picchi di pressione possibili.",
+    "spring_high": "Molla vicina all'obiettivo: il regolatore non ha quasi più margine.",
+    "target_unreachable": "Obiettivo superiore a quanto il regolatore può mantenere con questa molla: monta una molla più dura.",
+    "oversized": "Valvola molto più grande del necessario: regolazione un po' meno precisa, senza pericolo."
+  },
+  "table": {
+    "title": "Confronto valvole",
+    "valve": "Valvola",
+    "capacity": "Capacità",
+    "verdict": "Giudizio"
+  },
+  "chart": {
+    "ebc_title": "Pressione in funzione del duty cycle (regolatore elettronico)",
+    "duty": "Duty cycle (%)",
+    "boost": "Pressione ottenuta",
+    "target": "Pressione obiettivo"
+  }
+}

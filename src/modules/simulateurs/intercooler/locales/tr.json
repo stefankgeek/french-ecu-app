@@ -1,0 +1,61 @@
+{
+  "intro": "Intercooler verimini, çıkış sıcaklığını, basınç kaybını ve gerçek güç kazancını tahmin eder.",
+  "g_engine": "Motor ve hava",
+  "g_core": "Petek",
+  "g_piping": "Hortumlar ve soğutma",
+  "tin_hint": "Kompresör çıkış sıcaklığı (Turbo seçimi aracına bakın)",
+  "corew_hint": "Basınçlı havanın petek içinde aldığı yol",
+  "type_air": "Hava/hava",
+  "type_water": "Hava/su",
+  "in": {
+    "displacement": "Silindir hacmi",
+    "rpm": "Devir",
+    "ve": "Hacimsel verim",
+    "boost": "Turbo basıncı (bağıl)",
+    "tIn": "Giriş sıcaklığı",
+    "ambient": "Ortam sıcaklığı",
+    "type": "Eşanjör tipi",
+    "coreW": "Petek uzunluğu",
+    "coreH": "Petek yüksekliği",
+    "coreT": "Petek kalınlığı",
+    "fins": "Kanatçık yoğunluğu",
+    "pipeD": "Hortum çapı",
+    "pipeL": "Toplam hortum uzunluğu",
+    "speed": "Araç hızı",
+    "fan": "Yardımcı fan"
+  },
+  "r": {
+    "eff": "Verim",
+    "tout": "Çıkış sıcaklığı",
+    "tout_note": "Giriş {t}",
+    "drop": "Sıcaklık düşüşü",
+    "dp": "Basınç kaybı",
+    "dp_note": "Petek {core} · hortumlar {pipe}",
+    "air": "Hava debisi",
+    "vpipe": "Hortumlardaki hız",
+    "gain": "Güç kazancı (yoğunluk)",
+    "gain_note": "Tahmini {p} güç üzerinden",
+    "loss": "Basınç kaybından doğan kayıp",
+    "loss_note": "Yalnızca basınç manifoldda kontrol edilmiyorsa"
+  },
+  "warn": {
+    "dp_high": "Basınç kaybı yüksek: bu debi için petek çok küçük veya hortumlar çok dar.",
+    "eff_low": "Verim düşük: petek bu hava debisi için çok küçük.",
+    "low_speed": "Düşük hızda verim düşük: yardımcı fan veya daha iyi bir konum yardımcı olur.",
+    "pipe_small": "Hortumlarda hava çok hızlı (60 m/s üzeri): daha büyük bir çap seçin.",
+    "water_note": "Hava/su: kısa hızlanmalarda çok etkilidir, ancak uzun kullanımda su ısınır."
+  },
+  "chart": {
+    "eff_title": "Araç hızına göre verim",
+    "speed": "Hız",
+    "eff": "Verim (%)",
+    "dp_title": "Devire göre basınç kaybı",
+    "rpm": "Devir",
+    "dp": "Basınç kaybı",
+    "balance_title": "Güç dengesi",
+    "gain": "Kazanç",
+    "loss": "Kayıp",
+    "net": "Net",
+    "power": "Güç"
+  }
+}

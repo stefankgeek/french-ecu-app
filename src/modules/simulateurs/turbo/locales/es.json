@@ -1,0 +1,59 @@
+{
+  "intro": "Calcula el punto de funcionamiento del compresor: relación de presión, caudal corregido para leer el mapa del turbo, temperaturas y potencia estimada.",
+  "g_engine": "Motor",
+  "g_air": "Aire ambiente",
+  "g_turbo": "Turbo e intercooler",
+  "manifold_hint": "Presión absoluta en el colector (1 bar de sobrealimentación ≈ 2,0 bar abs)",
+  "atm_hint": "1,013 al nivel del mar",
+  "ic_hint": "0 % sin intercooler",
+  "ref_garrett": "Mapa Garrett (29 °C / 0,962 bar)",
+  "ref_std": "Condiciones estándar (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Cilindrada",
+    "rpm": "Régimen",
+    "ve": "Rendimiento volumétrico",
+    "manifold": "Presión en el colector",
+    "ambient": "Temperatura ambiente",
+    "atm": "Presión atmosférica",
+    "etaC": "Rendimiento del compresor",
+    "icEff": "Eficiencia del intercooler",
+    "dpIc": "Pérdida de carga del intercooler y los manguitos",
+    "dpInlet": "Pérdida de carga del filtro de aire",
+    "fuel": "Combustible",
+    "ref": "Referencia del mapa del compresor"
+  },
+  "r": {
+    "pr": "Relación de presión",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Presión de sobrealimentación (relativa)",
+    "corrected": "Caudal corregido (para el mapa)",
+    "ref_garrett": "Referencia Garrett",
+    "ref_std": "Referencia estándar",
+    "air": "Caudal de aire real",
+    "t2": "Temperatura a la salida del compresor",
+    "tman": "Temperatura en el colector",
+    "tman_note": "Tras el intercooler ({e} % de eficiencia)",
+    "power": "Potencia estimada",
+    "power_note": "≈ 10 hp por lb/min de aire",
+    "exhaust": "Diámetro de escape recomendado",
+    "exhaust_note": "Downpipe, diámetro interior"
+  },
+  "warn": {
+    "pr_high": "Relación de presión superior a 3: hace falta un compresor adecuado, revisa su mapa (zona de bombeo).",
+    "t2_high": "Aire muy caliente a la salida del compresor: un intercooler eficaz es imprescindible.",
+    "eta_low": "Rendimiento del compresor bajo: el punto probablemente está fuera de la zona eficiente del mapa.",
+    "no_ic": "Sin intercooler, el aire caliente reduce la densidad y aumenta el riesgo de picado.",
+    "ok": "Parámetros dentro de rangos habituales."
+  },
+  "chart": {
+    "line_title": "Caudal corregido y potencia según el régimen",
+    "rpm": "Régimen",
+    "flow": "Caudal corregido",
+    "power": "Potencia",
+    "temp_title": "Temperaturas del aire",
+    "temp": "Temperatura",
+    "t_amb": "Ambiente",
+    "t_comp": "Salida del compresor",
+    "t_man": "Colector"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "intro": "Sprawdza rozmiar wastegate, sprężynę i sterowanie, aby utrzymać docelowe doładowanie bez zjawiska „boost creep”.",
+  "g_target": "Cel",
+  "g_wastegate": "Wastegate i sterowanie",
+  "type_internal": "Wewnętrzny (klapka)",
+  "type_external": "Zewnętrzny",
+  "control_manual": "Bez sterownika (tylko sprężyna)",
+  "control_mbc": "Sterownik mechaniczny (MBC)",
+  "control_ebc": "Sterownik elektroniczny (EBC)",
+  "in": {
+    "power": "Moc docelowa",
+    "boost": "Docelowe doładowanie (względne)",
+    "type": "Rodzaj wastegate",
+    "valve": "Średnica zaworu",
+    "spring": "Ciśnienie sprężyny",
+    "control": "Sterowanie"
+  },
+  "r": {
+    "required": "Wymagana średnica zaworu",
+    "required_note": "Reguła empiryczna producentów",
+    "capacity": "Przepustowość wastegate",
+    "creep": "Ryzyko „boost creep”",
+    "spring": "Zalecana sprężyna",
+    "spring_manual": "Bez sterownika: sprężyna = docelowe ciśnienie",
+    "spring_ctrl": "Ze sterownikiem: około 70% celu",
+    "expected": "Uzyskane ciśnienie",
+    "max_ctrl": "Maksymalne sterowalne ciśnienie",
+    "max_ctrl_note": "Około 2 × ciśnienie sprężyny",
+    "duty": "Szacowane wypełnienie EBC",
+    "duty_note": "Przybliżenie liniowe, do dostrojenia na aucie",
+    "exhaust": "Przepływ spalin"
+  },
+  "fit": {
+    "optimal": "Odpowiedni rozmiar",
+    "undersized": "Za mały",
+    "oversized": "Większy niż potrzeba"
+  },
+  "creep": {
+    "none": "Brak",
+    "low": "Niskie",
+    "moderate": "Umiarkowane",
+    "high": "Wysokie"
+  },
+  "warn": {
+    "creep_high": "Zawór wyraźnie za mały: ciśnienie może dalej rosnąć (boost creep).",
+    "creep_moderate": "Zawór na granicy: możliwy lekki boost creep na wysokich obrotach.",
+    "use_external": "Zapotrzebowanie przekracza możliwości klapki wewnętrznej: przejdź na zewnętrzny wastegate.",
+    "spring_manual": "Bez sterownika ciśnienie równa się ciśnieniu sprężyny: wybierz sprężynę równą celowi.",
+    "spring_low": "Sprężyna słaba względem celu: możliwe niestabilne sterowanie i skoki ciśnienia.",
+    "spring_high": "Sprężyna blisko celu: sterownik nie ma prawie zapasu.",
+    "target_unreachable": "Cel wyższy niż sterownik utrzyma z tą sprężyną: zamontuj twardszą sprężynę.",
+    "oversized": "Zawór dużo większy niż potrzeba: sterowanie nieco mniej precyzyjne, ale bezpieczne."
+  },
+  "table": {
+    "title": "Porównanie zaworów",
+    "valve": "Zawór",
+    "capacity": "Przepustowość",
+    "verdict": "Ocena"
+  },
+  "chart": {
+    "ebc_title": "Ciśnienie w zależności od wypełnienia (sterownik elektroniczny)",
+    "duty": "Wypełnienie (%)",
+    "boost": "Uzyskane ciśnienie",
+    "target": "Docelowe ciśnienie"
+  }
+}

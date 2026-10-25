@@ -1,0 +1,66 @@
+{
+  "intro": "Prüft Wastegate-Größe, Feder und Ladedruckregelung, damit der Zieldruck ohne Boost Creep gehalten wird.",
+  "g_target": "Ziel",
+  "g_wastegate": "Wastegate und Regelung",
+  "type_internal": "Intern (Klappe)",
+  "type_external": "Extern",
+  "control_manual": "Ohne Regler (nur Feder)",
+  "control_mbc": "Manueller Regler (MBC)",
+  "control_ebc": "Elektronischer Regler (EBC)",
+  "in": {
+    "power": "Zielleistung",
+    "boost": "Ziel-Ladedruck (relativ)",
+    "type": "Wastegate-Bauart",
+    "valve": "Ventildurchmesser",
+    "spring": "Federdruck",
+    "control": "Regelung"
+  },
+  "r": {
+    "required": "Benötigter Ventildurchmesser",
+    "required_note": "Faustregel der Hersteller",
+    "capacity": "Kapazität der Wastegate",
+    "creep": "Risiko von Boost Creep",
+    "spring": "Empfohlene Feder",
+    "spring_manual": "Ohne Regler: Feder = Zieldruck",
+    "spring_ctrl": "Mit Regler: etwa 70 % des Ziels",
+    "expected": "Erreichter Ladedruck",
+    "max_ctrl": "Maximal regelbarer Ladedruck",
+    "max_ctrl_note": "Etwa 2 × Federdruck",
+    "duty": "Geschätztes EBC-Tastverhältnis",
+    "duty_note": "Lineare Näherung, am Fahrzeug feinabstimmen",
+    "exhaust": "Abgasmassenstrom"
+  },
+  "fit": {
+    "optimal": "Passende Größe",
+    "undersized": "Zu klein",
+    "oversized": "Größer als nötig"
+  },
+  "creep": {
+    "none": "Keins",
+    "low": "Gering",
+    "moderate": "Mittel",
+    "high": "Hoch"
+  },
+  "warn": {
+    "creep_high": "Ventil deutlich zu klein: der Ladedruck kann weiter steigen (Boost Creep).",
+    "creep_moderate": "Ventil knapp: leichter Boost Creep bei hoher Drehzahl möglich.",
+    "use_external": "Der Bedarf übersteigt eine interne Klappe: auf eine externe Wastegate umsteigen.",
+    "spring_manual": "Ohne Regler entspricht der Ladedruck dem Federdruck: Feder gleich dem Zieldruck wählen.",
+    "spring_low": "Feder im Verhältnis zum Ziel schwach: instabile Regelung und Druckspitzen möglich.",
+    "spring_high": "Feder nahe am Ziel: der Regler hat kaum noch Spielraum.",
+    "target_unreachable": "Ziel höher als der Regler mit dieser Feder halten kann: härtere Feder montieren.",
+    "oversized": "Ventil deutlich größer als nötig: Regelung etwas weniger fein, aber unbedenklich."
+  },
+  "table": {
+    "title": "Ventilgrößen im Vergleich",
+    "valve": "Ventil",
+    "capacity": "Kapazität",
+    "verdict": "Bewertung"
+  },
+  "chart": {
+    "ebc_title": "Ladedruck über dem Tastverhältnis (elektronischer Regler)",
+    "duty": "Tastverhältnis (%)",
+    "boost": "Erreichter Ladedruck",
+    "target": "Zieldruck"
+  }
+}

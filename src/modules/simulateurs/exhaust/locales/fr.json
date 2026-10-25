@@ -1,0 +1,87 @@
+{
+  "intro": "Calcule la contre-pression de la ligne d'échappement élément par élément, la perte de puissance et le diamètre conseillé.",
+  "g_engine": "Moteur",
+  "g_line": "Ligne d'échappement",
+  "boost_hint": "Ignoré pour un moteur atmosphérique",
+  "induction": {
+    "na": "Atmosphérique",
+    "turbo": "Turbo",
+    "supercharger": "Compresseur volumétrique"
+  },
+  "header": {
+    "stock": "Collecteur d'origine (fonte)",
+    "tubular": "Collecteur tubulaire",
+    "equal": "Collecteur à primaires égales"
+  },
+  "cat": {
+    "stock": "Catalyseur d'origine",
+    "high_flow": "Catalyseur haut débit",
+    "race": "Catalyseur course",
+    "none": "Sans catalyseur"
+  },
+  "muffler": {
+    "stock": "Silencieux d'origine",
+    "sport": "Silencieux sport",
+    "straight": "Silencieux droit (absorption)"
+  },
+  "in": {
+    "displacement": "Cylindrée",
+    "cylinders": "Nombre de cylindres",
+    "rpm": "Régime maximal",
+    "power": "Puissance maximale",
+    "type": "Alimentation",
+    "boost": "Pression de suralimentation",
+    "header": "Collecteur",
+    "primary": "Diamètre des primaires",
+    "collector": "Diamètre de sortie du collecteur",
+    "pipe": "Diamètre de la ligne",
+    "pipeL": "Longueur de la ligne",
+    "bends": "Nombre de coudes",
+    "cat": "Catalyseur",
+    "muffler": "Silencieux"
+  },
+  "r": {
+    "total": "Contre-pression totale",
+    "loss": "Perte de puissance (pompage)",
+    "loss_note": "{pct} % de la puissance · valeur minimale",
+    "recommended": "Diamètre de ligne conseillé",
+    "recommended_note": "Actuel : {d}",
+    "mass": "Débit massique des gaz",
+    "volume": "Débit volumique des gaz",
+    "volume_note": "À environ 600 °C",
+    "vpipe": "Vitesse dans la ligne",
+    "vprimary": "Vitesse moyenne dans les primaires",
+    "l_header": "Perte du collecteur",
+    "header_turbo": "En amont de la turbine : non compté",
+    "l_cat": "Perte du catalyseur",
+    "l_muffler": "Perte du silencieux",
+    "l_piping": "Perte des tubes et coudes",
+    "manifold": "Pression estimée avant turbine",
+    "manifold_note": "Environ 1,7 × la pression d'admission (dépend de la turbine)"
+  },
+  "level": {
+    "low": "Restriction faible",
+    "moderate": "Restriction modérée",
+    "high": "Restriction élevée",
+    "very_high": "Restriction très élevée"
+  },
+  "part": {
+    "header": "Collecteur",
+    "cat": "Catalyseur",
+    "muffler": "Silencieux",
+    "piping": "Tubes et coudes"
+  },
+  "warn": {
+    "high": "Contre-pression élevée : la ligne freine le moteur à pleine charge.",
+    "undersized": "Ligne trop petite pour cette puissance : passez au diamètre conseillé.",
+    "oversized": "Ligne bien plus grosse que nécessaire en atmosphérique : la vitesse des gaz baisse et le couple à bas régime peut en souffrir.",
+    "priority": "Élément le plus restrictif : {part}"
+  },
+  "chart": {
+    "rpm_title": "Contre-pression selon le régime",
+    "rpm": "Régime",
+    "bp": "Contre-pression",
+    "loss": "Perte de puissance",
+    "parts_title": "Pertes par élément"
+  }
+}

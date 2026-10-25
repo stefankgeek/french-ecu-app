@@ -1,0 +1,66 @@
+{
+  "intro": "Vérifie la taille de la wastegate, le ressort et la régulation pour tenir la pression visée sans « boost creep ».",
+  "g_target": "Objectif",
+  "g_wastegate": "Wastegate et régulation",
+  "type_internal": "Interne (clapet)",
+  "type_external": "Externe",
+  "control_manual": "Sans contrôleur (ressort seul)",
+  "control_mbc": "Contrôleur manuel (MBC)",
+  "control_ebc": "Contrôleur électronique (EBC)",
+  "in": {
+    "power": "Puissance visée",
+    "boost": "Pression visée (relative)",
+    "type": "Type de wastegate",
+    "valve": "Diamètre de la soupape",
+    "spring": "Pression du ressort",
+    "control": "Régulation"
+  },
+  "r": {
+    "required": "Diamètre de soupape requis",
+    "required_note": "Règle empirique des fabricants",
+    "capacity": "Capacité de la wastegate",
+    "creep": "Risque de « boost creep »",
+    "spring": "Ressort conseillé",
+    "spring_manual": "Sans contrôleur : ressort = pression visée",
+    "spring_ctrl": "Avec contrôleur : environ 70 % de la cible",
+    "expected": "Pression obtenue",
+    "max_ctrl": "Pression maxi contrôlable",
+    "max_ctrl_note": "Environ 2 × la pression du ressort",
+    "duty": "Rapport cyclique EBC estimé",
+    "duty_note": "Approximation linéaire, à affiner sur la voiture",
+    "exhaust": "Débit de gaz d'échappement"
+  },
+  "fit": {
+    "optimal": "Taille adaptée",
+    "undersized": "Trop petite",
+    "oversized": "Plus grande que nécessaire"
+  },
+  "creep": {
+    "none": "Aucun",
+    "low": "Faible",
+    "moderate": "Modéré",
+    "high": "Élevé"
+  },
+  "warn": {
+    "creep_high": "Soupape nettement trop petite : la pression risque de continuer à monter (boost creep).",
+    "creep_moderate": "Soupape juste : un léger boost creep est possible à haut régime.",
+    "use_external": "Le besoin dépasse la capacité d'un clapet interne : passez à une wastegate externe.",
+    "spring_manual": "Sans contrôleur, la pression obtenue est celle du ressort : choisissez un ressort égal à la pression visée.",
+    "spring_low": "Ressort faible par rapport à la cible : régulation instable et pics de pression possibles.",
+    "spring_high": "Ressort proche de la cible : le contrôleur n'a presque plus de marge.",
+    "target_unreachable": "Pression visée supérieure à ce que le contrôleur peut tenir avec ce ressort : prenez un ressort plus dur.",
+    "oversized": "Soupape beaucoup plus grande que nécessaire : régulation un peu moins fine, sans danger."
+  },
+  "table": {
+    "title": "Comparateur de soupapes",
+    "valve": "Soupape",
+    "capacity": "Capacité",
+    "verdict": "Avis"
+  },
+  "chart": {
+    "ebc_title": "Pression selon le rapport cyclique (contrôleur électronique)",
+    "duty": "Rapport cyclique (%)",
+    "boost": "Pression obtenue",
+    "target": "Pression visée"
+  }
+}

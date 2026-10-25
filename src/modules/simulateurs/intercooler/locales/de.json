@@ -1,0 +1,61 @@
+{
+  "intro": "Schätzt Wirkungsgrad des Ladeluftkühlers, Austrittstemperatur, Druckverlust und den tatsächlichen Leistungsgewinn.",
+  "g_engine": "Motor und Luft",
+  "g_core": "Kühlernetz",
+  "g_piping": "Schläuche und Kühlung",
+  "tin_hint": "Temperatur am Verdichteraustritt (siehe Turbo-Auslegung)",
+  "corew_hint": "Weg der Ladeluft durch das Netz",
+  "type_air": "Luft/Luft",
+  "type_water": "Luft/Wasser",
+  "in": {
+    "displacement": "Hubraum",
+    "rpm": "Drehzahl",
+    "ve": "Liefergrad",
+    "boost": "Ladedruck (relativ)",
+    "tIn": "Eintrittstemperatur",
+    "ambient": "Umgebungstemperatur",
+    "type": "Kühlerbauart",
+    "coreW": "Netzlänge",
+    "coreH": "Netzhöhe",
+    "coreT": "Netztiefe",
+    "fins": "Lamellendichte",
+    "pipeD": "Schlauchdurchmesser",
+    "pipeL": "Gesamtlänge der Schläuche",
+    "speed": "Fahrzeuggeschwindigkeit",
+    "fan": "Zusatzlüfter"
+  },
+  "r": {
+    "eff": "Wirkungsgrad",
+    "tout": "Austrittstemperatur",
+    "tout_note": "Eintritt {t}",
+    "drop": "Temperaturabsenkung",
+    "dp": "Druckverlust",
+    "dp_note": "Netz {core} · Schläuche {pipe}",
+    "air": "Luftdurchsatz",
+    "vpipe": "Geschwindigkeit in den Schläuchen",
+    "gain": "Leistungsgewinn (Dichte)",
+    "gain_note": "Bei einer geschätzten Leistung von {p}",
+    "loss": "Verlust durch den Druckverlust",
+    "loss_note": "Nur wenn der Ladedruck nicht im Saugrohr geregelt wird"
+  },
+  "warn": {
+    "dp_high": "Hoher Druckverlust: Netz zu klein oder Schläuche zu eng für diesen Durchsatz.",
+    "eff_low": "Niedriger Wirkungsgrad: Netz zu klein für diesen Luftdurchsatz.",
+    "low_speed": "Niedriger Wirkungsgrad bei geringer Geschwindigkeit: ein Zusatzlüfter oder ein besserer Einbauort würde helfen.",
+    "pipe_small": "Luft in den Schläuchen zu schnell (über 60 m/s): größeren Durchmesser wählen.",
+    "water_note": "Luft/Wasser: sehr wirksam bei kurzen Beschleunigungen, das Wasser erwärmt sich aber bei Dauerbelastung."
+  },
+  "chart": {
+    "eff_title": "Wirkungsgrad über der Fahrzeuggeschwindigkeit",
+    "speed": "Geschwindigkeit",
+    "eff": "Wirkungsgrad (%)",
+    "dp_title": "Druckverlust über der Drehzahl",
+    "rpm": "Drehzahl",
+    "dp": "Druckverlust",
+    "balance_title": "Leistungsbilanz",
+    "gain": "Gewinn",
+    "loss": "Verlust",
+    "net": "Netto",
+    "power": "Leistung"
+  }
+}

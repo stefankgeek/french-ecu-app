@@ -1,0 +1,59 @@
+{
+  "intro": "Berekent het werkpunt van de compressor: drukverhouding, gecorrigeerd debiet om de turbomap te lezen, temperaturen en geschat vermogen.",
+  "g_engine": "Motor",
+  "g_air": "Buitenlucht",
+  "g_turbo": "Turbo en intercooler",
+  "manifold_hint": "Absolute druk in het inlaatspruitstuk (1 bar turbodruk ≈ 2,0 bar abs.)",
+  "atm_hint": "1,013 op zeeniveau",
+  "ic_hint": "0 % zonder intercooler",
+  "ref_garrett": "Garrett-map (29 °C / 0,962 bar)",
+  "ref_std": "Standaardcondities (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Cilinderinhoud",
+    "rpm": "Toerental",
+    "ve": "Volumetrisch rendement",
+    "manifold": "Druk in het inlaatspruitstuk",
+    "ambient": "Buitentemperatuur",
+    "atm": "Luchtdruk",
+    "etaC": "Compressorrendement",
+    "icEff": "Rendement van de intercooler",
+    "dpIc": "Drukverlies intercooler en slangen",
+    "dpInlet": "Drukverlies luchtfilter",
+    "fuel": "Brandstof",
+    "ref": "Referentie van de compressormap"
+  },
+  "r": {
+    "pr": "Drukverhouding",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Turbodruk (relatief)",
+    "corrected": "Gecorrigeerd debiet (voor de map)",
+    "ref_garrett": "Garrett-referentie",
+    "ref_std": "Standaardreferentie",
+    "air": "Werkelijk luchtdebiet",
+    "t2": "Temperatuur na de compressor",
+    "tman": "Temperatuur in het inlaatspruitstuk",
+    "tman_note": "Na de intercooler ({e} % rendement)",
+    "power": "Geschat vermogen",
+    "power_note": "≈ 10 hp per lb/min lucht",
+    "exhaust": "Aanbevolen uitlaatdiameter",
+    "exhaust_note": "Downpipe, binnendiameter"
+  },
+  "warn": {
+    "pr_high": "Drukverhouding boven 3: een geschikte compressor is nodig, controleer de map (pompgrens).",
+    "t2_high": "Zeer hete lucht na de compressor: een efficiënte intercooler is onmisbaar.",
+    "eta_low": "Laag compressorrendement: het punt ligt waarschijnlijk buiten het efficiënte gebied van de map.",
+    "no_ic": "Zonder intercooler verlaagt de hete lucht de dichtheid en stijgt het risico op pingelen.",
+    "ok": "Parameters binnen gangbare waarden."
+  },
+  "chart": {
+    "line_title": "Gecorrigeerd debiet en vermogen afhankelijk van het toerental",
+    "rpm": "Toerental",
+    "flow": "Gecorrigeerd debiet",
+    "power": "Vermogen",
+    "temp_title": "Luchttemperaturen",
+    "temp": "Temperatuur",
+    "t_amb": "Buiten",
+    "t_comp": "Na compressor",
+    "t_man": "Inlaatspruitstuk"
+  }
+}

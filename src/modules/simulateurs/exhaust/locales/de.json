@@ -1,0 +1,87 @@
+{
+  "intro": "Berechnet den Abgasgegendruck Bauteil für Bauteil, den Leistungsverlust und den empfohlenen Rohrdurchmesser.",
+  "g_engine": "Motor",
+  "g_line": "Abgasanlage",
+  "boost_hint": "Bei Saugmotoren ohne Bedeutung",
+  "induction": {
+    "na": "Saugmotor",
+    "turbo": "Turbo",
+    "supercharger": "Kompressor"
+  },
+  "header": {
+    "stock": "Serienkrümmer (Guss)",
+    "tubular": "Fächerkrümmer",
+    "equal": "Krümmer mit gleich langen Rohren"
+  },
+  "cat": {
+    "stock": "Serienkatalysator",
+    "high_flow": "Sport-Katalysator (High Flow)",
+    "race": "Rennkatalysator",
+    "none": "Ohne Katalysator"
+  },
+  "muffler": {
+    "stock": "Serienschalldämpfer",
+    "sport": "Sportschalldämpfer",
+    "straight": "Absorptionsschalldämpfer (gerade)"
+  },
+  "in": {
+    "displacement": "Hubraum",
+    "cylinders": "Zylinderzahl",
+    "rpm": "Höchstdrehzahl",
+    "power": "Höchstleistung",
+    "type": "Aufladung",
+    "boost": "Ladedruck",
+    "header": "Abgaskrümmer",
+    "primary": "Durchmesser der Krümmerrohre",
+    "collector": "Austrittsdurchmesser des Sammlers",
+    "pipe": "Rohrdurchmesser",
+    "pipeL": "Rohrlänge",
+    "bends": "Anzahl der Bögen",
+    "cat": "Katalysator",
+    "muffler": "Schalldämpfer"
+  },
+  "r": {
+    "total": "Gesamter Abgasgegendruck",
+    "loss": "Leistungsverlust (Ladungswechsel)",
+    "loss_note": "{pct} % der Leistung · Mindestwert",
+    "recommended": "Empfohlener Rohrdurchmesser",
+    "recommended_note": "Aktuell: {d}",
+    "mass": "Abgasmassenstrom",
+    "volume": "Abgasvolumenstrom",
+    "volume_note": "Bei etwa 600 °C",
+    "vpipe": "Geschwindigkeit im Rohr",
+    "vprimary": "Mittlere Geschwindigkeit in den Krümmerrohren",
+    "l_header": "Verlust im Krümmer",
+    "header_turbo": "Vor der Turbine: nicht gezählt",
+    "l_cat": "Verlust im Katalysator",
+    "l_muffler": "Verlust im Schalldämpfer",
+    "l_piping": "Verlust in Rohren und Bögen",
+    "manifold": "Geschätzter Druck vor der Turbine",
+    "manifold_note": "Etwa 1,7 × Ansaugdruck (abhängig von der Turbine)"
+  },
+  "level": {
+    "low": "Geringe Drosselung",
+    "moderate": "Mäßige Drosselung",
+    "high": "Hohe Drosselung",
+    "very_high": "Sehr hohe Drosselung"
+  },
+  "part": {
+    "header": "Krümmer",
+    "cat": "Katalysator",
+    "muffler": "Schalldämpfer",
+    "piping": "Rohre und Bögen"
+  },
+  "warn": {
+    "high": "Hoher Gegendruck: die Abgasanlage bremst den Motor unter Volllast.",
+    "undersized": "Rohr für diese Leistung zu klein: auf den empfohlenen Durchmesser wechseln.",
+    "oversized": "Rohr beim Saugmotor deutlich größer als nötig: die Gasgeschwindigkeit sinkt, Drehmoment unten herum kann leiden.",
+    "priority": "Am stärksten drosselndes Bauteil: {part}"
+  },
+  "chart": {
+    "rpm_title": "Gegendruck über der Drehzahl",
+    "rpm": "Drehzahl",
+    "bp": "Gegendruck",
+    "loss": "Leistungsverlust",
+    "parts_title": "Verluste je Bauteil"
+  }
+}

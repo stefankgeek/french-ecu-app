@@ -1,0 +1,87 @@
+{
+  "intro": "Berekent de uitlaattegendruk per onderdeel, het vermogensverlies en de aanbevolen pijpdiameter.",
+  "g_engine": "Motor",
+  "g_line": "Uitlaatsysteem",
+  "boost_hint": "Genegeerd bij een atmosferische motor",
+  "induction": {
+    "na": "Atmosferisch",
+    "turbo": "Turbo",
+    "supercharger": "Compressor"
+  },
+  "header": {
+    "stock": "Origineel spruitstuk (gietijzer)",
+    "tubular": "Buizenspruitstuk",
+    "equal": "Spruitstuk met gelijke buizen"
+  },
+  "cat": {
+    "stock": "Originele katalysator",
+    "high_flow": "High-flow katalysator",
+    "race": "Racekatalysator",
+    "none": "Zonder katalysator"
+  },
+  "muffler": {
+    "stock": "Originele demper",
+    "sport": "Sportdemper",
+    "straight": "Rechte demper (absorptie)"
+  },
+  "in": {
+    "displacement": "Cilinderinhoud",
+    "cylinders": "Aantal cilinders",
+    "rpm": "Maximaal toerental",
+    "power": "Maximaal vermogen",
+    "type": "Inlaat",
+    "boost": "Turbodruk",
+    "header": "Uitlaatspruitstuk",
+    "primary": "Diameter van de primaire buizen",
+    "collector": "Uitgangsdiameter van het spruitstuk",
+    "pipe": "Pijpdiameter",
+    "pipeL": "Pijplengte",
+    "bends": "Aantal bochten",
+    "cat": "Katalysator",
+    "muffler": "Demper"
+  },
+  "r": {
+    "total": "Totale tegendruk",
+    "loss": "Vermogensverlies (pompverlies)",
+    "loss_note": "{pct} % van het vermogen · minimumwaarde",
+    "recommended": "Aanbevolen pijpdiameter",
+    "recommended_note": "Huidig: {d}",
+    "mass": "Massadebiet uitlaatgassen",
+    "volume": "Volumedebiet uitlaatgassen",
+    "volume_note": "Bij ongeveer 600 °C",
+    "vpipe": "Snelheid in de pijp",
+    "vprimary": "Gemiddelde snelheid in de primaire buizen",
+    "l_header": "Verlies spruitstuk",
+    "header_turbo": "Vóór de turbine: niet meegeteld",
+    "l_cat": "Verlies katalysator",
+    "l_muffler": "Verlies demper",
+    "l_piping": "Verlies buizen en bochten",
+    "manifold": "Geschatte druk vóór de turbine",
+    "manifold_note": "Ongeveer 1,7 × de inlaatdruk (afhankelijk van de turbine)"
+  },
+  "level": {
+    "low": "Lage restrictie",
+    "moderate": "Matige restrictie",
+    "high": "Hoge restrictie",
+    "very_high": "Zeer hoge restrictie"
+  },
+  "part": {
+    "header": "Spruitstuk",
+    "cat": "Katalysator",
+    "muffler": "Demper",
+    "piping": "Buizen en bochten"
+  },
+  "warn": {
+    "high": "Hoge tegendruk: de uitlaat remt de motor bij vollast.",
+    "undersized": "Pijp te klein voor dit vermogen: stap over op de aanbevolen diameter.",
+    "oversized": "Pijp veel groter dan nodig bij een atmosferische motor: de gassnelheid daalt en het koppel bij lage toeren kan eronder lijden.",
+    "priority": "Meest beperkende onderdeel: {part}"
+  },
+  "chart": {
+    "rpm_title": "Tegendruk afhankelijk van het toerental",
+    "rpm": "Toerental",
+    "bp": "Tegendruk",
+    "loss": "Vermogensverlies",
+    "parts_title": "Verliezen per onderdeel"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "intro": "Kompresörün çalışma noktasını hesaplar: basınç oranı, turbo haritasını okumak için düzeltilmiş debi, sıcaklıklar ve tahmini güç.",
+  "g_engine": "Motor",
+  "g_air": "Ortam havası",
+  "g_turbo": "Turbo ve intercooler",
+  "manifold_hint": "Emme manifoldundaki mutlak basınç (1 bar turbo basıncı ≈ 2,0 bar mutlak)",
+  "atm_hint": "Deniz seviyesinde 1,013",
+  "ic_hint": "Intercooler yoksa %0",
+  "ref_garrett": "Garrett haritası (29 °C / 0,962 bar)",
+  "ref_std": "Standart koşullar (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Silindir hacmi",
+    "rpm": "Devir",
+    "ve": "Hacimsel verim",
+    "manifold": "Manifold basıncı",
+    "ambient": "Ortam sıcaklığı",
+    "atm": "Atmosfer basıncı",
+    "etaC": "Kompresör verimi",
+    "icEff": "Intercooler verimi",
+    "dpIc": "Intercooler ve hortum basınç kaybı",
+    "dpInlet": "Hava filtresi basınç kaybı",
+    "fuel": "Yakıt",
+    "ref": "Kompresör haritası referansı"
+  },
+  "r": {
+    "pr": "Basınç oranı",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Turbo basıncı (bağıl)",
+    "corrected": "Düzeltilmiş debi (harita için)",
+    "ref_garrett": "Garrett referansı",
+    "ref_std": "Standart referans",
+    "air": "Gerçek hava debisi",
+    "t2": "Kompresör çıkış sıcaklığı",
+    "tman": "Manifold sıcaklığı",
+    "tman_note": "Intercooler sonrası (verim %{e})",
+    "power": "Tahmini güç",
+    "power_note": "Hava için lb/min başına ≈ 10 hp",
+    "exhaust": "Önerilen egzoz çapı",
+    "exhaust_note": "Downpipe, iç çap"
+  },
+  "warn": {
+    "pr_high": "Basınç oranı 3'ün üzerinde: uygun bir kompresör gerekir, haritasını kontrol edin (surge bölgesi).",
+    "t2_high": "Kompresör çıkışında hava çok sıcak: verimli bir intercooler şarttır.",
+    "eta_low": "Kompresör verimi düşük: nokta muhtemelen haritanın verimli bölgesinin dışında.",
+    "no_ic": "Intercooler olmadan sıcak hava yoğunluğu düşürür ve vuruntu riskini artırır.",
+    "ok": "Parametreler olağan aralıklarda."
+  },
+  "chart": {
+    "line_title": "Devire göre düzeltilmiş debi ve güç",
+    "rpm": "Devir",
+    "flow": "Düzeltilmiş debi",
+    "power": "Güç",
+    "temp_title": "Hava sıcaklıkları",
+    "temp": "Sıcaklık",
+    "t_amb": "Ortam",
+    "t_comp": "Kompresör çıkışı",
+    "t_man": "Manifold"
+  }
+}

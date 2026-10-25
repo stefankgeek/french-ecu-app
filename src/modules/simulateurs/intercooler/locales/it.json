@@ -1,0 +1,61 @@
+{
+  "intro": "Stima l'efficienza dell'intercooler, la temperatura di uscita, la perdita di carico e il guadagno reale di potenza.",
+  "g_engine": "Motore e aria",
+  "g_core": "Massa radiante",
+  "g_piping": "Manicotti e raffreddamento",
+  "tin_hint": "Temperatura all'uscita del compressore (vedi Calibrazione turbo)",
+  "corew_hint": "Percorso dell'aria di sovralimentazione",
+  "type_air": "Aria/aria",
+  "type_water": "Aria/acqua",
+  "in": {
+    "displacement": "Cilindrata",
+    "rpm": "Regime",
+    "ve": "Rendimento volumetrico",
+    "boost": "Pressione di sovralimentazione (relativa)",
+    "tIn": "Temperatura di ingresso",
+    "ambient": "Temperatura ambiente",
+    "type": "Tipo di scambiatore",
+    "coreW": "Lunghezza della massa radiante",
+    "coreH": "Altezza della massa radiante",
+    "coreT": "Spessore della massa radiante",
+    "fins": "Densità delle alette",
+    "pipeD": "Diametro dei manicotti",
+    "pipeL": "Lunghezza totale dei manicotti",
+    "speed": "Velocità del veicolo",
+    "fan": "Ventola ausiliaria"
+  },
+  "r": {
+    "eff": "Efficienza",
+    "tout": "Temperatura di uscita",
+    "tout_note": "Ingresso {t}",
+    "drop": "Calo di temperatura",
+    "dp": "Perdita di carico",
+    "dp_note": "Massa radiante {core} · manicotti {pipe}",
+    "air": "Portata d'aria",
+    "vpipe": "Velocità nei manicotti",
+    "gain": "Guadagno di potenza (densità)",
+    "gain_note": "Su una potenza stimata di {p}",
+    "loss": "Perdita dovuta alla perdita di carico",
+    "loss_note": "Solo se la pressione non è regolata nel collettore"
+  },
+  "warn": {
+    "dp_high": "Perdita di carico elevata: massa radiante troppo piccola o manicotti troppo stretti per questa portata.",
+    "eff_low": "Efficienza bassa: massa radiante troppo piccola per questa portata d'aria.",
+    "low_speed": "Efficienza bassa a velocità ridotta: una ventola ausiliaria o una posizione migliore aiuterebbero.",
+    "pipe_small": "Aria troppo veloce nei manicotti (oltre 60 m/s): passa a un diametro maggiore.",
+    "water_note": "Aria/acqua: molto efficace nelle accelerazioni brevi, ma l'acqua si scalda con un uso prolungato."
+  },
+  "chart": {
+    "eff_title": "Efficienza in funzione della velocità del veicolo",
+    "speed": "Velocità",
+    "eff": "Efficienza (%)",
+    "dp_title": "Perdita di carico in funzione del regime",
+    "rpm": "Regime",
+    "dp": "Perdita di carico",
+    "balance_title": "Bilancio di potenza",
+    "gain": "Guadagno",
+    "loss": "Perdita",
+    "net": "Netto",
+    "power": "Potenza"
+  }
+}

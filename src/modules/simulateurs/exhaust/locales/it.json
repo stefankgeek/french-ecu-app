@@ -1,0 +1,87 @@
+{
+  "intro": "Calcola la contropressione dello scarico elemento per elemento, la perdita di potenza e il diametro consigliato.",
+  "g_engine": "Motore",
+  "g_line": "Impianto di scarico",
+  "boost_hint": "Ignorato per un motore aspirato",
+  "induction": {
+    "na": "Aspirato",
+    "turbo": "Turbo",
+    "supercharger": "Compressore volumetrico"
+  },
+  "header": {
+    "stock": "Collettore di serie (ghisa)",
+    "tubular": "Collettore tubolare",
+    "equal": "Collettore a tubi uguali"
+  },
+  "cat": {
+    "stock": "Catalizzatore di serie",
+    "high_flow": "Catalizzatore ad alto flusso",
+    "race": "Catalizzatore racing",
+    "none": "Senza catalizzatore"
+  },
+  "muffler": {
+    "stock": "Silenziatore di serie",
+    "sport": "Silenziatore sportivo",
+    "straight": "Silenziatore dritto (ad assorbimento)"
+  },
+  "in": {
+    "displacement": "Cilindrata",
+    "cylinders": "Numero di cilindri",
+    "rpm": "Regime massimo",
+    "power": "Potenza massima",
+    "type": "Alimentazione",
+    "boost": "Pressione di sovralimentazione",
+    "header": "Collettore",
+    "primary": "Diametro dei primari",
+    "collector": "Diametro di uscita del collettore",
+    "pipe": "Diametro della linea",
+    "pipeL": "Lunghezza della linea",
+    "bends": "Numero di curve",
+    "cat": "Catalizzatore",
+    "muffler": "Silenziatore"
+  },
+  "r": {
+    "total": "Contropressione totale",
+    "loss": "Perdita di potenza (pompaggio)",
+    "loss_note": "{pct} % della potenza · valore minimo",
+    "recommended": "Diametro della linea consigliato",
+    "recommended_note": "Attuale: {d}",
+    "mass": "Portata massica dei gas",
+    "volume": "Portata volumetrica dei gas",
+    "volume_note": "A circa 600 °C",
+    "vpipe": "Velocità nella linea",
+    "vprimary": "Velocità media nei primari",
+    "l_header": "Perdita del collettore",
+    "header_turbo": "A monte della turbina: non conteggiata",
+    "l_cat": "Perdita del catalizzatore",
+    "l_muffler": "Perdita del silenziatore",
+    "l_piping": "Perdita di tubi e curve",
+    "manifold": "Pressione stimata prima della turbina",
+    "manifold_note": "Circa 1,7 × la pressione di aspirazione (dipende dalla turbina)"
+  },
+  "level": {
+    "low": "Restrizione bassa",
+    "moderate": "Restrizione moderata",
+    "high": "Restrizione elevata",
+    "very_high": "Restrizione molto elevata"
+  },
+  "part": {
+    "header": "Collettore",
+    "cat": "Catalizzatore",
+    "muffler": "Silenziatore",
+    "piping": "Tubi e curve"
+  },
+  "warn": {
+    "high": "Contropressione elevata: lo scarico frena il motore a pieno carico.",
+    "undersized": "Linea troppo piccola per questa potenza: passa al diametro consigliato.",
+    "oversized": "Linea molto più grande del necessario su un aspirato: la velocità dei gas cala e la coppia ai bassi può risentirne.",
+    "priority": "Elemento più restrittivo: {part}"
+  },
+  "chart": {
+    "rpm_title": "Contropressione in funzione del regime",
+    "rpm": "Regime",
+    "bp": "Contropressione",
+    "loss": "Perdita di potenza",
+    "parts_title": "Perdite per elemento"
+  }
+}

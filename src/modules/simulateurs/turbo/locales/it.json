@@ -1,0 +1,59 @@
+{
+  "intro": "Calcola il punto di funzionamento del compressore: rapporto di pressione, portata corretta per leggere la mappa del turbo, temperature e potenza stimata.",
+  "g_engine": "Motore",
+  "g_air": "Aria ambiente",
+  "g_turbo": "Turbo e intercooler",
+  "manifold_hint": "Pressione assoluta nel collettore (1 bar di sovralimentazione ≈ 2,0 bar ass.)",
+  "atm_hint": "1,013 al livello del mare",
+  "ic_hint": "0 % senza intercooler",
+  "ref_garrett": "Mappa Garrett (29 °C / 0,962 bar)",
+  "ref_std": "Condizioni standard (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Cilindrata",
+    "rpm": "Regime",
+    "ve": "Rendimento volumetrico",
+    "manifold": "Pressione nel collettore",
+    "ambient": "Temperatura ambiente",
+    "atm": "Pressione atmosferica",
+    "etaC": "Rendimento del compressore",
+    "icEff": "Efficienza dell'intercooler",
+    "dpIc": "Perdita di carico di intercooler e manicotti",
+    "dpInlet": "Perdita di carico del filtro aria",
+    "fuel": "Carburante",
+    "ref": "Riferimento della mappa del compressore"
+  },
+  "r": {
+    "pr": "Rapporto di pressione",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Pressione di sovralimentazione (relativa)",
+    "corrected": "Portata corretta (per la mappa)",
+    "ref_garrett": "Riferimento Garrett",
+    "ref_std": "Riferimento standard",
+    "air": "Portata d'aria reale",
+    "t2": "Temperatura all'uscita del compressore",
+    "tman": "Temperatura nel collettore",
+    "tman_note": "Dopo l'intercooler ({e} % di efficienza)",
+    "power": "Potenza stimata",
+    "power_note": "≈ 10 hp per lb/min d'aria",
+    "exhaust": "Diametro di scarico consigliato",
+    "exhaust_note": "Downpipe, diametro interno"
+  },
+  "warn": {
+    "pr_high": "Rapporto di pressione superiore a 3: serve un compressore adatto, controlla la sua mappa (linea di pompaggio).",
+    "t2_high": "Aria molto calda all'uscita del compressore: un intercooler efficiente è indispensabile.",
+    "eta_low": "Rendimento del compressore basso: il punto è probabilmente fuori dalla zona efficiente della mappa.",
+    "no_ic": "Senza intercooler l'aria calda riduce la densità e aumenta il rischio di detonazione.",
+    "ok": "Parametri entro valori abituali."
+  },
+  "chart": {
+    "line_title": "Portata corretta e potenza in funzione del regime",
+    "rpm": "Regime",
+    "flow": "Portata corretta",
+    "power": "Potenza",
+    "temp_title": "Temperature dell'aria",
+    "temp": "Temperatura",
+    "t_amb": "Ambiente",
+    "t_comp": "Uscita compressore",
+    "t_man": "Collettore"
+  }
+}

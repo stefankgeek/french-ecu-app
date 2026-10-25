@@ -1,0 +1,66 @@
+{
+  "intro": "Checks wastegate size, spring and boost control so you hold the target pressure without boost creep.",
+  "g_target": "Target",
+  "g_wastegate": "Wastegate and control",
+  "type_internal": "Internal (flapper)",
+  "type_external": "External",
+  "control_manual": "No controller (spring only)",
+  "control_mbc": "Manual boost controller (MBC)",
+  "control_ebc": "Electronic boost controller (EBC)",
+  "in": {
+    "power": "Target power",
+    "boost": "Target boost (gauge)",
+    "type": "Wastegate type",
+    "valve": "Valve diameter",
+    "spring": "Spring pressure",
+    "control": "Boost control"
+  },
+  "r": {
+    "required": "Required valve diameter",
+    "required_note": "Manufacturers' rule of thumb",
+    "capacity": "Wastegate capacity",
+    "creep": "Boost creep risk",
+    "spring": "Recommended spring",
+    "spring_manual": "Without a controller: spring = target boost",
+    "spring_ctrl": "With a controller: about 70% of the target",
+    "expected": "Resulting boost",
+    "max_ctrl": "Maximum controllable boost",
+    "max_ctrl_note": "About 2 × the spring pressure",
+    "duty": "Estimated EBC duty cycle",
+    "duty_note": "Linear approximation, fine-tune on the car",
+    "exhaust": "Exhaust gas flow"
+  },
+  "fit": {
+    "optimal": "Right size",
+    "undersized": "Too small",
+    "oversized": "Larger than needed"
+  },
+  "creep": {
+    "none": "None",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High"
+  },
+  "warn": {
+    "creep_high": "Valve clearly too small: boost may keep rising (boost creep).",
+    "creep_moderate": "Valve marginal: slight boost creep is possible at high rpm.",
+    "use_external": "The requirement exceeds an internal flapper's capacity: switch to an external wastegate.",
+    "spring_manual": "Without a controller, boost equals the spring pressure: choose a spring equal to the target.",
+    "spring_low": "Spring weak compared with the target: unstable control and boost spikes are possible.",
+    "spring_high": "Spring close to the target: the controller has almost no range left.",
+    "target_unreachable": "Target above what the controller can hold with this spring: fit a stiffer spring.",
+    "oversized": "Valve much larger than needed: slightly less precise control, but safe."
+  },
+  "table": {
+    "title": "Valve size comparison",
+    "valve": "Valve",
+    "capacity": "Capacity",
+    "verdict": "Verdict"
+  },
+  "chart": {
+    "ebc_title": "Boost versus duty cycle (electronic controller)",
+    "duty": "Duty cycle (%)",
+    "boost": "Resulting boost",
+    "target": "Target boost"
+  }
+}

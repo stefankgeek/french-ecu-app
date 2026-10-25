@@ -1,0 +1,61 @@
+{
+  "intro": "Estima la eficiencia del intercooler, la temperatura de salida, la pérdida de carga y la ganancia real de potencia.",
+  "g_engine": "Motor y aire",
+  "g_core": "Núcleo",
+  "g_piping": "Manguitos y refrigeración",
+  "tin_hint": "Temperatura a la salida del compresor (ver Calibración del turbo)",
+  "corew_hint": "Distancia que recorre el aire de admisión",
+  "type_air": "Aire/aire",
+  "type_water": "Aire/agua",
+  "in": {
+    "displacement": "Cilindrada",
+    "rpm": "Régimen",
+    "ve": "Rendimiento volumétrico",
+    "boost": "Presión de sobrealimentación (relativa)",
+    "tIn": "Temperatura de entrada",
+    "ambient": "Temperatura ambiente",
+    "type": "Tipo de intercambiador",
+    "coreW": "Longitud del núcleo",
+    "coreH": "Altura del núcleo",
+    "coreT": "Espesor del núcleo",
+    "fins": "Densidad de aletas",
+    "pipeD": "Diámetro de los manguitos",
+    "pipeL": "Longitud total de los manguitos",
+    "speed": "Velocidad del vehículo",
+    "fan": "Ventilador auxiliar"
+  },
+  "r": {
+    "eff": "Eficiencia",
+    "tout": "Temperatura de salida",
+    "tout_note": "Entrada {t}",
+    "drop": "Descenso de temperatura",
+    "dp": "Pérdida de carga",
+    "dp_note": "Núcleo {core} · manguitos {pipe}",
+    "air": "Caudal de aire",
+    "vpipe": "Velocidad en los manguitos",
+    "gain": "Ganancia de potencia (densidad)",
+    "gain_note": "Sobre una potencia estimada de {p}",
+    "loss": "Pérdida por la pérdida de carga",
+    "loss_note": "Solo si la presión no se regula en el colector"
+  },
+  "warn": {
+    "dp_high": "Pérdida de carga elevada: núcleo demasiado pequeño o manguitos demasiado estrechos para este caudal.",
+    "eff_low": "Eficiencia baja: núcleo demasiado pequeño para este caudal de aire.",
+    "low_speed": "Eficiencia baja a poca velocidad: un ventilador auxiliar o una mejor ubicación ayudarían.",
+    "pipe_small": "Aire demasiado rápido en los manguitos (más de 60 m/s): pasa a un diámetro mayor.",
+    "water_note": "Aire/agua: muy eficaz en aceleraciones cortas, pero el agua se calienta con un uso prolongado."
+  },
+  "chart": {
+    "eff_title": "Eficiencia según la velocidad del vehículo",
+    "speed": "Velocidad",
+    "eff": "Eficiencia (%)",
+    "dp_title": "Pérdida de carga según el régimen",
+    "rpm": "Régimen",
+    "dp": "Pérdida de carga",
+    "balance_title": "Balance de potencia",
+    "gain": "Ganancia",
+    "loss": "Pérdida",
+    "net": "Neto",
+    "power": "Potencia"
+  }
+}

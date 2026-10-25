@@ -1,0 +1,87 @@
+{
+  "intro": "Calcula a contrapressão do escape elemento a elemento, a perda de potência e o diâmetro recomendado.",
+  "g_engine": "Motor",
+  "g_line": "Linha de escape",
+  "boost_hint": "Ignorado num motor atmosférico",
+  "induction": {
+    "na": "Atmosférico",
+    "turbo": "Turbo",
+    "supercharger": "Compressor volumétrico"
+  },
+  "header": {
+    "stock": "Coletor de origem (ferro fundido)",
+    "tubular": "Coletor tubular",
+    "equal": "Coletor de tubos iguais"
+  },
+  "cat": {
+    "stock": "Catalisador de origem",
+    "high_flow": "Catalisador de alto fluxo",
+    "race": "Catalisador de competição",
+    "none": "Sem catalisador"
+  },
+  "muffler": {
+    "stock": "Silenciador de origem",
+    "sport": "Silenciador desportivo",
+    "straight": "Silenciador direto (absorção)"
+  },
+  "in": {
+    "displacement": "Cilindrada",
+    "cylinders": "Número de cilindros",
+    "rpm": "Regime máximo",
+    "power": "Potência máxima",
+    "type": "Alimentação",
+    "boost": "Pressão de sobrealimentação",
+    "header": "Coletor",
+    "primary": "Diâmetro dos tubos primários",
+    "collector": "Diâmetro de saída do coletor",
+    "pipe": "Diâmetro da linha",
+    "pipeL": "Comprimento da linha",
+    "bends": "Número de curvas",
+    "cat": "Catalisador",
+    "muffler": "Silenciador"
+  },
+  "r": {
+    "total": "Contrapressão total",
+    "loss": "Perda de potência (bombagem)",
+    "loss_note": "{pct} % da potência · valor mínimo",
+    "recommended": "Diâmetro de linha recomendado",
+    "recommended_note": "Atual: {d}",
+    "mass": "Caudal mássico dos gases",
+    "volume": "Caudal volúmico dos gases",
+    "volume_note": "A cerca de 600 °C",
+    "vpipe": "Velocidade na linha",
+    "vprimary": "Velocidade média nos primários",
+    "l_header": "Perda do coletor",
+    "header_turbo": "Antes da turbina: não contabilizada",
+    "l_cat": "Perda do catalisador",
+    "l_muffler": "Perda do silenciador",
+    "l_piping": "Perda de tubos e curvas",
+    "manifold": "Pressão estimada antes da turbina",
+    "manifold_note": "Cerca de 1,7 × a pressão de admissão (depende da turbina)"
+  },
+  "level": {
+    "low": "Restrição baixa",
+    "moderate": "Restrição moderada",
+    "high": "Restrição elevada",
+    "very_high": "Restrição muito elevada"
+  },
+  "part": {
+    "header": "Coletor",
+    "cat": "Catalisador",
+    "muffler": "Silenciador",
+    "piping": "Tubos e curvas"
+  },
+  "warn": {
+    "high": "Contrapressão elevada: o escape trava o motor em plena carga.",
+    "undersized": "Linha demasiado pequena para esta potência: passe ao diâmetro recomendado.",
+    "oversized": "Linha muito maior do que o necessário num atmosférico: a velocidade dos gases baixa e o binário a baixa rotação pode sofrer.",
+    "priority": "Elemento mais restritivo: {part}"
+  },
+  "chart": {
+    "rpm_title": "Contrapressão em função do regime",
+    "rpm": "Regime",
+    "bp": "Contrapressão",
+    "loss": "Perda de potência",
+    "parts_title": "Perdas por elemento"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "intro": "Hedef basıncı “boost creep” olmadan tutmak için wastegate boyutunu, yayı ve kontrolü kontrol eder.",
+  "g_target": "Hedef",
+  "g_wastegate": "Wastegate ve kontrol",
+  "type_internal": "Dahili (klape)",
+  "type_external": "Harici",
+  "control_manual": "Kontrolcüsüz (yalnız yay)",
+  "control_mbc": "Manuel kontrolcü (MBC)",
+  "control_ebc": "Elektronik kontrolcü (EBC)",
+  "in": {
+    "power": "Hedef güç",
+    "boost": "Hedef turbo basıncı (bağıl)",
+    "type": "Wastegate tipi",
+    "valve": "Supap çapı",
+    "spring": "Yay basıncı",
+    "control": "Basınç kontrolü"
+  },
+  "r": {
+    "required": "Gereken supap çapı",
+    "required_note": "Üreticilerin pratik kuralı",
+    "capacity": "Wastegate kapasitesi",
+    "creep": "Boost creep riski",
+    "spring": "Önerilen yay",
+    "spring_manual": "Kontrolcüsüz: yay = hedef basınç",
+    "spring_ctrl": "Kontrolcüyle: hedefin yaklaşık %70'i",
+    "expected": "Elde edilen basınç",
+    "max_ctrl": "Kontrol edilebilir azami basınç",
+    "max_ctrl_note": "Yay basıncının yaklaşık 2 katı",
+    "duty": "Tahmini EBC görev döngüsü",
+    "duty_note": "Doğrusal yaklaşım, araçta ince ayar yapın",
+    "exhaust": "Egzoz gazı debisi"
+  },
+  "fit": {
+    "optimal": "Uygun boyut",
+    "undersized": "Çok küçük",
+    "oversized": "Gerekenden büyük"
+  },
+  "creep": {
+    "none": "Yok",
+    "low": "Düşük",
+    "moderate": "Orta",
+    "high": "Yüksek"
+  },
+  "warn": {
+    "creep_high": "Supap açıkça çok küçük: basınç yükselmeye devam edebilir (boost creep).",
+    "creep_moderate": "Supap sınırda: yüksek devirde hafif boost creep olabilir.",
+    "use_external": "İhtiyaç dahili klapenin kapasitesini aşıyor: harici wastegate'e geçin.",
+    "spring_manual": "Kontrolcü olmadan basınç yay basıncına eşittir: hedefe eşit bir yay seçin.",
+    "spring_low": "Yay hedefe göre zayıf: kararsız kontrol ve basınç sıçramaları olabilir.",
+    "spring_high": "Yay hedefe yakın: kontrolcünün neredeyse hiç payı kalmıyor.",
+    "target_unreachable": "Hedef, kontrolcünün bu yayla tutabileceğinden yüksek: daha sert bir yay takın.",
+    "oversized": "Supap gerekenden çok büyük: kontrol biraz daha az hassas, ancak güvenli."
+  },
+  "table": {
+    "title": "Supap boyutu karşılaştırması",
+    "valve": "Supap",
+    "capacity": "Kapasite",
+    "verdict": "Değerlendirme"
+  },
+  "chart": {
+    "ebc_title": "Görev döngüsüne göre basınç (elektronik kontrolcü)",
+    "duty": "Görev döngüsü (%)",
+    "boost": "Elde edilen basınç",
+    "target": "Hedef basınç"
+  }
+}

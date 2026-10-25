@@ -1,0 +1,61 @@
+{
+  "intro": "Schat het rendement van de intercooler, de uittredetemperatuur, het drukverlies en de werkelijke vermogenswinst.",
+  "g_engine": "Motor en lucht",
+  "g_core": "Kern",
+  "g_piping": "Slangen en koeling",
+  "tin_hint": "Temperatuur na de compressor (zie Turbo-afstemming)",
+  "corew_hint": "Afstand die de inlaatlucht aflegt",
+  "type_air": "Lucht/lucht",
+  "type_water": "Lucht/water",
+  "in": {
+    "displacement": "Cilinderinhoud",
+    "rpm": "Toerental",
+    "ve": "Volumetrisch rendement",
+    "boost": "Turbodruk (relatief)",
+    "tIn": "Intredetemperatuur",
+    "ambient": "Buitentemperatuur",
+    "type": "Type warmtewisselaar",
+    "coreW": "Lengte van de kern",
+    "coreH": "Hoogte van de kern",
+    "coreT": "Dikte van de kern",
+    "fins": "Lameldichtheid",
+    "pipeD": "Slangdiameter",
+    "pipeL": "Totale slanglengte",
+    "speed": "Voertuigsnelheid",
+    "fan": "Hulpventilator"
+  },
+  "r": {
+    "eff": "Rendement",
+    "tout": "Uittredetemperatuur",
+    "tout_note": "Intrede {t}",
+    "drop": "Temperatuurdaling",
+    "dp": "Drukverlies",
+    "dp_note": "Kern {core} · slangen {pipe}",
+    "air": "Luchtdebiet",
+    "vpipe": "Snelheid in de slangen",
+    "gain": "Vermogenswinst (dichtheid)",
+    "gain_note": "Bij een geschat vermogen van {p}",
+    "loss": "Verlies door het drukverlies",
+    "loss_note": "Alleen als de druk niet in het spruitstuk wordt geregeld"
+  },
+  "warn": {
+    "dp_high": "Hoog drukverlies: kern te klein of slangen te nauw voor dit debiet.",
+    "eff_low": "Laag rendement: kern te klein voor dit luchtdebiet.",
+    "low_speed": "Laag rendement bij lage snelheid: een hulpventilator of betere plaatsing helpt.",
+    "pipe_small": "Lucht te snel in de slangen (meer dan 60 m/s): kies een grotere diameter.",
+    "water_note": "Lucht/water: zeer effectief bij korte acceleraties, maar het water warmt op bij langdurig gebruik."
+  },
+  "chart": {
+    "eff_title": "Rendement afhankelijk van de voertuigsnelheid",
+    "speed": "Snelheid",
+    "eff": "Rendement (%)",
+    "dp_title": "Drukverlies afhankelijk van het toerental",
+    "rpm": "Toerental",
+    "dp": "Drukverlies",
+    "balance_title": "Vermogensbalans",
+    "gain": "Winst",
+    "loss": "Verlies",
+    "net": "Netto",
+    "power": "Vermogen"
+  }
+}

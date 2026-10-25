@@ -52,14 +52,26 @@ export function buildConfig(spec, theme = 'dark') {
     border: { color: th.grid },
     ...extra,
   });
+  // Barres : toutes les étiquettes affichées, coupées sur plusieurs lignes si besoin (jamais masquées)
+  const wrap = (l) => {
+    const words = String(l).split(' ');
+    const lines = [];
+    for (const w of words) {
+      if (lines.length && (lines[lines.length - 1] + ' ' + w).length <= 12) lines[lines.length - 1] += ' ' + w;
+      else lines.push(w);
+    }
+    return lines.length > 1 ? lines : l;
+  };
+  const labels = isBar ? spec.labels.map(wrap) : spec.labels;
+  const xExtra = isBar ? { ticks: { color: th.text, font: { size: 11 }, maxRotation: 0, autoSkip: false } } : {};
   const scales = isDoughnut ? {} : {
-    x: scale(spec.xTitle, spec.xType ? { type: spec.xType } : {}),
+    x: scale(spec.xTitle, { ...(spec.xType ? { type: spec.xType } : {}), ...xExtra }),
     y: scale(spec.yTitle, { type: spec.yLog ? 'logarithmic' : 'linear', beginAtZero: spec.beginAtZero ?? isBar }),
   };
   if (spec.y2Title) scales.y2 = scale(spec.y2Title, { position: 'right', grid: { drawOnChartArea: false } });
   return {
     type: spec.type || 'line',
-    data: { labels: spec.labels, datasets },
+    data: { labels, datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,

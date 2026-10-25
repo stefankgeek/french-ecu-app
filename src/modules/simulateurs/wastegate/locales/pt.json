@@ -1,0 +1,66 @@
+{
+  "intro": "Verifica o tamanho da wastegate, a mola e a regulação para manter a pressão pretendida sem «boost creep».",
+  "g_target": "Objetivo",
+  "g_wastegate": "Wastegate e regulação",
+  "type_internal": "Interna (válvula de charneira)",
+  "type_external": "Externa",
+  "control_manual": "Sem controlador (só mola)",
+  "control_mbc": "Controlador manual (MBC)",
+  "control_ebc": "Controlador eletrónico (EBC)",
+  "in": {
+    "power": "Potência pretendida",
+    "boost": "Pressão pretendida (relativa)",
+    "type": "Tipo de wastegate",
+    "valve": "Diâmetro da válvula",
+    "spring": "Pressão da mola",
+    "control": "Regulação"
+  },
+  "r": {
+    "required": "Diâmetro de válvula necessário",
+    "required_note": "Regra empírica dos fabricantes",
+    "capacity": "Capacidade da wastegate",
+    "creep": "Risco de «boost creep»",
+    "spring": "Mola recomendada",
+    "spring_manual": "Sem controlador: mola = pressão pretendida",
+    "spring_ctrl": "Com controlador: cerca de 70 % do objetivo",
+    "expected": "Pressão obtida",
+    "max_ctrl": "Pressão máxima controlável",
+    "max_ctrl_note": "Cerca de 2 × a pressão da mola",
+    "duty": "Duty cycle EBC estimado",
+    "duty_note": "Aproximação linear, a afinar no carro",
+    "exhaust": "Caudal de gases de escape"
+  },
+  "fit": {
+    "optimal": "Tamanho adequado",
+    "undersized": "Demasiado pequena",
+    "oversized": "Maior do que o necessário"
+  },
+  "creep": {
+    "none": "Nenhum",
+    "low": "Baixo",
+    "moderate": "Moderado",
+    "high": "Elevado"
+  },
+  "warn": {
+    "creep_high": "Válvula claramente demasiado pequena: a pressão pode continuar a subir (boost creep).",
+    "creep_moderate": "Válvula no limite: pode haver um ligeiro boost creep em regimes altos.",
+    "use_external": "A necessidade excede a capacidade de uma válvula interna: passe a uma wastegate externa.",
+    "spring_manual": "Sem controlador, a pressão é a da mola: escolha uma mola igual à pressão pretendida.",
+    "spring_low": "Mola fraca em relação ao objetivo: regulação instável e picos de pressão possíveis.",
+    "spring_high": "Mola próxima do objetivo: o controlador quase não tem margem.",
+    "target_unreachable": "Objetivo acima do que o controlador consegue manter com esta mola: monte uma mola mais dura.",
+    "oversized": "Válvula muito maior do que o necessário: regulação um pouco menos fina, sem perigo."
+  },
+  "table": {
+    "title": "Comparador de válvulas",
+    "valve": "Válvula",
+    "capacity": "Capacidade",
+    "verdict": "Avaliação"
+  },
+  "chart": {
+    "ebc_title": "Pressão em função do duty cycle (controlador eletrónico)",
+    "duty": "Duty cycle (%)",
+    "boost": "Pressão obtida",
+    "target": "Pressão pretendida"
+  }
+}

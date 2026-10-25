@@ -1,0 +1,87 @@
+{
+  "intro": "Works out exhaust back pressure element by element, the power lost and the recommended pipe diameter.",
+  "g_engine": "Engine",
+  "g_line": "Exhaust system",
+  "boost_hint": "Ignored for a naturally aspirated engine",
+  "induction": {
+    "na": "Naturally aspirated",
+    "turbo": "Turbo",
+    "supercharger": "Supercharger"
+  },
+  "header": {
+    "stock": "Stock manifold (cast iron)",
+    "tubular": "Tubular header",
+    "equal": "Equal-length header"
+  },
+  "cat": {
+    "stock": "Stock catalytic converter",
+    "high_flow": "High-flow cat",
+    "race": "Race cat",
+    "none": "No cat"
+  },
+  "muffler": {
+    "stock": "Stock muffler",
+    "sport": "Sport muffler",
+    "straight": "Straight-through muffler"
+  },
+  "in": {
+    "displacement": "Displacement",
+    "cylinders": "Number of cylinders",
+    "rpm": "Maximum engine speed",
+    "power": "Maximum power",
+    "type": "Induction",
+    "boost": "Boost pressure",
+    "header": "Exhaust manifold",
+    "primary": "Primary tube diameter",
+    "collector": "Collector outlet diameter",
+    "pipe": "Pipe diameter",
+    "pipeL": "Pipe length",
+    "bends": "Number of bends",
+    "cat": "Catalytic converter",
+    "muffler": "Muffler"
+  },
+  "r": {
+    "total": "Total back pressure",
+    "loss": "Power lost (pumping)",
+    "loss_note": "{pct}% of power · minimum value",
+    "recommended": "Recommended pipe diameter",
+    "recommended_note": "Current: {d}",
+    "mass": "Exhaust mass flow",
+    "volume": "Exhaust volume flow",
+    "volume_note": "At about 600 °C",
+    "vpipe": "Velocity in the pipe",
+    "vprimary": "Average velocity in the primaries",
+    "l_header": "Manifold loss",
+    "header_turbo": "Upstream of the turbine: not counted",
+    "l_cat": "Catalytic converter loss",
+    "l_muffler": "Muffler loss",
+    "l_piping": "Pipe and bend loss",
+    "manifold": "Estimated pre-turbine pressure",
+    "manifold_note": "About 1.7 × intake pressure (depends on the turbine)"
+  },
+  "level": {
+    "low": "Low restriction",
+    "moderate": "Moderate restriction",
+    "high": "High restriction",
+    "very_high": "Very high restriction"
+  },
+  "part": {
+    "header": "Manifold",
+    "cat": "Catalytic converter",
+    "muffler": "Muffler",
+    "piping": "Pipes and bends"
+  },
+  "warn": {
+    "high": "High back pressure: the exhaust is holding the engine back at full load.",
+    "undersized": "Pipe too small for this power: move to the recommended diameter.",
+    "oversized": "Pipe much larger than needed on a naturally aspirated engine: gas velocity drops and low-rpm torque may suffer.",
+    "priority": "Most restrictive part: {part}"
+  },
+  "chart": {
+    "rpm_title": "Back pressure versus engine speed",
+    "rpm": "Engine speed",
+    "bp": "Back pressure",
+    "loss": "Power lost",
+    "parts_title": "Losses by component"
+  }
+}

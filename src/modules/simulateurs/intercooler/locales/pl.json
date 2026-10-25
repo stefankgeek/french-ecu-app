@@ -1,0 +1,61 @@
+{
+  "intro": "Szacuje sprawność intercoolera, temperaturę na wylocie, spadek ciśnienia i rzeczywisty przyrost mocy.",
+  "g_engine": "Silnik i powietrze",
+  "g_core": "Rdzeń",
+  "g_piping": "Przewody i chłodzenie",
+  "tin_hint": "Temperatura na wylocie sprężarki (patrz Dobór turbosprężarki)",
+  "corew_hint": "Droga powietrza doładowującego przez rdzeń",
+  "type_air": "Powietrze/powietrze",
+  "type_water": "Powietrze/woda",
+  "in": {
+    "displacement": "Pojemność skokowa",
+    "rpm": "Obroty",
+    "ve": "Sprawność napełniania",
+    "boost": "Ciśnienie doładowania (względne)",
+    "tIn": "Temperatura na wlocie",
+    "ambient": "Temperatura otoczenia",
+    "type": "Rodzaj wymiennika",
+    "coreW": "Długość rdzenia",
+    "coreH": "Wysokość rdzenia",
+    "coreT": "Grubość rdzenia",
+    "fins": "Gęstość lamel",
+    "pipeD": "Średnica przewodów",
+    "pipeL": "Całkowita długość przewodów",
+    "speed": "Prędkość pojazdu",
+    "fan": "Wentylator pomocniczy"
+  },
+  "r": {
+    "eff": "Sprawność",
+    "tout": "Temperatura na wylocie",
+    "tout_note": "Wlot {t}",
+    "drop": "Spadek temperatury",
+    "dp": "Spadek ciśnienia",
+    "dp_note": "Rdzeń {core} · przewody {pipe}",
+    "air": "Przepływ powietrza",
+    "vpipe": "Prędkość w przewodach",
+    "gain": "Przyrost mocy (gęstość)",
+    "gain_note": "Przy szacowanej mocy {p}",
+    "loss": "Strata wynikająca ze spadku ciśnienia",
+    "loss_note": "Tylko gdy ciśnienie nie jest regulowane w kolektorze"
+  },
+  "warn": {
+    "dp_high": "Duży spadek ciśnienia: rdzeń za mały lub przewody za wąskie dla tego przepływu.",
+    "eff_low": "Niska sprawność: rdzeń za mały dla tego przepływu powietrza.",
+    "low_speed": "Niska sprawność przy małej prędkości: pomógłby wentylator pomocniczy lub lepsze umiejscowienie.",
+    "pipe_small": "Za szybki przepływ w przewodach (ponad 60 m/s): zastosuj większą średnicę.",
+    "water_note": "Powietrze/woda: bardzo skuteczny przy krótkich przyspieszeniach, ale woda nagrzewa się przy długiej pracy."
+  },
+  "chart": {
+    "eff_title": "Sprawność w zależności od prędkości pojazdu",
+    "speed": "Prędkość",
+    "eff": "Sprawność (%)",
+    "dp_title": "Spadek ciśnienia w zależności od obrotów",
+    "rpm": "Obroty",
+    "dp": "Spadek ciśnienia",
+    "balance_title": "Bilans mocy",
+    "gain": "Zysk",
+    "loss": "Strata",
+    "net": "Netto",
+    "power": "Moc"
+  }
+}

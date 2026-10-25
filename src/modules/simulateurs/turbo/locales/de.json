@@ -1,0 +1,59 @@
+{
+  "intro": "Berechnet den Betriebspunkt des Verdichters: Druckverhältnis, korrigierter Durchsatz zum Ablesen des Kennfelds, Temperaturen und geschätzte Leistung.",
+  "g_engine": "Motor",
+  "g_air": "Umgebungsluft",
+  "g_turbo": "Turbo und Ladeluftkühler",
+  "manifold_hint": "Absoluter Saugrohrdruck (1 bar Ladedruck ≈ 2,0 bar abs.)",
+  "atm_hint": "1,013 auf Meereshöhe",
+  "ic_hint": "0 % ohne Ladeluftkühler",
+  "ref_garrett": "Garrett-Kennfeld (29 °C / 0,962 bar)",
+  "ref_std": "Normbedingungen (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Hubraum",
+    "rpm": "Drehzahl",
+    "ve": "Liefergrad",
+    "manifold": "Saugrohrdruck",
+    "ambient": "Umgebungstemperatur",
+    "atm": "Luftdruck",
+    "etaC": "Verdichterwirkungsgrad",
+    "icEff": "Wirkungsgrad des Ladeluftkühlers",
+    "dpIc": "Druckverlust Ladeluftkühler und Schläuche",
+    "dpInlet": "Druckverlust des Luftfilters",
+    "fuel": "Kraftstoff",
+    "ref": "Bezug des Verdichterkennfelds"
+  },
+  "r": {
+    "pr": "Druckverhältnis",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Ladedruck (relativ)",
+    "corrected": "Korrigierter Durchsatz (Kennfeld)",
+    "ref_garrett": "Garrett-Bezug",
+    "ref_std": "Normbezug",
+    "air": "Tatsächlicher Luftdurchsatz",
+    "t2": "Temperatur am Verdichteraustritt",
+    "tman": "Temperatur im Saugrohr",
+    "tman_note": "Nach Ladeluftkühler ({e} % Wirkungsgrad)",
+    "power": "Geschätzte Leistung",
+    "power_note": "≈ 10 hp pro lb/min Luft",
+    "exhaust": "Empfohlener Abgasdurchmesser",
+    "exhaust_note": "Downpipe, Innendurchmesser"
+  },
+  "warn": {
+    "pr_high": "Druckverhältnis über 3: ein passender Verdichter ist nötig, prüfe sein Kennfeld (Pumpgrenze).",
+    "t2_high": "Sehr heiße Luft am Verdichteraustritt: ein wirksamer Ladeluftkühler ist unverzichtbar.",
+    "eta_low": "Niedriger Verdichterwirkungsgrad: der Punkt liegt wahrscheinlich außerhalb des effizienten Bereichs.",
+    "no_ic": "Ohne Ladeluftkühler senkt die heiße Luft die Dichte und erhöht die Klopfgefahr.",
+    "ok": "Parameter in üblichen Bereichen."
+  },
+  "chart": {
+    "line_title": "Korrigierter Durchsatz und Leistung über der Drehzahl",
+    "rpm": "Drehzahl",
+    "flow": "Korrigierter Durchsatz",
+    "power": "Leistung",
+    "temp_title": "Lufttemperaturen",
+    "temp": "Temperatur",
+    "t_amb": "Umgebung",
+    "t_comp": "Verdichteraustritt",
+    "t_man": "Saugrohr"
+  }
+}

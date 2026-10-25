@@ -1,0 +1,61 @@
+{
+  "intro": "Estimates intercooler efficiency, outlet temperature, pressure drop and the real power gain.",
+  "g_engine": "Engine and air",
+  "g_core": "Core",
+  "g_piping": "Piping and cooling",
+  "tin_hint": "Compressor outlet temperature (see Turbo matching)",
+  "corew_hint": "Distance travelled by the charge air",
+  "type_air": "Air-to-air",
+  "type_water": "Air-to-water",
+  "in": {
+    "displacement": "Displacement",
+    "rpm": "Engine speed",
+    "ve": "Volumetric efficiency",
+    "boost": "Boost pressure (gauge)",
+    "tIn": "Inlet temperature",
+    "ambient": "Ambient temperature",
+    "type": "Intercooler type",
+    "coreW": "Core length",
+    "coreH": "Core height",
+    "coreT": "Core thickness",
+    "fins": "Fin density",
+    "pipeD": "Piping diameter",
+    "pipeL": "Total piping length",
+    "speed": "Vehicle speed",
+    "fan": "Auxiliary fan"
+  },
+  "r": {
+    "eff": "Efficiency",
+    "tout": "Outlet temperature",
+    "tout_note": "Inlet {t}",
+    "drop": "Temperature drop",
+    "dp": "Pressure drop",
+    "dp_note": "Core {core} · piping {pipe}",
+    "air": "Air flow",
+    "vpipe": "Velocity in the piping",
+    "gain": "Power gain (density)",
+    "gain_note": "On an estimated power of {p}",
+    "loss": "Loss from the pressure drop",
+    "loss_note": "Only if boost is not controlled at the manifold"
+  },
+  "warn": {
+    "dp_high": "High pressure drop: core too small or piping too narrow for this flow.",
+    "eff_low": "Low efficiency: core too small for this air flow.",
+    "low_speed": "Low efficiency at low speed: an auxiliary fan or better placement would help.",
+    "pipe_small": "Air too fast in the piping (over 60 m/s): go up a diameter.",
+    "water_note": "Air-to-water: very effective for short pulls, but the water heats up with sustained use."
+  },
+  "chart": {
+    "eff_title": "Efficiency versus vehicle speed",
+    "speed": "Speed",
+    "eff": "Efficiency (%)",
+    "dp_title": "Pressure drop versus engine speed",
+    "rpm": "Engine speed",
+    "dp": "Pressure drop",
+    "balance_title": "Power balance",
+    "gain": "Gain",
+    "loss": "Loss",
+    "net": "Net",
+    "power": "Power"
+  }
+}

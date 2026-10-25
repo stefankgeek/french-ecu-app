@@ -17,10 +17,10 @@ export const MODULES = [
   { id: 'lambda', category: 'fuel', icon: 'lambda', color: '#ff2d55', status: 'ready', load: () => import('./simulateurs/lambda/index.js') },
   { id: 'nitrous', category: 'fuel', icon: 'bottle', color: '#ff9500', status: 'ready', load: () => import('./simulateurs/nitrous/index.js') },
   // Suralimentation & échappement
-  { id: 'turbo', category: 'boost', icon: 'turbo', color: '#ff9500', status: 'soon' },
-  { id: 'wastegate', category: 'boost', icon: 'gauge', color: '#5ac8fa', status: 'soon' },
-  { id: 'intercooler', category: 'boost', icon: 'cooler', color: '#007aff', status: 'soon' },
-  { id: 'exhaust', category: 'boost', icon: 'exhaust', color: '#ff9f0a', status: 'soon' },
+  { id: 'turbo', category: 'boost', icon: 'turbo', color: '#ff9500', status: 'ready', load: () => import('./simulateurs/turbo/index.js') },
+  { id: 'wastegate', category: 'boost', icon: 'gauge', color: '#5ac8fa', status: 'ready', load: () => import('./simulateurs/wastegate/index.js') },
+  { id: 'intercooler', category: 'boost', icon: 'cooler', color: '#007aff', status: 'ready', load: () => import('./simulateurs/intercooler/index.js') },
+  { id: 'exhaust', category: 'boost', icon: 'exhaust', color: '#ff9f0a', status: 'ready', load: () => import('./simulateurs/exhaust/index.js') },
   // Moteur
   { id: 'compression', category: 'engine', icon: 'piston', color: '#34c759', status: 'soon' },
   { id: 'camshaft', category: 'engine', icon: 'cam', color: '#af52de', status: 'soon' },

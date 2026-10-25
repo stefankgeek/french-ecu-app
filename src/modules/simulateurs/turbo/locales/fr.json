@@ -1,0 +1,59 @@
+{
+  "intro": "Calcule le point de fonctionnement du compresseur : rapport de pression, débit corrigé pour lire la carte du turbo, températures et puissance estimée.",
+  "g_engine": "Moteur",
+  "g_air": "Air ambiant",
+  "g_turbo": "Turbo et intercooler",
+  "manifold_hint": "Pression absolue au collecteur (1 bar de suralimentation ≈ 2,0 bar a)",
+  "atm_hint": "1,013 au niveau de la mer",
+  "ic_hint": "0 % sans intercooler",
+  "ref_garrett": "Carte Garrett (29 °C / 0,962 bar)",
+  "ref_std": "Conditions standard (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Cylindrée",
+    "rpm": "Régime",
+    "ve": "Rendement volumétrique",
+    "manifold": "Pression au collecteur",
+    "ambient": "Température ambiante",
+    "atm": "Pression atmosphérique",
+    "etaC": "Rendement du compresseur",
+    "icEff": "Efficacité de l'intercooler",
+    "dpIc": "Perte de charge intercooler et durites",
+    "dpInlet": "Perte de charge du filtre à air",
+    "fuel": "Carburant",
+    "ref": "Référence de la carte compresseur"
+  },
+  "r": {
+    "pr": "Rapport de pression",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Pression de suralimentation (relative)",
+    "corrected": "Débit corrigé (lecture de la carte)",
+    "ref_garrett": "Référence Garrett",
+    "ref_std": "Référence standard",
+    "air": "Débit d'air réel",
+    "t2": "Température sortie compresseur",
+    "tman": "Température au collecteur",
+    "tman_note": "Après intercooler ({e} % d'efficacité)",
+    "power": "Puissance estimée",
+    "power_note": "≈ 10 hp par lb/min d'air",
+    "exhaust": "Diamètre d'échappement conseillé",
+    "exhaust_note": "Descente de turbo, diamètre intérieur"
+  },
+  "warn": {
+    "pr_high": "Rapport de pression supérieur à 3 : il faut un compresseur adapté, vérifiez sa carte (zone de pompage).",
+    "t2_high": "Air très chaud en sortie de compresseur : un intercooler efficace est indispensable.",
+    "eta_low": "Rendement de compresseur faible : le point est probablement hors de la zone efficace de la carte.",
+    "no_ic": "Sans intercooler, l'air chaud réduit la densité et augmente le risque de cliquetis.",
+    "ok": "Paramètres dans des plages courantes."
+  },
+  "chart": {
+    "line_title": "Débit corrigé et puissance selon le régime",
+    "rpm": "Régime",
+    "flow": "Débit corrigé",
+    "power": "Puissance",
+    "temp_title": "Températures de l'air",
+    "temp": "Température",
+    "t_amb": "Ambiante",
+    "t_comp": "Sortie compresseur",
+    "t_man": "Collecteur"
+  }
+}

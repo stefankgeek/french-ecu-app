@@ -1,0 +1,61 @@
+{
+  "intro": "Estima a eficiência do intercooler, a temperatura de saída, a perda de carga e o ganho real de potência.",
+  "g_engine": "Motor e ar",
+  "g_core": "Núcleo",
+  "g_piping": "Tubagens e arrefecimento",
+  "tin_hint": "Temperatura à saída do compressor (ver Calibração do turbo)",
+  "corew_hint": "Distância percorrida pelo ar de sobrealimentação",
+  "type_air": "Ar/ar",
+  "type_water": "Ar/água",
+  "in": {
+    "displacement": "Cilindrada",
+    "rpm": "Regime",
+    "ve": "Rendimento volumétrico",
+    "boost": "Pressão de sobrealimentação (relativa)",
+    "tIn": "Temperatura de entrada",
+    "ambient": "Temperatura ambiente",
+    "type": "Tipo de permutador",
+    "coreW": "Comprimento do núcleo",
+    "coreH": "Altura do núcleo",
+    "coreT": "Espessura do núcleo",
+    "fins": "Densidade de alhetas",
+    "pipeD": "Diâmetro das tubagens",
+    "pipeL": "Comprimento total das tubagens",
+    "speed": "Velocidade do veículo",
+    "fan": "Ventilador auxiliar"
+  },
+  "r": {
+    "eff": "Eficiência",
+    "tout": "Temperatura de saída",
+    "tout_note": "Entrada {t}",
+    "drop": "Descida de temperatura",
+    "dp": "Perda de carga",
+    "dp_note": "Núcleo {core} · tubagens {pipe}",
+    "air": "Caudal de ar",
+    "vpipe": "Velocidade nas tubagens",
+    "gain": "Ganho de potência (densidade)",
+    "gain_note": "Sobre uma potência estimada de {p}",
+    "loss": "Perda devida à perda de carga",
+    "loss_note": "Só se a pressão não for regulada no coletor"
+  },
+  "warn": {
+    "dp_high": "Perda de carga elevada: núcleo demasiado pequeno ou tubagens demasiado estreitas para este caudal.",
+    "eff_low": "Eficiência baixa: núcleo demasiado pequeno para este caudal de ar.",
+    "low_speed": "Eficiência baixa a velocidade reduzida: um ventilador auxiliar ou uma melhor localização ajudariam.",
+    "pipe_small": "Ar demasiado rápido nas tubagens (mais de 60 m/s): passe a um diâmetro maior.",
+    "water_note": "Ar/água: muito eficaz em acelerações curtas, mas a água aquece com utilização prolongada."
+  },
+  "chart": {
+    "eff_title": "Eficiência em função da velocidade do veículo",
+    "speed": "Velocidade",
+    "eff": "Eficiência (%)",
+    "dp_title": "Perda de carga em função do regime",
+    "rpm": "Regime",
+    "dp": "Perda de carga",
+    "balance_title": "Balanço de potência",
+    "gain": "Ganho",
+    "loss": "Perda",
+    "net": "Líquido",
+    "power": "Potência"
+  }
+}

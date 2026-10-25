@@ -1,0 +1,87 @@
+{
+  "intro": "Oblicza przeciwciśnienie układu wydechowego element po elemencie, utratę mocy i zalecaną średnicę rury.",
+  "g_engine": "Silnik",
+  "g_line": "Układ wydechowy",
+  "boost_hint": "Pomijane w silniku wolnossącym",
+  "induction": {
+    "na": "Wolnossący",
+    "turbo": "Turbo",
+    "supercharger": "Kompresor mechaniczny"
+  },
+  "header": {
+    "stock": "Kolektor fabryczny (żeliwny)",
+    "tubular": "Kolektor rurowy",
+    "equal": "Kolektor o równych rurach"
+  },
+  "cat": {
+    "stock": "Katalizator fabryczny",
+    "high_flow": "Katalizator wysokoprzepływowy",
+    "race": "Katalizator sportowy",
+    "none": "Bez katalizatora"
+  },
+  "muffler": {
+    "stock": "Tłumik fabryczny",
+    "sport": "Tłumik sportowy",
+    "straight": "Tłumik przelotowy (absorpcyjny)"
+  },
+  "in": {
+    "displacement": "Pojemność skokowa",
+    "cylinders": "Liczba cylindrów",
+    "rpm": "Maksymalne obroty",
+    "power": "Moc maksymalna",
+    "type": "Zasilanie",
+    "boost": "Ciśnienie doładowania",
+    "header": "Kolektor wydechowy",
+    "primary": "Średnica rur pierwotnych",
+    "collector": "Średnica wylotu kolektora",
+    "pipe": "Średnica rury",
+    "pipeL": "Długość rury",
+    "bends": "Liczba kolan",
+    "cat": "Katalizator",
+    "muffler": "Tłumik"
+  },
+  "r": {
+    "total": "Całkowite przeciwciśnienie",
+    "loss": "Utrata mocy (pompowanie)",
+    "loss_note": "{pct}% mocy · wartość minimalna",
+    "recommended": "Zalecana średnica rury",
+    "recommended_note": "Obecnie: {d}",
+    "mass": "Masowy przepływ spalin",
+    "volume": "Objętościowy przepływ spalin",
+    "volume_note": "Przy około 600 °C",
+    "vpipe": "Prędkość w rurze",
+    "vprimary": "Średnia prędkość w rurach pierwotnych",
+    "l_header": "Strata w kolektorze",
+    "header_turbo": "Przed turbiną: nie liczona",
+    "l_cat": "Strata w katalizatorze",
+    "l_muffler": "Strata w tłumiku",
+    "l_piping": "Strata w rurach i kolanach",
+    "manifold": "Szacowane ciśnienie przed turbiną",
+    "manifold_note": "Około 1,7 × ciśnienie dolotu (zależy od turbiny)"
+  },
+  "level": {
+    "low": "Niskie dławienie",
+    "moderate": "Umiarkowane dławienie",
+    "high": "Wysokie dławienie",
+    "very_high": "Bardzo wysokie dławienie"
+  },
+  "part": {
+    "header": "Kolektor",
+    "cat": "Katalizator",
+    "muffler": "Tłumik",
+    "piping": "Rury i kolana"
+  },
+  "warn": {
+    "high": "Wysokie przeciwciśnienie: wydech dławi silnik przy pełnym obciążeniu.",
+    "undersized": "Rura za mała dla tej mocy: przejdź na zalecaną średnicę.",
+    "oversized": "Rura dużo większa niż potrzeba w silniku wolnossącym: prędkość spalin spada, a moment na niskich obrotach może ucierpieć.",
+    "priority": "Najbardziej dławiący element: {part}"
+  },
+  "chart": {
+    "rpm_title": "Przeciwciśnienie w zależności od obrotów",
+    "rpm": "Obroty",
+    "bp": "Przeciwciśnienie",
+    "loss": "Utrata mocy",
+    "parts_title": "Straty według elementu"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "intro": "Calcula o ponto de funcionamento do compressor: relação de pressão, caudal corrigido para ler o mapa do turbo, temperaturas e potência estimada.",
+  "g_engine": "Motor",
+  "g_air": "Ar ambiente",
+  "g_turbo": "Turbo e intercooler",
+  "manifold_hint": "Pressão absoluta no coletor (1 bar de sobrealimentação ≈ 2,0 bar abs.)",
+  "atm_hint": "1,013 ao nível do mar",
+  "ic_hint": "0 % sem intercooler",
+  "ref_garrett": "Mapa Garrett (29 °C / 0,962 bar)",
+  "ref_std": "Condições normalizadas (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Cilindrada",
+    "rpm": "Regime",
+    "ve": "Rendimento volumétrico",
+    "manifold": "Pressão no coletor",
+    "ambient": "Temperatura ambiente",
+    "atm": "Pressão atmosférica",
+    "etaC": "Rendimento do compressor",
+    "icEff": "Eficiência do intercooler",
+    "dpIc": "Perda de carga do intercooler e tubagens",
+    "dpInlet": "Perda de carga do filtro de ar",
+    "fuel": "Combustível",
+    "ref": "Referência do mapa do compressor"
+  },
+  "r": {
+    "pr": "Relação de pressão",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Pressão de sobrealimentação (relativa)",
+    "corrected": "Caudal corrigido (para o mapa)",
+    "ref_garrett": "Referência Garrett",
+    "ref_std": "Referência normalizada",
+    "air": "Caudal de ar real",
+    "t2": "Temperatura à saída do compressor",
+    "tman": "Temperatura no coletor",
+    "tman_note": "Após o intercooler ({e} % de eficiência)",
+    "power": "Potência estimada",
+    "power_note": "≈ 10 hp por lb/min de ar",
+    "exhaust": "Diâmetro de escape recomendado",
+    "exhaust_note": "Downpipe, diâmetro interior"
+  },
+  "warn": {
+    "pr_high": "Relação de pressão superior a 3: é preciso um compressor adequado, verifique o mapa (zona de bombagem).",
+    "t2_high": "Ar muito quente à saída do compressor: um intercooler eficaz é indispensável.",
+    "eta_low": "Rendimento do compressor baixo: o ponto está provavelmente fora da zona eficiente do mapa.",
+    "no_ic": "Sem intercooler, o ar quente reduz a densidade e aumenta o risco de detonação.",
+    "ok": "Parâmetros dentro de valores habituais."
+  },
+  "chart": {
+    "line_title": "Caudal corrigido e potência em função do regime",
+    "rpm": "Regime",
+    "flow": "Caudal corrigido",
+    "power": "Potência",
+    "temp_title": "Temperaturas do ar",
+    "temp": "Temperatura",
+    "t_amb": "Ambiente",
+    "t_comp": "Saída do compressor",
+    "t_man": "Coletor"
+  }
+}

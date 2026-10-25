@@ -1,0 +1,87 @@
+{
+  "intro": "Egzoz karşı basıncını parça parça, güç kaybını ve önerilen boru çapını hesaplar.",
+  "g_engine": "Motor",
+  "g_line": "Egzoz hattı",
+  "boost_hint": "Atmosferik motorda dikkate alınmaz",
+  "induction": {
+    "na": "Atmosferik",
+    "turbo": "Turbo",
+    "supercharger": "Süperşarj"
+  },
+  "header": {
+    "stock": "Orijinal manifold (döküm)",
+    "tubular": "Boru tipi manifold",
+    "equal": "Eşit boylu manifold"
+  },
+  "cat": {
+    "stock": "Orijinal katalizör",
+    "high_flow": "Yüksek akışlı katalizör",
+    "race": "Yarış katalizörü",
+    "none": "Katalizörsüz"
+  },
+  "muffler": {
+    "stock": "Orijinal susturucu",
+    "sport": "Spor susturucu",
+    "straight": "Düz geçişli susturucu"
+  },
+  "in": {
+    "displacement": "Silindir hacmi",
+    "cylinders": "Silindir sayısı",
+    "rpm": "Azami devir",
+    "power": "Azami güç",
+    "type": "Besleme",
+    "boost": "Turbo basıncı",
+    "header": "Egzoz manifoldu",
+    "primary": "Birincil boru çapı",
+    "collector": "Manifold çıkış çapı",
+    "pipe": "Boru çapı",
+    "pipeL": "Boru uzunluğu",
+    "bends": "Dirsek sayısı",
+    "cat": "Katalizör",
+    "muffler": "Susturucu"
+  },
+  "r": {
+    "total": "Toplam karşı basınç",
+    "loss": "Güç kaybı (pompalama)",
+    "loss_note": "Gücün %{pct}'i · asgari değer",
+    "recommended": "Önerilen boru çapı",
+    "recommended_note": "Mevcut: {d}",
+    "mass": "Egzoz gazı kütle debisi",
+    "volume": "Egzoz gazı hacim debisi",
+    "volume_note": "Yaklaşık 600 °C'de",
+    "vpipe": "Borudaki hız",
+    "vprimary": "Birincil borulardaki ortalama hız",
+    "l_header": "Manifold kaybı",
+    "header_turbo": "Türbinden önce: hesaba katılmaz",
+    "l_cat": "Katalizör kaybı",
+    "l_muffler": "Susturucu kaybı",
+    "l_piping": "Boru ve dirsek kaybı",
+    "manifold": "Türbin öncesi tahmini basınç",
+    "manifold_note": "Emme basıncının yaklaşık 1,7 katı (türbine bağlı)"
+  },
+  "level": {
+    "low": "Düşük kısıtlama",
+    "moderate": "Orta kısıtlama",
+    "high": "Yüksek kısıtlama",
+    "very_high": "Çok yüksek kısıtlama"
+  },
+  "part": {
+    "header": "Manifold",
+    "cat": "Katalizör",
+    "muffler": "Susturucu",
+    "piping": "Borular ve dirsekler"
+  },
+  "warn": {
+    "high": "Karşı basınç yüksek: egzoz hattı tam yükte motoru frenliyor.",
+    "undersized": "Boru bu güç için çok küçük: önerilen çapa geçin.",
+    "oversized": "Atmosferik motorda boru gerekenden çok büyük: gaz hızı düşer ve düşük devir torku zarar görebilir.",
+    "priority": "En kısıtlayıcı parça: {part}"
+  },
+  "chart": {
+    "rpm_title": "Devire göre karşı basınç",
+    "rpm": "Devir",
+    "bp": "Karşı basınç",
+    "loss": "Güç kaybı",
+    "parts_title": "Parçalara göre kayıplar"
+  }
+}

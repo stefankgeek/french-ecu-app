@@ -1,0 +1,59 @@
+{
+  "intro": "Oblicza punkt pracy sprężarki: stosunek ciśnień, przepływ skorygowany do odczytu mapy turbosprężarki, temperatury i szacowaną moc.",
+  "g_engine": "Silnik",
+  "g_air": "Powietrze otoczenia",
+  "g_turbo": "Turbosprężarka i intercooler",
+  "manifold_hint": "Ciśnienie bezwzględne w kolektorze (1 bar doładowania ≈ 2,0 bar abs.)",
+  "atm_hint": "1,013 na poziomie morza",
+  "ic_hint": "0% bez intercoolera",
+  "ref_garrett": "Mapa Garrett (29 °C / 0,962 bar)",
+  "ref_std": "Warunki normalne (15 °C / 1,013 bar)",
+  "in": {
+    "displacement": "Pojemność skokowa",
+    "rpm": "Obroty",
+    "ve": "Sprawność napełniania",
+    "manifold": "Ciśnienie w kolektorze",
+    "ambient": "Temperatura otoczenia",
+    "atm": "Ciśnienie atmosferyczne",
+    "etaC": "Sprawność sprężarki",
+    "icEff": "Sprawność intercoolera",
+    "dpIc": "Spadek ciśnienia na intercoolerze i przewodach",
+    "dpInlet": "Spadek ciśnienia na filtrze powietrza",
+    "fuel": "Paliwo",
+    "ref": "Odniesienie mapy sprężarki"
+  },
+  "r": {
+    "pr": "Stosunek ciśnień",
+    "pr_note": "{p2} ÷ {p1}",
+    "boost": "Ciśnienie doładowania (względne)",
+    "corrected": "Przepływ skorygowany (do mapy)",
+    "ref_garrett": "Odniesienie Garrett",
+    "ref_std": "Odniesienie normalne",
+    "air": "Rzeczywisty przepływ powietrza",
+    "t2": "Temperatura na wylocie sprężarki",
+    "tman": "Temperatura w kolektorze",
+    "tman_note": "Za intercoolerem (sprawność {e}%)",
+    "power": "Szacowana moc",
+    "power_note": "≈ 10 hp na lb/min powietrza",
+    "exhaust": "Zalecana średnica wydechu",
+    "exhaust_note": "Downpipe, średnica wewnętrzna"
+  },
+  "warn": {
+    "pr_high": "Stosunek ciśnień powyżej 3: potrzebna jest odpowiednia sprężarka, sprawdź jej mapę (granica pompowania).",
+    "t2_high": "Bardzo gorące powietrze na wylocie sprężarki: niezbędny jest wydajny intercooler.",
+    "eta_low": "Niska sprawność sprężarki: punkt prawdopodobnie leży poza wydajnym obszarem mapy.",
+    "no_ic": "Bez intercoolera gorące powietrze zmniejsza gęstość i zwiększa ryzyko spalania stukowego.",
+    "ok": "Parametry w typowych zakresach."
+  },
+  "chart": {
+    "line_title": "Przepływ skorygowany i moc w zależności od obrotów",
+    "rpm": "Obroty",
+    "flow": "Przepływ skorygowany",
+    "power": "Moc",
+    "temp_title": "Temperatury powietrza",
+    "temp": "Temperatura",
+    "t_amb": "Otoczenie",
+    "t_comp": "Wylot sprężarki",
+    "t_man": "Kolektor"
+  }
+}

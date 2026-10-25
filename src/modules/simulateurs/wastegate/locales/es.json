@@ -1,0 +1,66 @@
+{
+  "intro": "Comprueba el tamaño de la wastegate, el muelle y la regulación para mantener la presión objetivo sin «boost creep».",
+  "g_target": "Objetivo",
+  "g_wastegate": "Wastegate y regulación",
+  "type_internal": "Interna (clapeta)",
+  "type_external": "Externa",
+  "control_manual": "Sin controlador (solo muelle)",
+  "control_mbc": "Controlador manual (MBC)",
+  "control_ebc": "Controlador electrónico (EBC)",
+  "in": {
+    "power": "Potencia objetivo",
+    "boost": "Presión objetivo (relativa)",
+    "type": "Tipo de wastegate",
+    "valve": "Diámetro de la válvula",
+    "spring": "Presión del muelle",
+    "control": "Regulación"
+  },
+  "r": {
+    "required": "Diámetro de válvula necesario",
+    "required_note": "Regla empírica de los fabricantes",
+    "capacity": "Capacidad de la wastegate",
+    "creep": "Riesgo de «boost creep»",
+    "spring": "Muelle recomendado",
+    "spring_manual": "Sin controlador: muelle = presión objetivo",
+    "spring_ctrl": "Con controlador: alrededor del 70 % del objetivo",
+    "expected": "Presión obtenida",
+    "max_ctrl": "Presión máxima controlable",
+    "max_ctrl_note": "Alrededor de 2 × la presión del muelle",
+    "duty": "Ciclo de trabajo EBC estimado",
+    "duty_note": "Aproximación lineal, a ajustar en el coche",
+    "exhaust": "Caudal de gases de escape"
+  },
+  "fit": {
+    "optimal": "Tamaño adecuado",
+    "undersized": "Demasiado pequeña",
+    "oversized": "Más grande de lo necesario"
+  },
+  "creep": {
+    "none": "Ninguno",
+    "low": "Bajo",
+    "moderate": "Moderado",
+    "high": "Alto"
+  },
+  "warn": {
+    "creep_high": "Válvula claramente demasiado pequeña: la presión puede seguir subiendo (boost creep).",
+    "creep_moderate": "Válvula justa: es posible un ligero boost creep a alto régimen.",
+    "use_external": "La necesidad supera la capacidad de una clapeta interna: pasa a una wastegate externa.",
+    "spring_manual": "Sin controlador, la presión es la del muelle: elige un muelle igual a la presión objetivo.",
+    "spring_low": "Muelle débil respecto al objetivo: regulación inestable y picos de presión posibles.",
+    "spring_high": "Muelle cercano al objetivo: el controlador casi no tiene margen.",
+    "target_unreachable": "Objetivo superior a lo que el controlador puede mantener con este muelle: monta un muelle más duro.",
+    "oversized": "Válvula mucho más grande de lo necesario: regulación algo menos precisa, sin peligro."
+  },
+  "table": {
+    "title": "Comparador de válvulas",
+    "valve": "Válvula",
+    "capacity": "Capacidad",
+    "verdict": "Valoración"
+  },
+  "chart": {
+    "ebc_title": "Presión según el ciclo de trabajo (controlador electrónico)",
+    "duty": "Ciclo de trabajo (%)",
+    "boost": "Presión obtenida",
+    "target": "Presión objetivo"
+  }
+}
