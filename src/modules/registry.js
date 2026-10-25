@@ -28,7 +28,6 @@ export const MODULES = [
   { id: 'valve_spring', category: 'engine', icon: 'spring', color: '#bf5af2', status: 'ready', load: () => import('./simulateurs/valve_spring/index.js') },
   { id: 'ring_gap', category: 'engine', icon: 'ring', color: '#ff453a', status: 'ready', load: () => import('./simulateurs/ring_gap/index.js') },
   { id: 'conrod', category: 'engine', icon: 'conrod', color: '#7b68ee', status: 'ready', load: () => import('./simulateurs/conrod/index.js') },
-  { id: 'harmonics', category: 'engine', icon: 'wave', color: '#4a90e2', status: 'ready', load: () => import('./simulateurs/harmonics/index.js') },
   // Cartographie
   { id: 'ecu_map', category: 'ecu', icon: 'chip', color: '#7b68ee', status: 'ready', load: () => import('./simulateurs/ecu_map/index.js') },
   // Châssis & refroidissement

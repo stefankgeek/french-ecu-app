@@ -94,10 +94,6 @@
       "title": "Connecting rod simulator",
       "desc": "Stress on rod, pin and crankshaft"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Full engine simulator: injection, ignition, turbo, thermal"
-    },
     "ecu_map": {
       "title": "Map generator",
       "desc": "Create ECU calibration tables"

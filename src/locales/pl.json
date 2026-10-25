@@ -96,10 +96,6 @@
       "title": "Symulator korbowodu",
       "desc": "Naprężenia korbowodu, sworznia i wału korbowego"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Pełny symulator silnika: wtrysk, zapłon, turbo, termika"
-    },
     "ecu_map": {
       "title": "Generator map",
       "desc": "Tworzenie tabel kalibracyjnych ECU"

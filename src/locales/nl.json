@@ -94,10 +94,6 @@
       "title": "Drijfstangsimulator",
       "desc": "Belasting op drijfstang, zuigerpen en krukas"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Complete motorsimulator: injectie, ontsteking, turbo, thermiek"
-    },
     "ecu_map": {
       "title": "Mapgenerator",
       "desc": "ECU-kalibratietabellen maken"

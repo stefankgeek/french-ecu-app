@@ -33,7 +33,7 @@ comparaison des résultats avec l'ancien site.
   - Intercooler : débit d'air ×500 trop grand, perte de charge > 1 bar → méthode efficacité-NTU + Darcy
   - Échappement : CFM avec des cm³ au lieu de pouces cubes (×16), pertes ∝ débit², perte de pompage réelle
 - ✅ Graphiques en barres : toutes les étiquettes visibles (retour à la ligne)
-- ✅ Moteur (v0.4.0) : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage, Harmonics3+
+- ✅ Moteur (v0.4.0) : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage
   — 30 tests de cohérence physique (tests/engine.test.js)
   - Compression : taux dynamique géométrique (bielle), octane conseillé d'après le taux dynamique, gain Otto
   - Arbre à cames : croisement faux (288° au lieu de 60°) → (durée adm + durée éch)/2 − 2·LSA ;
@@ -42,7 +42,7 @@ comparaison des résultats avec l'ancien site.
   - Ressorts : la durée de came n'était pas utilisée → décélération harmonique ; masses, hauteur libre, N/mm
   - Segments : méthode juste, reprise telle quelle (alésage en pouces × coefficient)
   - Embiellage : reconstruit (couple affiché 0 N·m à cause d'une erreur kN·m, course figée, pression sans combustion)
-  - Harmonics3+ : reconstruit en synthèse moteur + diagnostic (pas d'avance à l'allumage chiffrée, risque de cliquetis)
+  - Harmonics3+ : supprimé à la demande de Stéphane (25/10/2026)
   - Données carburant : PCI de l'E85 corrigé (29,3 MJ/kg)
 - ✅ Cartographie (v0.5.0) : générateur de cartes de départ (carburant, avance, VE, lambda + 7 courbes),
   tables colorées, export CSV (.zip) et JSON, 8 calculateurs + CSV générique

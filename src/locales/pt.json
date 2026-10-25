@@ -95,10 +95,6 @@
       "title": "Simulador de biela",
       "desc": "Esforços na biela, cavilhão e cambota"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Simulador de motor completo: injeção, ignição, turbo, térmica"
-    },
     "ecu_map": {
       "title": "Gerador de mapas",
       "desc": "Criação de tabelas de calibração ECU"

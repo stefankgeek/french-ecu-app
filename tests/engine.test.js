@@ -10,7 +10,6 @@ import { computePiston } from '../src/modules/simulateurs/piston_speed/calc.js';
 import { computeValveSpring } from '../src/modules/simulateurs/valve_spring/calc.js';
 import { computeRingGap } from '../src/modules/simulateurs/ring_gap/calc.js';
 import { computeConrod } from '../src/modules/simulateurs/conrod/calc.js';
-import { computeHarmonics, runnerLengthMm } from '../src/modules/simulateurs/harmonics/calc.js';
 import { requiredRon, knockRisk } from '../src/modules/data/knock.js';
 
 const COMP = { bore: 86, stroke: 86, rod: 144, cylinders: 4, deck: 0.5, chamber: 50, gasketBore: 87, gasketThickness: 1.0,
@@ -21,8 +20,6 @@ const SPRING = { lift: 11, duration: 280, rpm: 7000, valve: 80, retainer: 15, sp
   freeHeight: 50, installed: 40, coilBind: 28, dual: false };
 const ROD = { bore: 86, stroke: 86, rod: 144, cylinders: 4, cr: 10.5, boostBar: 0, rpm: 6000, rpmMax: 7000, pistonKit: 520,
   rodMass: 550, shankArea: 180, yield: 550, pinOd: 22, pinId: 13, crankpin: 48, bearingWidth: 20 };
-const HARM = { dispL: 2, cylinders: 4, cr: 9.5, rpm: 6000, ve: 0.9, inDuration: 260, boostBar: 1, fuel: 'sp98', ambient: 25,
-  etaC: 0.75, icEff: 0.7, rail: 3.5, drivetrain: 0.85 };
 
 describe('Compression', () => {
   it('taux statique : (V balayé + V mort) / V mort', () => {
@@ -161,26 +158,7 @@ describe('Embiellage', () => {
   });
 });
 
-describe('Harmonics3+ (synthèse) et cliquetis', () => {
-  it('puissance plausible : 2 L, 1 bar, ≈ 190 kW', () => {
-    const r = computeHarmonics(HARM);
-    expect(r.powerKw).toBeGreaterThan(160);
-    expect(r.powerKw).toBeLessThan(220);
-    expect(r.wheelKw).toBeCloseTo(r.powerKw * 0.85, 6);
-  });
-  it('la puissance augmente avec la pression', () => {
-    expect(computeHarmonics({ ...HARM, boostBar: 1.5 }).powerKw).toBeGreaterThan(computeHarmonics(HARM).powerKw);
-  });
-  it('longueur de pipe : plus courte à haut régime', () => {
-    expect(runnerLengthMm(8000, 260)).toBeLessThan(runnerLengthMm(5000, 260));
-  });
-  it('l\'éthanol réduit le risque de cliquetis', () => {
-    const sp = computeHarmonics({ ...HARM, boostBar: 1.5 });
-    const e85 = computeHarmonics({ ...HARM, boostBar: 1.5, fuel: 'e85' });
-    expect(e85.fuelRon).toBeGreaterThan(sp.fuelRon);
-    const order = { low: 0, medium: 1, high: 2 };
-    expect(order[e85.knock]).toBeLessThanOrEqual(order[sp.knock]);
-  });
+describe('Cliquetis', () => {
   it('octane requis croît avec le taux effectif', () => {
     expect(requiredRon(9, false)).toBeGreaterThan(requiredRon(8, false));
     expect(knockRisk(90, 98)).toBe('low');

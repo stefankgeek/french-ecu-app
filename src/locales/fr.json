@@ -94,10 +94,6 @@
       "title": "Simulateur d'embiellage",
       "desc": "Contraintes sur bielle, axe et vilebrequin"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Simulateur moteur complet : injection, allumage, turbo, thermique"
-    },
     "ecu_map": {
       "title": "Générateur de cartographie",
       "desc": "Création de tables de calibration ECU"

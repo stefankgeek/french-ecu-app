@@ -94,10 +94,6 @@
       "title": "Pleuel-Simulator",
       "desc": "Belastung von Pleuel, Kolbenbolzen und Kurbelwelle"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Kompletter Motorsimulator: Einspritzung, Zündung, Turbo, Thermik"
-    },
     "ecu_map": {
       "title": "Kennfeld-Generator",
       "desc": "Erstellung von ECU-Kalibriertabellen"

@@ -95,10 +95,6 @@
       "title": "Simulatore biella",
       "desc": "Sollecitazioni su biella, spinotto e albero motore"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Simulatore motore completo: iniezione, accensione, turbo, termica"
-    },
     "ecu_map": {
       "title": "Generatore di mappe",
       "desc": "Creazione di tabelle di calibrazione ECU"

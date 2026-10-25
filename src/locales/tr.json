@@ -94,10 +94,6 @@
       "title": "Biyel simülatörü",
       "desc": "Biyel, piston pimi ve krank milindeki gerilmeler"
     },
-    "harmonics": {
-      "title": "Harmonics3+",
-      "desc": "Tam motor simülatörü: enjeksiyon, ateşleme, turbo, termal"
-    },
     "ecu_map": {
       "title": "Harita oluşturucu",
       "desc": "ECU kalibrasyon tabloları oluşturma"
