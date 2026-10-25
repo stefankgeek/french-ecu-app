@@ -1,6 +1,6 @@
 {
   "name": "french-ecu-app",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "French ECU \u2013 simulateurs de pr\u00e9paration moteur et aide-m\u00e9moire (PWA multilingue)",
   "scripts": {
     "dev": "vite",

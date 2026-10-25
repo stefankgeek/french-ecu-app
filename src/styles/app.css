@@ -309,3 +309,19 @@ button, input, select { font: inherit; color: inherit; }
 .memo__table { font-size: 13px; }
 .memo__table th, .memo__table td { padding: 8px 6px; }
 .memo__table td { min-width: 3.5em; }
+
+/* ---------- Écran « Installer l'application » (installation obligatoire) ---------- */
+.gate { min-height: 100dvh; display: grid; place-items: center; padding: 24px 16px calc(24px + env(safe-area-inset-bottom)); }
+.gate__card { width: min(100%, 460px); text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 28px 22px; }
+.gate__logo { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 10px 40px rgba(0, 212, 255, .25); }
+.gate__title { font-family: Orbitron, system-ui, sans-serif; font-size: 22px; margin: 18px 0 8px; }
+.gate__intro { color: var(--text-2); line-height: 1.5; margin: 0 0 14px; }
+.gate__benefits { list-style: none; padding: 0; margin: 0 0 18px; display: grid; gap: 6px; color: var(--text-2); font-size: 14px; }
+.gate__benefits li::before { content: '✓ '; color: #34c759; font-weight: 800; }
+.gate__btn { width: 100%; height: 54px; font-size: 17px; }
+.gate__subtitle { font-size: 16px; margin: 6px 0 10px; }
+.gate__steps { text-align: start; margin: 0; padding-inline-start: 22px; display: grid; gap: 10px; line-height: 1.45; }
+.gate__body p { line-height: 1.5; }
+.gate__already { margin-top: 18px; }
+.gate__lang { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 13px; color: var(--text-3); }
+.gate__lang select { background: var(--bg-2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
