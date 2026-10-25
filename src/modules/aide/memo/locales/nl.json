@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "Metrische ISO-schroefdraad",
+    "desc": "Spoed, kernboren, doorgangsgaten, toleranties en inschroeflengte.",
+    "i1": {
+      "title": "Metrische ISO-spoed — grove en fijne spoed",
+      "b1": {
+        "h1": "Aanduiding",
+        "h2": "Spoed (mm)",
+        "h3": "Reeks",
+        "h4": "Klasse",
+        "h5": "Gebruik",
+        "r1c3": "grof",
+        "r1c5": "kleine bouten, elektronica",
+        "r2c3": "grof",
+        "r2c5": "klemmen, kleine bevestigingen",
+        "r3c3": "grof",
+        "r3c5": "carrosserie, accessoires",
+        "r4c3": "grof",
+        "r4c5": "algemene werktuigbouw",
+        "r5c3": "grof",
+        "r5c5": "steunen, subassemblages",
+        "r6c3": "grof",
+        "r6c5": "motor, chassis",
+        "r7c3": "grof",
+        "r7c5": "ophanging, middelgrote bevestigingen",
+        "r8c3": "grof",
+        "r8c5": "zwaar chassis",
+        "r9c3": "fijn",
+        "r9c5": "verbindingen met trillingen",
+        "r10c3": "fijn",
+        "r10c5": "verbindingen met trillingen",
+        "r11c3": "fijn",
+        "r11c5": "stangen, automotive",
+        "r12c3": "fijn",
+        "r12c5": "ophanging, kogelgewrichten, wielbouten"
+      }
+    },
+    "i2": {
+      "title": "Kernboor voor tappen (≈ 75 % draad)",
+      "b1": {
+        "t": "Regel: boor ≈ nominale diameter − spoed (metrische ISO-draad)."
+      },
+      "b2": {
+        "h1": "Aanduiding",
+        "h2": "Spoed (mm)",
+        "h3": "Boor (mm)"
+      }
+    },
+    "i3": {
+      "title": "Doorgangsgaten (ISO 273)",
+      "b1": {
+        "h1": "Draad",
+        "h2": "Fijn (mm)",
+        "h3": "Middel (mm)",
+        "h4": "Grof (mm)"
+      },
+      "b2": {
+        "t": "Fijn: nauwkeurig centreren. Middel: normale montage. Grof: positiecorrectie. Sleufgat als afstelling nodig is."
+      }
+    },
+    "i4": {
+      "title": "Toleranties en inschroeflengte",
+      "b1": {
+        "l1": "Bouten: tolerantieklasse 6g; binnendraad en moeren: 6H.",
+        "l2": "Inschroeflengte in staal: 1 tot 1,5 × D.",
+        "l3": "In aluminium: 1,5 tot 2 × D.",
+        "l4": "In gietijzer: 1 tot 1,5 × D."
+      },
+      "b2": {
+        "t": "Fijne spoed komt minder snel los door trillingen, maar vreet sneller vast. Altijd de ingang afschuinen (≈ 0,5 × spoed) en ontbramen vóór het tappen."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Draadinzetstukken (spiraal)",
+    "desc": "Draadreparatie: STI-boren en -tappen, lengtes, montage en materialen.",
+    "i1": {
+      "title": "STI-boor en -tap",
+      "b1": {
+        "h1": "Herstelde draad",
+        "h2": "STI-boor (mm)",
+        "h3": "Tap",
+        "h4": "Lengtes inzetstuk"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Boor ≈ nominale diameter + ¼ van de spoed (afgerond op een standaardboor); controleer de handleiding van de set. M14x1.25 is de bougiedraad."
+      }
+    },
+    "i2": {
+      "title": "Een spiraalinzetstuk plaatsen",
+      "b1": {
+        "l1": "Boren op STI-diameter, goed haaks.",
+        "l2": "Tappen met de STI-tap, gesmeerd, telkens een halve slag terug om de spaan te breken.",
+        "l3": "Uitblazen en de draad reinigen.",
+        "l4": "Het inzetstuk met het plaatsgereedschap indraaien tot ¼ à ½ slag onder het oppervlak.",
+        "l5": "De meenemer afbreken met een doorslag (inzetstukken met meenemer).",
+        "l6": "Controleren met een bout: die moet zonder stroeve punten ingaan."
+      },
+      "b2": {
+        "t": "RVS-inzetstuk in aluminium: anticorrosiepasta aanbrengen om galvanische corrosie te voorkomen. Een inzetstuk niet uit- en weer inbouwen: het is bedoeld voor definitieve montage."
+      }
+    },
+    "i3": {
+      "title": "Materialen van inzetstukken",
+      "b1": {
+        "h1": "Materiaal",
+        "h2": "Gebruik",
+        "r1c1": "RVS A2 (1.4301)",
+        "r1c2": "algemeen gebruik, matige corrosie",
+        "r2c1": "RVS A4 (1.4401)",
+        "r2c2": "corrosieve omgeving, maritiem",
+        "r3c1": "fosforbrons",
+        "r3c2": "hoge temperatuur, anti-vreet",
+        "r4c1": "RVS met borging (Screwlock)",
+        "r4c2": "bouten met trillingen"
+      }
+    }
+  },
+  "torque": {
+    "title": "Algemene aanhaalmomenten",
+    "desc": "Indicatieve momenten per diameter en sterkteklasse van stalen bouten (grove metrische draad, wrijvingscoëfficiënt ≈ 0,14).",
+    "i1": {
+      "title": "Stalen bouten klasse 8.8",
+      "b1": {
+        "h1": "Draad",
+        "h2": "Droog (N·m)",
+        "h3": "Geolied (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Stalen bouten klasse 10.9",
+      "b1": {
+        "h1": "Draad",
+        "h2": "Droog (N·m)",
+        "h3": "Geolied (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Stalen bouten klasse 12.9",
+      "b1": {
+        "h1": "Draad",
+        "h2": "Droog (N·m)",
+        "h3": "Geolied (N·m)"
+      },
+      "b2": {
+        "t": "Een geoliede bout heeft MINDER moment nodig voor dezelfde voorspanning. MoS₂- of koperpasta: nog 15 tot 25 % minder. De voorschriften van de fabrikant gaan voor, vooral bij bouten die met een hoek worden aangehaald."
+      }
+    },
+    "i4": {
+      "title": "Bouten in aluminium of magnesium",
+      "b1": {
+        "l1": "Het moment met 20 tot 30 % verlagen ten opzichte van staal.",
+        "l2": "Inschroeflengte: 1,5 tot 2 × D.",
+        "l3": "Bij grote krachten een spiraalinzetstuk of tapeind gebruiken."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Motorverbindingen",
+    "desc": "Cilinderkop, spruitstukken, vliegwiel en klepspeling.",
+    "i1": {
+      "title": "Cilinderkop aanhalen (algemene methode)",
+      "b1": {
+        "l1": "Volgorde: in een spiraal, van het midden naar buiten, links en rechts afwisselend.",
+        "l2": "Schone bouten; draad en aanlegvlakken licht geolied als de fabrikant dat voorschrijft.",
+        "l3": "Voorspannen in volgorde (gangbaar M10-voorbeeld: 20 tot 40 N·m).",
+        "l4": "Hoekverdraaiing in volgorde (gangbaar voorbeeld: 90° en daarna 90°).",
+        "l5": "Rekbouten (hoekverdraaiing): altijd nieuw."
+      },
+      "b2": {
+        "t": "Alleen een indicatief voorbeeld: momenten en hoeken hangen af van de motor. Volg altijd de voorschriften van de fabrikant."
+      }
+    },
+    "i2": {
+      "title": "Uitlaatspruitstuk",
+      "b1": {
+        "h1": "Verbinding",
+        "h2": "Moment (N·m)",
+        "r1c1": "stalen tapeind in gietijzer of staal",
+        "r2c1": "stalen tapeind in aluminium"
+      },
+      "b2": {
+        "t": "Van het midden naar buiten aanhalen. Gedemonteerde zelfborgende (verkoperde) moeren vervangen. Opnieuw controleren na de eerste opwarmcyclus."
+      }
+    },
+    "i3": {
+      "title": "Vliegwiel (voorbeelden)",
+      "b1": {
+        "h1": "Bout",
+        "h2": "Klasse",
+        "h3": "Moment + hoek"
+      },
+      "b2": {
+        "t": "Nieuwe bouten, borgmiddel indien voorgeschreven, kruislings aanhalen."
+      }
+    },
+    "i4": {
+      "title": "Klepspeling (koude motor, orde van grootte)",
+      "b1": {
+        "h1": "Klep",
+        "h2": "Speling (mm)",
+        "r1c1": "inlaat",
+        "r2c1": "uitlaat"
+      },
+      "b2": {
+        "t": "Exacte waarde: documentatie van de motor. Te weinig speling = klep sluit niet meer en verbrandt; te veel = geluid en verlies van lichthoogte."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Wielen en banden",
+    "desc": "Wielmomenten, moerzittingen en belastingsindexen.",
+    "i1": {
+      "title": "Wielmomenten (orde van grootte)",
+      "b1": {
+        "h1": "Tapeind / bout",
+        "h2": "Stalen velg (N·m)",
+        "h3": "Lichtmetalen velg (N·m)",
+        "h4": "Opmerking",
+        "r1c4": "kruislings aanhalen, na 50 tot 100 km opnieuw controleren",
+        "r2c4": "schone, droge draad tenzij anders voorgeschreven",
+        "r3c4": "waarde van het voertuig controleren"
+      }
+    },
+    "i2": {
+      "title": "Zittingen van wielmoeren en -bouten",
+      "b1": {
+        "l1": "Conisch 60°: het meest gangbaar.",
+        "l2": "Bolvormig (radius): VW, Audi, Mercedes, Honda…",
+        "l3": "Vlak met ring: sommige lichtmetalen velgen."
+      },
+      "b2": {
+        "t": "De zitting van de moer moet exact passen bij die van de velg. Minimale inschroeflengte: 1 × D (6 tot 8 slagen)."
+      }
+    },
+    "i3": {
+      "title": "Belastingsindexen (uittreksel)",
+      "b1": {
+        "h1": "Index",
+        "h2": "Belasting per band (kg)"
+      }
+    },
+    "i4": {
+      "title": "Snelheidsindexen",
+      "b1": {
+        "h1": "Symbool",
+        "h2": "Maximumsnelheid (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Remmen",
+    "desc": "Remvloeistoffen, momenten, minimale slijtagegrenzen.",
+    "i1": {
+      "title": "Remvloeistoffen (minimale kookpunten, norm FMVSS 116)",
+      "b1": {
+        "h1": "Type",
+        "h2": "Droog (°C)",
+        "h3": "Nat (°C)",
+        "h4": "Gebruik",
+        "r1c4": "oudere voertuigen",
+        "r2c4": "standaard ABS / ESP",
+        "r3c4": "prestaties, compatibel met DOT 4",
+        "r4c1": "DOT 5 (siliconen)",
+        "r4c4": "klassiekers, niet mengbaar met de andere"
+      },
+      "b2": {
+        "t": "De vloeistof neemt vocht op: om de 2 jaar vervangen. DOT 5 (siliconen) nooit mengen met vloeistoffen op glycolbasis."
+      }
+    },
+    "i2": {
+      "title": "Remmomenten (orde van grootte)",
+      "b1": {
+        "h1": "Onderdeel",
+        "h2": "Moment (N·m)",
+        "r1c1": "geleidebout van de remklauw",
+        "r2c1": "remklauwhouder op de naaf",
+        "r3c1": "borgschroef van de schijf",
+        "r4c1": "aansluiting remslang (banjo M10)"
+      }
+    },
+    "i3": {
+      "title": "Minimale slijtage",
+      "b1": {
+        "l1": "Remblokken: vervangen bij 2–3 mm wrijvingsmateriaal.",
+        "l2": "Schijven: minimale dikte staat op de schijf (vaak 1 à 2 mm onder nieuw).",
+        "l3": "Altijd per volledige as vervangen."
+      },
+      "b2": {
+        "t": "Lichte groefjes in de schijf zijn aanvaardbaar; slag, scheuren of een grote rand: vervangen."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Koelvloeistof",
+    "desc": "Koelvloeistoffamilies, compatibiliteit en voorzorgen.",
+    "i1": {
+      "title": "Koelvloeistoffamilies",
+      "b1": {
+        "h1": "Familie",
+        "h2": "Chemie",
+        "h3": "Gebruikelijke kleur",
+        "h4": "Opmerking",
+        "r1c2": "anorganisch (silicaten)",
+        "r1c3": "groen / blauw",
+        "r1c4": "oudere motoren, vaak verversen",
+        "r2c2": "organisch (carboxylaten)",
+        "r2c3": "oranje / rood",
+        "r2c4": "lange levensduur",
+        "r3c2": "hybride",
+        "r3c3": "geel / blauwgroen",
+        "r3c4": "zeer gangbaar",
+        "r4c2": "silicaten + organisch",
+        "r4c3": "roze / paars",
+        "r4c4": "recente VW / Audi"
+      },
+      "b2": {
+        "t": "De kleur volstaat niet om een vloeistof te herkennen: volg de norm van de fabrikant."
+      }
+    },
+    "i2": {
+      "title": "Compatibiliteit (indicatief)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (type G48, MB 325.x).",
+        "l3": "PSA / Renault: OAT of HOAT naargelang het bouwjaar (zie handleiding)."
+      },
+      "b2": {
+        "t": "Familiewissel: spoelen met gedemineraliseerd water. G11 (silicaten) en G12 (OAT) niet mengen."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Elektriciteit",
+    "desc": "Zekeringen, klemmen, kabeldoorsneden, accu en dynamo.",
+    "i1": {
+      "title": "Zekeringen (gebruiksvoorbeelden)",
+      "b1": {
+        "h1": "Waarde",
+        "h2": "Typisch gebruik",
+        "r1c2": "ECU, sensoren",
+        "r2c2": "verlichting, audio",
+        "r3c2": "brandstofpomp",
+        "r4c2": "elektrische ramen",
+        "r5c2": "achterruitverwarming, ventilator"
+      }
+    },
+    "i2": {
+      "title": "Klemmomenten",
+      "b1": {
+        "h1": "Onderdeel",
+        "h2": "Moment (N·m)",
+        "r1c1": "accuklem M6",
+        "r2c1": "accuklem M8",
+        "r3c1": "B+-klem van de dynamo M8"
+      }
+    },
+    "i3": {
+      "title": "Kabeldoorsnede op 12 V (korte lengte, < 3 m)",
+      "b1": {
+        "h1": "Stroom (A)",
+        "h2": "Minimale doorsnede (mm²)"
+      },
+      "b2": {
+        "t": "Grotere lengte: de volgende doorsnede nemen (aanbevolen maximaal spanningsverlies: 3 %)."
+      }
+    },
+    "i4": {
+      "title": "Accu en laden",
+      "b1": {
+        "h1": "Meting",
+        "h2": "Normale waarde",
+        "h3": "Bij afwijking",
+        "r1c1": "accu in rust",
+        "r1c2": "12,6 V (100 %) · 12,2 V (50 %)",
+        "r1c3": "opladen; onder 12,0 V = leeg",
+        "r2c1": "spanning bij het starten",
+        "r2c3": "accu en startmotor testen",
+        "r3c1": "motor draait",
+        "r3c3": "dynamo en riem controleren"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnose en OBD",
+    "desc": "Veelvoorkomende OBD-codes en snelle tests.",
+    "i1": {
+      "title": "Veelvoorkomende OBD II-codes",
+      "b1": {
+        "h1": "Code",
+        "h2": "Betekenis",
+        "h3": "Waarschijnlijke oorzaken",
+        "h4": "Snelle controle",
+        "r1c2": "meerdere ontstekingsfouten",
+        "r1c3": "bougies, bobines, injectoren, valse lucht",
+        "r1c4": "live tellers van ontstekingsfouten, vonktest",
+        "r2c2": "mengsel te arm (bank 1)",
+        "r2c3": "valse lucht, luchtmassameter, lage brandstofdruk",
+        "r2c4": "correcties STFT / LTFT, rooktest",
+        "r3c2": "mengsel te rijk (bank 1)",
+        "r3c3": "lekkende injector, drukregelaar, luchtmassameter",
+        "r3c4": "brandstofdruk, correcties",
+        "r4c2": "rendement katalysator te laag",
+        "r4c3": "versleten katalysator, achterste sonde, uitlaatlek",
+        "r4c4": "voorste en achterste sonde vergelijken",
+        "r5c2": "MAP-sensor: bereik / werking",
+        "r5c3": "sensor, slang, 5 V-voeding",
+        "r5c4": "sensorspanning, vacuümtest",
+        "r6c2": "krukassensor",
+        "r6c3": "sensor, kabelboom, triggerwiel",
+        "r6c4": "signaal op de oscilloscoop",
+        "r7c2": "te hoge turbodruk",
+        "r7c3": "vastzittende wastegate, drukregeling",
+        "r7c4": "druklog, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Test van de voorste lambdasonde (smalband)",
+      "b1": {
+        "l1": "Warme motor, gesloten regelkring: de spanning schommelt tussen ongeveer 0,1 en 0,9 V.",
+        "l2": "Valse lucht creëren (een klein vacuümslangetje loskoppelen): de sonde geeft arm (≈ 0,1 V) en de STFT-correctie stijgt.",
+        "l3": "Verrijken (een beetje carburateurreiniger in de inlaat): de sonde geeft rijk (≈ 0,9 V).",
+        "l4": "Een goede sonde schakelt in minder dan 100 tot 150 ms."
+      },
+      "b2": {
+        "t": "Breedbandsonde: λ of AFR in de ECU aflezen, geen spanning."
+      }
+    }
+  },
+  "tools": {
+    "title": "Gereedschap en methoden",
+    "desc": "Momentsleutel, hoekverdraaiing, borgmiddelen en omrekeningen.",
+    "i1": {
+      "title": "Momentsleutel",
+      "b1": {
+        "l1": "De kalibratie elk jaar laten controleren (of om de 5 000 cycli).",
+        "l2": "Gelijkmatig en haaks trekken tot de klik, zonder rukken.",
+        "l3": "Na gebruik terugzetten op de laagste schaalwaarde (niet onder nul)."
+      },
+      "b2": {
+        "t": "Vermijden: verder trekken dan de klik, aan een verlengstuk trekken, de sleutel gebruiken om los te draaien."
+      }
+    },
+    "i2": {
+      "title": "Aanhalen moment + hoek",
+      "b1": {
+        "t": "Principe: een voorspanmoment brengt de delen tegen elkaar, daarna legt een hoek de rek van de bout vast, onafhankelijk van de wrijving."
+      },
+      "b2": {
+        "l1": "Voordeel: veel gelijkmatigere voorspanning dan met alleen een moment.",
+        "l2": "Rekbouten: altijd nieuw.",
+        "l3": "Een hoekmeter gebruiken of de positie met verf markeren."
+      }
+    },
+    "i3": {
+      "title": "Borgmiddelen en pasta's",
+      "b1": {
+        "h1": "Product",
+        "h2": "Gebruik",
+        "r1c1": "schroefdraadborging laag (paars)",
+        "r1c2": "kleine boutjes, gemakkelijk los te maken",
+        "r2c1": "schroefdraadborging middel (blauw)",
+        "r2c2": "algemeen gebruik, los te maken met gereedschap",
+        "r3c1": "schroefdraadborging hoog (rood)",
+        "r3c2": "permanente verbindingen, verwarmen om los te maken",
+        "r4c1": "koperpasta",
+        "r4c2": "anti-vreet bij hoge temperatuur (uitlaat)"
+      },
+      "b2": {
+        "t": "Wieldraden niet invetten tenzij voorgeschreven. Ontvetten vóór elk borgmiddel."
+      }
+    },
+    "i4": {
+      "title": "Handige omrekeningen",
+      "b1": {
+        "h1": "Van",
+        "h2": "Naar",
+        "r9c2": "0,7457 kW = 1,0139 pk"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Wieluitlijning",
+    "desc": "Gangbare waarden voor personenauto's en symptomen.",
+    "i1": {
+      "title": "Gangbare waarden (personenauto)",
+      "b1": {
+        "h1": "Instelling",
+        "h2": "Gangbare waarde",
+        "h3": "Opmerking",
+        "r1c1": "camber voor",
+        "r1c3": "afhankelijk van het voertuig",
+        "r2c1": "camber achter",
+        "r2c3": "afhankelijk van de as",
+        "r3c1": "toespoor voor (totaal)",
+        "r3c3": "lichte toespoor",
+        "r4c1": "toespoor achter (totaal)",
+        "r4c3": "toespoor: stabiliteit",
+        "r5c1": "caster",
+        "r5c3": "op veel voertuigen niet instelbaar"
+      },
+      "b2": {
+        "t": "Waarden sterk afhankelijk van chassis en gebruik: altijd uitgaan van de gegevens van de fabrikant. Controleren na elke vervanging van stuur- of ophangingsdelen."
+      }
+    },
+    "i2": {
+      "title": "Symptomen en controles",
+      "b1": {
+        "h1": "Symptoom",
+        "h2": "Waarschijnlijke oorzaak",
+        "r1c1": "slijtage binnenschouder",
+        "r1c2": "te veel negatieve camber of uitspoor",
+        "r2c1": "slijtage beide schouders",
+        "r2c2": "bandenspanning te laag",
+        "r3c1": "zaagtandslijtage",
+        "r3c2": "verkeerd toespoor",
+        "r4c1": "auto trekt naar één kant",
+        "r4c2": "verschillende bandenspanning, camber of caster, aanlopende rem",
+        "r5c1": "stuur scheef",
+        "r5c2": "toespoor ongelijk verdeeld over de wielen"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Mengsel (AFR en lambda)",
+    "desc": "Doelwaarden en mengseldiagnose (benzine).",
+    "i1": {
+      "title": "Doelwaarden (benzine, stoichiometrische AFR 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Gebruik",
+        "h4": "Opmerking",
+        "r1c3": "vollast turbo",
+        "r1c4": "marge tegen pingelen",
+        "r2c3": "vollast atmosferisch",
+        "r2c4": "goed compromis vermogen / betrouwbaarheid",
+        "r3c3": "stationair, kruissnelheid",
+        "r3c4": "optimaal katalysatorrendement",
+        "r4c3": "zuinige kruissnelheid",
+        "r4c4": "opwarming, hoge NOx"
+      },
+      "b2": {
+        "t": "Met een andere brandstof in lambda denken: λ = AFR ÷ stoichiometrische AFR (E85 ≈ 9,8; methanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnose via het mengsel",
+      "b1": {
+        "h1": "Meting",
+        "h2": "Symptoom",
+        "h3": "Risico",
+        "h4": "Oplossing",
+        "r1c1": "AFR ≈ 12 bij kruissnelheid",
+        "r1c2": "benzinegeur, zwarte bougies",
+        "r1c3": "hoog verbruik, olieverdunning",
+        "r1c4": "brandstofdruk, injectoren, map",
+        "r2c1": "AFR ≈ 14,7 bij kruissnelheid",
+        "r2c2": "stabiele verbranding",
+        "r2c3": "geen",
+        "r3c1": "AFR ≥ 16 onder belasting",
+        "r3c2": "opwarming, mogelijk pingelen",
+        "r3c3": "kleppen, zuigers",
+        "r3c4": "verrijken, valse lucht zoeken",
+        "r4c1": "snelle schommelingen",
+        "r4c2": "onstabiel stationair",
+        "r4c3": "ontstekingsfouten",
+        "r4c4": "lambdasonde, ontsteking"
+      }
+    }
+  },
+  "spark": {
+    "title": "Bougies en ontsteking",
+    "desc": "Elektrodenafstand, pingelen en oplossingen.",
+    "i1": {
+      "title": "Elektrodenafstand",
+      "b1": {
+        "h1": "Motor",
+        "h2": "Afstand (mm)",
+        "h3": "Opmerking",
+        "r1c1": "atmosferisch",
+        "r1c3": "lange vonk, goede ontsteking",
+        "r2c1": "turbo, matige druk",
+        "r2c3": "voorkomt ontstekingsfouten onder druk",
+        "r3c1": "turbo, hoge druk",
+        "r3c3": "de druk bemoeilijkt de vonk"
+      },
+      "b2": {
+        "t": "Hoe hoger de cilinderdruk, hoe hoger de benodigde ontstekingsspanning: verklein de afstand."
+      }
+    },
+    "i2": {
+      "title": "Oorzaken van pingelen",
+      "b1": {
+        "l1": "Te veel voorontsteking.",
+        "l2": "Brandstof met te laag octaangetal.",
+        "l3": "Te warme inlaatlucht.",
+        "l4": "Te arm mengsel.",
+        "l5": "Koolaanslag, hete plek, hoge compressieverhouding."
+      }
+    },
+    "i3": {
+      "title": "Oplossingen",
+      "b1": {
+        "l1": "Brandstof met hoger octaangetal (of ethanol).",
+        "l2": "De voorontsteking in de betrokken zone verlagen.",
+        "l3": "De inlaatlucht beter koelen (intercooler, water-methanolinjectie).",
+        "l4": "Licht verrijken.",
+        "l5": "Bougies met kouder warmtegetal."
+      }
+    },
+    "i4": {
+      "title": "Inlaattemperatuur",
+      "b1": {
+        "l1": "Koude lucht = dichter = meer vermogen.",
+        "l2": "Ongeveer 1 % vermogensverlies per 5 à 6 °C extra.",
+        "l3": "Warme lucht = groter pingelrisico."
+      }
+    }
+  },
+  "egt": {
+    "title": "Uitlaatgastemperaturen (EGT)",
+    "desc": "Richtwaarden voor een benzinemotor (sensor in het spruitstuk).",
+    "i1": {
+      "title": "EGT-richtwaarden",
+      "b1": {
+        "h2": "Situatie",
+        "h3": "Risico",
+        "r1c2": "normaal rijden",
+        "r1c3": "geen",
+        "r2c2": "hoge belasting",
+        "r2c3": "normaal bij turbobenzine",
+        "r3c2": "langdurige vollast",
+        "r3c3": "in de gaten houden",
+        "r4c2": "overschrijding",
+        "r4c3": "kleppen, zuigers, turbine"
+      },
+      "b2": {
+        "t": "Een hoge EGT komt vaak door een arm mengsel of een te late ontsteking. Gangbare turbo's zijn ontworpen voor maximaal 950 tot 1 050 °C."
+      }
+    }
+  },
+  "faults": {
+    "title": "Veelvoorkomende storingen",
+    "desc": "Symptomen, oorzaken en snelle oplossingen.",
+    "i1": {
+      "title": "Snelle diagnose",
+      "b1": {
+        "h1": "Symptoom",
+        "h2": "Mogelijke oorzaken",
+        "h3": "Oplossing",
+        "r1c1": "ontstekingsfouten",
+        "r1c2": "versleten bougies, afstand, bobine",
+        "r1c3": "nieuwe bougies, afstand controleren, bobines testen",
+        "r2c1": "oververhitting",
+        "r2c2": "te weinig koelvloeistof, thermostaat blijft hangen, ventilator, arm mengsel",
+        "r2c3": "niveau, thermostaat, ventilator, mengsel",
+        "r3c1": "sterke benzinegeur",
+        "r3c2": "lekkende injector, rijk mengsel, lek",
+        "r3c3": "brandstofdruk, dichtheid",
+        "r4c1": "pingelen",
+        "r4c2": "te laag octaangetal, te veel voorontsteking, warme lucht",
+        "r4c3": "geschikte brandstof, voorontsteking verlagen",
+        "r5c1": "vermogensverlies turbo",
+        "r5c2": "lek in de inlaat, wastegate, arm mengsel",
+        "r5c3": "lektest, wastegate, mengsel"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Preventief onderhoud",
+    "desc": "Regelmatige controles van een getunede motor.",
+    "i1": {
+      "title": "Checklist",
+      "b1": {
+        "l1": "Bougies: controle om de 10 000 km (vaker bij een getunede turbo).",
+        "l2": "Het mengsel met een breedbandsonde controleren na elke wijziging.",
+        "l3": "Luchtfilter: reinigen of vervangen om de 15 000 km.",
+        "l4": "De inlaattemperatuur in de gaten houden.",
+        "l5": "Foutcodes uitlezen, vooral die van de lambdasondes.",
+        "l6": "Uitlaatspruitstuk: een lek vervalst mengsel en EGT.",
+        "l7": "Kwaliteitsbrandstof, passend bij de afstelling.",
+        "l8": "Olie en filter verversen volgens de fabrikant (vaker bij circuitgebruik)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Motordrukken en -temperaturen",
+    "desc": "Olie, brandstof en drukvulling.",
+    "i1": {
+      "title": "Motorolie",
+      "b1": {
+        "h1": "Meting",
+        "h2": "Gangbare waarde",
+        "h3": "Bij afwijking",
+        "r1c1": "druk stationair (warm)",
+        "r1c2": "1–2 bar",
+        "r1c3": "geluid, slijtage: niveau, pomp, aanzuigzeef",
+        "r2c1": "druk onder belasting",
+        "r2c2": "3–5 bar",
+        "r2c3": "ongeveer 1 bar per 1 000 tpm tot aan het overdrukventiel",
+        "r3c1": "olietemperatuur",
+        "r3c3": "boven 130 °C breekt de olie af"
+      }
+    },
+    "i2": {
+      "title": "Brandstof",
+      "b1": {
+        "h1": "Injectie",
+        "h2": "Gangbare druk",
+        "h3": "Bij afwijking",
+        "r1c1": "multipoint-injectie benzine",
+        "r1c2": "3–4 bar",
+        "r1c3": "drukregelaar, pomp, filter",
+        "r2c1": "directe injectie benzine",
+        "r2c2": "50–350 bar",
+        "r2c3": "hogedrukpomp, raildruksensor",
+        "r3c1": "drukvulling benzine",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "wastegate, slangen, motormanagement"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Sensoren en sondes",
+    "desc": "Rol van de sensoren en typische waarden.",
+    "i1": {
+      "title": "Motorsensoren",
+      "b1": {
+        "h1": "Sensor",
+        "h2": "Afkorting",
+        "h3": "Rol",
+        "h4": "Typische waarde",
+        "r1c1": "motortemperatuur",
+        "r1c3": "koelvloeistoftemperatuur",
+        "r1c4": "85–105 °C warm",
+        "r2c1": "luchttemperatuur",
+        "r2c3": "temperatuur van de aangezogen lucht",
+        "r2c4": "omgeving + 0–30 °C",
+        "r3c1": "spruitstukdruk",
+        "r3c3": "absolute inlaatdruk (belasting)",
+        "r3c4": "≈ 30 kPa stationair, 100 kPa vollast atmo",
+        "r4c1": "luchtmassameter",
+        "r4c3": "aangezogen luchtmassa",
+        "r4c4": "≈ 2–5 g/s stationair (2 L)",
+        "r5c1": "smalband-lambdasonde",
+        "r5c3": "mengsel rond λ = 1",
+        "r6c1": "breedband-lambdasonde",
+        "r6c3": "exact mengsel (afstellen)",
+        "r7c1": "klopsensor",
+        "r7c3": "pingeltrillingen",
+        "r7c4": "piëzo-elektrisch signaal",
+        "r8c1": "krukaspositie",
+        "r8c3": "toerental en motorpositie",
+        "r8c4": "inductief of hall-effect",
+        "r9c1": "nokkenaspositie",
+        "r9c3": "fase (sequentieel, variabele kleptiming)",
+        "r9c4": "hall-effect",
+        "r10c1": "gasklepstand",
+        "r10c3": "opening van de gasklep",
+        "r11c1": "brandstofdruk",
+        "r11c3": "druk in het systeem of de rail",
+        "r11c4": "afhankelijk van de injectie",
+        "r12c1": "olietemperatuur",
+        "r12c3": "olietemperatuur",
+        "r13c1": "oliedruk",
+        "r13c3": "oliedruk",
+        "r13c4": "zie „Drukken”",
+        "r14c1": "uitlaattemperatuur",
+        "r14c3": "gastemperatuur (thermokoppel type K)",
+        "r14c4": "zie „EGT”",
+        "r15c1": "temperatuur na intercooler",
+        "r15c3": "rendement van de intercooler",
+        "r15c4": "omgeving + 5–25 °C",
+        "r16c1": "brandstoftemperatuur",
+        "r16c3": "dichtheidscorrectie, ethanol",
+        "r16c4": "omgeving",
+        "r17c1": "ethanolgehalte",
+        "r17c3": "ethanolpercentage",
+        "r18c1": "wastegate-stand",
+        "r18c3": "opening van de wastegate",
+        "r18c4": "logging, regeling",
+        "r19c3": "stikstofoxiden (emissies)",
+        "r19c4": "diesel, arme directe injectie"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Referentiewaarden voor de werkplaats: schroefdraad, momenten, remmen, elektriciteit, diagnose, sensoren… Tik op een rubriek om ze te openen.",
+    "search": "Zoeken in het naslagwerk…",
+    "no_result": "Geen fiche komt overeen met de zoekopdracht.",
+    "disclaimer": "Algemene, indicatieve waarden: de gegevens van de fabrikant van het voertuig of onderdeel gaan altijd voor."
+  }
+}

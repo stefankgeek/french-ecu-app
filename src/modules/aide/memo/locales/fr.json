@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "Filetages métriques ISO",
+    "desc": "Pas, perçages avant taraudage, trous de passage, tolérances et longueurs en prise.",
+    "i1": {
+      "title": "Pas métriques ISO — pas gros et pas fin",
+      "b1": {
+        "h1": "Désignation",
+        "h2": "Pas (mm)",
+        "h3": "Série",
+        "h4": "Classe",
+        "h5": "Usage",
+        "r1c3": "gros",
+        "r1c5": "petite visserie, électronique",
+        "r2c3": "gros",
+        "r2c5": "colliers, petites fixations",
+        "r3c3": "gros",
+        "r3c5": "carrosserie, accessoires",
+        "r4c3": "gros",
+        "r4c5": "mécanique générale",
+        "r5c3": "gros",
+        "r5c5": "supports, sous-ensembles",
+        "r6c3": "gros",
+        "r6c5": "moteur, châssis",
+        "r7c3": "gros",
+        "r7c5": "suspension, fixations moyennes",
+        "r8c3": "gros",
+        "r8c5": "châssis lourd",
+        "r9c3": "fin",
+        "r9c5": "assemblages soumis aux vibrations",
+        "r10c3": "fin",
+        "r10c5": "assemblages soumis aux vibrations",
+        "r11c3": "fin",
+        "r11c5": "biellettes, automobile",
+        "r12c3": "fin",
+        "r12c5": "suspension, rotules, goujons de roue"
+      }
+    },
+    "i2": {
+      "title": "Perçage avant taraudage (≈ 75 % de filet)",
+      "b1": {
+        "t": "Règle : perçage ≈ diamètre nominal − pas (filetage métrique ISO)."
+      },
+      "b2": {
+        "h1": "Désignation",
+        "h2": "Pas (mm)",
+        "h3": "Foret (mm)"
+      }
+    },
+    "i3": {
+      "title": "Trous de passage (ISO 273)",
+      "b1": {
+        "h1": "Filetage",
+        "h2": "Fin (mm)",
+        "h3": "Moyen (mm)",
+        "h4": "Large (mm)"
+      },
+      "b2": {
+        "t": "Fin : centrage précis. Moyen : montage courant. Large : rattrapage de position. Trou oblong si un réglage est nécessaire."
+      }
+    },
+    "i4": {
+      "title": "Tolérances et longueur en prise",
+      "b1": {
+        "l1": "Vis : classe de tolérance 6g ; taraudages et écrous : 6H.",
+        "l2": "Longueur en prise dans l'acier : 1 à 1,5 × D.",
+        "l3": "Dans l'aluminium : 1,5 à 2 × D.",
+        "l4": "Dans la fonte : 1 à 1,5 × D."
+      },
+      "b2": {
+        "t": "Le pas fin résiste mieux au desserrage sous vibrations mais grippe plus facilement. Toujours chanfreiner l'entrée (≈ 0,5 × pas) et ébavurer avant de tarauder."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Inserts filetés (hélicoïdaux)",
+    "desc": "Réparation de filets : forets et tarauds STI, longueurs, pose et matériaux.",
+    "i1": {
+      "title": "Foret et taraud STI",
+      "b1": {
+        "h1": "Filet réparé",
+        "h2": "Foret STI (mm)",
+        "h3": "Taraud",
+        "h4": "Longueurs d'insert"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Foret ≈ diamètre nominal + ¼ du pas (arrondi au foret courant) ; vérifiez la notice du kit. Le M14x1.25 correspond aux puits de bougie."
+      }
+    },
+    "i2": {
+      "title": "Pose d'un insert hélicoïdal",
+      "b1": {
+        "l1": "Percer au diamètre STI, bien perpendiculaire.",
+        "l2": "Tarauder avec le taraud STI, lubrifié, en revenant d'un demi-tour pour casser le copeau.",
+        "l3": "Souffler et nettoyer le taraudage.",
+        "l4": "Visser l'insert avec l'outil de pose jusqu'à ¼ à ½ tour sous la surface.",
+        "l5": "Casser l'ergot d'entraînement au chasse-goupille (inserts à ergot).",
+        "l6": "Contrôler avec une vis : elle doit entrer sans point dur."
+      },
+      "b2": {
+        "t": "Insert inox dans de l'aluminium : appliquer une pâte anti-corrosion pour éviter la corrosion galvanique. Ne pas déposer et reposer un insert : il est prévu pour une pose définitive."
+      }
+    },
+    "i3": {
+      "title": "Matériaux d'inserts",
+      "b1": {
+        "h1": "Matériau",
+        "h2": "Usage",
+        "r1c1": "inox A2 (1.4301)",
+        "r1c2": "usage général, corrosion modérée",
+        "r2c1": "inox A4 (1.4401)",
+        "r2c2": "milieu corrosif, marin",
+        "r3c1": "bronze phosphoreux",
+        "r3c2": "haute température, anti-grippage",
+        "r4c1": "inox avec frein (Screwlock)",
+        "r4c2": "vis soumises aux vibrations"
+      }
+    }
+  },
+  "torque": {
+    "title": "Couples de serrage génériques",
+    "desc": "Couples indicatifs par diamètre et classe de vis acier (filet métrique gros, coefficient de frottement ≈ 0,14).",
+    "i1": {
+      "title": "Vis acier classe 8.8",
+      "b1": {
+        "h1": "Filetage",
+        "h2": "Sec (N·m)",
+        "h3": "Huilé (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Vis acier classe 10.9",
+      "b1": {
+        "h1": "Filetage",
+        "h2": "Sec (N·m)",
+        "h3": "Huilé (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Vis acier classe 12.9",
+      "b1": {
+        "h1": "Filetage",
+        "h2": "Sec (N·m)",
+        "h3": "Huilé (N·m)"
+      },
+      "b2": {
+        "t": "Une vis huilée demande MOINS de couple pour la même tension. Pâte MoS₂ ou cuivre : réduire encore de 15 à 25 %. La notice du constructeur reste prioritaire, surtout pour les vis à serrage angulaire."
+      }
+    },
+    "i4": {
+      "title": "Vis dans l'aluminium ou le magnésium",
+      "b1": {
+        "l1": "Réduire le couple de 20 à 30 % par rapport à l'acier.",
+        "l2": "Longueur en prise : 1,5 à 2 × D.",
+        "l3": "Pour les efforts importants, prévoir un insert hélicoïdal ou un goujon."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Serrages moteur",
+    "desc": "Culasse, collecteurs, volant moteur et jeux aux soupapes.",
+    "i1": {
+      "title": "Serrage de culasse (méthode générale)",
+      "b1": {
+        "l1": "Ordre : en spirale, du centre vers l'extérieur, en alternant gauche et droite.",
+        "l2": "Vis propres, filets et portées légèrement huilés si le constructeur le prescrit.",
+        "l3": "Pré-serrage en séquence (exemple courant M10 : 20 à 40 N·m).",
+        "l4": "Serrage angulaire en séquence (exemple courant : 90° puis 90°).",
+        "l5": "Vis à serrage angulaire (étirables) : toujours neuves."
+      },
+      "b2": {
+        "t": "Exemple indicatif seulement : les couples et angles dépendent du moteur. Suivez toujours la notice constructeur."
+      }
+    },
+    "i2": {
+      "title": "Collecteur d'échappement",
+      "b1": {
+        "h1": "Assemblage",
+        "h2": "Couple (N·m)",
+        "r1c1": "goujon acier dans fonte ou acier",
+        "r2c1": "goujon acier dans aluminium"
+      },
+      "b2": {
+        "t": "Serrer du centre vers l'extérieur. Remplacer les écrous autobloquants (cuivrés) déposés. Recontrôler après le premier cycle de chauffe."
+      }
+    },
+    "i3": {
+      "title": "Volant moteur (exemples)",
+      "b1": {
+        "h1": "Vis",
+        "h2": "Classe",
+        "h3": "Couple + angle"
+      },
+      "b2": {
+        "t": "Vis neuves, frein-filet si prescrit, serrage en croix."
+      }
+    },
+    "i4": {
+      "title": "Jeux aux soupapes (moteur froid, ordre de grandeur)",
+      "b1": {
+        "h1": "Soupape",
+        "h2": "Jeu (mm)",
+        "r1c1": "admission",
+        "r2c1": "échappement"
+      },
+      "b2": {
+        "t": "Valeur exacte : documentation du moteur. Jeu trop faible = soupape qui ne ferme plus et brûle ; jeu trop grand = bruit et perte de levée."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Roues et pneumatiques",
+    "desc": "Couples de roue, portées d'écrous et indices de charge.",
+    "i1": {
+      "title": "Couples de roue (ordre de grandeur)",
+      "b1": {
+        "h1": "Goujon / vis",
+        "h2": "Jante acier (N·m)",
+        "h3": "Jante alu (N·m)",
+        "h4": "Remarque",
+        "r1c4": "serrer en croix, recontrôler après 50 à 100 km",
+        "r2c4": "filets propres et secs sauf prescription",
+        "r3c4": "vérifier la valeur du véhicule"
+      }
+    },
+    "i2": {
+      "title": "Portées d'écrous et vis de roue",
+      "b1": {
+        "l1": "Conique 60° : la plus courante.",
+        "l2": "Sphérique (rayon) : VW, Audi, Mercedes, Honda…",
+        "l3": "Plate avec rondelle : certaines jantes alliage."
+      },
+      "b2": {
+        "t": "La portée de l'écrou doit correspondre exactement au siège de la jante. Longueur en prise minimale : 1 × D (6 à 8 tours)."
+      }
+    },
+    "i3": {
+      "title": "Indices de charge (extrait)",
+      "b1": {
+        "h1": "Indice",
+        "h2": "Charge par pneu (kg)"
+      }
+    },
+    "i4": {
+      "title": "Indices de vitesse",
+      "b1": {
+        "h1": "Symbole",
+        "h2": "Vitesse maxi (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Freinage",
+    "desc": "Liquides de frein, couples, usures minimales.",
+    "i1": {
+      "title": "Liquides de frein (points d'ébullition minimaux, norme FMVSS 116)",
+      "b1": {
+        "h1": "Type",
+        "h2": "Sec (°C)",
+        "h3": "Humide (°C)",
+        "h4": "Usage",
+        "r1c4": "véhicules anciens",
+        "r2c4": "standard ABS / ESP",
+        "r3c4": "performance, compatible DOT 4",
+        "r4c1": "DOT 5 (silicone)",
+        "r4c4": "collection, non miscible avec les autres"
+      },
+      "b2": {
+        "t": "Le liquide absorbe l'humidité : purge tous les 2 ans. Ne jamais mélanger le DOT 5 (silicone) avec les liquides glycol."
+      }
+    },
+    "i2": {
+      "title": "Couples de freinage (ordre de grandeur)",
+      "b1": {
+        "h1": "Élément",
+        "h2": "Couple (N·m)",
+        "r1c1": "vis de coulisseau d'étrier",
+        "r2c1": "support d'étrier sur le moyeu",
+        "r3c1": "vis de maintien du disque",
+        "r4c1": "raccord de flexible (banjo M10)"
+      }
+    },
+    "i3": {
+      "title": "Usures minimales",
+      "b1": {
+        "l1": "Plaquettes : remplacer à 2–3 mm de garniture.",
+        "l2": "Disques : épaisseur minimale gravée sur le disque (souvent 1 à 2 mm de moins que neuf).",
+        "l3": "Toujours remplacer par essieu complet."
+      },
+      "b2": {
+        "t": "Un léger rainurage du disque est acceptable ; voile, fissures ou bourrelet important : remplacer."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Liquide de refroidissement",
+    "desc": "Familles de liquides, compatibilités et précautions.",
+    "i1": {
+      "title": "Familles de liquides",
+      "b1": {
+        "h1": "Famille",
+        "h2": "Chimie",
+        "h3": "Couleur usuelle",
+        "h4": "Remarque",
+        "r1c2": "inorganique (silicates)",
+        "r1c3": "vert / bleu",
+        "r1c4": "moteurs anciens, renouvellement fréquent",
+        "r2c2": "organique (carboxylates)",
+        "r2c3": "orange / rouge",
+        "r2c4": "longue durée",
+        "r3c2": "hybride",
+        "r3c3": "jaune / bleu-vert",
+        "r3c4": "très répandu",
+        "r4c2": "silicates + organique",
+        "r4c3": "rose / violet",
+        "r4c4": "VW / Audi récents"
+      },
+      "b2": {
+        "t": "La couleur ne suffit pas pour identifier un liquide : suivez la norme du constructeur."
+      }
+    },
+    "i2": {
+      "title": "Compatibilités (indicatif)",
+      "b1": {
+        "l1": "VW / Audi : G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes : HOAT (type G48, MB 325.x).",
+        "l3": "PSA / Renault : OAT ou HOAT selon l'année (voir le manuel)."
+      },
+      "b2": {
+        "t": "Changement de famille : rincer à l'eau déminéralisée. Ne pas mélanger G11 (silicates) et G12 (OAT)."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Électricité",
+    "desc": "Fusibles, bornes, sections de câbles, batterie et alternateur.",
+    "i1": {
+      "title": "Fusibles (exemples d'usage)",
+      "b1": {
+        "h1": "Calibre",
+        "h2": "Usage typique",
+        "r1c2": "calculateur, capteurs",
+        "r2c2": "éclairage, audio",
+        "r3c2": "pompe à essence",
+        "r4c2": "lève-vitres",
+        "r5c2": "dégivrage, ventilateur"
+      }
+    },
+    "i2": {
+      "title": "Couples de bornes",
+      "b1": {
+        "h1": "Élément",
+        "h2": "Couple (N·m)",
+        "r1c1": "borne de batterie M6",
+        "r2c1": "borne de batterie M8",
+        "r3c1": "borne B+ d'alternateur M8"
+      }
+    },
+    "i3": {
+      "title": "Section de câble en 12 V (longueur courte, < 3 m)",
+      "b1": {
+        "h1": "Courant (A)",
+        "h2": "Section mini (mm²)"
+      },
+      "b2": {
+        "t": "Longueur plus grande : prendre la section au-dessus (chute de tension maxi conseillée : 3 %)."
+      }
+    },
+    "i4": {
+      "title": "Batterie et charge",
+      "b1": {
+        "h1": "Mesure",
+        "h2": "Valeur normale",
+        "h3": "Si anomalie",
+        "r1c1": "batterie au repos",
+        "r1c2": "12,6 V (100 %) · 12,2 V (50 %)",
+        "r1c3": "recharger ; sous 12,0 V = déchargée",
+        "r2c1": "tension au démarrage",
+        "r2c3": "tester batterie et démarreur",
+        "r3c1": "moteur tournant",
+        "r3c3": "contrôler alternateur et courroie"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnostic et OBD",
+    "desc": "Codes OBD courants et tests rapides.",
+    "i1": {
+      "title": "Codes OBD II courants",
+      "b1": {
+        "h1": "Code",
+        "h2": "Signification",
+        "h3": "Causes probables",
+        "h4": "Contrôle rapide",
+        "r1c2": "ratés d'allumage multiples",
+        "r1c3": "bougies, bobines, injecteurs, prise d'air",
+        "r1c4": "compteurs de ratés en direct, test d'étincelle",
+        "r2c2": "mélange trop pauvre (banc 1)",
+        "r2c3": "prise d'air, débitmètre, pression d'essence faible",
+        "r2c4": "corrections STFT / LTFT, test fumigène",
+        "r3c2": "mélange trop riche (banc 1)",
+        "r3c3": "injecteur qui fuit, régulateur, débitmètre",
+        "r3c4": "pression d'essence, corrections",
+        "r4c2": "efficacité du catalyseur trop faible",
+        "r4c3": "catalyseur usé, sonde aval, fuite d'échappement",
+        "r4c4": "comparer sondes amont et aval",
+        "r5c2": "capteur MAP : plage / performance",
+        "r5c3": "capteur, durite, alimentation 5 V",
+        "r5c4": "tension du capteur, test de dépression",
+        "r6c2": "capteur de vilebrequin",
+        "r6c3": "capteur, faisceau, cible",
+        "r6c4": "signal à l'oscilloscope",
+        "r7c2": "surpression turbo",
+        "r7c3": "wastegate bloquée, commande de pression",
+        "r7c4": "journal de pression, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Test de la sonde lambda amont (à bande étroite)",
+      "b1": {
+        "l1": "Moteur chaud, boucle fermée : la tension oscille entre 0,1 et 0,9 V environ.",
+        "l2": "Créer une prise d'air (débrancher une petite durite de dépression) : la sonde passe pauvre (≈ 0,1 V) et la correction STFT augmente.",
+        "l3": "Enrichir (un peu de nettoyant carburateur à l'admission) : la sonde passe riche (≈ 0,9 V).",
+        "l4": "Une bonne sonde bascule en moins de 100 à 150 ms."
+      },
+      "b2": {
+        "t": "Sonde large bande : lire λ ou l'AFR dans le calculateur, pas une tension."
+      }
+    }
+  },
+  "tools": {
+    "title": "Outillage et méthodes",
+    "desc": "Clé dynamométrique, serrage angulaire, frein-filet et conversions.",
+    "i1": {
+      "title": "Clé dynamométrique",
+      "b1": {
+        "l1": "Faire contrôler l'étalonnage chaque année (ou tous les 5 000 cycles).",
+        "l2": "Tirer régulièrement, perpendiculairement, jusqu'au déclic, sans à-coup.",
+        "l3": "Après usage, ramener au minimum de l'échelle (pas en dessous de zéro)."
+      },
+      "b2": {
+        "t": "À éviter : serrer au-delà du déclic, tirer sur une rallonge, utiliser la clé pour desserrer."
+      }
+    },
+    "i2": {
+      "title": "Serrage couple + angle",
+      "b1": {
+        "t": "Principe : un couple de pré-serrage met les pièces en appui, puis un angle impose l'allongement de la vis, indépendamment du frottement."
+      },
+      "b2": {
+        "l1": "Avantage : tension beaucoup plus régulière qu'au couple seul.",
+        "l2": "Vis étirables : toujours neuves.",
+        "l3": "Utiliser un rapporteur d'angle ou repérer la position à la peinture."
+      }
+    },
+    "i3": {
+      "title": "Frein-filet et pâtes",
+      "b1": {
+        "h1": "Produit",
+        "h2": "Usage",
+        "r1c1": "frein-filet faible (violet)",
+        "r1c2": "petites vis, démontable facilement",
+        "r2c1": "frein-filet moyen (bleu)",
+        "r2c2": "usage général, démontable à l'outil",
+        "r3c1": "frein-filet fort (rouge)",
+        "r3c2": "assemblages permanents, chauffer pour démonter",
+        "r4c1": "pâte cuivre",
+        "r4c2": "anti-grippage haute température (échappement)"
+      },
+      "b2": {
+        "t": "Ne pas graisser les filets de roue sauf prescription. Dégraisser avant tout frein-filet."
+      }
+    },
+    "i4": {
+      "title": "Conversions utiles",
+      "b1": {
+        "h1": "De",
+        "h2": "Vers",
+        "r9c2": "0,7457 kW = 1,0139 ch"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Géométrie des trains roulants",
+    "desc": "Valeurs courantes de voiture de tourisme et symptômes.",
+    "i1": {
+      "title": "Valeurs courantes (tourisme)",
+      "b1": {
+        "h1": "Réglage",
+        "h2": "Valeur courante",
+        "h3": "Remarque",
+        "r1c1": "carrossage avant",
+        "r1c3": "selon véhicule",
+        "r2c1": "carrossage arrière",
+        "r2c3": "selon essieu",
+        "r3c1": "parallélisme avant (total)",
+        "r3c3": "pincement léger",
+        "r4c1": "parallélisme arrière (total)",
+        "r4c3": "pincement : stabilité",
+        "r5c1": "chasse",
+        "r5c3": "non réglable sur beaucoup de véhicules"
+      },
+      "b2": {
+        "t": "Valeurs très variables selon le châssis et l'usage : toujours partir des données constructeur. Contrôler après tout remplacement de pièce de direction ou de suspension."
+      }
+    },
+    "i2": {
+      "title": "Symptômes et contrôles",
+      "b1": {
+        "h1": "Symptôme",
+        "h2": "Cause probable",
+        "r1c1": "usure de l'épaule intérieure",
+        "r1c2": "carrossage trop négatif ou ouverture",
+        "r2c1": "usure des deux épaules",
+        "r2c2": "pression trop basse",
+        "r3c1": "usure en dents de scie",
+        "r3c2": "parallélisme incorrect",
+        "r4c1": "la voiture tire d'un côté",
+        "r4c2": "pressions, carrossage ou chasse différents, frein qui frotte",
+        "r5c1": "volant décentré",
+        "r5c2": "parallélisme mal réparti entre les roues"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Richesse (AFR et lambda)",
+    "desc": "Valeurs cibles et diagnostic de la richesse (essence).",
+    "i1": {
+      "title": "Valeurs cibles (essence, AFR stœchiométrique 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Usage",
+        "h4": "Remarque",
+        "r1c3": "pleine charge turbo",
+        "r1c4": "marge contre le cliquetis",
+        "r2c3": "pleine charge atmosphérique",
+        "r2c4": "bon compromis puissance / fiabilité",
+        "r3c3": "ralenti, croisière",
+        "r3c4": "rendement optimal du catalyseur",
+        "r4c3": "croisière économique",
+        "r4c4": "échauffement, NOx élevés"
+      },
+      "b2": {
+        "t": "Avec un autre carburant, raisonner en lambda : λ = AFR ÷ AFR stœchiométrique (E85 ≈ 9,8 ; méthanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnostic par la richesse",
+      "b1": {
+        "h1": "Mesure",
+        "h2": "Symptôme",
+        "h3": "Risque",
+        "h4": "Correction",
+        "r1c1": "AFR ≈ 12 en croisière",
+        "r1c2": "odeur d'essence, bougies noires",
+        "r1c3": "surconsommation, dilution de l'huile",
+        "r1c4": "pression d'essence, injecteurs, cartographie",
+        "r2c1": "AFR ≈ 14,7 en croisière",
+        "r2c2": "combustion stable",
+        "r2c3": "aucun",
+        "r3c1": "AFR ≥ 16 en charge",
+        "r3c2": "échauffement, cliquetis possible",
+        "r3c3": "soupapes, pistons",
+        "r3c4": "enrichir, chercher une prise d'air",
+        "r4c1": "oscillations rapides",
+        "r4c2": "ralenti instable",
+        "r4c3": "ratés d'allumage",
+        "r4c4": "sonde lambda, allumage"
+      }
+    }
+  },
+  "spark": {
+    "title": "Bougies et allumage",
+    "desc": "Écartement des électrodes, cliquetis et remèdes.",
+    "i1": {
+      "title": "Écartement des électrodes",
+      "b1": {
+        "h1": "Moteur",
+        "h2": "Écartement (mm)",
+        "h3": "Remarque",
+        "r1c1": "atmosphérique",
+        "r1c3": "étincelle longue, bon allumage",
+        "r2c1": "turbo, pression modérée",
+        "r2c3": "évite les ratés sous pression",
+        "r3c1": "turbo, forte pression",
+        "r3c3": "la pression rend l'étincelle plus difficile"
+      },
+      "b2": {
+        "t": "Plus la pression dans le cylindre est élevée, plus la tension d'allumage nécessaire augmente : on réduit l'écartement."
+      }
+    },
+    "i2": {
+      "title": "Causes du cliquetis",
+      "b1": {
+        "l1": "Avance à l'allumage excessive.",
+        "l2": "Carburant à indice d'octane trop faible.",
+        "l3": "Air d'admission trop chaud.",
+        "l4": "Mélange trop pauvre.",
+        "l5": "Calamine, point chaud, taux de compression élevé."
+      }
+    },
+    "i3": {
+      "title": "Remèdes",
+      "b1": {
+        "l1": "Carburant à indice d'octane plus élevé (ou éthanol).",
+        "l2": "Réduire l'avance dans la zone concernée.",
+        "l3": "Mieux refroidir l'air d'admission (intercooler, injection d'eau-méthanol).",
+        "l4": "Enrichir légèrement.",
+        "l5": "Bougies d'indice thermique plus froid."
+      }
+    },
+    "i4": {
+      "title": "Température d'admission",
+      "b1": {
+        "l1": "Air froid = plus dense = plus de puissance.",
+        "l2": "Environ 1 % de puissance perdue tous les 5 à 6 °C supplémentaires.",
+        "l3": "Air chaud = risque de cliquetis accru."
+      }
+    }
+  },
+  "egt": {
+    "title": "Températures des gaz d'échappement (EGT)",
+    "desc": "Repères pour un moteur essence (sonde au collecteur).",
+    "i1": {
+      "title": "Repères EGT",
+      "b1": {
+        "h2": "Situation",
+        "h3": "Risque",
+        "r1c2": "conduite normale",
+        "r1c3": "aucun",
+        "r2c2": "forte charge",
+        "r2c3": "normal sur turbo essence",
+        "r3c2": "pleine charge prolongée",
+        "r3c3": "surveiller",
+        "r4c2": "dépassement",
+        "r4c3": "soupapes, pistons, turbine"
+      },
+      "b2": {
+        "t": "Une EGT élevée vient souvent d'un mélange pauvre ou d'un allumage trop retardé. Les turbos courants sont prévus pour 950 à 1 050 °C maximum."
+      }
+    }
+  },
+  "faults": {
+    "title": "Pannes courantes",
+    "desc": "Symptômes, causes et remèdes rapides.",
+    "i1": {
+      "title": "Diagnostic rapide",
+      "b1": {
+        "h1": "Symptôme",
+        "h2": "Causes possibles",
+        "h3": "Remède",
+        "r1c1": "ratés d'allumage",
+        "r1c2": "bougies usées, écartement, bobine",
+        "r1c3": "bougies neuves, contrôler l'écartement, tester les bobines",
+        "r2c1": "surchauffe",
+        "r2c2": "liquide bas, thermostat bloqué, ventilateur, mélange pauvre",
+        "r2c3": "niveau, thermostat, ventilateur, richesse",
+        "r3c1": "forte odeur d'essence",
+        "r3c2": "injecteur qui fuit, mélange riche, fuite",
+        "r3c3": "pression d'essence, étanchéité",
+        "r4c1": "cliquetis",
+        "r4c2": "octane trop faible, avance excessive, air chaud",
+        "r4c3": "carburant adapté, réduire l'avance",
+        "r5c1": "perte de puissance turbo",
+        "r5c2": "fuite à l'admission, wastegate, mélange pauvre",
+        "r5c3": "test d'étanchéité, wastegate, richesse"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Entretien préventif",
+    "desc": "Contrôles réguliers d'un moteur préparé.",
+    "i1": {
+      "title": "Liste de contrôle",
+      "b1": {
+        "l1": "Bougies : contrôle tous les 10 000 km (plus souvent en turbo préparé).",
+        "l2": "Contrôler la richesse à la sonde large bande après toute modification.",
+        "l3": "Filtre à air : nettoyage ou remplacement tous les 15 000 km.",
+        "l4": "Surveiller la température d'admission.",
+        "l5": "Lire les codes défaut, surtout ceux des sondes lambda.",
+        "l6": "Collecteur d'échappement : une fuite fausse la richesse et l'EGT.",
+        "l7": "Carburant de qualité, conforme au réglage.",
+        "l8": "Vidange et filtre selon le constructeur (plus souvent en usage piste)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Pressions et températures moteur",
+    "desc": "Huile, carburant et suralimentation.",
+    "i1": {
+      "title": "Huile moteur",
+      "b1": {
+        "h1": "Mesure",
+        "h2": "Valeur courante",
+        "h3": "Si anomalie",
+        "r1c1": "pression au ralenti (chaud)",
+        "r1c2": "1–2 bar",
+        "r1c3": "bruits, usure : niveau, pompe, crépine",
+        "r2c1": "pression en charge",
+        "r2c2": "3–5 bar",
+        "r2c3": "environ 1 bar par 1 000 tr/min jusqu'au clapet",
+        "r3c1": "température d'huile",
+        "r3c3": "au-delà de 130 °C l'huile se dégrade"
+      }
+    },
+    "i2": {
+      "title": "Carburant",
+      "b1": {
+        "h1": "Injection",
+        "h2": "Pression courante",
+        "h3": "Si anomalie",
+        "r1c1": "multipoint essence",
+        "r1c2": "3–4 bar",
+        "r1c3": "régulateur, pompe, filtre",
+        "r2c1": "injection directe essence",
+        "r2c2": "50–350 bar",
+        "r2c3": "pompe haute pression, capteur de rail",
+        "r3c1": "suralimentation essence",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "wastegate, durites, gestion"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Capteurs et sondes",
+    "desc": "Rôle des capteurs et valeurs typiques.",
+    "i1": {
+      "title": "Capteurs moteur",
+      "b1": {
+        "h1": "Capteur",
+        "h2": "Abréviation",
+        "h3": "Rôle",
+        "h4": "Valeur typique",
+        "r1c1": "température moteur",
+        "r1c3": "température du liquide de refroidissement",
+        "r1c4": "85–105 °C chaud",
+        "r2c1": "température d'air",
+        "r2c3": "température de l'air admis",
+        "r2c4": "ambiante + 0–30 °C",
+        "r3c1": "pression collecteur",
+        "r3c3": "pression absolue d'admission (charge)",
+        "r3c4": "≈ 30 kPa ralenti, 100 kPa pleine charge atmo",
+        "r4c1": "débitmètre",
+        "r4c3": "masse d'air admise",
+        "r4c4": "≈ 2–5 g/s au ralenti (2 L)",
+        "r5c1": "sonde lambda bande étroite",
+        "r5c3": "richesse autour de λ = 1",
+        "r6c1": "sonde lambda large bande",
+        "r6c3": "richesse exacte (réglage)",
+        "r7c1": "capteur de cliquetis",
+        "r7c3": "vibrations de détonation",
+        "r7c4": "signal piézoélectrique",
+        "r8c1": "position du vilebrequin",
+        "r8c3": "régime et position du moteur",
+        "r8c4": "inductif ou à effet Hall",
+        "r9c1": "position de l'arbre à cames",
+        "r9c3": "phase (séquentiel, distribution variable)",
+        "r9c4": "effet Hall",
+        "r10c1": "position du papillon",
+        "r10c3": "ouverture du papillon",
+        "r11c1": "pression d'essence",
+        "r11c3": "pression du circuit ou du rail",
+        "r11c4": "selon injection",
+        "r12c1": "température d'huile",
+        "r12c3": "température d'huile",
+        "r13c1": "pression d'huile",
+        "r13c3": "pression d'huile",
+        "r13c4": "voir « Pressions »",
+        "r14c1": "température d'échappement",
+        "r14c3": "température des gaz (thermocouple K)",
+        "r14c4": "voir « EGT »",
+        "r15c1": "température après intercooler",
+        "r15c3": "efficacité de l'intercooler",
+        "r15c4": "ambiante + 5–25 °C",
+        "r16c1": "température de carburant",
+        "r16c3": "correction de densité, éthanol",
+        "r16c4": "ambiante",
+        "r17c1": "teneur en éthanol",
+        "r17c3": "pourcentage d'éthanol",
+        "r18c1": "position de wastegate",
+        "r18c3": "ouverture de la wastegate",
+        "r18c4": "enregistrement, régulation",
+        "r19c3": "oxydes d'azote (dépollution)",
+        "r19c4": "diesel, injection directe pauvre"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Valeurs de référence pour l'atelier : filetages, couples, freinage, électricité, diagnostic, capteurs… Touchez une rubrique pour l'ouvrir.",
+    "search": "Rechercher dans l'aide-mémoire…",
+    "no_result": "Aucune fiche ne correspond à la recherche.",
+    "disclaimer": "Valeurs génériques et indicatives : les données du constructeur du véhicule ou de la pièce restent prioritaires."
+  }
+}

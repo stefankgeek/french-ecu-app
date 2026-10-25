@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "ISO metrik dişler",
+    "desc": "Hatveler, kılavuz matkapları, geçiş delikleri, toleranslar ve diş kavrama boyu.",
+    "i1": {
+      "title": "ISO metrik hatveler — normal ve ince hatve",
+      "b1": {
+        "h1": "Tanım",
+        "h2": "Hatve (mm)",
+        "h3": "Seri",
+        "h4": "Sınıf",
+        "h5": "Kullanım",
+        "r1c3": "normal",
+        "r1c5": "küçük cıvatalar, elektronik",
+        "r2c3": "normal",
+        "r2c5": "kelepçeler, küçük bağlantılar",
+        "r3c3": "normal",
+        "r3c5": "kaporta, aksesuarlar",
+        "r4c3": "normal",
+        "r4c5": "genel mekanik",
+        "r5c3": "normal",
+        "r5c5": "braketler, alt montajlar",
+        "r6c3": "normal",
+        "r6c5": "motor, şasi",
+        "r7c3": "normal",
+        "r7c5": "süspansiyon, orta bağlantılar",
+        "r8c3": "normal",
+        "r8c5": "ağır şasi",
+        "r9c3": "ince",
+        "r9c5": "titreşime maruz bağlantılar",
+        "r10c3": "ince",
+        "r10c5": "titreşime maruz bağlantılar",
+        "r11c3": "ince",
+        "r11c5": "rotlar, otomotiv",
+        "r12c3": "ince",
+        "r12c5": "süspansiyon, rotiller, bijon saplamaları"
+      }
+    },
+    "i2": {
+      "title": "Kılavuz öncesi delme (≈ %75 diş)",
+      "b1": {
+        "t": "Kural: matkap ≈ anma çapı − hatve (ISO metrik diş)."
+      },
+      "b2": {
+        "h1": "Tanım",
+        "h2": "Hatve (mm)",
+        "h3": "Matkap (mm)"
+      }
+    },
+    "i3": {
+      "title": "Geçiş delikleri (ISO 273)",
+      "b1": {
+        "h1": "Diş",
+        "h2": "İnce (mm)",
+        "h3": "Orta (mm)",
+        "h4": "Kaba (mm)"
+      },
+      "b2": {
+        "t": "İnce: hassas merkezleme. Orta: normal montaj. Kaba: konum düzeltme. Ayar gerekiyorsa oval delik."
+      }
+    },
+    "i4": {
+      "title": "Toleranslar ve kavrama boyu",
+      "b1": {
+        "l1": "Cıvatalar: tolerans sınıfı 6g; iç dişler ve somunlar: 6H.",
+        "l2": "Çelikte kavrama boyu: 1 ila 1,5 × D.",
+        "l3": "Alüminyumda: 1,5 ila 2 × D.",
+        "l4": "Dökme demirde: 1 ila 1,5 × D."
+      },
+      "b2": {
+        "t": "İnce hatve titreşimle gevşemeye daha dayanıklıdır ama daha kolay sarar. Kılavuz çekmeden önce girişe her zaman pah kırın (≈ 0,5 × hatve) ve çapağı alın."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Diş takviyeleri (helisel)",
+    "desc": "Diş tamiri: STI matkapları ve kılavuzları, boylar, montaj ve malzemeler.",
+    "i1": {
+      "title": "STI matkabı ve kılavuzu",
+      "b1": {
+        "h1": "Onarılan diş",
+        "h2": "STI matkabı (mm)",
+        "h3": "Kılavuz",
+        "h4": "Takviye boyları"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Matkap ≈ anma çapı + hatvenin ¼'ü (standart matkaba yuvarlanmış); kitin talimatlarını kontrol edin. M14x1.25 buji dişidir."
+      }
+    },
+    "i2": {
+      "title": "Helisel takviye montajı",
+      "b1": {
+        "l1": "STI çapında, tam dik delin.",
+        "l2": "STI kılavuzuyla, yağlayarak ve talaşı kırmak için yarım tur geri gelerek diş açın.",
+        "l3": "Dişi üfleyin ve temizleyin.",
+        "l4": "Takviyeyi montaj aletiyle yüzeyin ¼ ila ½ tur altına kadar vidalayın.",
+        "l5": "Tahrik pimini bir zımbayla kırın (pimli takviyeler).",
+        "l6": "Bir cıvatayla kontrol edin: zorlanmadan girmelidir."
+      },
+      "b2": {
+        "t": "Alüminyumda paslanmaz takviye: galvanik korozyonu önlemek için korozyon önleyici macun sürün. Takviyeyi söküp yeniden takmayın: kalıcı montaj için tasarlanmıştır."
+      }
+    },
+    "i3": {
+      "title": "Takviye malzemeleri",
+      "b1": {
+        "h1": "Malzeme",
+        "h2": "Kullanım",
+        "r1c1": "paslanmaz A2 (1.4301)",
+        "r1c2": "genel kullanım, orta korozyon",
+        "r2c1": "paslanmaz A4 (1.4401)",
+        "r2c2": "korozif ortam, deniz",
+        "r3c1": "fosfor bronz",
+        "r3c2": "yüksek sıcaklık, sarma önleyici",
+        "r4c1": "kilitlemeli paslanmaz (Screwlock)",
+        "r4c2": "titreşime maruz cıvatalar"
+      }
+    }
+  },
+  "torque": {
+    "title": "Genel sıkma torkları",
+    "desc": "Çelik cıvata sınıfına ve çapa göre yaklaşık torklar (normal metrik diş, sürtünme katsayısı ≈ 0,14).",
+    "i1": {
+      "title": "Çelik cıvata sınıf 8.8",
+      "b1": {
+        "h1": "Diş",
+        "h2": "Kuru (N·m)",
+        "h3": "Yağlı (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Çelik cıvata sınıf 10.9",
+      "b1": {
+        "h1": "Diş",
+        "h2": "Kuru (N·m)",
+        "h3": "Yağlı (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Çelik cıvata sınıf 12.9",
+      "b1": {
+        "h1": "Diş",
+        "h2": "Kuru (N·m)",
+        "h3": "Yağlı (N·m)"
+      },
+      "b2": {
+        "t": "Yağlı bir cıvata aynı gerilme için DAHA AZ tork ister. MoS₂ veya bakır macun: %15–25 daha azaltın. Üretici talimatı önceliklidir, özellikle açısal sıkılan cıvatalarda."
+      }
+    },
+    "i4": {
+      "title": "Alüminyum veya magnezyumdaki cıvatalar",
+      "b1": {
+        "l1": "Torku çeliğe göre %20–30 azaltın.",
+        "l2": "Kavrama boyu: 1,5 ila 2 × D.",
+        "l3": "Yüksek yüklerde helisel takviye veya saplama kullanın."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Motor sıkmaları",
+    "desc": "Silindir kapağı, manifoldlar, volan ve supap boşlukları.",
+    "i1": {
+      "title": "Silindir kapağı sıkma (genel yöntem)",
+      "b1": {
+        "l1": "Sıra: spiral şeklinde, merkezden dışa doğru, sol ve sağ dönüşümlü.",
+        "l2": "Temiz cıvatalar; üretici öngörüyorsa dişler ve oturma yüzeyleri hafif yağlı.",
+        "l3": "Sırayla ön sıkma (yaygın M10 örneği: 20 ila 40 N·m).",
+        "l4": "Sırayla açısal sıkma (yaygın örnek: 90° sonra 90°).",
+        "l5": "Açısal sıkılan (esneyen) cıvatalar: her zaman yeni."
+      },
+      "b2": {
+        "t": "Yalnızca yaklaşık bir örnektir: tork ve açılar motora bağlıdır. Her zaman üretici talimatına uyun."
+      }
+    },
+    "i2": {
+      "title": "Egzoz manifoldu",
+      "b1": {
+        "h1": "Bağlantı",
+        "h2": "Tork (N·m)",
+        "r1c1": "dökme demir veya çelikte çelik saplama",
+        "r2c1": "alüminyumda çelik saplama"
+      },
+      "b2": {
+        "t": "Merkezden dışa doğru sıkın. Sökülen kendinden kilitli (bakır kaplı) somunları değiştirin. İlk ısınma döngüsünden sonra yeniden kontrol edin."
+      }
+    },
+    "i3": {
+      "title": "Volan (örnekler)",
+      "b1": {
+        "h1": "Cıvata",
+        "h2": "Sınıf",
+        "h3": "Tork + açı"
+      },
+      "b2": {
+        "t": "Yeni cıvatalar, öngörülmüşse diş sabitleyici, çapraz sıkma."
+      }
+    },
+    "i4": {
+      "title": "Supap boşlukları (soğuk motor, büyüklük sırası)",
+      "b1": {
+        "h1": "Supap",
+        "h2": "Boşluk (mm)",
+        "r1c1": "emme",
+        "r2c1": "egzoz"
+      },
+      "b2": {
+        "t": "Kesin değer: motor dokümantasyonu. Boşluk çok az = supap kapanmaz ve yanar; çok fazla = ses ve kalkış kaybı."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Jantlar ve lastikler",
+    "desc": "Bijon torkları, somun oturma yüzeyleri ve yük endeksleri.",
+    "i1": {
+      "title": "Bijon torkları (büyüklük sırası)",
+      "b1": {
+        "h1": "Saplama / cıvata",
+        "h2": "Çelik jant (N·m)",
+        "h3": "Alaşım jant (N·m)",
+        "h4": "Not",
+        "r1c4": "çapraz sıkın, 50–100 km sonra yeniden kontrol edin",
+        "r2c4": "aksi belirtilmedikçe dişler temiz ve kuru",
+        "r3c4": "aracın değerini kontrol edin"
+      }
+    },
+    "i2": {
+      "title": "Bijon somunu ve cıvata oturma yüzeyleri",
+      "b1": {
+        "l1": "60° konik: en yaygın olanı.",
+        "l2": "Küresel (radyus): VW, Audi, Mercedes, Honda…",
+        "l3": "Pullu düz: bazı alaşım jantlar."
+      },
+      "b2": {
+        "t": "Somunun oturma yüzeyi jantınkiyle tam uyumlu olmalıdır. Asgari kavrama boyu: 1 × D (6 ila 8 tur)."
+      }
+    },
+    "i3": {
+      "title": "Yük endeksleri (özet)",
+      "b1": {
+        "h1": "Endeks",
+        "h2": "Lastik başına yük (kg)"
+      }
+    },
+    "i4": {
+      "title": "Hız endeksleri",
+      "b1": {
+        "h1": "Sembol",
+        "h2": "Azami hız (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Frenler",
+    "desc": "Fren hidrolikleri, torklar, asgari aşınma sınırları.",
+    "i1": {
+      "title": "Fren hidrolikleri (asgari kaynama noktaları, FMVSS 116 standardı)",
+      "b1": {
+        "h1": "Tip",
+        "h2": "Kuru (°C)",
+        "h3": "Nemli (°C)",
+        "h4": "Kullanım",
+        "r1c4": "eski araçlar",
+        "r2c4": "standart ABS / ESP",
+        "r3c4": "performans, DOT 4 uyumlu",
+        "r4c1": "DOT 5 (silikon)",
+        "r4c4": "klasik araçlar, diğerleriyle karışmaz"
+      },
+      "b2": {
+        "t": "Hidrolik nem çeker: 2 yılda bir değiştirin. DOT 5 (silikon) asla glikol bazlı hidroliklerle karıştırılmamalıdır."
+      }
+    },
+    "i2": {
+      "title": "Fren torkları (büyüklük sırası)",
+      "b1": {
+        "h1": "Parça",
+        "h2": "Tork (N·m)",
+        "r1c1": "kaliper kılavuz cıvatası",
+        "r2c1": "kaliper braketi göbeğe",
+        "r3c1": "disk tespit vidası",
+        "r4c1": "hortum bağlantısı (banjo M10)"
+      }
+    },
+    "i3": {
+      "title": "Asgari aşınma",
+      "b1": {
+        "l1": "Balatalar: 2–3 mm sürtünme malzemesi kalınca değiştirin.",
+        "l2": "Diskler: asgari kalınlık disk üzerinde yazılıdır (çoğu zaman yeniden 1–2 mm az).",
+        "l3": "Her zaman aks bazında komple değiştirin."
+      },
+      "b2": {
+        "t": "Diskte hafif çizikler kabul edilebilir; salgı, çatlak veya belirgin kenar: değiştirin."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Soğutma sıvısı",
+    "desc": "Soğutma sıvısı türleri, uyumluluk ve önlemler.",
+    "i1": {
+      "title": "Soğutma sıvısı türleri",
+      "b1": {
+        "h1": "Tür",
+        "h2": "Kimya",
+        "h3": "Yaygın renk",
+        "h4": "Not",
+        "r1c2": "inorganik (silikatlar)",
+        "r1c3": "yeşil / mavi",
+        "r1c4": "eski motorlar, sık değişim",
+        "r2c2": "organik (karboksilatlar)",
+        "r2c3": "turuncu / kırmızı",
+        "r2c4": "uzun ömürlü",
+        "r3c2": "hibrit",
+        "r3c3": "sarı / mavi-yeşil",
+        "r3c4": "çok yaygın",
+        "r4c2": "silikat + organik",
+        "r4c3": "pembe / mor",
+        "r4c4": "yeni VW / Audi"
+      },
+      "b2": {
+        "t": "Renk tek başına sıvıyı tanımlamaya yetmez: üreticinin normuna uyun."
+      }
+    },
+    "i2": {
+      "title": "Uyumluluk (yaklaşık)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (G48 tipi, MB 325.x).",
+        "l3": "PSA / Renault: yıla göre OAT veya HOAT (kılavuza bakın)."
+      },
+      "b2": {
+        "t": "Tür değişimi: saf suyla yıkayın. G11 (silikatlar) ile G12'yi (OAT) karıştırmayın."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Elektrik",
+    "desc": "Sigortalar, kutup başları, kablo kesitleri, akü ve alternatör.",
+    "i1": {
+      "title": "Sigortalar (kullanım örnekleri)",
+      "b1": {
+        "h1": "Değer",
+        "h2": "Tipik kullanım",
+        "r1c2": "beyin, sensörler",
+        "r2c2": "aydınlatma, ses sistemi",
+        "r3c2": "yakıt pompası",
+        "r4c2": "elektrikli camlar",
+        "r5c2": "arka cam ısıtıcı, fan"
+      }
+    },
+    "i2": {
+      "title": "Kutup başı torkları",
+      "b1": {
+        "h1": "Parça",
+        "h2": "Tork (N·m)",
+        "r1c1": "akü kutup başı M6",
+        "r2c1": "akü kutup başı M8",
+        "r3c1": "alternatör B+ ucu M8"
+      }
+    },
+    "i3": {
+      "title": "12 V kablo kesiti (kısa hat, < 3 m)",
+      "b1": {
+        "h1": "Akım (A)",
+        "h2": "Asgari kesit (mm²)"
+      },
+      "b2": {
+        "t": "Daha uzun hat: bir üst kesiti seçin (önerilen azami gerilim düşümü: %3)."
+      }
+    },
+    "i4": {
+      "title": "Akü ve şarj",
+      "b1": {
+        "h1": "Ölçüm",
+        "h2": "Normal değer",
+        "h3": "Anormallikte",
+        "r1c1": "akü dinlenmede",
+        "r1c2": "12,6 V (%100) · 12,2 V (%50)",
+        "r1c3": "şarj edin; 12,0 V altı = boş",
+        "r2c1": "marş sırasında gerilim",
+        "r2c3": "aküyü ve marş motorunu test edin",
+        "r3c1": "motor çalışırken",
+        "r3c3": "alternatörü ve kayışı kontrol edin"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Arıza teşhisi ve OBD",
+    "desc": "Yaygın OBD kodları ve hızlı testler.",
+    "i1": {
+      "title": "Yaygın OBD II kodları",
+      "b1": {
+        "h1": "Kod",
+        "h2": "Anlamı",
+        "h3": "Olası nedenler",
+        "h4": "Hızlı kontrol",
+        "r1c2": "çoklu ateşleme kaçırma",
+        "r1c3": "bujiler, bobinler, enjektörler, hava kaçağı",
+        "r1c4": "canlı kaçırma sayaçları, kıvılcım testi",
+        "r2c2": "karışım çok fakir (sıra 1)",
+        "r2c3": "hava kaçağı, hava kütle ölçer, düşük yakıt basıncı",
+        "r2c4": "STFT / LTFT düzeltmeleri, duman testi",
+        "r3c2": "karışım çok zengin (sıra 1)",
+        "r3c3": "damlatan enjektör, regülatör, hava kütle ölçer",
+        "r3c4": "yakıt basıncı, düzeltmeler",
+        "r4c2": "katalizör verimi çok düşük",
+        "r4c3": "yıpranmış katalizör, arka sonda, egzoz kaçağı",
+        "r4c4": "ön ve arka sondaları karşılaştırın",
+        "r5c2": "MAP sensörü: aralık / performans",
+        "r5c3": "sensör, hortum, 5 V besleme",
+        "r5c4": "sensör gerilimi, vakum testi",
+        "r6c2": "krank mili sensörü",
+        "r6c3": "sensör, kablo demeti, tetik dişlisi",
+        "r6c4": "osiloskopta sinyal",
+        "r7c2": "turbo aşırı basınç",
+        "r7c3": "takılı wastegate, basınç kontrolü",
+        "r7c4": "basınç kaydı, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Ön lambda sondası testi (dar bant)",
+      "b1": {
+        "l1": "Sıcak motor, kapalı çevrim: gerilim yaklaşık 0,1 ile 0,9 V arasında salınır.",
+        "l2": "Hava kaçağı oluşturun (küçük bir vakum hortumunu çıkarın): sonda fakir gösterir (≈ 0,1 V) ve STFT düzeltmesi artar.",
+        "l3": "Zenginleştirin (emmeye biraz karbüratör temizleyici): sonda zengin gösterir (≈ 0,9 V).",
+        "l4": "İyi bir sonda 100–150 ms'den kısa sürede geçiş yapar."
+      },
+      "b2": {
+        "t": "Geniş bant sonda: gerilimi değil, beyindeki λ veya AFR değerini okuyun."
+      }
+    }
+  },
+  "tools": {
+    "title": "Aletler ve yöntemler",
+    "desc": "Tork anahtarı, açısal sıkma, diş sabitleyiciler ve dönüşümler.",
+    "i1": {
+      "title": "Tork anahtarı",
+      "b1": {
+        "l1": "Kalibrasyonu her yıl (veya her 5 000 çevrimde) kontrol ettirin.",
+        "l2": "Klik sesine kadar düzgün ve dik açıyla, sarsmadan çekin.",
+        "l3": "Kullandıktan sonra skalanın en düşük değerine getirin (sıfırın altına değil)."
+      },
+      "b2": {
+        "t": "Kaçının: klikten sonra sıkmaya devam etmek, uzatmadan çekmek, anahtarı sökmek için kullanmak."
+      }
+    },
+    "i2": {
+      "title": "Tork + açı ile sıkma",
+      "b1": {
+        "t": "İlke: ön sıkma torku parçaları oturtur, ardından bir açı sürtünmeden bağımsız olarak cıvatanın uzamasını belirler."
+      },
+      "b2": {
+        "l1": "Avantaj: yalnızca torkla sıkmaya göre çok daha düzenli gerilme.",
+        "l2": "Esneyen cıvatalar: her zaman yeni.",
+        "l3": "Açı ölçer kullanın veya konumu boyayla işaretleyin."
+      }
+    },
+    "i3": {
+      "title": "Diş sabitleyiciler ve macunlar",
+      "b1": {
+        "h1": "Ürün",
+        "h2": "Kullanım",
+        "r1c1": "düşük mukavemetli diş sabitleyici (mor)",
+        "r1c2": "küçük vidalar, kolay sökülür",
+        "r2c1": "orta mukavemetli diş sabitleyici (mavi)",
+        "r2c2": "genel kullanım, aletle sökülür",
+        "r3c1": "yüksek mukavemetli diş sabitleyici (kırmızı)",
+        "r3c2": "kalıcı bağlantılar, sökmek için ısıtın",
+        "r4c1": "bakır macun",
+        "r4c2": "yüksek sıcaklıkta sarma önleyici (egzoz)"
+      },
+      "b2": {
+        "t": "Aksi belirtilmedikçe bijon dişlerini yağlamayın. Her diş sabitleyiciden önce yağdan arındırın."
+      }
+    },
+    "i4": {
+      "title": "Faydalı dönüşümler",
+      "b1": {
+        "h1": "Kaynak",
+        "h2": "Hedef",
+        "r9c2": "0,7457 kW = 1,0139 PS"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Rot balans (ön düzen)",
+    "desc": "Binek araçlar için yaygın değerler ve belirtiler.",
+    "i1": {
+      "title": "Yaygın değerler (binek araç)",
+      "b1": {
+        "h1": "Ayar",
+        "h2": "Yaygın değer",
+        "h3": "Not",
+        "r1c1": "ön kamber",
+        "r1c3": "araca göre",
+        "r2c1": "arka kamber",
+        "r2c3": "aksa göre",
+        "r3c1": "ön rot (toplam)",
+        "r3c3": "hafif toe-in",
+        "r4c1": "arka rot (toplam)",
+        "r4c3": "toe-in: denge",
+        "r5c1": "kaster",
+        "r5c3": "birçok araçta ayarlanamaz"
+      },
+      "b2": {
+        "t": "Değerler şasiye ve kullanıma göre çok değişir: her zaman üretici verilerinden yola çıkın. Direksiyon veya süspansiyon parçası değiştirildikten sonra kontrol edin."
+      }
+    },
+    "i2": {
+      "title": "Belirtiler ve kontroller",
+      "b1": {
+        "h1": "Belirti",
+        "h2": "Olası neden",
+        "r1c1": "iç omuz aşınması",
+        "r1c2": "fazla negatif kamber veya toe-out",
+        "r2c1": "iki omuzda aşınma",
+        "r2c2": "basınç çok düşük",
+        "r3c1": "testere dişi aşınma",
+        "r3c2": "yanlış rot ayarı",
+        "r4c1": "araç bir yana çekiyor",
+        "r4c2": "farklı basınç, kamber veya kaster, sürten fren",
+        "r5c1": "direksiyon ortada değil",
+        "r5c2": "rot ayarı tekerleklere eşit dağıtılmamış"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Karışım (AFR ve lambda)",
+    "desc": "Hedef değerler ve karışım teşhisi (benzin).",
+    "i1": {
+      "title": "Hedef değerler (benzin, stokiyometrik AFR 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Kullanım",
+        "h4": "Not",
+        "r1c3": "turbo tam yük",
+        "r1c4": "vuruntuya karşı pay",
+        "r2c3": "atmosferik tam yük",
+        "r2c4": "iyi güç / dayanıklılık dengesi",
+        "r3c3": "rölanti, seyir",
+        "r3c4": "en iyi katalizör verimi",
+        "r4c3": "ekonomik seyir",
+        "r4c4": "ısınma, yüksek NOx"
+      },
+      "b2": {
+        "t": "Başka bir yakıtla lambda üzerinden düşünün: λ = AFR ÷ stokiyometrik AFR (E85 ≈ 9,8; metanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Karışıma göre teşhis",
+      "b1": {
+        "h1": "Ölçüm",
+        "h2": "Belirti",
+        "h3": "Risk",
+        "h4": "Çözüm",
+        "r1c1": "seyirde AFR ≈ 12",
+        "r1c2": "benzin kokusu, siyah bujiler",
+        "r1c3": "fazla tüketim, yağ incelmesi",
+        "r1c4": "yakıt basıncı, enjektörler, harita",
+        "r2c1": "seyirde AFR ≈ 14,7",
+        "r2c2": "kararlı yanma",
+        "r2c3": "yok",
+        "r3c1": "yük altında AFR ≥ 16",
+        "r3c2": "ısınma, olası vuruntu",
+        "r3c3": "supaplar, pistonlar",
+        "r3c4": "zenginleştirin, hava kaçağı arayın",
+        "r4c1": "hızlı salınımlar",
+        "r4c2": "düzensiz rölanti",
+        "r4c3": "ateşleme kaçırma",
+        "r4c4": "lambda sondası, ateşleme"
+      }
+    }
+  },
+  "spark": {
+    "title": "Bujiler ve ateşleme",
+    "desc": "Elektrot aralığı, vuruntu ve çözümler.",
+    "i1": {
+      "title": "Elektrot aralığı",
+      "b1": {
+        "h1": "Motor",
+        "h2": "Aralık (mm)",
+        "h3": "Not",
+        "r1c1": "atmosferik",
+        "r1c3": "uzun kıvılcım, iyi ateşleme",
+        "r2c1": "turbo, orta basınç",
+        "r2c3": "basınç altında kaçırmayı önler",
+        "r3c1": "turbo, yüksek basınç",
+        "r3c3": "basınç kıvılcımı zorlaştırır"
+      },
+      "b2": {
+        "t": "Silindir basıncı yükseldikçe gereken ateşleme gerilimi artar: aralık küçültülür."
+      }
+    },
+    "i2": {
+      "title": "Vuruntu nedenleri",
+      "b1": {
+        "l1": "Aşırı ateşleme avansı.",
+        "l2": "Oktanı çok düşük yakıt.",
+        "l3": "Çok sıcak emme havası.",
+        "l4": "Çok fakir karışım.",
+        "l5": "Karbon birikimi, sıcak nokta, yüksek sıkıştırma oranı."
+      }
+    },
+    "i3": {
+      "title": "Çözümler",
+      "b1": {
+        "l1": "Daha yüksek oktanlı yakıt (veya etanol).",
+        "l2": "İlgili bölgede avansı azaltın.",
+        "l3": "Emme havasını daha iyi soğutun (intercooler, su-metanol enjeksiyonu).",
+        "l4": "Hafifçe zenginleştirin.",
+        "l5": "Daha soğuk ısı değerli bujiler."
+      }
+    },
+    "i4": {
+      "title": "Emme sıcaklığı",
+      "b1": {
+        "l1": "Soğuk hava = daha yoğun = daha fazla güç.",
+        "l2": "Her 5–6 °C artışta yaklaşık %1 güç kaybı.",
+        "l3": "Sıcak hava = daha yüksek vuruntu riski."
+      }
+    }
+  },
+  "egt": {
+    "title": "Egzoz gazı sıcaklıkları (EGT)",
+    "desc": "Benzinli motor için referanslar (sensör manifoldda).",
+    "i1": {
+      "title": "EGT referansları",
+      "b1": {
+        "h2": "Durum",
+        "h3": "Risk",
+        "r1c2": "normal sürüş",
+        "r1c3": "yok",
+        "r2c2": "yüksek yük",
+        "r2c3": "turbolu benzinlide normal",
+        "r3c2": "uzun süreli tam yük",
+        "r3c3": "izleyin",
+        "r4c2": "aşım",
+        "r4c3": "supaplar, pistonlar, türbin"
+      },
+      "b2": {
+        "t": "Yüksek EGT çoğu zaman fakir karışımdan veya çok gecikmiş ateşlemeden kaynaklanır. Yaygın turbolar en fazla 950–1050 °C için tasarlanmıştır."
+      }
+    }
+  },
+  "faults": {
+    "title": "Yaygın arızalar",
+    "desc": "Belirtiler, nedenler ve hızlı çözümler.",
+    "i1": {
+      "title": "Hızlı teşhis",
+      "b1": {
+        "h1": "Belirti",
+        "h2": "Olası nedenler",
+        "h3": "Çözüm",
+        "r1c1": "ateşleme kaçırma",
+        "r1c2": "aşınmış bujiler, aralık, bobin",
+        "r1c3": "yeni bujiler, aralığı kontrol edin, bobinleri test edin",
+        "r2c1": "aşırı ısınma",
+        "r2c2": "düşük sıvı, takılı termostat, fan, fakir karışım",
+        "r2c3": "seviye, termostat, fan, karışım",
+        "r3c1": "yoğun benzin kokusu",
+        "r3c2": "damlatan enjektör, zengin karışım, kaçak",
+        "r3c3": "yakıt basıncı, sızdırmazlık",
+        "r4c1": "vuruntu",
+        "r4c2": "oktan çok düşük, aşırı avans, sıcak hava",
+        "r4c3": "uygun yakıt, avansı azaltın",
+        "r5c1": "turbo güç kaybı",
+        "r5c2": "emmede kaçak, wastegate, fakir karışım",
+        "r5c3": "sızdırmazlık testi, wastegate, karışım"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Önleyici bakım",
+    "desc": "Modifiyeli bir motorun düzenli kontrolleri.",
+    "i1": {
+      "title": "Kontrol listesi",
+      "b1": {
+        "l1": "Bujiler: her 10 000 km'de kontrol (modifiyeli turboda daha sık).",
+        "l2": "Her değişiklikten sonra karışımı geniş bant sondayla kontrol edin.",
+        "l3": "Hava filtresi: her 15 000 km'de temizleyin veya değiştirin.",
+        "l4": "Emme sıcaklığını izleyin.",
+        "l5": "Arıza kodlarını, özellikle lambda sondası kodlarını okuyun.",
+        "l6": "Egzoz manifoldu: bir kaçak karışım ve EGT ölçümünü bozar.",
+        "l7": "Ayara uygun kaliteli yakıt.",
+        "l8": "Üreticiye göre yağ ve filtre değişimi (pist kullanımında daha sık)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Motor basınçları ve sıcaklıkları",
+    "desc": "Yağ, yakıt ve aşırı besleme.",
+    "i1": {
+      "title": "Motor yağı",
+      "b1": {
+        "h1": "Ölçüm",
+        "h2": "Yaygın değer",
+        "h3": "Anormallikte",
+        "r1c1": "rölantide basınç (sıcak)",
+        "r1c2": "1–2 bar",
+        "r1c3": "ses, aşınma: seviye, pompa, emiş süzgeci",
+        "r2c1": "yük altında basınç",
+        "r2c2": "3–5 bar",
+        "r2c3": "tahliye valfine kadar her 1000 dev/dk için yaklaşık 1 bar",
+        "r3c1": "yağ sıcaklığı",
+        "r3c3": "130 °C üzerinde yağ bozulur"
+      }
+    },
+    "i2": {
+      "title": "Yakıt",
+      "b1": {
+        "h1": "Enjeksiyon",
+        "h2": "Yaygın basınç",
+        "h3": "Anormallikte",
+        "r1c1": "çok noktalı benzin enjeksiyonu",
+        "r1c2": "3–4 bar",
+        "r1c3": "regülatör, pompa, filtre",
+        "r2c1": "benzinli direkt enjeksiyon",
+        "r2c2": "50–350 bar",
+        "r2c3": "yüksek basınç pompası, ray sensörü",
+        "r3c1": "benzinli aşırı besleme",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "wastegate, hortumlar, motor yönetimi"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Sensörler ve sondalar",
+    "desc": "Sensörlerin görevi ve tipik değerler.",
+    "i1": {
+      "title": "Motor sensörleri",
+      "b1": {
+        "h1": "Sensör",
+        "h2": "Kısaltma",
+        "h3": "Görev",
+        "h4": "Tipik değer",
+        "r1c1": "motor sıcaklığı",
+        "r1c3": "soğutma sıvısı sıcaklığı",
+        "r1c4": "sıcakken 85–105 °C",
+        "r2c1": "hava sıcaklığı",
+        "r2c3": "emilen hava sıcaklığı",
+        "r2c4": "ortam + 0–30 °C",
+        "r3c1": "manifold basıncı",
+        "r3c3": "mutlak emme basıncı (yük)",
+        "r3c4": "≈ 30 kPa rölanti, 100 kPa atmosferik tam yük",
+        "r4c1": "hava kütle ölçer",
+        "r4c3": "emilen hava kütlesi",
+        "r4c4": "rölantide ≈ 2–5 g/s (2 L)",
+        "r5c1": "dar bant lambda sondası",
+        "r5c3": "λ = 1 civarında karışım",
+        "r6c1": "geniş bant lambda sondası",
+        "r6c3": "kesin karışım (ayar)",
+        "r7c1": "vuruntu sensörü",
+        "r7c3": "detonasyon titreşimleri",
+        "r7c4": "piezoelektrik sinyal",
+        "r8c1": "krank mili konumu",
+        "r8c3": "devir ve motor konumu",
+        "r8c4": "endüktif veya Hall etkili",
+        "r9c1": "eksantrik mili konumu",
+        "r9c3": "faz (sıralı, değişken supap zamanlaması)",
+        "r9c4": "Hall etkili",
+        "r10c1": "gaz kelebeği konumu",
+        "r10c3": "kelebek açıklığı",
+        "r11c1": "yakıt basıncı",
+        "r11c3": "sistem veya ray basıncı",
+        "r11c4": "enjeksiyona göre",
+        "r12c1": "yağ sıcaklığı",
+        "r12c3": "yağ sıcaklığı",
+        "r13c1": "yağ basıncı",
+        "r13c3": "yağ basıncı",
+        "r13c4": "bkz. «Basınçlar»",
+        "r14c1": "egzoz sıcaklığı",
+        "r14c3": "gaz sıcaklığı (K tipi termokupl)",
+        "r14c4": "bkz. «EGT»",
+        "r15c1": "intercooler sonrası sıcaklık",
+        "r15c3": "intercooler verimi",
+        "r15c4": "ortam + 5–25 °C",
+        "r16c1": "yakıt sıcaklığı",
+        "r16c3": "yoğunluk düzeltmesi, etanol",
+        "r16c4": "ortam",
+        "r17c1": "etanol oranı",
+        "r17c3": "etanol yüzdesi",
+        "r18c1": "wastegate konumu",
+        "r18c3": "wastegate açıklığı",
+        "r18c4": "kayıt, kontrol",
+        "r19c3": "azot oksitler (emisyon kontrolü)",
+        "r19c4": "dizel, fakir direkt enjeksiyon"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Atölye için referans değerler: dişler, torklar, frenler, elektrik, teşhis, sensörler… Açmak için bir bölüme dokunun.",
+    "search": "Başvuru kılavuzunda ara…",
+    "no_result": "Aramayla eşleşen kart yok.",
+    "disclaimer": "Genel ve yaklaşık değerler: araç veya parça üreticisinin verileri her zaman önceliklidir."
+  }
+}

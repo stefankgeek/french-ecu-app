@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "ISO metric threads",
+    "desc": "Pitches, tap drill sizes, clearance holes, tolerances and thread engagement.",
+    "i1": {
+      "title": "ISO metric pitches — coarse and fine",
+      "b1": {
+        "h1": "Designation",
+        "h2": "Pitch (mm)",
+        "h3": "Series",
+        "h4": "Class",
+        "h5": "Use",
+        "r1c3": "coarse",
+        "r1c5": "small screws, electronics",
+        "r2c3": "coarse",
+        "r2c5": "clamps, small fasteners",
+        "r3c3": "coarse",
+        "r3c5": "bodywork, accessories",
+        "r4c3": "coarse",
+        "r4c5": "general engineering",
+        "r5c3": "coarse",
+        "r5c5": "brackets, sub-assemblies",
+        "r6c3": "coarse",
+        "r6c5": "engine, chassis",
+        "r7c3": "coarse",
+        "r7c5": "suspension, medium fasteners",
+        "r8c3": "coarse",
+        "r8c5": "heavy chassis",
+        "r9c3": "fine",
+        "r9c5": "joints subject to vibration",
+        "r10c3": "fine",
+        "r10c5": "joints subject to vibration",
+        "r11c3": "fine",
+        "r11c5": "links, automotive",
+        "r12c3": "fine",
+        "r12c5": "suspension, ball joints, wheel studs"
+      }
+    },
+    "i2": {
+      "title": "Tap drill sizes (≈ 75% thread)",
+      "b1": {
+        "t": "Rule: drill ≈ nominal diameter − pitch (ISO metric threads)."
+      },
+      "b2": {
+        "h1": "Designation",
+        "h2": "Pitch (mm)",
+        "h3": "Drill (mm)"
+      }
+    },
+    "i3": {
+      "title": "Clearance holes (ISO 273)",
+      "b1": {
+        "h1": "Thread",
+        "h2": "Fine (mm)",
+        "h3": "Medium (mm)",
+        "h4": "Coarse (mm)"
+      },
+      "b2": {
+        "t": "Fine: accurate location. Medium: standard assembly. Coarse: position adjustment. Use a slotted hole if adjustment is needed."
+      }
+    },
+    "i4": {
+      "title": "Tolerances and thread engagement",
+      "b1": {
+        "l1": "Bolts: tolerance class 6g; tapped holes and nuts: 6H.",
+        "l2": "Engagement length in steel: 1 to 1.5 × D.",
+        "l3": "In aluminium: 1.5 to 2 × D.",
+        "l4": "In cast iron: 1 to 1.5 × D."
+      },
+      "b2": {
+        "t": "Fine pitch resists loosening under vibration better but galls more easily. Always chamfer the entry (≈ 0.5 × pitch) and deburr before tapping."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Thread inserts (helical coil)",
+    "desc": "Thread repair: STI drills and taps, lengths, installation and materials.",
+    "i1": {
+      "title": "STI drill and tap",
+      "b1": {
+        "h1": "Repaired thread",
+        "h2": "STI drill (mm)",
+        "h3": "Tap",
+        "h4": "Insert lengths"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Drill ≈ nominal diameter + ¼ of the pitch (rounded to a standard drill); check the kit instructions. M14x1.25 is the spark plug thread."
+      }
+    },
+    "i2": {
+      "title": "Installing a helical insert",
+      "b1": {
+        "l1": "Drill to the STI size, perfectly square.",
+        "l2": "Tap with the STI tap, lubricated, backing off half a turn to break the chip.",
+        "l3": "Blow out and clean the thread.",
+        "l4": "Screw the insert in with the installation tool to ¼ to ½ turn below the surface.",
+        "l5": "Break off the drive tang with a punch (tanged inserts).",
+        "l6": "Check with a bolt: it must run in without tight spots."
+      },
+      "b2": {
+        "t": "Stainless insert in aluminium: apply anti-seize compound to prevent galvanic corrosion. Do not remove and refit an insert: it is designed as a permanent repair."
+      }
+    },
+    "i3": {
+      "title": "Insert materials",
+      "b1": {
+        "h1": "Material",
+        "h2": "Use",
+        "r1c1": "stainless A2 (1.4301)",
+        "r1c2": "general use, moderate corrosion",
+        "r2c1": "stainless A4 (1.4401)",
+        "r2c2": "corrosive or marine environment",
+        "r3c1": "phosphor bronze",
+        "r3c2": "high temperature, anti-galling",
+        "r4c1": "stainless with locking coil (Screwlock)",
+        "r4c2": "bolts subject to vibration"
+      }
+    }
+  },
+  "torque": {
+    "title": "Generic tightening torques",
+    "desc": "Indicative torques by diameter and steel bolt grade (coarse metric thread, friction coefficient ≈ 0.14).",
+    "i1": {
+      "title": "Steel bolts grade 8.8",
+      "b1": {
+        "h1": "Thread",
+        "h2": "Dry (N·m)",
+        "h3": "Oiled (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Steel bolts grade 10.9",
+      "b1": {
+        "h1": "Thread",
+        "h2": "Dry (N·m)",
+        "h3": "Oiled (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Steel bolts grade 12.9",
+      "b1": {
+        "h1": "Thread",
+        "h2": "Dry (N·m)",
+        "h3": "Oiled (N·m)"
+      },
+      "b2": {
+        "t": "An oiled bolt needs LESS torque for the same clamping force. MoS₂ or copper paste: reduce by a further 15 to 25%. The manufacturer's specification always takes priority, especially for torque-to-yield bolts."
+      }
+    },
+    "i4": {
+      "title": "Bolts in aluminium or magnesium",
+      "b1": {
+        "l1": "Reduce the torque by 20 to 30% compared with steel.",
+        "l2": "Engagement length: 1.5 to 2 × D.",
+        "l3": "For high loads, use a helical insert or a stud."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Engine tightening",
+    "desc": "Cylinder head, manifolds, flywheel and valve clearances.",
+    "i1": {
+      "title": "Cylinder head tightening (general method)",
+      "b1": {
+        "l1": "Order: in a spiral, from the centre outwards, alternating left and right.",
+        "l2": "Clean bolts; threads and contact faces lightly oiled if the manufacturer specifies it.",
+        "l3": "Pre-tighten in sequence (common M10 example: 20 to 40 N·m).",
+        "l4": "Angle tighten in sequence (common example: 90° then 90°).",
+        "l5": "Torque-to-yield (stretch) bolts: always new."
+      },
+      "b2": {
+        "t": "Indicative example only: torques and angles depend on the engine. Always follow the manufacturer's instructions."
+      }
+    },
+    "i2": {
+      "title": "Exhaust manifold",
+      "b1": {
+        "h1": "Joint",
+        "h2": "Torque (N·m)",
+        "r1c1": "steel stud in cast iron or steel",
+        "r2c1": "steel stud in aluminium"
+      },
+      "b2": {
+        "t": "Tighten from the centre outwards. Replace self-locking (copper-plated) nuts once removed. Re-check after the first heat cycle."
+      }
+    },
+    "i3": {
+      "title": "Flywheel (examples)",
+      "b1": {
+        "h1": "Bolt",
+        "h2": "Grade",
+        "h3": "Torque + angle"
+      },
+      "b2": {
+        "t": "New bolts, thread locker if specified, tighten in a cross pattern."
+      }
+    },
+    "i4": {
+      "title": "Valve clearances (cold engine, typical range)",
+      "b1": {
+        "h1": "Valve",
+        "h2": "Clearance (mm)",
+        "r1c1": "intake",
+        "r2c1": "exhaust"
+      },
+      "b2": {
+        "t": "Exact value: engine documentation. Too little clearance = valve no longer closes and burns; too much = noise and lost lift."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Wheels and tyres",
+    "desc": "Wheel torques, nut seats and load indexes.",
+    "i1": {
+      "title": "Wheel torques (typical range)",
+      "b1": {
+        "h1": "Stud / bolt",
+        "h2": "Steel wheel (N·m)",
+        "h3": "Alloy wheel (N·m)",
+        "h4": "Note",
+        "r1c4": "tighten in a cross pattern, re-check after 50 to 100 km",
+        "r2c4": "clean dry threads unless specified",
+        "r3c4": "check the vehicle's specification"
+      }
+    },
+    "i2": {
+      "title": "Wheel nut and bolt seats",
+      "b1": {
+        "l1": "60° conical: the most common.",
+        "l2": "Spherical (radius): VW, Audi, Mercedes, Honda…",
+        "l3": "Flat with washer: some alloy wheels."
+      },
+      "b2": {
+        "t": "The nut seat must exactly match the wheel seat. Minimum engagement: 1 × D (6 to 8 turns)."
+      }
+    },
+    "i3": {
+      "title": "Load indexes (extract)",
+      "b1": {
+        "h1": "Index",
+        "h2": "Load per tyre (kg)"
+      }
+    },
+    "i4": {
+      "title": "Speed ratings",
+      "b1": {
+        "h1": "Symbol",
+        "h2": "Maximum speed (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Braking",
+    "desc": "Brake fluids, torques, minimum wear limits.",
+    "i1": {
+      "title": "Brake fluids (minimum boiling points, FMVSS 116 standard)",
+      "b1": {
+        "h1": "Type",
+        "h2": "Dry (°C)",
+        "h3": "Wet (°C)",
+        "h4": "Use",
+        "r1c4": "older vehicles",
+        "r2c4": "standard ABS / ESP",
+        "r3c4": "performance, DOT 4 compatible",
+        "r4c1": "DOT 5 (silicone)",
+        "r4c4": "classic cars, not miscible with the others"
+      },
+      "b2": {
+        "t": "The fluid absorbs moisture: bleed every 2 years. Never mix DOT 5 (silicone) with glycol fluids."
+      }
+    },
+    "i2": {
+      "title": "Brake torques (typical range)",
+      "b1": {
+        "h1": "Component",
+        "h2": "Torque (N·m)",
+        "r1c1": "caliper guide pin bolt",
+        "r2c1": "caliper bracket to hub",
+        "r3c1": "disc retaining screw",
+        "r4c1": "hose fitting (M10 banjo)"
+      }
+    },
+    "i3": {
+      "title": "Minimum wear limits",
+      "b1": {
+        "l1": "Pads: replace at 2–3 mm of friction material.",
+        "l2": "Discs: minimum thickness stamped on the disc (often 1 to 2 mm below new).",
+        "l3": "Always replace a complete axle set."
+      },
+      "b2": {
+        "t": "Light scoring of the disc is acceptable; runout, cracks or a large lip: replace."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Coolant",
+    "desc": "Coolant families, compatibility and precautions.",
+    "i1": {
+      "title": "Coolant families",
+      "b1": {
+        "h1": "Family",
+        "h2": "Chemistry",
+        "h3": "Usual colour",
+        "h4": "Note",
+        "r1c2": "inorganic (silicates)",
+        "r1c3": "green / blue",
+        "r1c4": "older engines, frequent changes",
+        "r2c2": "organic (carboxylates)",
+        "r2c3": "orange / red",
+        "r2c4": "long life",
+        "r3c2": "hybrid",
+        "r3c3": "yellow / blue-green",
+        "r3c4": "very widespread",
+        "r4c2": "silicates + organic",
+        "r4c3": "pink / purple",
+        "r4c4": "recent VW / Audi"
+      },
+      "b2": {
+        "t": "Colour alone does not identify a coolant: follow the manufacturer's specification."
+      }
+    },
+    "i2": {
+      "title": "Compatibility (indicative)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (G48 type, MB 325.x).",
+        "l3": "PSA / Renault: OAT or HOAT depending on the year (see the manual)."
+      },
+      "b2": {
+        "t": "Changing family: flush with demineralised water. Do not mix G11 (silicates) and G12 (OAT)."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Electrical",
+    "desc": "Fuses, terminals, cable sizes, battery and alternator.",
+    "i1": {
+      "title": "Fuses (typical uses)",
+      "b1": {
+        "h1": "Rating",
+        "h2": "Typical use",
+        "r1c2": "ECU, sensors",
+        "r2c2": "lighting, audio",
+        "r3c2": "fuel pump",
+        "r4c2": "power windows",
+        "r5c2": "rear demister, fan"
+      }
+    },
+    "i2": {
+      "title": "Terminal torques",
+      "b1": {
+        "h1": "Component",
+        "h2": "Torque (N·m)",
+        "r1c1": "battery terminal M6",
+        "r2c1": "battery terminal M8",
+        "r3c1": "alternator B+ terminal M8"
+      }
+    },
+    "i3": {
+      "title": "12 V cable size (short run, < 3 m)",
+      "b1": {
+        "h1": "Current (A)",
+        "h2": "Minimum cross-section (mm²)"
+      },
+      "b2": {
+        "t": "Longer runs: go up one size (recommended maximum voltage drop: 3%)."
+      }
+    },
+    "i4": {
+      "title": "Battery and charging",
+      "b1": {
+        "h1": "Measurement",
+        "h2": "Normal value",
+        "h3": "If abnormal",
+        "r1c1": "battery at rest",
+        "r1c2": "12.6 V (100%) · 12.2 V (50%)",
+        "r1c3": "recharge; below 12.0 V = discharged",
+        "r2c1": "voltage while cranking",
+        "r2c3": "test battery and starter",
+        "r3c1": "engine running",
+        "r3c3": "check alternator and belt"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnostics and OBD",
+    "desc": "Common OBD codes and quick tests.",
+    "i1": {
+      "title": "Common OBD II codes",
+      "b1": {
+        "h1": "Code",
+        "h2": "Meaning",
+        "h3": "Likely causes",
+        "h4": "Quick check",
+        "r1c2": "multiple misfires",
+        "r1c3": "spark plugs, coils, injectors, air leak",
+        "r1c4": "live misfire counters, spark test",
+        "r2c2": "system too lean (bank 1)",
+        "r2c3": "air leak, mass air flow sensor, low fuel pressure",
+        "r2c4": "STFT / LTFT trims, smoke test",
+        "r3c2": "system too rich (bank 1)",
+        "r3c3": "leaking injector, regulator, mass air flow sensor",
+        "r3c4": "fuel pressure, fuel trims",
+        "r4c2": "catalyst efficiency below threshold",
+        "r4c3": "worn catalyst, downstream sensor, exhaust leak",
+        "r4c4": "compare upstream and downstream sensors",
+        "r5c2": "MAP sensor range / performance",
+        "r5c3": "sensor, hose, 5 V supply",
+        "r5c4": "sensor voltage, vacuum test",
+        "r6c2": "crankshaft position sensor",
+        "r6c3": "sensor, wiring, trigger wheel",
+        "r6c4": "oscilloscope signal",
+        "r7c2": "turbo overboost",
+        "r7c3": "stuck wastegate, boost control",
+        "r7c4": "boost log, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Upstream lambda sensor test (narrowband)",
+      "b1": {
+        "l1": "Warm engine, closed loop: the voltage switches between about 0.1 and 0.9 V.",
+        "l2": "Create an air leak (disconnect a small vacuum hose): the sensor reads lean (≈ 0.1 V) and the STFT trim rises.",
+        "l3": "Add fuel (a little carburettor cleaner into the intake): the sensor reads rich (≈ 0.9 V).",
+        "l4": "A good sensor switches in less than 100 to 150 ms."
+      },
+      "b2": {
+        "t": "Wideband sensor: read λ or AFR from the ECU, not a voltage."
+      }
+    }
+  },
+  "tools": {
+    "title": "Tools and methods",
+    "desc": "Torque wrench, angle tightening, thread lockers and conversions.",
+    "i1": {
+      "title": "Torque wrench",
+      "b1": {
+        "l1": "Have the calibration checked every year (or every 5,000 cycles).",
+        "l2": "Pull smoothly and squarely until the click, without jerking.",
+        "l3": "After use, wind back to the lowest scale value (not below zero)."
+      },
+      "b2": {
+        "t": "Avoid: pulling past the click, pulling on an extension bar, using the wrench to loosen."
+      }
+    },
+    "i2": {
+      "title": "Torque + angle tightening",
+      "b1": {
+        "t": "Principle: a pre-tightening torque seats the parts, then an angle sets the bolt stretch, independent of friction."
+      },
+      "b2": {
+        "l1": "Benefit: far more consistent clamping than torque alone.",
+        "l2": "Stretch bolts: always new.",
+        "l3": "Use an angle gauge or paint-mark the position."
+      }
+    },
+    "i3": {
+      "title": "Thread lockers and compounds",
+      "b1": {
+        "h1": "Product",
+        "h2": "Use",
+        "r1c1": "low-strength thread locker (purple)",
+        "r1c2": "small screws, easy to remove",
+        "r2c1": "medium-strength thread locker (blue)",
+        "r2c2": "general use, removable with tools",
+        "r3c1": "high-strength thread locker (red)",
+        "r3c2": "permanent joints, heat to remove",
+        "r4c1": "copper paste",
+        "r4c2": "high-temperature anti-seize (exhaust)"
+      },
+      "b2": {
+        "t": "Do not grease wheel threads unless specified. Degrease before any thread locker."
+      }
+    },
+    "i4": {
+      "title": "Useful conversions",
+      "b1": {
+        "h1": "From",
+        "h2": "To",
+        "r9c2": "0.7457 kW = 1.0139 PS"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Wheel alignment",
+    "desc": "Typical passenger car values and symptoms.",
+    "i1": {
+      "title": "Typical values (passenger car)",
+      "b1": {
+        "h1": "Setting",
+        "h2": "Typical value",
+        "h3": "Note",
+        "r1c1": "front camber",
+        "r1c3": "depends on the vehicle",
+        "r2c1": "rear camber",
+        "r2c3": "depends on the axle",
+        "r3c1": "front toe (total)",
+        "r3c3": "slight toe-in",
+        "r4c1": "rear toe (total)",
+        "r4c3": "toe-in: stability",
+        "r5c1": "caster",
+        "r5c3": "not adjustable on many vehicles"
+      },
+      "b2": {
+        "t": "Values vary widely with chassis and use: always start from the manufacturer's data. Check after replacing any steering or suspension part."
+      }
+    },
+    "i2": {
+      "title": "Symptoms and checks",
+      "b1": {
+        "h1": "Symptom",
+        "h2": "Likely cause",
+        "r1c1": "inner shoulder wear",
+        "r1c2": "too much negative camber or toe-out",
+        "r2c1": "wear on both shoulders",
+        "r2c2": "pressure too low",
+        "r3c1": "feathered (saw-tooth) wear",
+        "r3c2": "incorrect toe",
+        "r4c1": "car pulls to one side",
+        "r4c2": "uneven pressures, camber or caster, dragging brake",
+        "r5c1": "off-centre steering wheel",
+        "r5c2": "toe unevenly split between the wheels"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Mixture (AFR and lambda)",
+    "desc": "Target values and mixture diagnosis (petrol).",
+    "i1": {
+      "title": "Target values (petrol, stoichiometric AFR 14.7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Use",
+        "h4": "Note",
+        "r1c3": "turbo full load",
+        "r1c4": "margin against knock",
+        "r2c3": "naturally aspirated full load",
+        "r2c4": "good power / reliability compromise",
+        "r3c3": "idle, cruise",
+        "r3c4": "best catalyst efficiency",
+        "r4c3": "economy cruise",
+        "r4c4": "heat, high NOx"
+      },
+      "b2": {
+        "t": "With another fuel, think in lambda: λ = AFR ÷ stoichiometric AFR (E85 ≈ 9.8; methanol ≈ 6.4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnosis from the mixture",
+      "b1": {
+        "h1": "Reading",
+        "h2": "Symptom",
+        "h3": "Risk",
+        "h4": "Fix",
+        "r1c1": "AFR ≈ 12 when cruising",
+        "r1c2": "smell of fuel, black plugs",
+        "r1c3": "high consumption, oil dilution",
+        "r1c4": "fuel pressure, injectors, map",
+        "r2c1": "AFR ≈ 14.7 when cruising",
+        "r2c2": "stable combustion",
+        "r2c3": "none",
+        "r3c1": "AFR ≥ 16 under load",
+        "r3c2": "heat, possible knock",
+        "r3c3": "valves, pistons",
+        "r3c4": "richen, look for an air leak",
+        "r4c1": "rapid oscillation",
+        "r4c2": "unstable idle",
+        "r4c3": "misfires",
+        "r4c4": "lambda sensor, ignition"
+      }
+    }
+  },
+  "spark": {
+    "title": "Spark plugs and ignition",
+    "desc": "Electrode gap, knock and remedies.",
+    "i1": {
+      "title": "Electrode gap",
+      "b1": {
+        "h1": "Engine",
+        "h2": "Gap (mm)",
+        "h3": "Note",
+        "r1c1": "naturally aspirated",
+        "r1c3": "long spark, good ignition",
+        "r2c1": "turbo, moderate boost",
+        "r2c3": "avoids misfire under boost",
+        "r3c1": "turbo, high boost",
+        "r3c3": "pressure makes sparking harder"
+      },
+      "b2": {
+        "t": "The higher the cylinder pressure, the higher the ignition voltage required: reduce the gap."
+      }
+    },
+    "i2": {
+      "title": "Causes of knock",
+      "b1": {
+        "l1": "Excessive ignition advance.",
+        "l2": "Fuel octane too low.",
+        "l3": "Intake air too hot.",
+        "l4": "Mixture too lean.",
+        "l5": "Carbon deposits, hot spot, high compression ratio."
+      }
+    },
+    "i3": {
+      "title": "Remedies",
+      "b1": {
+        "l1": "Higher-octane fuel (or ethanol).",
+        "l2": "Reduce advance in the affected area.",
+        "l3": "Cool the intake air better (intercooler, water-methanol injection).",
+        "l4": "Richen slightly.",
+        "l5": "Colder heat-range spark plugs."
+      }
+    },
+    "i4": {
+      "title": "Intake temperature",
+      "b1": {
+        "l1": "Cold air = denser = more power.",
+        "l2": "About 1% power lost for every extra 5 to 6 °C.",
+        "l3": "Hot air = higher knock risk."
+      }
+    }
+  },
+  "egt": {
+    "title": "Exhaust gas temperatures (EGT)",
+    "desc": "Reference values for a petrol engine (probe in the manifold).",
+    "i1": {
+      "title": "EGT reference values",
+      "b1": {
+        "h2": "Situation",
+        "h3": "Risk",
+        "r1c2": "normal driving",
+        "r1c3": "none",
+        "r2c2": "high load",
+        "r2c3": "normal on a turbo petrol engine",
+        "r3c2": "sustained full load",
+        "r3c3": "monitor",
+        "r4c2": "exceeded",
+        "r4c3": "valves, pistons, turbine"
+      },
+      "b2": {
+        "t": "High EGT is often caused by a lean mixture or overly retarded ignition. Common turbos are rated for 950 to 1,050 °C maximum."
+      }
+    }
+  },
+  "faults": {
+    "title": "Common faults",
+    "desc": "Symptoms, causes and quick fixes.",
+    "i1": {
+      "title": "Quick diagnosis",
+      "b1": {
+        "h1": "Symptom",
+        "h2": "Possible causes",
+        "h3": "Fix",
+        "r1c1": "misfire",
+        "r1c2": "worn plugs, gap, coil",
+        "r1c3": "new plugs, check the gap, test the coils",
+        "r2c1": "overheating",
+        "r2c2": "low coolant, stuck thermostat, fan, lean mixture",
+        "r2c3": "level, thermostat, fan, mixture",
+        "r3c1": "strong fuel smell",
+        "r3c2": "leaking injector, rich mixture, leak",
+        "r3c3": "fuel pressure, seals",
+        "r4c1": "knock",
+        "r4c2": "octane too low, too much advance, hot air",
+        "r4c3": "suitable fuel, reduce advance",
+        "r5c1": "turbo power loss",
+        "r5c2": "intake leak, wastegate, lean mixture",
+        "r5c3": "leak-down test, wastegate, mixture"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Preventive maintenance",
+    "desc": "Regular checks for a modified engine.",
+    "i1": {
+      "title": "Checklist",
+      "b1": {
+        "l1": "Spark plugs: check every 10,000 km (more often on a tuned turbo engine).",
+        "l2": "Check the mixture with a wideband sensor after any modification.",
+        "l3": "Air filter: clean or replace every 15,000 km.",
+        "l4": "Monitor intake temperature.",
+        "l5": "Read fault codes, especially lambda sensor codes.",
+        "l6": "Exhaust manifold: a leak falsifies mixture and EGT readings.",
+        "l7": "Quality fuel, matching the tune.",
+        "l8": "Oil and filter change as per manufacturer (more often for track use)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Engine pressures and temperatures",
+    "desc": "Oil, fuel and boost.",
+    "i1": {
+      "title": "Engine oil",
+      "b1": {
+        "h1": "Measurement",
+        "h2": "Typical value",
+        "h3": "If abnormal",
+        "r1c1": "pressure at idle (hot)",
+        "r1c2": "1–2 bar",
+        "r1c3": "noise, wear: level, pump, pickup",
+        "r2c1": "pressure under load",
+        "r2c2": "3–5 bar",
+        "r2c3": "about 1 bar per 1,000 rpm up to the relief valve",
+        "r3c1": "oil temperature",
+        "r3c3": "above 130 °C the oil breaks down"
+      }
+    },
+    "i2": {
+      "title": "Fuel",
+      "b1": {
+        "h1": "Injection",
+        "h2": "Typical pressure",
+        "h3": "If abnormal",
+        "r1c1": "petrol port injection",
+        "r1c2": "3–4 bar",
+        "r1c3": "regulator, pump, filter",
+        "r2c1": "petrol direct injection",
+        "r2c2": "50–350 bar",
+        "r2c3": "high-pressure pump, rail sensor",
+        "r3c1": "petrol boost",
+        "r3c2": "0.5–1.5 bar",
+        "r3c3": "wastegate, hoses, engine management"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Sensors",
+    "desc": "Sensor roles and typical values.",
+    "i1": {
+      "title": "Engine sensors",
+      "b1": {
+        "h1": "Sensor",
+        "h2": "Abbreviation",
+        "h3": "Role",
+        "h4": "Typical value",
+        "r1c1": "engine temperature",
+        "r1c3": "coolant temperature",
+        "r1c4": "85–105 °C hot",
+        "r2c1": "air temperature",
+        "r2c3": "intake air temperature",
+        "r2c4": "ambient + 0–30 °C",
+        "r3c1": "manifold pressure",
+        "r3c3": "absolute intake pressure (load)",
+        "r3c4": "≈ 30 kPa idle, 100 kPa NA full load",
+        "r4c1": "mass air flow sensor",
+        "r4c3": "intake air mass",
+        "r4c4": "≈ 2–5 g/s at idle (2 L)",
+        "r5c1": "narrowband lambda sensor",
+        "r5c3": "mixture around λ = 1",
+        "r6c1": "wideband lambda sensor",
+        "r6c3": "exact mixture (tuning)",
+        "r7c1": "knock sensor",
+        "r7c3": "detonation vibrations",
+        "r7c4": "piezoelectric signal",
+        "r8c1": "crankshaft position",
+        "r8c3": "engine speed and position",
+        "r8c4": "inductive or Hall effect",
+        "r9c1": "camshaft position",
+        "r9c3": "phase (sequential, variable valve timing)",
+        "r9c4": "Hall effect",
+        "r10c1": "throttle position",
+        "r10c3": "throttle opening",
+        "r11c1": "fuel pressure",
+        "r11c3": "system or rail pressure",
+        "r11c4": "depends on injection",
+        "r12c1": "oil temperature",
+        "r12c3": "oil temperature",
+        "r13c1": "oil pressure",
+        "r13c3": "oil pressure",
+        "r13c4": "see \"Pressures\"",
+        "r14c1": "exhaust temperature",
+        "r14c3": "gas temperature (K-type thermocouple)",
+        "r14c4": "see \"EGT\"",
+        "r15c1": "post-intercooler temperature",
+        "r15c3": "intercooler efficiency",
+        "r15c4": "ambient + 5–25 °C",
+        "r16c1": "fuel temperature",
+        "r16c3": "density correction, ethanol",
+        "r16c4": "ambient",
+        "r17c1": "ethanol content",
+        "r17c3": "ethanol percentage",
+        "r18c1": "wastegate position",
+        "r18c3": "wastegate opening",
+        "r18c4": "logging, control",
+        "r19c3": "nitrogen oxides (emissions)",
+        "r19c4": "diesel, lean direct injection"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Workshop reference values: threads, torques, brakes, electrics, diagnostics, sensors… Tap a section to open it.",
+    "search": "Search the reference guide…",
+    "no_result": "No entry matches your search.",
+    "disclaimer": "Generic, indicative values: the vehicle or part manufacturer's data always take priority."
+  }
+}

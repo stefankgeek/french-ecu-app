@@ -37,7 +37,7 @@ export const MODULES = [
 ];
 
 /** Aide-mémoire (section à part dans le menu). */
-export const MEMO = { id: 'memo', icon: 'book', color: '#9c27b0', status: 'soon' };
+export const MEMO = { id: 'memo', icon: 'book', color: '#9c27b0', status: 'ready', view: () => import('./aide/memo/view.js') };
 
 /**
  * Boutique (pièces détachées, goodies en dropshipping) — PROJET FUTUR, désactivé.

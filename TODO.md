@@ -12,10 +12,10 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 - ✅ Menu par catégories + recherche + réglages
 - ✅ Message « Nouvelle version disponible » + bouton « Installer »
 - ✅ Contrôle automatique des traductions avant publication
-- ✅ 189 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
+- ✅ 202 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
 - ✅ Publication automatique GitHub Pages
 
-## Phase 2 — Portage des logiciels 🔄
+## Phase 2 — Portage des logiciels ✅
 Pour chaque logiciel : formules inchangées (en métrique), champs avec choix d'unité,
 graphiques corrigés (hauteur mini mobile, légendes lisibles), traduction complète,
 comparaison des résultats avec l'ancien site.
@@ -54,7 +54,13 @@ comparaison des résultats avec l'ancien site.
     atteignable selon le réglage et de l'essieu qui bloque en premier
   - Radiateur d'huile : modèle faux (huile pouvant sortir à −120 °C, huile/eau calculé contre l'air,
     débit d'huile inventé) → méthode efficacité-NTU, température stabilisée, taille conseillée
-- ⏳ Aide-mémoire (filetages, couples, inserts, capteurs, turbo, jeux…)
+- ✅ Aide-mémoire (v0.6.0) : 18 rubriques, 48 fiches, recherche instantanée, 10 langues
+  - Corrigé : trous de passage (ISO 273), forets STI M10/M12, couples 8.8/10.9/12.9, couleurs de
+    frein-filet (bleu = moyen, pas faible), DOT 5.1, test de sonde lambda (le nettoyant frein ne sert
+    pas à tester une sonde), clé dynamométrique (pas « remettre à 0 »), schéma de culasse numéroté sans
+    figure → méthode, injection directe jusqu'à 350 bar, abréviations de capteurs (FPR = régulateur),
+    lignes de capteurs inventées ou en double supprimées, unités du tableau « référence rapide »
+  - Source modifiable : scripts/memo/source_fr.py → python3 scripts/memo/gen.py
 - ✅ Corrections de formules validées par Stéphane (v0.2.1, 25/10/2026) :
   - Injecteurs : débit nominal ramené à 3 bar (Q ∝ √P, plus de correction inversée) ; temps d'injection
     par cylindre (≈ 15,8 ms au lieu de ~1 ms) ; conversion lb/h ↔ cc/min selon la densité du carburant ;

@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "Gwinty metryczne ISO",
+    "desc": "Skoki, wiertła pod gwint, otwory przelotowe, tolerancje i długość wkręcenia.",
+    "i1": {
+      "title": "Skoki metryczne ISO — gwint zwykły i drobnozwojny",
+      "b1": {
+        "h1": "Oznaczenie",
+        "h2": "Skok (mm)",
+        "h3": "Seria",
+        "h4": "Klasa",
+        "h5": "Zastosowanie",
+        "r1c3": "zwykły",
+        "r1c5": "drobne śruby, elektronika",
+        "r2c3": "zwykły",
+        "r2c5": "opaski, drobne mocowania",
+        "r3c3": "zwykły",
+        "r3c5": "nadwozie, akcesoria",
+        "r4c3": "zwykły",
+        "r4c5": "mechanika ogólna",
+        "r5c3": "zwykły",
+        "r5c5": "wsporniki, podzespoły",
+        "r6c3": "zwykły",
+        "r6c5": "silnik, podwozie",
+        "r7c3": "zwykły",
+        "r7c5": "zawieszenie, średnie mocowania",
+        "r8c3": "zwykły",
+        "r8c5": "ciężkie podwozie",
+        "r9c3": "drobnozwojny",
+        "r9c5": "połączenia narażone na drgania",
+        "r10c3": "drobnozwojny",
+        "r10c5": "połączenia narażone na drgania",
+        "r11c3": "drobnozwojny",
+        "r11c5": "łączniki, motoryzacja",
+        "r12c3": "drobnozwojny",
+        "r12c5": "zawieszenie, przeguby kulowe, szpilki kół"
+      }
+    },
+    "i2": {
+      "title": "Wiercenie pod gwint (≈ 75 % zarysu)",
+      "b1": {
+        "t": "Zasada: wiertło ≈ średnica nominalna − skok (gwint metryczny ISO)."
+      },
+      "b2": {
+        "h1": "Oznaczenie",
+        "h2": "Skok (mm)",
+        "h3": "Wiertło (mm)"
+      }
+    },
+    "i3": {
+      "title": "Otwory przelotowe (ISO 273)",
+      "b1": {
+        "h1": "Gwint",
+        "h2": "Dokładny (mm)",
+        "h3": "Średni (mm)",
+        "h4": "Zgrubny (mm)"
+      },
+      "b2": {
+        "t": "Dokładny: precyzyjne centrowanie. Średni: zwykły montaż. Zgrubny: korekta położenia. Otwór fasolkowy, jeśli potrzebna regulacja."
+      }
+    },
+    "i4": {
+      "title": "Tolerancje i długość wkręcenia",
+      "b1": {
+        "l1": "Śruby: klasa tolerancji 6g; gwinty wewnętrzne i nakrętki: 6H.",
+        "l2": "Długość wkręcenia w stali: 1 do 1,5 × D.",
+        "l3": "W aluminium: 1,5 do 2 × D.",
+        "l4": "W żeliwie: 1 do 1,5 × D."
+      },
+      "b2": {
+        "t": "Gwint drobnozwojny lepiej opiera się luzowaniu od drgań, ale łatwiej się zaciera. Zawsze fazować wejście (≈ 0,5 × skok) i gratować przed gwintowaniem."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Wkładki gwintowane (spiralne)",
+    "desc": "Naprawa gwintów: wiertła i gwintowniki STI, długości, montaż i materiały.",
+    "i1": {
+      "title": "Wiertło i gwintownik STI",
+      "b1": {
+        "h1": "Naprawiany gwint",
+        "h2": "Wiertło STI (mm)",
+        "h3": "Gwintownik",
+        "h4": "Długości wkładki"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Wiertło ≈ średnica nominalna + ¼ skoku (zaokrąglone do typowego wiertła); sprawdź instrukcję zestawu. M14x1.25 to gwint świec zapłonowych."
+      }
+    },
+    "i2": {
+      "title": "Montaż wkładki spiralnej",
+      "b1": {
+        "l1": "Wywiercić na średnicę STI, dokładnie prostopadle.",
+        "l2": "Gwintować gwintownikiem STI ze smarowaniem, cofając o pół obrotu, aby złamać wiór.",
+        "l3": "Przedmuchać i oczyścić gwint.",
+        "l4": "Wkręcić wkładkę narzędziem montażowym na ¼–½ obrotu poniżej powierzchni.",
+        "l5": "Odłamać zabierak przebijakiem (wkładki z zabierakiem).",
+        "l6": "Sprawdzić śrubą: musi wchodzić bez oporów."
+      },
+      "b2": {
+        "t": "Wkładka nierdzewna w aluminium: nałożyć pastę antykorozyjną, aby uniknąć korozji galwanicznej. Nie wykręcać i nie montować wkładki ponownie: jest przeznaczona do montażu na stałe."
+      }
+    },
+    "i3": {
+      "title": "Materiały wkładek",
+      "b1": {
+        "h1": "Materiał",
+        "h2": "Zastosowanie",
+        "r1c1": "stal nierdzewna A2 (1.4301)",
+        "r1c2": "ogólne, umiarkowana korozja",
+        "r2c1": "stal nierdzewna A4 (1.4401)",
+        "r2c2": "środowisko korozyjne, morskie",
+        "r3c1": "brąz fosforowy",
+        "r3c2": "wysoka temperatura, przeciw zatarciu",
+        "r4c1": "nierdzewna z blokadą (Screwlock)",
+        "r4c2": "śruby narażone na drgania"
+      }
+    }
+  },
+  "torque": {
+    "title": "Ogólne momenty dokręcania",
+    "desc": "Orientacyjne momenty według średnicy i klasy śruby stalowej (gwint metryczny zwykły, współczynnik tarcia ≈ 0,14).",
+    "i1": {
+      "title": "Śruby stalowe klasy 8.8",
+      "b1": {
+        "h1": "Gwint",
+        "h2": "Na sucho (N·m)",
+        "h3": "Naolejone (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Śruby stalowe klasy 10.9",
+      "b1": {
+        "h1": "Gwint",
+        "h2": "Na sucho (N·m)",
+        "h3": "Naolejone (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Śruby stalowe klasy 12.9",
+      "b1": {
+        "h1": "Gwint",
+        "h2": "Na sucho (N·m)",
+        "h3": "Naolejone (N·m)"
+      },
+      "b2": {
+        "t": "Naolejona śruba wymaga MNIEJSZEGO momentu dla tego samego napięcia. Pasta MoS₂ lub miedziana: zmniejszyć jeszcze o 15–25%. Instrukcja producenta ma pierwszeństwo, zwłaszcza dla śrub dokręcanych kątowo."
+      }
+    },
+    "i4": {
+      "title": "Śruby w aluminium lub magnezie",
+      "b1": {
+        "l1": "Zmniejszyć moment o 20–30% względem stali.",
+        "l2": "Długość wkręcenia: 1,5 do 2 × D.",
+        "l3": "Przy dużych obciążeniach zastosować wkładkę spiralną lub szpilkę."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Dokręcanie silnika",
+    "desc": "Głowica, kolektory, koło zamachowe i luzy zaworowe.",
+    "i1": {
+      "title": "Dokręcanie głowicy (metoda ogólna)",
+      "b1": {
+        "l1": "Kolejność: spiralnie, od środka na zewnątrz, na przemian lewa i prawa strona.",
+        "l2": "Czyste śruby; gwinty i powierzchnie oporowe lekko naolejone, jeśli zaleca producent.",
+        "l3": "Wstępne dokręcenie w kolejności (typowy przykład M10: 20 do 40 N·m).",
+        "l4": "Dokręcanie kątowe w kolejności (typowy przykład: 90°, potem 90°).",
+        "l5": "Śruby dokręcane kątowo (rozciągliwe): zawsze nowe."
+      },
+      "b2": {
+        "t": "Tylko przykład orientacyjny: momenty i kąty zależą od silnika. Zawsze stosuj się do instrukcji producenta."
+      }
+    },
+    "i2": {
+      "title": "Kolektor wydechowy",
+      "b1": {
+        "h1": "Połączenie",
+        "h2": "Moment (N·m)",
+        "r1c1": "szpilka stalowa w żeliwie lub stali",
+        "r2c1": "szpilka stalowa w aluminium"
+      },
+      "b2": {
+        "t": "Dokręcać od środka na zewnątrz. Wymienić zdjęte nakrętki samokontrujące (miedziowane). Sprawdzić ponownie po pierwszym nagrzaniu."
+      }
+    },
+    "i3": {
+      "title": "Koło zamachowe (przykłady)",
+      "b1": {
+        "h1": "Śruba",
+        "h2": "Klasa",
+        "h3": "Moment + kąt"
+      },
+      "b2": {
+        "t": "Nowe śruby, klej do gwintów, jeśli zalecany, dokręcanie na krzyż."
+      }
+    },
+    "i4": {
+      "title": "Luzy zaworowe (zimny silnik, rząd wielkości)",
+      "b1": {
+        "h1": "Zawór",
+        "h2": "Luz (mm)",
+        "r1c1": "dolot",
+        "r2c1": "wydech"
+      },
+      "b2": {
+        "t": "Dokładna wartość: dokumentacja silnika. Za mały luz = zawór przestaje się zamykać i się wypala; za duży = hałas i utrata wzniosu."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Koła i opony",
+    "desc": "Momenty kół, gniazda nakrętek i indeksy nośności.",
+    "i1": {
+      "title": "Momenty kół (rząd wielkości)",
+      "b1": {
+        "h1": "Szpilka / śruba",
+        "h2": "Felga stalowa (N·m)",
+        "h3": "Felga aluminiowa (N·m)",
+        "h4": "Uwaga",
+        "r1c4": "dokręcać na krzyż, sprawdzić po 50–100 km",
+        "r2c4": "gwinty czyste i suche, chyba że zalecono inaczej",
+        "r3c4": "sprawdzić wartość dla pojazdu"
+      }
+    },
+    "i2": {
+      "title": "Gniazda nakrętek i śrub kół",
+      "b1": {
+        "l1": "Stożkowe 60°: najczęstsze.",
+        "l2": "Kuliste (promień): VW, Audi, Mercedes, Honda…",
+        "l3": "Płaskie z podkładką: niektóre felgi aluminiowe."
+      },
+      "b2": {
+        "t": "Gniazdo nakrętki musi dokładnie odpowiadać gniazdu felgi. Minimalna długość wkręcenia: 1 × D (6 do 8 obrotów)."
+      }
+    },
+    "i3": {
+      "title": "Indeksy nośności (wyciąg)",
+      "b1": {
+        "h1": "Indeks",
+        "h2": "Nośność na oponę (kg)"
+      }
+    },
+    "i4": {
+      "title": "Indeksy prędkości",
+      "b1": {
+        "h1": "Symbol",
+        "h2": "Prędkość maksymalna (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Hamulce",
+    "desc": "Płyny hamulcowe, momenty, minimalne zużycie.",
+    "i1": {
+      "title": "Płyny hamulcowe (minimalne temperatury wrzenia, norma FMVSS 116)",
+      "b1": {
+        "h1": "Typ",
+        "h2": "Suchy (°C)",
+        "h3": "Mokry (°C)",
+        "h4": "Zastosowanie",
+        "r1c4": "starsze pojazdy",
+        "r2c4": "standard ABS / ESP",
+        "r3c4": "sport, zgodny z DOT 4",
+        "r4c1": "DOT 5 (silikonowy)",
+        "r4c4": "klasyki, nie miesza się z pozostałymi"
+      },
+      "b2": {
+        "t": "Płyn pochłania wilgoć: wymiana co 2 lata. Nigdy nie mieszać DOT 5 (silikonowego) z płynami glikolowymi."
+      }
+    },
+    "i2": {
+      "title": "Momenty w układzie hamulcowym (rząd wielkości)",
+      "b1": {
+        "h1": "Element",
+        "h2": "Moment (N·m)",
+        "r1c1": "śruba prowadnicy zacisku",
+        "r2c1": "jarzmo zacisku na piaście",
+        "r3c1": "śruba mocująca tarczę",
+        "r4c1": "złącze przewodu elastycznego (banjo M10)"
+      }
+    },
+    "i3": {
+      "title": "Minimalne zużycie",
+      "b1": {
+        "l1": "Klocki: wymienić przy 2–3 mm okładziny.",
+        "l2": "Tarcze: minimalna grubość wybita na tarczy (często 1–2 mm mniej niż nowa).",
+        "l3": "Zawsze wymieniać kompletami na osi."
+      },
+      "b2": {
+        "t": "Lekkie rowkowanie tarczy jest dopuszczalne; bicie, pęknięcia lub duży rant: wymienić."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Płyn chłodniczy",
+    "desc": "Rodzaje płynów, zgodność i środki ostrożności.",
+    "i1": {
+      "title": "Rodzaje płynów",
+      "b1": {
+        "h1": "Rodzaj",
+        "h2": "Chemia",
+        "h3": "Typowy kolor",
+        "h4": "Uwaga",
+        "r1c2": "nieorganiczny (krzemiany)",
+        "r1c3": "zielony / niebieski",
+        "r1c4": "starsze silniki, częsta wymiana",
+        "r2c2": "organiczny (karboksylany)",
+        "r2c3": "pomarańczowy / czerwony",
+        "r2c4": "długa żywotność",
+        "r3c2": "hybrydowy",
+        "r3c3": "żółty / niebieskozielony",
+        "r3c4": "bardzo rozpowszechniony",
+        "r4c2": "krzemiany + organiczny",
+        "r4c3": "różowy / fioletowy",
+        "r4c4": "nowsze VW / Audi"
+      },
+      "b2": {
+        "t": "Kolor nie wystarcza do identyfikacji płynu: stosuj normę producenta."
+      }
+    },
+    "i2": {
+      "title": "Zgodność (orientacyjnie)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (typ G48, MB 325.x).",
+        "l3": "PSA / Renault: OAT lub HOAT zależnie od rocznika (patrz instrukcja)."
+      },
+      "b2": {
+        "t": "Zmiana rodzaju: przepłukać wodą demineralizowaną. Nie mieszać G11 (krzemiany) i G12 (OAT)."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Elektryka",
+    "desc": "Bezpieczniki, zaciski, przekroje przewodów, akumulator i alternator.",
+    "i1": {
+      "title": "Bezpieczniki (przykłady zastosowań)",
+      "b1": {
+        "h1": "Wartość",
+        "h2": "Typowe zastosowanie",
+        "r1c2": "sterownik, czujniki",
+        "r2c2": "oświetlenie, audio",
+        "r3c2": "pompa paliwa",
+        "r4c2": "szyby elektryczne",
+        "r5c2": "ogrzewanie szyby, wentylator"
+      }
+    },
+    "i2": {
+      "title": "Momenty zacisków",
+      "b1": {
+        "h1": "Element",
+        "h2": "Moment (N·m)",
+        "r1c1": "zacisk akumulatora M6",
+        "r2c1": "zacisk akumulatora M8",
+        "r3c1": "zacisk B+ alternatora M8"
+      }
+    },
+    "i3": {
+      "title": "Przekrój przewodu przy 12 V (krótki odcinek, < 3 m)",
+      "b1": {
+        "h1": "Prąd (A)",
+        "h2": "Minimalny przekrój (mm²)"
+      },
+      "b2": {
+        "t": "Dłuższy odcinek: wybrać większy przekrój (zalecany maksymalny spadek napięcia: 3%)."
+      }
+    },
+    "i4": {
+      "title": "Akumulator i ładowanie",
+      "b1": {
+        "h1": "Pomiar",
+        "h2": "Wartość normalna",
+        "h3": "W razie nieprawidłowości",
+        "r1c1": "akumulator w spoczynku",
+        "r1c2": "12,6 V (100%) · 12,2 V (50%)",
+        "r1c3": "doładować; poniżej 12,0 V = rozładowany",
+        "r2c1": "napięcie przy rozruchu",
+        "r2c3": "sprawdzić akumulator i rozrusznik",
+        "r3c1": "silnik pracuje",
+        "r3c3": "sprawdzić alternator i pasek"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnostyka i OBD",
+    "desc": "Częste kody OBD i szybkie testy.",
+    "i1": {
+      "title": "Częste kody OBD II",
+      "b1": {
+        "h1": "Kod",
+        "h2": "Znaczenie",
+        "h3": "Prawdopodobne przyczyny",
+        "h4": "Szybka kontrola",
+        "r1c2": "wielokrotne wypadanie zapłonów",
+        "r1c3": "świece, cewki, wtryskiwacze, lewe powietrze",
+        "r1c4": "liczniki wypadania zapłonów na żywo, test iskry",
+        "r2c2": "mieszanka zbyt uboga (rząd 1)",
+        "r2c3": "lewe powietrze, przepływomierz, niskie ciśnienie paliwa",
+        "r2c4": "korekty STFT / LTFT, test dymowy",
+        "r3c2": "mieszanka zbyt bogata (rząd 1)",
+        "r3c3": "cieknący wtryskiwacz, regulator, przepływomierz",
+        "r3c4": "ciśnienie paliwa, korekty",
+        "r4c2": "zbyt niska sprawność katalizatora",
+        "r4c3": "zużyty katalizator, sonda za katalizatorem, nieszczelność wydechu",
+        "r4c4": "porównać sondy przed i za katalizatorem",
+        "r5c2": "czujnik MAP: zakres / działanie",
+        "r5c3": "czujnik, przewód, zasilanie 5 V",
+        "r5c4": "napięcie czujnika, test podciśnienia",
+        "r6c2": "czujnik położenia wału korbowego",
+        "r6c3": "czujnik, wiązka, koło impulsowe",
+        "r6c4": "sygnał na oscyloskopie",
+        "r7c2": "nadmierne doładowanie turbo",
+        "r7c3": "zablokowany wastegate, sterowanie doładowaniem",
+        "r7c4": "zapis ciśnienia, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Test przedniej sondy lambda (wąskopasmowej)",
+      "b1": {
+        "l1": "Ciepły silnik, pętla zamknięta: napięcie oscyluje mniej więcej między 0,1 a 0,9 V.",
+        "l2": "Wywołać lewe powietrze (odłączyć mały przewód podciśnienia): sonda wskazuje ubogo (≈ 0,1 V), a korekta STFT rośnie.",
+        "l3": "Wzbogacić (trochę zmywacza do gaźników w dolot): sonda wskazuje bogato (≈ 0,9 V).",
+        "l4": "Dobra sonda przełącza w czasie poniżej 100–150 ms."
+      },
+      "b2": {
+        "t": "Sonda szerokopasmowa: odczytywać λ lub AFR w sterowniku, a nie napięcie."
+      }
+    }
+  },
+  "tools": {
+    "title": "Narzędzia i metody",
+    "desc": "Klucz dynamometryczny, dokręcanie kątowe, kleje do gwintów i przeliczenia.",
+    "i1": {
+      "title": "Klucz dynamometryczny",
+      "b1": {
+        "l1": "Co roku zlecać kontrolę kalibracji (lub co 5000 cykli).",
+        "l2": "Ciągnąć równomiernie i prostopadle aż do kliknięcia, bez szarpania.",
+        "l3": "Po użyciu ustawić na minimum skali (nie poniżej zera)."
+      },
+      "b2": {
+        "t": "Unikać: dociągania po kliknięciu, ciągnięcia za przedłużkę, odkręcania kluczem dynamometrycznym."
+      }
+    },
+    "i2": {
+      "title": "Dokręcanie momentem + kątem",
+      "b1": {
+        "t": "Zasada: moment wstępny dociska części, a następnie kąt wyznacza wydłużenie śruby, niezależnie od tarcia."
+      },
+      "b2": {
+        "l1": "Zaleta: znacznie bardziej równomierne napięcie niż przy samym momencie.",
+        "l2": "Śruby rozciągliwe: zawsze nowe.",
+        "l3": "Użyć kątomierza lub zaznaczyć położenie farbą."
+      }
+    },
+    "i3": {
+      "title": "Kleje do gwintów i pasty",
+      "b1": {
+        "h1": "Produkt",
+        "h2": "Zastosowanie",
+        "r1c1": "klej do gwintów słaby (fioletowy)",
+        "r1c2": "małe śruby, łatwy demontaż",
+        "r2c1": "klej do gwintów średni (niebieski)",
+        "r2c2": "ogólne, demontaż narzędziem",
+        "r3c1": "klej do gwintów mocny (czerwony)",
+        "r3c2": "połączenia trwałe, podgrzać przy demontażu",
+        "r4c1": "pasta miedziana",
+        "r4c2": "przeciw zatarciu w wysokiej temperaturze (wydech)"
+      },
+      "b2": {
+        "t": "Nie smarować gwintów kół, chyba że zaleca producent. Odtłuścić przed użyciem kleju do gwintów."
+      }
+    },
+    "i4": {
+      "title": "Przydatne przeliczenia",
+      "b1": {
+        "h1": "Z",
+        "h2": "Na",
+        "r9c2": "0,7457 kW = 1,0139 KM"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Geometria zawieszenia",
+    "desc": "Typowe wartości dla samochodów osobowych i objawy.",
+    "i1": {
+      "title": "Typowe wartości (samochód osobowy)",
+      "b1": {
+        "h1": "Ustawienie",
+        "h2": "Typowa wartość",
+        "h3": "Uwaga",
+        "r1c1": "pochylenie kół przednich",
+        "r1c3": "zależnie od pojazdu",
+        "r2c1": "pochylenie kół tylnych",
+        "r2c3": "zależnie od osi",
+        "r3c1": "zbieżność przednia (całkowita)",
+        "r3c3": "lekka zbieżność",
+        "r4c1": "zbieżność tylna (całkowita)",
+        "r4c3": "zbieżność: stabilność",
+        "r5c1": "wyprzedzenie sworznia zwrotnicy",
+        "r5c3": "w wielu pojazdach bez regulacji"
+      },
+      "b2": {
+        "t": "Wartości bardzo zależne od podwozia i zastosowania: zawsze wychodzić od danych producenta. Sprawdzać po każdej wymianie części układu kierowniczego lub zawieszenia."
+      }
+    },
+    "i2": {
+      "title": "Objawy i kontrole",
+      "b1": {
+        "h1": "Objaw",
+        "h2": "Prawdopodobna przyczyna",
+        "r1c1": "zużycie wewnętrznej krawędzi",
+        "r1c2": "zbyt ujemne pochylenie lub rozbieżność",
+        "r2c1": "zużycie obu krawędzi",
+        "r2c2": "zbyt niskie ciśnienie",
+        "r3c1": "zużycie piłokształtne",
+        "r3c2": "nieprawidłowa zbieżność",
+        "r4c1": "samochód ściąga na bok",
+        "r4c2": "różne ciśnienia, pochylenie lub wyprzedzenie, ocierający hamulec",
+        "r5c1": "krzywo ustawiona kierownica",
+        "r5c2": "zbieżność nierówno rozłożona na koła"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Mieszanka (AFR i lambda)",
+    "desc": "Wartości docelowe i diagnoza mieszanki (benzyna).",
+    "i1": {
+      "title": "Wartości docelowe (benzyna, stechiometryczny AFR 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Zastosowanie",
+        "h4": "Uwaga",
+        "r1c3": "pełne obciążenie turbo",
+        "r1c4": "zapas przed spalaniem stukowym",
+        "r2c3": "pełne obciążenie wolnossący",
+        "r2c4": "dobry kompromis moc / trwałość",
+        "r3c3": "bieg jałowy, jazda ustalona",
+        "r3c4": "optymalna sprawność katalizatora",
+        "r4c3": "oszczędna jazda ustalona",
+        "r4c4": "nagrzewanie, wysokie NOx"
+      },
+      "b2": {
+        "t": "Przy innym paliwie myśleć w lambdach: λ = AFR ÷ stechiometryczny AFR (E85 ≈ 9,8; metanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnoza na podstawie mieszanki",
+      "b1": {
+        "h1": "Pomiar",
+        "h2": "Objaw",
+        "h3": "Ryzyko",
+        "h4": "Korekta",
+        "r1c1": "AFR ≈ 12 w jeździe ustalonej",
+        "r1c2": "zapach benzyny, czarne świece",
+        "r1c3": "nadmierne spalanie, rozrzedzenie oleju",
+        "r1c4": "ciśnienie paliwa, wtryskiwacze, mapa",
+        "r2c1": "AFR ≈ 14,7 w jeździe ustalonej",
+        "r2c2": "stabilne spalanie",
+        "r2c3": "brak",
+        "r3c1": "AFR ≥ 16 pod obciążeniem",
+        "r3c2": "nagrzewanie, możliwe spalanie stukowe",
+        "r3c3": "zawory, tłoki",
+        "r3c4": "wzbogacić, szukać lewego powietrza",
+        "r4c1": "szybkie oscylacje",
+        "r4c2": "niestabilny bieg jałowy",
+        "r4c3": "wypadanie zapłonów",
+        "r4c4": "sonda lambda, zapłon"
+      }
+    }
+  },
+  "spark": {
+    "title": "Świece i zapłon",
+    "desc": "Przerwa międzyelektrodowa, spalanie stukowe i środki zaradcze.",
+    "i1": {
+      "title": "Przerwa międzyelektrodowa",
+      "b1": {
+        "h1": "Silnik",
+        "h2": "Przerwa (mm)",
+        "h3": "Uwaga",
+        "r1c1": "wolnossący",
+        "r1c3": "długa iskra, dobry zapłon",
+        "r2c1": "turbo, umiarkowane doładowanie",
+        "r2c3": "zapobiega wypadaniu zapłonów pod ciśnieniem",
+        "r3c1": "turbo, wysokie doładowanie",
+        "r3c3": "ciśnienie utrudnia przeskok iskry"
+      },
+      "b2": {
+        "t": "Im wyższe ciśnienie w cylindrze, tym wyższe wymagane napięcie zapłonu: zmniejsza się przerwę."
+      }
+    },
+    "i2": {
+      "title": "Przyczyny spalania stukowego",
+      "b1": {
+        "l1": "Zbyt duże wyprzedzenie zapłonu.",
+        "l2": "Paliwo o zbyt niskiej liczbie oktanowej.",
+        "l3": "Zbyt gorące powietrze dolotowe.",
+        "l4": "Zbyt uboga mieszanka.",
+        "l5": "Nagar, gorący punkt, wysoki stopień sprężania."
+      }
+    },
+    "i3": {
+      "title": "Środki zaradcze",
+      "b1": {
+        "l1": "Paliwo o wyższej liczbie oktanowej (lub etanol).",
+        "l2": "Zmniejszyć wyprzedzenie w danym obszarze.",
+        "l3": "Lepiej chłodzić powietrze dolotowe (intercooler, wtrysk wody z metanolem).",
+        "l4": "Lekko wzbogacić.",
+        "l5": "Świece o zimniejszej wartości cieplnej."
+      }
+    },
+    "i4": {
+      "title": "Temperatura powietrza dolotowego",
+      "b1": {
+        "l1": "Zimne powietrze = gęstsze = więcej mocy.",
+        "l2": "Około 1% utraty mocy na każde dodatkowe 5–6 °C.",
+        "l3": "Gorące powietrze = większe ryzyko spalania stukowego."
+      }
+    }
+  },
+  "egt": {
+    "title": "Temperatury spalin (EGT)",
+    "desc": "Wartości orientacyjne dla silnika benzynowego (czujnik w kolektorze).",
+    "i1": {
+      "title": "Orientacyjne EGT",
+      "b1": {
+        "h2": "Sytuacja",
+        "h3": "Ryzyko",
+        "r1c2": "normalna jazda",
+        "r1c3": "brak",
+        "r2c2": "duże obciążenie",
+        "r2c3": "normalne w turbo benzynowym",
+        "r3c2": "długotrwałe pełne obciążenie",
+        "r3c3": "obserwować",
+        "r4c2": "przekroczenie",
+        "r4c3": "zawory, tłoki, turbina"
+      },
+      "b2": {
+        "t": "Wysoka EGT wynika często z ubogiej mieszanki lub zbyt późnego zapłonu. Typowe turbosprężarki są projektowane na maksymalnie 950–1050 °C."
+      }
+    }
+  },
+  "faults": {
+    "title": "Częste usterki",
+    "desc": "Objawy, przyczyny i szybkie rozwiązania.",
+    "i1": {
+      "title": "Szybka diagnoza",
+      "b1": {
+        "h1": "Objaw",
+        "h2": "Możliwe przyczyny",
+        "h3": "Rozwiązanie",
+        "r1c1": "wypadanie zapłonów",
+        "r1c2": "zużyte świece, przerwa, cewka",
+        "r1c3": "nowe świece, sprawdzić przerwę, przetestować cewki",
+        "r2c1": "przegrzewanie",
+        "r2c2": "niski poziom płynu, zablokowany termostat, wentylator, uboga mieszanka",
+        "r2c3": "poziom, termostat, wentylator, mieszanka",
+        "r3c1": "silny zapach benzyny",
+        "r3c2": "cieknący wtryskiwacz, bogata mieszanka, wyciek",
+        "r3c3": "ciśnienie paliwa, szczelność",
+        "r4c1": "spalanie stukowe",
+        "r4c2": "za niska liczba oktanowa, za duże wyprzedzenie, gorące powietrze",
+        "r4c3": "odpowiednie paliwo, zmniejszyć wyprzedzenie",
+        "r5c1": "spadek mocy turbo",
+        "r5c2": "nieszczelność dolotu, wastegate, uboga mieszanka",
+        "r5c3": "test szczelności, wastegate, mieszanka"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Konserwacja zapobiegawcza",
+    "desc": "Regularne kontrole tuningowanego silnika.",
+    "i1": {
+      "title": "Lista kontrolna",
+      "b1": {
+        "l1": "Świece: kontrola co 10 000 km (częściej w tuningowanym turbo).",
+        "l2": "Sprawdzać mieszankę sondą szerokopasmową po każdej modyfikacji.",
+        "l3": "Filtr powietrza: czyszczenie lub wymiana co 15 000 km.",
+        "l4": "Obserwować temperaturę powietrza dolotowego.",
+        "l5": "Odczytywać kody błędów, zwłaszcza dotyczące sond lambda.",
+        "l6": "Kolektor wydechowy: nieszczelność fałszuje mieszankę i EGT.",
+        "l7": "Paliwo dobrej jakości, zgodne z ustawieniami.",
+        "l8": "Wymiana oleju i filtra według producenta (częściej przy jeździe torowej)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Ciśnienia i temperatury silnika",
+    "desc": "Olej, paliwo i doładowanie.",
+    "i1": {
+      "title": "Olej silnikowy",
+      "b1": {
+        "h1": "Pomiar",
+        "h2": "Typowa wartość",
+        "h3": "W razie nieprawidłowości",
+        "r1c1": "ciśnienie na biegu jałowym (ciepły)",
+        "r1c2": "1–2 bar",
+        "r1c3": "hałas, zużycie: poziom, pompa, smok",
+        "r2c1": "ciśnienie pod obciążeniem",
+        "r2c2": "3–5 bar",
+        "r2c3": "około 1 bar na 1000 obr/min do zaworu przelewowego",
+        "r3c1": "temperatura oleju",
+        "r3c3": "powyżej 130 °C olej się degraduje"
+      }
+    },
+    "i2": {
+      "title": "Paliwo",
+      "b1": {
+        "h1": "Wtrysk",
+        "h2": "Typowe ciśnienie",
+        "h3": "W razie nieprawidłowości",
+        "r1c1": "wtrysk wielopunktowy benzyny",
+        "r1c2": "3–4 bar",
+        "r1c3": "regulator, pompa, filtr",
+        "r2c1": "wtrysk bezpośredni benzyny",
+        "r2c2": "50–350 bar",
+        "r2c3": "pompa wysokiego ciśnienia, czujnik listwy",
+        "r3c1": "doładowanie benzyna",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "wastegate, przewody, sterowanie silnikiem"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Czujniki i sondy",
+    "desc": "Rola czujników i typowe wartości.",
+    "i1": {
+      "title": "Czujniki silnika",
+      "b1": {
+        "h1": "Czujnik",
+        "h2": "Skrót",
+        "h3": "Rola",
+        "h4": "Typowa wartość",
+        "r1c1": "temperatura silnika",
+        "r1c3": "temperatura płynu chłodzącego",
+        "r1c4": "85–105 °C na ciepło",
+        "r2c1": "temperatura powietrza",
+        "r2c3": "temperatura powietrza dolotowego",
+        "r2c4": "otoczenie + 0–30 °C",
+        "r3c1": "ciśnienie w kolektorze",
+        "r3c3": "ciśnienie bezwzględne dolotu (obciążenie)",
+        "r3c4": "≈ 30 kPa jałowy, 100 kPa pełne obciążenie wolnossący",
+        "r4c1": "przepływomierz",
+        "r4c3": "masa zasysanego powietrza",
+        "r4c4": "≈ 2–5 g/s na jałowym (2 L)",
+        "r5c1": "sonda lambda wąskopasmowa",
+        "r5c3": "mieszanka w pobliżu λ = 1",
+        "r6c1": "sonda lambda szerokopasmowa",
+        "r6c3": "dokładna mieszanka (strojenie)",
+        "r7c1": "czujnik spalania stukowego",
+        "r7c3": "drgania detonacji",
+        "r7c4": "sygnał piezoelektryczny",
+        "r8c1": "położenie wału korbowego",
+        "r8c3": "obroty i położenie silnika",
+        "r8c4": "indukcyjny lub hallotronowy",
+        "r9c1": "położenie wałka rozrządu",
+        "r9c3": "faza (sekwencja, zmienne fazy rozrządu)",
+        "r9c4": "hallotronowy",
+        "r10c1": "położenie przepustnicy",
+        "r10c3": "otwarcie przepustnicy",
+        "r11c1": "ciśnienie paliwa",
+        "r11c3": "ciśnienie w układzie lub listwie",
+        "r11c4": "zależnie od wtrysku",
+        "r12c1": "temperatura oleju",
+        "r12c3": "temperatura oleju",
+        "r13c1": "ciśnienie oleju",
+        "r13c3": "ciśnienie oleju",
+        "r13c4": "patrz „Ciśnienia”",
+        "r14c1": "temperatura spalin",
+        "r14c3": "temperatura gazów (termopara typu K)",
+        "r14c4": "patrz „EGT”",
+        "r15c1": "temperatura za intercoolerem",
+        "r15c3": "sprawność intercoolera",
+        "r15c4": "otoczenie + 5–25 °C",
+        "r16c1": "temperatura paliwa",
+        "r16c3": "korekta gęstości, etanol",
+        "r16c4": "otoczenie",
+        "r17c1": "zawartość etanolu",
+        "r17c3": "procent etanolu",
+        "r18c1": "położenie wastegate",
+        "r18c3": "otwarcie wastegate",
+        "r18c4": "rejestracja, regulacja",
+        "r19c3": "tlenki azotu (oczyszczanie spalin)",
+        "r19c4": "diesel, uboga mieszanka przy wtrysku bezpośrednim"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Wartości odniesienia dla warsztatu: gwinty, momenty, hamulce, elektryka, diagnostyka, czujniki… Dotknij działu, aby go otworzyć.",
+    "search": "Szukaj w ściągawce…",
+    "no_result": "Żadna karta nie pasuje do wyszukiwania.",
+    "disclaimer": "Wartości ogólne i orientacyjne: dane producenta pojazdu lub części mają zawsze pierwszeństwo."
+  }
+}

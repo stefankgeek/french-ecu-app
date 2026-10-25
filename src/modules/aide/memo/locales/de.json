@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "Metrische ISO-Gewinde",
+    "desc": "Steigungen, Kernlochbohrungen, Durchgangslöcher, Toleranzen und Einschraubtiefen.",
+    "i1": {
+      "title": "Metrische ISO-Steigungen — Regel- und Feingewinde",
+      "b1": {
+        "h1": "Bezeichnung",
+        "h2": "Steigung (mm)",
+        "h3": "Reihe",
+        "h4": "Klasse",
+        "h5": "Verwendung",
+        "r1c3": "Regel",
+        "r1c5": "Kleinschrauben, Elektronik",
+        "r2c3": "Regel",
+        "r2c5": "Schellen, kleine Befestigungen",
+        "r3c3": "Regel",
+        "r3c5": "Karosserie, Zubehör",
+        "r4c3": "Regel",
+        "r4c5": "allgemeiner Maschinenbau",
+        "r5c3": "Regel",
+        "r5c5": "Halter, Baugruppen",
+        "r6c3": "Regel",
+        "r6c5": "Motor, Fahrwerk",
+        "r7c3": "Regel",
+        "r7c5": "Fahrwerk, mittlere Befestigungen",
+        "r8c3": "Regel",
+        "r8c5": "schweres Fahrgestell",
+        "r9c3": "Fein",
+        "r9c5": "vibrationsbelastete Verbindungen",
+        "r10c3": "Fein",
+        "r10c5": "vibrationsbelastete Verbindungen",
+        "r11c3": "Fein",
+        "r11c5": "Koppelstangen, Automobil",
+        "r12c3": "Fein",
+        "r12c5": "Fahrwerk, Kugelgelenke, Radbolzen"
+      }
+    },
+    "i2": {
+      "title": "Kernlochbohrung (≈ 75 % Gewindetiefe)",
+      "b1": {
+        "t": "Regel: Bohrer ≈ Nenndurchmesser − Steigung (metrisches ISO-Gewinde)."
+      },
+      "b2": {
+        "h1": "Bezeichnung",
+        "h2": "Steigung (mm)",
+        "h3": "Bohrer (mm)"
+      }
+    },
+    "i3": {
+      "title": "Durchgangslöcher (ISO 273)",
+      "b1": {
+        "h1": "Gewinde",
+        "h2": "Fein (mm)",
+        "h3": "Mittel (mm)",
+        "h4": "Grob (mm)"
+      },
+      "b2": {
+        "t": "Fein: genaue Zentrierung. Mittel: üblicher Einbau. Grob: Lageausgleich. Langloch, wenn eine Einstellung nötig ist."
+      }
+    },
+    "i4": {
+      "title": "Toleranzen und Einschraubtiefe",
+      "b1": {
+        "l1": "Schrauben: Toleranzklasse 6g; Innengewinde und Muttern: 6H.",
+        "l2": "Einschraubtiefe in Stahl: 1 bis 1,5 × D.",
+        "l3": "In Aluminium: 1,5 bis 2 × D.",
+        "l4": "In Grauguss: 1 bis 1,5 × D."
+      },
+      "b2": {
+        "t": "Feingewinde löst sich unter Vibration weniger leicht, frisst aber eher. Den Eingang immer anfasen (≈ 0,5 × Steigung) und vor dem Gewindeschneiden entgraten."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Gewindeeinsätze (Drahtgewinde)",
+    "desc": "Gewindereparatur: STI-Bohrer und Gewindebohrer, Längen, Einbau und Werkstoffe.",
+    "i1": {
+      "title": "STI-Bohrer und Gewindebohrer",
+      "b1": {
+        "h1": "Repariertes Gewinde",
+        "h2": "STI-Bohrer (mm)",
+        "h3": "Gewindebohrer",
+        "h4": "Einsatzlängen"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Bohrer ≈ Nenndurchmesser + ¼ der Steigung (auf Normbohrer gerundet); Anleitung des Sets beachten. M14x1.25 ist das Zündkerzengewinde."
+      }
+    },
+    "i2": {
+      "title": "Einbau eines Drahtgewindeeinsatzes",
+      "b1": {
+        "l1": "Auf STI-Durchmesser bohren, genau rechtwinklig.",
+        "l2": "Mit dem STI-Gewindebohrer schneiden, geschmiert, mit einer halben Umdrehung zurück, um den Span zu brechen.",
+        "l3": "Gewinde ausblasen und reinigen.",
+        "l4": "Einsatz mit dem Einbauwerkzeug bis ¼ bis ½ Umdrehung unter die Oberfläche eindrehen.",
+        "l5": "Mitnehmerzapfen mit einem Durchschlag abbrechen (Einsätze mit Zapfen).",
+        "l6": "Mit einer Schraube prüfen: Sie muss ohne Klemmen hineingehen."
+      },
+      "b2": {
+        "t": "Edelstahleinsatz in Aluminium: Korrosionsschutzpaste auftragen, um Kontaktkorrosion zu vermeiden. Einen Einsatz nicht aus- und wieder einbauen: Er ist für einen dauerhaften Einbau gedacht."
+      }
+    },
+    "i3": {
+      "title": "Werkstoffe der Einsätze",
+      "b1": {
+        "h1": "Werkstoff",
+        "h2": "Verwendung",
+        "r1c1": "Edelstahl A2 (1.4301)",
+        "r1c2": "allgemein, mäßige Korrosion",
+        "r2c1": "Edelstahl A4 (1.4401)",
+        "r2c2": "korrosive Umgebung, maritim",
+        "r3c1": "Phosphorbronze",
+        "r3c2": "hohe Temperatur, gegen Fressen",
+        "r4c1": "Edelstahl mit Klemmwindung (Screwlock)",
+        "r4c2": "vibrationsbelastete Schrauben"
+      }
+    }
+  },
+  "torque": {
+    "title": "Allgemeine Anzugsdrehmomente",
+    "desc": "Richtwerte nach Durchmesser und Festigkeitsklasse von Stahlschrauben (metrisches Regelgewinde, Reibwert ≈ 0,14).",
+    "i1": {
+      "title": "Stahlschrauben Festigkeitsklasse 8.8",
+      "b1": {
+        "h1": "Gewinde",
+        "h2": "Trocken (N·m)",
+        "h3": "Geölt (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Stahlschrauben Festigkeitsklasse 10.9",
+      "b1": {
+        "h1": "Gewinde",
+        "h2": "Trocken (N·m)",
+        "h3": "Geölt (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Stahlschrauben Festigkeitsklasse 12.9",
+      "b1": {
+        "h1": "Gewinde",
+        "h2": "Trocken (N·m)",
+        "h3": "Geölt (N·m)"
+      },
+      "b2": {
+        "t": "Eine geölte Schraube braucht WENIGER Drehmoment für dieselbe Vorspannkraft. MoS₂- oder Kupferpaste: um weitere 15 bis 25 % reduzieren. Herstellerangaben haben Vorrang, besonders bei drehwinkelgesteuerten Schrauben."
+      }
+    },
+    "i4": {
+      "title": "Schrauben in Aluminium oder Magnesium",
+      "b1": {
+        "l1": "Drehmoment gegenüber Stahl um 20 bis 30 % senken.",
+        "l2": "Einschraubtiefe: 1,5 bis 2 × D.",
+        "l3": "Bei hohen Kräften einen Gewindeeinsatz oder Stehbolzen verwenden."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Motorverschraubungen",
+    "desc": "Zylinderkopf, Krümmer, Schwungrad und Ventilspiel.",
+    "i1": {
+      "title": "Zylinderkopf anziehen (allgemeine Methode)",
+      "b1": {
+        "l1": "Reihenfolge: spiralförmig von innen nach außen, links und rechts abwechselnd.",
+        "l2": "Saubere Schrauben; Gewinde und Auflageflächen leicht geölt, wenn vom Hersteller vorgeschrieben.",
+        "l3": "Vorziehen in Reihenfolge (übliches M10-Beispiel: 20 bis 40 N·m).",
+        "l4": "Drehwinkelanzug in Reihenfolge (übliches Beispiel: 90° und dann 90°).",
+        "l5": "Dehnschrauben (drehwinkelgesteuert): immer neu."
+      },
+      "b2": {
+        "t": "Nur ein Richtbeispiel: Drehmomente und Winkel hängen vom Motor ab. Immer die Herstellerangaben befolgen."
+      }
+    },
+    "i2": {
+      "title": "Abgaskrümmer",
+      "b1": {
+        "h1": "Verbindung",
+        "h2": "Drehmoment (N·m)",
+        "r1c1": "Stahlstehbolzen in Guss oder Stahl",
+        "r2c1": "Stahlstehbolzen in Aluminium"
+      },
+      "b2": {
+        "t": "Von innen nach außen anziehen. Ausgebaute selbstsichernde (verkupferte) Muttern ersetzen. Nach dem ersten Warmlauf nachprüfen."
+      }
+    },
+    "i3": {
+      "title": "Schwungrad (Beispiele)",
+      "b1": {
+        "h1": "Schraube",
+        "h2": "Klasse",
+        "h3": "Drehmoment + Winkel"
+      },
+      "b2": {
+        "t": "Neue Schrauben, Schraubensicherung falls vorgeschrieben, über Kreuz anziehen."
+      }
+    },
+    "i4": {
+      "title": "Ventilspiel (kalter Motor, Größenordnung)",
+      "b1": {
+        "h1": "Ventil",
+        "h2": "Spiel (mm)",
+        "r1c1": "Einlass",
+        "r2c1": "Auslass"
+      },
+      "b2": {
+        "t": "Genauer Wert: Motordokumentation. Zu wenig Spiel = Ventil schließt nicht mehr und verbrennt; zu viel = Geräusch und Hubverlust."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Räder und Reifen",
+    "desc": "Radanzugsmomente, Mutternsitze und Lastindizes.",
+    "i1": {
+      "title": "Radanzugsmomente (Größenordnung)",
+      "b1": {
+        "h1": "Radbolzen / Schraube",
+        "h2": "Stahlfelge (N·m)",
+        "h3": "Alufelge (N·m)",
+        "h4": "Hinweis",
+        "r1c4": "über Kreuz anziehen, nach 50 bis 100 km nachziehen",
+        "r2c4": "saubere, trockene Gewinde, sofern nicht anders vorgeschrieben",
+        "r3c4": "Fahrzeugwert prüfen"
+      }
+    },
+    "i2": {
+      "title": "Sitze von Radmuttern und -schrauben",
+      "b1": {
+        "l1": "Kegelbund 60°: am häufigsten.",
+        "l2": "Kugelbund (Radius): VW, Audi, Mercedes, Honda…",
+        "l3": "Flachbund mit Scheibe: manche Alufelgen."
+      },
+      "b2": {
+        "t": "Der Sitz der Mutter muss genau zum Sitz der Felge passen. Mindesteinschraubtiefe: 1 × D (6 bis 8 Umdrehungen)."
+      }
+    },
+    "i3": {
+      "title": "Lastindizes (Auszug)",
+      "b1": {
+        "h1": "Index",
+        "h2": "Tragfähigkeit pro Reifen (kg)"
+      }
+    },
+    "i4": {
+      "title": "Geschwindigkeitsindizes",
+      "b1": {
+        "h1": "Symbol",
+        "h2": "Höchstgeschwindigkeit (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Bremsen",
+    "desc": "Bremsflüssigkeiten, Drehmomente, Mindestverschleißgrenzen.",
+    "i1": {
+      "title": "Bremsflüssigkeiten (Mindestsiedepunkte, Norm FMVSS 116)",
+      "b1": {
+        "h1": "Typ",
+        "h2": "Trocken (°C)",
+        "h3": "Nass (°C)",
+        "h4": "Verwendung",
+        "r1c4": "ältere Fahrzeuge",
+        "r2c4": "Standard ABS / ESP",
+        "r3c4": "Performance, DOT-4-kompatibel",
+        "r4c1": "DOT 5 (Silikon)",
+        "r4c4": "Oldtimer, nicht mit den anderen mischbar"
+      },
+      "b2": {
+        "t": "Die Flüssigkeit nimmt Feuchtigkeit auf: alle 2 Jahre wechseln. DOT 5 (Silikon) nie mit Glykolflüssigkeiten mischen."
+      }
+    },
+    "i2": {
+      "title": "Bremsen-Drehmomente (Größenordnung)",
+      "b1": {
+        "h1": "Bauteil",
+        "h2": "Drehmoment (N·m)",
+        "r1c1": "Führungsbolzen des Bremssattels",
+        "r2c1": "Bremssattelhalter an der Radnabe",
+        "r3c1": "Halteschraube der Bremsscheibe",
+        "r4c1": "Schlauchanschluss (Hohlschraube M10)"
+      }
+    },
+    "i3": {
+      "title": "Verschleißgrenzen",
+      "b1": {
+        "l1": "Beläge: bei 2–3 mm Reibbelag ersetzen.",
+        "l2": "Scheiben: Mindestdicke ist auf der Scheibe eingeprägt (oft 1 bis 2 mm unter neu).",
+        "l3": "Immer achsweise ersetzen."
+      },
+      "b2": {
+        "t": "Leichte Riefen in der Scheibe sind akzeptabel; Schlag, Risse oder starker Rand: ersetzen."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Kühlmittel",
+    "desc": "Kühlmittelfamilien, Verträglichkeit und Vorsichtsmaßnahmen.",
+    "i1": {
+      "title": "Kühlmittelfamilien",
+      "b1": {
+        "h1": "Familie",
+        "h2": "Chemie",
+        "h3": "Übliche Farbe",
+        "h4": "Hinweis",
+        "r1c2": "anorganisch (Silikate)",
+        "r1c3": "grün / blau",
+        "r1c4": "ältere Motoren, häufiger Wechsel",
+        "r2c2": "organisch (Carboxylate)",
+        "r2c3": "orange / rot",
+        "r2c4": "Langzeit",
+        "r3c2": "hybrid",
+        "r3c3": "gelb / blaugrün",
+        "r3c4": "sehr verbreitet",
+        "r4c2": "Silikate + organisch",
+        "r4c3": "rosa / violett",
+        "r4c4": "neuere VW / Audi"
+      },
+      "b2": {
+        "t": "Die Farbe allein identifiziert kein Kühlmittel: Herstellernorm befolgen."
+      }
+    },
+    "i2": {
+      "title": "Verträglichkeit (Richtwerte)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (Typ G48, MB 325.x).",
+        "l3": "PSA / Renault: OAT oder HOAT je nach Baujahr (siehe Handbuch)."
+      },
+      "b2": {
+        "t": "Familienwechsel: mit demineralisiertem Wasser spülen. G11 (Silikate) und G12 (OAT) nicht mischen."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Elektrik",
+    "desc": "Sicherungen, Klemmen, Kabelquerschnitte, Batterie und Lichtmaschine.",
+    "i1": {
+      "title": "Sicherungen (Anwendungsbeispiele)",
+      "b1": {
+        "h1": "Nennstrom",
+        "h2": "Typische Verwendung",
+        "r1c2": "Steuergerät, Sensoren",
+        "r2c2": "Beleuchtung, Audio",
+        "r3c2": "Kraftstoffpumpe",
+        "r4c2": "Fensterheber",
+        "r5c2": "Heckscheibenheizung, Lüfter"
+      }
+    },
+    "i2": {
+      "title": "Klemmen-Drehmomente",
+      "b1": {
+        "h1": "Bauteil",
+        "h2": "Drehmoment (N·m)",
+        "r1c1": "Batteriepol M6",
+        "r2c1": "Batteriepol M8",
+        "r3c1": "B+-Klemme der Lichtmaschine M8"
+      }
+    },
+    "i3": {
+      "title": "Kabelquerschnitt bei 12 V (kurze Länge, < 3 m)",
+      "b1": {
+        "h1": "Strom (A)",
+        "h2": "Mindestquerschnitt (mm²)"
+      },
+      "b2": {
+        "t": "Größere Länge: nächstgrößeren Querschnitt wählen (empfohlener maximaler Spannungsabfall: 3 %)."
+      }
+    },
+    "i4": {
+      "title": "Batterie und Ladung",
+      "b1": {
+        "h1": "Messung",
+        "h2": "Normalwert",
+        "h3": "Bei Abweichung",
+        "r1c1": "Batterie in Ruhe",
+        "r1c2": "12,6 V (100 %) · 12,2 V (50 %)",
+        "r1c3": "nachladen; unter 12,0 V = entladen",
+        "r2c1": "Spannung beim Starten",
+        "r2c3": "Batterie und Anlasser prüfen",
+        "r3c1": "Motor läuft",
+        "r3c3": "Lichtmaschine und Riemen prüfen"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnose und OBD",
+    "desc": "Häufige OBD-Codes und Schnelltests.",
+    "i1": {
+      "title": "Häufige OBD-II-Codes",
+      "b1": {
+        "h1": "Code",
+        "h2": "Bedeutung",
+        "h3": "Wahrscheinliche Ursachen",
+        "h4": "Schnellprüfung",
+        "r1c2": "mehrfache Zündaussetzer",
+        "r1c3": "Zündkerzen, Spulen, Einspritzdüsen, Falschluft",
+        "r1c4": "Aussetzerzähler live, Funkenprüfung",
+        "r2c2": "Gemisch zu mager (Bank 1)",
+        "r2c3": "Falschluft, Luftmassenmesser, zu niedriger Kraftstoffdruck",
+        "r2c4": "Korrekturen STFT / LTFT, Rauchtest",
+        "r3c2": "Gemisch zu fett (Bank 1)",
+        "r3c3": "undichte Einspritzdüse, Druckregler, Luftmassenmesser",
+        "r3c4": "Kraftstoffdruck, Korrekturen",
+        "r4c2": "Katalysator-Wirkungsgrad zu niedrig",
+        "r4c3": "verbrauchter Katalysator, hintere Sonde, Abgasleck",
+        "r4c4": "vordere und hintere Sonde vergleichen",
+        "r5c2": "MAP-Sensor: Bereich / Funktion",
+        "r5c3": "Sensor, Schlauch, 5-V-Versorgung",
+        "r5c4": "Sensorspannung, Unterdrucktest",
+        "r6c2": "Kurbelwellensensor",
+        "r6c3": "Sensor, Kabelbaum, Geberrad",
+        "r6c4": "Signal am Oszilloskop",
+        "r7c2": "Turbo-Überladung",
+        "r7c3": "festsitzendes Wastegate, Ladedruckregelung",
+        "r7c4": "Ladedruck-Log, Wastegate"
+      }
+    },
+    "i2": {
+      "title": "Test der vorderen Lambdasonde (Sprungsonde)",
+      "b1": {
+        "l1": "Warmer Motor, geschlossener Regelkreis: Die Spannung pendelt etwa zwischen 0,1 und 0,9 V.",
+        "l2": "Falschluft erzeugen (kleinen Unterdruckschlauch abziehen): Die Sonde zeigt mager (≈ 0,1 V) und die STFT-Korrektur steigt.",
+        "l3": "Anfetten (etwas Vergaserreiniger in den Ansaugtrakt): Die Sonde zeigt fett (≈ 0,9 V).",
+        "l4": "Eine gute Sonde schaltet in weniger als 100 bis 150 ms."
+      },
+      "b2": {
+        "t": "Breitbandsonde: λ oder AFR im Steuergerät ablesen, keine Spannung."
+      }
+    }
+  },
+  "tools": {
+    "title": "Werkzeug und Methoden",
+    "desc": "Drehmomentschlüssel, Drehwinkelanzug, Schraubensicherungen und Umrechnungen.",
+    "i1": {
+      "title": "Drehmomentschlüssel",
+      "b1": {
+        "l1": "Kalibrierung jährlich prüfen lassen (oder alle 5 000 Zyklen).",
+        "l2": "Gleichmäßig und rechtwinklig bis zum Klick ziehen, ohne Ruck.",
+        "l3": "Nach Gebrauch auf den Skalenminimalwert zurückdrehen (nicht unter null)."
+      },
+      "b2": {
+        "t": "Vermeiden: über den Klick hinaus ziehen, an einer Verlängerung ziehen, den Schlüssel zum Lösen verwenden."
+      }
+    },
+    "i2": {
+      "title": "Drehmoment- + Drehwinkelanzug",
+      "b1": {
+        "t": "Prinzip: Ein Vorzugsmoment bringt die Teile zur Anlage, dann bestimmt ein Winkel die Schraubendehnung, unabhängig von der Reibung."
+      },
+      "b2": {
+        "l1": "Vorteil: viel gleichmäßigere Vorspannkraft als nur mit Drehmoment.",
+        "l2": "Dehnschrauben: immer neu.",
+        "l3": "Winkelmesser verwenden oder die Position mit Farbe markieren."
+      }
+    },
+    "i3": {
+      "title": "Schraubensicherungen und Pasten",
+      "b1": {
+        "h1": "Produkt",
+        "h2": "Verwendung",
+        "r1c1": "Schraubensicherung niedrigfest (violett)",
+        "r1c2": "kleine Schrauben, leicht lösbar",
+        "r2c1": "Schraubensicherung mittelfest (blau)",
+        "r2c2": "allgemein, mit Werkzeug lösbar",
+        "r3c1": "Schraubensicherung hochfest (rot)",
+        "r3c2": "dauerhafte Verbindungen, zum Lösen erwärmen",
+        "r4c1": "Kupferpaste",
+        "r4c2": "Hochtemperatur-Montagepaste (Abgasanlage)"
+      },
+      "b2": {
+        "t": "Radgewinde nur fetten, wenn vorgeschrieben. Vor jeder Schraubensicherung entfetten."
+      }
+    },
+    "i4": {
+      "title": "Nützliche Umrechnungen",
+      "b1": {
+        "h1": "Von",
+        "h2": "In",
+        "r9c2": "0,7457 kW = 1,0139 PS"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Fahrwerksgeometrie",
+    "desc": "Übliche Werte für Pkw und Symptome.",
+    "i1": {
+      "title": "Übliche Werte (Pkw)",
+      "b1": {
+        "h1": "Einstellung",
+        "h2": "Üblicher Wert",
+        "h3": "Hinweis",
+        "r1c1": "Sturz vorne",
+        "r1c3": "je nach Fahrzeug",
+        "r2c1": "Sturz hinten",
+        "r2c3": "je nach Achse",
+        "r3c1": "Spur vorne (gesamt)",
+        "r3c3": "leichte Vorspur",
+        "r4c1": "Spur hinten (gesamt)",
+        "r4c3": "Vorspur: Stabilität",
+        "r5c1": "Nachlauf",
+        "r5c3": "bei vielen Fahrzeugen nicht einstellbar"
+      },
+      "b2": {
+        "t": "Werte je nach Fahrgestell und Einsatz sehr unterschiedlich: immer von den Herstellerdaten ausgehen. Nach jedem Austausch von Lenkungs- oder Fahrwerksteilen prüfen."
+      }
+    },
+    "i2": {
+      "title": "Symptome und Prüfungen",
+      "b1": {
+        "h1": "Symptom",
+        "h2": "Wahrscheinliche Ursache",
+        "r1c1": "Verschleiß an der Innenschulter",
+        "r1c2": "zu viel negativer Sturz oder Nachspur",
+        "r2c1": "Verschleiß an beiden Schultern",
+        "r2c2": "Luftdruck zu niedrig",
+        "r3c1": "sägezahnförmiger Verschleiß",
+        "r3c2": "falsche Spur",
+        "r4c1": "Auto zieht zu einer Seite",
+        "r4c2": "unterschiedliche Drücke, Sturz oder Nachlauf, schleifende Bremse",
+        "r5c1": "Lenkrad schief",
+        "r5c2": "Spur ungleich auf die Räder verteilt"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Gemisch (AFR und Lambda)",
+    "desc": "Zielwerte und Gemischdiagnose (Benzin).",
+    "i1": {
+      "title": "Zielwerte (Benzin, stöchiometrisches AFR 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Verwendung",
+        "h4": "Hinweis",
+        "r1c3": "Volllast Turbo",
+        "r1c4": "Reserve gegen Klopfen",
+        "r2c3": "Volllast Saugmotor",
+        "r2c4": "guter Kompromiss Leistung / Haltbarkeit",
+        "r3c3": "Leerlauf, Teillast",
+        "r3c4": "optimale Katalysatorwirkung",
+        "r4c3": "sparsame Teillast",
+        "r4c4": "Erwärmung, hohe NOx-Werte"
+      },
+      "b2": {
+        "t": "Bei anderen Kraftstoffen in Lambda denken: λ = AFR ÷ stöchiometrisches AFR (E85 ≈ 9,8; Methanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnose über das Gemisch",
+      "b1": {
+        "h1": "Messung",
+        "h2": "Symptom",
+        "h3": "Risiko",
+        "h4": "Abhilfe",
+        "r1c1": "AFR ≈ 12 bei Teillast",
+        "r1c2": "Benzingeruch, schwarze Kerzen",
+        "r1c3": "Mehrverbrauch, Ölverdünnung",
+        "r1c4": "Kraftstoffdruck, Einspritzdüsen, Kennfeld",
+        "r2c1": "AFR ≈ 14,7 bei Teillast",
+        "r2c2": "stabile Verbrennung",
+        "r2c3": "keines",
+        "r3c1": "AFR ≥ 16 unter Last",
+        "r3c2": "Erwärmung, Klopfen möglich",
+        "r3c3": "Ventile, Kolben",
+        "r3c4": "anfetten, Falschluft suchen",
+        "r4c1": "schnelle Schwankungen",
+        "r4c2": "unruhiger Leerlauf",
+        "r4c3": "Zündaussetzer",
+        "r4c4": "Lambdasonde, Zündung"
+      }
+    }
+  },
+  "spark": {
+    "title": "Zündkerzen und Zündung",
+    "desc": "Elektrodenabstand, Klopfen und Abhilfen.",
+    "i1": {
+      "title": "Elektrodenabstand",
+      "b1": {
+        "h1": "Motor",
+        "h2": "Abstand (mm)",
+        "h3": "Hinweis",
+        "r1c1": "Saugmotor",
+        "r1c3": "langer Funke, gute Zündung",
+        "r2c1": "Turbo, mäßiger Ladedruck",
+        "r2c3": "vermeidet Aussetzer unter Ladedruck",
+        "r3c1": "Turbo, hoher Ladedruck",
+        "r3c3": "Druck erschwert den Funken"
+      },
+      "b2": {
+        "t": "Je höher der Zylinderdruck, desto höher die nötige Zündspannung: Elektrodenabstand verringern."
+      }
+    },
+    "i2": {
+      "title": "Ursachen für Klopfen",
+      "b1": {
+        "l1": "Zu viel Frühzündung.",
+        "l2": "Kraftstoff mit zu niedriger Oktanzahl.",
+        "l3": "Zu heiße Ansaugluft.",
+        "l4": "Zu mageres Gemisch.",
+        "l5": "Ölkohle, Glühstelle, hohe Verdichtung."
+      }
+    },
+    "i3": {
+      "title": "Abhilfen",
+      "b1": {
+        "l1": "Kraftstoff mit höherer Oktanzahl (oder Ethanol).",
+        "l2": "Frühzündung im betroffenen Bereich reduzieren.",
+        "l3": "Ansaugluft besser kühlen (Ladeluftkühler, Wasser-Methanol-Einspritzung).",
+        "l4": "Leicht anfetten.",
+        "l5": "Zündkerzen mit kälterem Wärmewert."
+      }
+    },
+    "i4": {
+      "title": "Ansauglufttemperatur",
+      "b1": {
+        "l1": "Kalte Luft = dichter = mehr Leistung.",
+        "l2": "Etwa 1 % Leistungsverlust je 5 bis 6 °C mehr.",
+        "l3": "Heiße Luft = höheres Klopfrisiko."
+      }
+    }
+  },
+  "egt": {
+    "title": "Abgastemperaturen (EGT)",
+    "desc": "Richtwerte für einen Benzinmotor (Fühler im Krümmer).",
+    "i1": {
+      "title": "EGT-Richtwerte",
+      "b1": {
+        "h2": "Situation",
+        "h3": "Risiko",
+        "r1c2": "normale Fahrt",
+        "r1c3": "keines",
+        "r2c2": "hohe Last",
+        "r2c3": "normal bei Turbo-Benzinern",
+        "r3c2": "anhaltende Volllast",
+        "r3c3": "überwachen",
+        "r4c2": "Überschreitung",
+        "r4c3": "Ventile, Kolben, Turbine"
+      },
+      "b2": {
+        "t": "Eine hohe EGT kommt oft von magerem Gemisch oder zu später Zündung. Übliche Turbolader sind für höchstens 950 bis 1 050 °C ausgelegt."
+      }
+    }
+  },
+  "faults": {
+    "title": "Häufige Störungen",
+    "desc": "Symptome, Ursachen und schnelle Abhilfe.",
+    "i1": {
+      "title": "Schnelldiagnose",
+      "b1": {
+        "h1": "Symptom",
+        "h2": "Mögliche Ursachen",
+        "h3": "Abhilfe",
+        "r1c1": "Zündaussetzer",
+        "r1c2": "verschlissene Kerzen, Elektrodenabstand, Spule",
+        "r1c3": "neue Kerzen, Abstand prüfen, Spulen testen",
+        "r2c1": "Überhitzung",
+        "r2c2": "wenig Kühlmittel, Thermostat hängt, Lüfter, mageres Gemisch",
+        "r2c3": "Füllstand, Thermostat, Lüfter, Gemisch",
+        "r3c1": "starker Benzingeruch",
+        "r3c2": "undichte Einspritzdüse, fettes Gemisch, Leck",
+        "r3c3": "Kraftstoffdruck, Dichtheit",
+        "r4c1": "Klopfen",
+        "r4c2": "Oktanzahl zu niedrig, zu viel Frühzündung, heiße Luft",
+        "r4c3": "passender Kraftstoff, Frühzündung reduzieren",
+        "r5c1": "Leistungsverlust Turbo",
+        "r5c2": "Leck im Ansaugtrakt, Wastegate, mageres Gemisch",
+        "r5c3": "Dichtheitsprüfung, Wastegate, Gemisch"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Vorbeugende Wartung",
+    "desc": "Regelmäßige Kontrollen eines getunten Motors.",
+    "i1": {
+      "title": "Checkliste",
+      "b1": {
+        "l1": "Zündkerzen: alle 10 000 km prüfen (bei getuntem Turbo öfter).",
+        "l2": "Gemisch nach jeder Änderung mit Breitbandsonde prüfen.",
+        "l3": "Luftfilter: alle 15 000 km reinigen oder ersetzen.",
+        "l4": "Ansauglufttemperatur überwachen.",
+        "l5": "Fehlercodes auslesen, besonders die der Lambdasonden.",
+        "l6": "Abgaskrümmer: Ein Leck verfälscht Gemisch und EGT.",
+        "l7": "Qualitätskraftstoff passend zur Abstimmung.",
+        "l8": "Öl- und Filterwechsel nach Herstellervorgabe (bei Rennstreckeneinsatz öfter)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Motordrücke und -temperaturen",
+    "desc": "Öl, Kraftstoff und Aufladung.",
+    "i1": {
+      "title": "Motoröl",
+      "b1": {
+        "h1": "Messung",
+        "h2": "Üblicher Wert",
+        "h3": "Bei Abweichung",
+        "r1c1": "Druck im Leerlauf (warm)",
+        "r1c2": "1–2 bar",
+        "r1c3": "Geräusche, Verschleiß: Füllstand, Pumpe, Ansaugsieb",
+        "r2c1": "Druck unter Last",
+        "r2c2": "3–5 bar",
+        "r2c3": "etwa 1 bar je 1 000 U/min bis zum Überdruckventil",
+        "r3c1": "Öltemperatur",
+        "r3c3": "über 130 °C zersetzt sich das Öl"
+      }
+    },
+    "i2": {
+      "title": "Kraftstoff",
+      "b1": {
+        "h1": "Einspritzung",
+        "h2": "Üblicher Druck",
+        "h3": "Bei Abweichung",
+        "r1c1": "Saugrohreinspritzung Benzin",
+        "r1c2": "3–4 bar",
+        "r1c3": "Druckregler, Pumpe, Filter",
+        "r2c1": "Direkteinspritzung Benzin",
+        "r2c2": "50–350 bar",
+        "r2c3": "Hochdruckpumpe, Raildrucksensor",
+        "r3c1": "Aufladung Benzin",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "Wastegate, Schläuche, Motorsteuerung"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Sensoren und Sonden",
+    "desc": "Aufgabe der Sensoren und typische Werte.",
+    "i1": {
+      "title": "Motorsensoren",
+      "b1": {
+        "h1": "Sensor",
+        "h2": "Abkürzung",
+        "h3": "Aufgabe",
+        "h4": "Typischer Wert",
+        "r1c1": "Motortemperatur",
+        "r1c3": "Kühlmitteltemperatur",
+        "r1c4": "85–105 °C warm",
+        "r2c1": "Lufttemperatur",
+        "r2c3": "Temperatur der Ansaugluft",
+        "r2c4": "Umgebung + 0–30 °C",
+        "r3c1": "Saugrohrdruck",
+        "r3c3": "absoluter Ansaugdruck (Last)",
+        "r3c4": "≈ 30 kPa Leerlauf, 100 kPa Volllast Sauger",
+        "r4c1": "Luftmassenmesser",
+        "r4c3": "angesaugte Luftmasse",
+        "r4c4": "≈ 2–5 g/s im Leerlauf (2 L)",
+        "r5c1": "Lambdasonde (Sprungsonde)",
+        "r5c3": "Gemisch um λ = 1",
+        "r6c1": "Breitband-Lambdasonde",
+        "r6c3": "genaues Gemisch (Abstimmung)",
+        "r7c1": "Klopfsensor",
+        "r7c3": "Klopfschwingungen",
+        "r7c4": "piezoelektrisches Signal",
+        "r8c1": "Kurbelwellenposition",
+        "r8c3": "Drehzahl und Motorposition",
+        "r8c4": "induktiv oder Hall-Effekt",
+        "r9c1": "Nockenwellenposition",
+        "r9c3": "Phase (sequenziell, variable Steuerzeiten)",
+        "r9c4": "Hall-Effekt",
+        "r10c1": "Drosselklappenstellung",
+        "r10c3": "Öffnung der Drosselklappe",
+        "r11c1": "Kraftstoffdruck",
+        "r11c3": "Druck im System oder Rail",
+        "r11c4": "je nach Einspritzung",
+        "r12c1": "Öltemperatur",
+        "r12c3": "Öltemperatur",
+        "r13c1": "Öldruck",
+        "r13c3": "Öldruck",
+        "r13c4": "siehe „Drücke“",
+        "r14c1": "Abgastemperatur",
+        "r14c3": "Gastemperatur (Thermoelement Typ K)",
+        "r14c4": "siehe „EGT“",
+        "r15c1": "Temperatur nach Ladeluftkühler",
+        "r15c3": "Wirkungsgrad des Ladeluftkühlers",
+        "r15c4": "Umgebung + 5–25 °C",
+        "r16c1": "Kraftstofftemperatur",
+        "r16c3": "Dichtekorrektur, Ethanol",
+        "r16c4": "Umgebung",
+        "r17c1": "Ethanolgehalt",
+        "r17c3": "Ethanolanteil",
+        "r18c1": "Wastegate-Stellung",
+        "r18c3": "Öffnung des Wastegates",
+        "r18c4": "Aufzeichnung, Regelung",
+        "r19c3": "Stickoxide (Abgasreinigung)",
+        "r19c4": "Diesel, magere Direkteinspritzung"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Referenzwerte für die Werkstatt: Gewinde, Drehmomente, Bremsen, Elektrik, Diagnose, Sensoren… Tippen Sie auf eine Rubrik, um sie zu öffnen.",
+    "search": "In der Referenz suchen…",
+    "no_result": "Kein Eintrag entspricht der Suche.",
+    "disclaimer": "Allgemeine Richtwerte: Die Angaben des Fahrzeug- oder Teileherstellers haben immer Vorrang."
+  }
+}

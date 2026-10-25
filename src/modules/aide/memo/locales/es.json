@@ -1,0 +1,794 @@
+{
+  "threads": {
+    "title": "Roscas métricas ISO",
+    "desc": "Pasos, brocas para roscar, agujeros de paso, tolerancias y longitud de roscado.",
+    "i1": {
+      "title": "Pasos métricos ISO — paso normal y paso fino",
+      "b1": {
+        "h1": "Designación",
+        "h2": "Paso (mm)",
+        "h3": "Serie",
+        "h4": "Clase",
+        "h5": "Uso",
+        "r1c3": "normal",
+        "r1c5": "tornillería pequeña, electrónica",
+        "r2c3": "normal",
+        "r2c5": "abrazaderas, fijaciones pequeñas",
+        "r3c3": "normal",
+        "r3c5": "carrocería, accesorios",
+        "r4c3": "normal",
+        "r4c5": "mecánica general",
+        "r5c3": "normal",
+        "r5c5": "soportes, subconjuntos",
+        "r6c3": "normal",
+        "r6c5": "motor, chasis",
+        "r7c3": "normal",
+        "r7c5": "suspensión, fijaciones medianas",
+        "r8c3": "normal",
+        "r8c5": "chasis pesado",
+        "r9c3": "fino",
+        "r9c5": "uniones sometidas a vibraciones",
+        "r10c3": "fino",
+        "r10c5": "uniones sometidas a vibraciones",
+        "r11c3": "fino",
+        "r11c5": "bieletas, automoción",
+        "r12c3": "fino",
+        "r12c5": "suspensión, rótulas, espárragos de rueda"
+      }
+    },
+    "i2": {
+      "title": "Broca para roscar (≈ 75 % de rosca)",
+      "b1": {
+        "t": "Regla: broca ≈ diámetro nominal − paso (rosca métrica ISO)."
+      },
+      "b2": {
+        "h1": "Designación",
+        "h2": "Paso (mm)",
+        "h3": "Broca (mm)"
+      }
+    },
+    "i3": {
+      "title": "Agujeros de paso (ISO 273)",
+      "b1": {
+        "h1": "Rosca",
+        "h2": "Fino (mm)",
+        "h3": "Medio (mm)",
+        "h4": "Basto (mm)"
+      },
+      "b2": {
+        "t": "Fino: centrado preciso. Medio: montaje habitual. Basto: corrección de posición. Agujero rasgado si se necesita ajuste."
+      }
+    },
+    "i4": {
+      "title": "Tolerancias y longitud de roscado",
+      "b1": {
+        "l1": "Tornillos: clase de tolerancia 6g; roscas interiores y tuercas: 6H.",
+        "l2": "Longitud de roscado en acero: 1 a 1,5 × D.",
+        "l3": "En aluminio: 1,5 a 2 × D.",
+        "l4": "En fundición: 1 a 1,5 × D."
+      },
+      "b2": {
+        "t": "El paso fino resiste mejor el aflojamiento por vibraciones, pero se gripa con más facilidad. Avellanar siempre la entrada (≈ 0,5 × paso) y desbarbar antes de roscar."
+      }
+    }
+  },
+  "inserts": {
+    "title": "Insertos roscados (helicoidales)",
+    "desc": "Reparación de roscas: brocas y machos STI, longitudes, montaje y materiales.",
+    "i1": {
+      "title": "Broca y macho STI",
+      "b1": {
+        "h1": "Rosca reparada",
+        "h2": "Broca STI (mm)",
+        "h3": "Macho",
+        "h4": "Longitudes de inserto"
+      },
+      "b2": {
+        "t": "STI = Screw Thread Insert. Broca ≈ diámetro nominal + ¼ del paso (redondeado a una broca estándar); consulte las instrucciones del kit. M14x1.25 es la rosca de las bujías."
+      }
+    },
+    "i2": {
+      "title": "Montaje de un inserto helicoidal",
+      "b1": {
+        "l1": "Taladrar al diámetro STI, bien perpendicular.",
+        "l2": "Roscar con el macho STI, lubricado, retrocediendo media vuelta para romper la viruta.",
+        "l3": "Soplar y limpiar la rosca.",
+        "l4": "Enroscar el inserto con la herramienta de montaje hasta ¼ a ½ vuelta por debajo de la superficie.",
+        "l5": "Romper la espiga de arrastre con un botador (insertos con espiga).",
+        "l6": "Comprobar con un tornillo: debe entrar sin puntos duros."
+      },
+      "b2": {
+        "t": "Inserto inoxidable en aluminio: aplicar pasta anticorrosión para evitar la corrosión galvánica. No desmontar y volver a montar un inserto: está pensado para un montaje definitivo."
+      }
+    },
+    "i3": {
+      "title": "Materiales de los insertos",
+      "b1": {
+        "h1": "Material",
+        "h2": "Uso",
+        "r1c1": "inoxidable A2 (1.4301)",
+        "r1c2": "uso general, corrosión moderada",
+        "r2c1": "inoxidable A4 (1.4401)",
+        "r2c2": "ambiente corrosivo, marino",
+        "r3c1": "bronce fosforoso",
+        "r3c2": "alta temperatura, antigripaje",
+        "r4c1": "inoxidable con freno (Screwlock)",
+        "r4c2": "tornillos sometidos a vibraciones"
+      }
+    }
+  },
+  "torque": {
+    "title": "Pares de apriete genéricos",
+    "desc": "Pares orientativos por diámetro y clase de tornillo de acero (rosca métrica normal, coeficiente de rozamiento ≈ 0,14).",
+    "i1": {
+      "title": "Tornillos de acero clase 8.8",
+      "b1": {
+        "h1": "Rosca",
+        "h2": "Seco (N·m)",
+        "h3": "Aceitado (N·m)"
+      }
+    },
+    "i2": {
+      "title": "Tornillos de acero clase 10.9",
+      "b1": {
+        "h1": "Rosca",
+        "h2": "Seco (N·m)",
+        "h3": "Aceitado (N·m)"
+      }
+    },
+    "i3": {
+      "title": "Tornillos de acero clase 12.9",
+      "b1": {
+        "h1": "Rosca",
+        "h2": "Seco (N·m)",
+        "h3": "Aceitado (N·m)"
+      },
+      "b2": {
+        "t": "Un tornillo aceitado necesita MENOS par para la misma tensión. Pasta de MoS₂ o de cobre: reducir otro 15 a 25 %. Las instrucciones del fabricante tienen prioridad, sobre todo para los tornillos de apriete angular."
+      }
+    },
+    "i4": {
+      "title": "Tornillos en aluminio o magnesio",
+      "b1": {
+        "l1": "Reducir el par un 20 a 30 % respecto al acero.",
+        "l2": "Longitud de roscado: 1,5 a 2 × D.",
+        "l3": "Para esfuerzos importantes, utilizar un inserto helicoidal o un espárrago."
+      }
+    }
+  },
+  "engine_tightening": {
+    "title": "Aprietes del motor",
+    "desc": "Culata, colectores, volante motor y holgura de válvulas.",
+    "i1": {
+      "title": "Apriete de la culata (método general)",
+      "b1": {
+        "l1": "Orden: en espiral, del centro hacia fuera, alternando izquierda y derecha.",
+        "l2": "Tornillos limpios; roscas y asientos ligeramente aceitados si el fabricante lo indica.",
+        "l3": "Preapriete en secuencia (ejemplo habitual M10: 20 a 40 N·m).",
+        "l4": "Apriete angular en secuencia (ejemplo habitual: 90° y luego 90°).",
+        "l5": "Tornillos de apriete angular (elásticos): siempre nuevos."
+      },
+      "b2": {
+        "t": "Ejemplo orientativo: los pares y ángulos dependen del motor. Siga siempre las instrucciones del fabricante."
+      }
+    },
+    "i2": {
+      "title": "Colector de escape",
+      "b1": {
+        "h1": "Unión",
+        "h2": "Par (N·m)",
+        "r1c1": "espárrago de acero en fundición o acero",
+        "r2c1": "espárrago de acero en aluminio"
+      },
+      "b2": {
+        "t": "Apretar del centro hacia fuera. Sustituir las tuercas autoblocantes (cobreadas) desmontadas. Volver a comprobar tras el primer ciclo de calentamiento."
+      }
+    },
+    "i3": {
+      "title": "Volante motor (ejemplos)",
+      "b1": {
+        "h1": "Tornillo",
+        "h2": "Clase",
+        "h3": "Par + ángulo"
+      },
+      "b2": {
+        "t": "Tornillos nuevos, fijador de roscas si se indica, apriete en cruz."
+      }
+    },
+    "i4": {
+      "title": "Holgura de válvulas (motor frío, orden de magnitud)",
+      "b1": {
+        "h1": "Válvula",
+        "h2": "Holgura (mm)",
+        "r1c1": "admisión",
+        "r2c1": "escape"
+      },
+      "b2": {
+        "t": "Valor exacto: documentación del motor. Holgura demasiado pequeña = la válvula ya no cierra y se quema; demasiado grande = ruido y pérdida de alzada."
+      }
+    }
+  },
+  "wheels": {
+    "title": "Ruedas y neumáticos",
+    "desc": "Pares de rueda, asientos de tuerca e índices de carga.",
+    "i1": {
+      "title": "Pares de rueda (orden de magnitud)",
+      "b1": {
+        "h1": "Espárrago / tornillo",
+        "h2": "Llanta de acero (N·m)",
+        "h3": "Llanta de aleación (N·m)",
+        "h4": "Observación",
+        "r1c4": "apretar en cruz, volver a comprobar tras 50 a 100 km",
+        "r2c4": "roscas limpias y secas salvo indicación",
+        "r3c4": "comprobar el valor del vehículo"
+      }
+    },
+    "i2": {
+      "title": "Asientos de tuercas y tornillos de rueda",
+      "b1": {
+        "l1": "Cónico 60°: el más habitual.",
+        "l2": "Esférico (radio): VW, Audi, Mercedes, Honda…",
+        "l3": "Plano con arandela: algunas llantas de aleación."
+      },
+      "b2": {
+        "t": "El asiento de la tuerca debe coincidir exactamente con el de la llanta. Longitud de roscado mínima: 1 × D (6 a 8 vueltas)."
+      }
+    },
+    "i3": {
+      "title": "Índices de carga (extracto)",
+      "b1": {
+        "h1": "Índice",
+        "h2": "Carga por neumático (kg)"
+      }
+    },
+    "i4": {
+      "title": "Índices de velocidad",
+      "b1": {
+        "h1": "Símbolo",
+        "h2": "Velocidad máxima (km/h)"
+      }
+    }
+  },
+  "brakes": {
+    "title": "Frenos",
+    "desc": "Líquidos de freno, pares, desgastes mínimos.",
+    "i1": {
+      "title": "Líquidos de freno (puntos de ebullición mínimos, norma FMVSS 116)",
+      "b1": {
+        "h1": "Tipo",
+        "h2": "Seco (°C)",
+        "h3": "Húmedo (°C)",
+        "h4": "Uso",
+        "r1c4": "vehículos antiguos",
+        "r2c4": "estándar ABS / ESP",
+        "r3c4": "prestaciones, compatible DOT 4",
+        "r4c1": "DOT 5 (silicona)",
+        "r4c4": "clásicos, no miscible con los demás"
+      },
+      "b2": {
+        "t": "El líquido absorbe humedad: purgar cada 2 años. No mezclar nunca el DOT 5 (silicona) con líquidos de glicol."
+      }
+    },
+    "i2": {
+      "title": "Pares de freno (orden de magnitud)",
+      "b1": {
+        "h1": "Elemento",
+        "h2": "Par (N·m)",
+        "r1c1": "tornillo de guía de pinza",
+        "r2c1": "soporte de pinza en el buje",
+        "r3c1": "tornillo de sujeción del disco",
+        "r4c1": "racor de latiguillo (banjo M10)"
+      }
+    },
+    "i3": {
+      "title": "Desgastes mínimos",
+      "b1": {
+        "l1": "Pastillas: sustituir con 2–3 mm de material de fricción.",
+        "l2": "Discos: espesor mínimo grabado en el disco (a menudo 1 a 2 mm menos que nuevo).",
+        "l3": "Sustituir siempre por eje completo."
+      },
+      "b2": {
+        "t": "Un rayado ligero del disco es aceptable; alabeo, grietas o un reborde importante: sustituir."
+      }
+    }
+  },
+  "coolant": {
+    "title": "Líquido refrigerante",
+    "desc": "Familias de refrigerante, compatibilidades y precauciones.",
+    "i1": {
+      "title": "Familias de refrigerante",
+      "b1": {
+        "h1": "Familia",
+        "h2": "Química",
+        "h3": "Color habitual",
+        "h4": "Observación",
+        "r1c2": "inorgánico (silicatos)",
+        "r1c3": "verde / azul",
+        "r1c4": "motores antiguos, sustitución frecuente",
+        "r2c2": "orgánico (carboxilatos)",
+        "r2c3": "naranja / rojo",
+        "r2c4": "larga duración",
+        "r3c2": "híbrido",
+        "r3c3": "amarillo / azul verdoso",
+        "r3c4": "muy extendido",
+        "r4c2": "silicatos + orgánico",
+        "r4c3": "rosa / violeta",
+        "r4c4": "VW / Audi recientes"
+      },
+      "b2": {
+        "t": "El color no basta para identificar un refrigerante: siga la norma del fabricante."
+      }
+    },
+    "i2": {
+      "title": "Compatibilidades (orientativo)",
+      "b1": {
+        "l1": "VW / Audi: G12+ / G12++ / G13 (Si-OAT).",
+        "l2": "BMW / Mercedes: HOAT (tipo G48, MB 325.x).",
+        "l3": "PSA / Renault: OAT o HOAT según el año (ver el manual)."
+      },
+      "b2": {
+        "t": "Cambio de familia: enjuagar con agua desmineralizada. No mezclar G11 (silicatos) y G12 (OAT)."
+      }
+    }
+  },
+  "electrical": {
+    "title": "Electricidad",
+    "desc": "Fusibles, bornes, secciones de cable, batería y alternador.",
+    "i1": {
+      "title": "Fusibles (ejemplos de uso)",
+      "b1": {
+        "h1": "Amperaje",
+        "h2": "Uso típico",
+        "r1c2": "centralita, sensores",
+        "r2c2": "iluminación, audio",
+        "r3c2": "bomba de combustible",
+        "r4c2": "elevalunas",
+        "r5c2": "desempañador, ventilador"
+      }
+    },
+    "i2": {
+      "title": "Pares de bornes",
+      "b1": {
+        "h1": "Elemento",
+        "h2": "Par (N·m)",
+        "r1c1": "borne de batería M6",
+        "r2c1": "borne de batería M8",
+        "r3c1": "borne B+ del alternador M8"
+      }
+    },
+    "i3": {
+      "title": "Sección de cable en 12 V (tramo corto, < 3 m)",
+      "b1": {
+        "h1": "Corriente (A)",
+        "h2": "Sección mínima (mm²)"
+      },
+      "b2": {
+        "t": "Tramo más largo: tomar la sección superior (caída de tensión máxima recomendada: 3 %)."
+      }
+    },
+    "i4": {
+      "title": "Batería y carga",
+      "b1": {
+        "h1": "Medida",
+        "h2": "Valor normal",
+        "h3": "Si hay anomalía",
+        "r1c1": "batería en reposo",
+        "r1c2": "12,6 V (100 %) · 12,2 V (50 %)",
+        "r1c3": "recargar; por debajo de 12,0 V = descargada",
+        "r2c1": "tensión durante el arranque",
+        "r2c3": "probar batería y motor de arranque",
+        "r3c1": "motor en marcha",
+        "r3c3": "comprobar alternador y correa"
+      }
+    }
+  },
+  "diagnostics": {
+    "title": "Diagnóstico y OBD",
+    "desc": "Códigos OBD habituales y pruebas rápidas.",
+    "i1": {
+      "title": "Códigos OBD II habituales",
+      "b1": {
+        "h1": "Código",
+        "h2": "Significado",
+        "h3": "Causas probables",
+        "h4": "Comprobación rápida",
+        "r1c2": "fallos de encendido múltiples",
+        "r1c3": "bujías, bobinas, inyectores, entrada de aire",
+        "r1c4": "contadores de fallos en directo, prueba de chispa",
+        "r2c2": "mezcla demasiado pobre (banco 1)",
+        "r2c3": "entrada de aire, caudalímetro, presión de combustible baja",
+        "r2c4": "correcciones STFT / LTFT, prueba de humo",
+        "r3c2": "mezcla demasiado rica (banco 1)",
+        "r3c3": "inyector que gotea, regulador, caudalímetro",
+        "r3c4": "presión de combustible, correcciones",
+        "r4c2": "eficiencia del catalizador demasiado baja",
+        "r4c3": "catalizador gastado, sonda posterior, fuga de escape",
+        "r4c4": "comparar sondas anterior y posterior",
+        "r5c2": "sensor MAP: rango / rendimiento",
+        "r5c3": "sensor, manguito, alimentación de 5 V",
+        "r5c4": "tensión del sensor, prueba de vacío",
+        "r6c2": "sensor del cigüeñal",
+        "r6c3": "sensor, cableado, rueda fónica",
+        "r6c4": "señal en el osciloscopio",
+        "r7c2": "sobrepresión del turbo",
+        "r7c3": "wastegate bloqueada, control de presión",
+        "r7c4": "registro de presión, wastegate"
+      }
+    },
+    "i2": {
+      "title": "Prueba de la sonda lambda anterior (banda estrecha)",
+      "b1": {
+        "l1": "Motor caliente, lazo cerrado: la tensión oscila entre unos 0,1 y 0,9 V.",
+        "l2": "Crear una entrada de aire (desconectar un manguito de vacío pequeño): la sonda marca pobre (≈ 0,1 V) y la corrección STFT aumenta.",
+        "l3": "Enriquecer (un poco de limpiacarburadores en la admisión): la sonda marca rico (≈ 0,9 V).",
+        "l4": "Una buena sonda conmuta en menos de 100 a 150 ms."
+      },
+      "b2": {
+        "t": "Sonda de banda ancha: leer λ o el AFR en la centralita, no una tensión."
+      }
+    }
+  },
+  "tools": {
+    "title": "Herramientas y métodos",
+    "desc": "Llave dinamométrica, apriete angular, fijadores de roscas y conversiones.",
+    "i1": {
+      "title": "Llave dinamométrica",
+      "b1": {
+        "l1": "Hacer comprobar la calibración cada año (o cada 5 000 ciclos).",
+        "l2": "Tirar de forma regular y perpendicular hasta el clic, sin tirones.",
+        "l3": "Después de usarla, volver al mínimo de la escala (no por debajo de cero)."
+      },
+      "b2": {
+        "t": "Evitar: apretar más allá del clic, tirar de un alargador, usar la llave para aflojar."
+      }
+    },
+    "i2": {
+      "title": "Apriete par + ángulo",
+      "b1": {
+        "t": "Principio: un par de preapriete asienta las piezas y después un ángulo impone el alargamiento del tornillo, independientemente del rozamiento."
+      },
+      "b2": {
+        "l1": "Ventaja: tensión mucho más regular que solo con par.",
+        "l2": "Tornillos elásticos: siempre nuevos.",
+        "l3": "Usar un goniómetro o marcar la posición con pintura."
+      }
+    },
+    "i3": {
+      "title": "Fijadores de roscas y pastas",
+      "b1": {
+        "h1": "Producto",
+        "h2": "Uso",
+        "r1c1": "fijador de roscas débil (violeta)",
+        "r1c2": "tornillos pequeños, fácil de desmontar",
+        "r2c1": "fijador de roscas medio (azul)",
+        "r2c2": "uso general, desmontable con herramienta",
+        "r3c1": "fijador de roscas fuerte (rojo)",
+        "r3c2": "uniones permanentes, calentar para desmontar",
+        "r4c1": "pasta de cobre",
+        "r4c2": "antigripaje de alta temperatura (escape)"
+      },
+      "b2": {
+        "t": "No engrasar las roscas de rueda salvo indicación. Desengrasar antes de cualquier fijador de roscas."
+      }
+    },
+    "i4": {
+      "title": "Conversiones útiles",
+      "b1": {
+        "h1": "De",
+        "h2": "A",
+        "r9c2": "0,7457 kW = 1,0139 CV"
+      }
+    }
+  },
+  "alignment": {
+    "title": "Geometría de los trenes",
+    "desc": "Valores habituales de turismos y síntomas.",
+    "i1": {
+      "title": "Valores habituales (turismo)",
+      "b1": {
+        "h1": "Ajuste",
+        "h2": "Valor habitual",
+        "h3": "Observación",
+        "r1c1": "caída delantera",
+        "r1c3": "según vehículo",
+        "r2c1": "caída trasera",
+        "r2c3": "según eje",
+        "r3c1": "convergencia delantera (total)",
+        "r3c3": "convergencia ligera",
+        "r4c1": "convergencia trasera (total)",
+        "r4c3": "convergencia: estabilidad",
+        "r5c1": "avance",
+        "r5c3": "no ajustable en muchos vehículos"
+      },
+      "b2": {
+        "t": "Valores muy variables según el chasis y el uso: partir siempre de los datos del fabricante. Comprobar tras sustituir cualquier pieza de dirección o suspensión."
+      }
+    },
+    "i2": {
+      "title": "Síntomas y comprobaciones",
+      "b1": {
+        "h1": "Síntoma",
+        "h2": "Causa probable",
+        "r1c1": "desgaste del hombro interior",
+        "r1c2": "caída demasiado negativa o divergencia",
+        "r2c1": "desgaste de ambos hombros",
+        "r2c2": "presión demasiado baja",
+        "r3c1": "desgaste en dientes de sierra",
+        "r3c2": "convergencia incorrecta",
+        "r4c1": "el coche tira hacia un lado",
+        "r4c2": "presiones, caída o avance distintos, freno que roza",
+        "r5c1": "volante descentrado",
+        "r5c2": "convergencia mal repartida entre las ruedas"
+      }
+    }
+  },
+  "mixture": {
+    "title": "Mezcla (AFR y lambda)",
+    "desc": "Valores objetivo y diagnóstico de la mezcla (gasolina).",
+    "i1": {
+      "title": "Valores objetivo (gasolina, AFR estequiométrico 14,7)",
+      "b1": {
+        "h2": "Lambda",
+        "h3": "Uso",
+        "h4": "Observación",
+        "r1c3": "plena carga turbo",
+        "r1c4": "margen frente al picado",
+        "r2c3": "plena carga atmosférico",
+        "r2c4": "buen compromiso potencia / fiabilidad",
+        "r3c3": "ralentí, crucero",
+        "r3c4": "rendimiento óptimo del catalizador",
+        "r4c3": "crucero económico",
+        "r4c4": "calentamiento, NOx elevados"
+      },
+      "b2": {
+        "t": "Con otro combustible, razonar en lambda: λ = AFR ÷ AFR estequiométrico (E85 ≈ 9,8; metanol ≈ 6,4)."
+      }
+    },
+    "i2": {
+      "title": "Diagnóstico por la mezcla",
+      "b1": {
+        "h1": "Medida",
+        "h2": "Síntoma",
+        "h3": "Riesgo",
+        "h4": "Corrección",
+        "r1c1": "AFR ≈ 12 en crucero",
+        "r1c2": "olor a gasolina, bujías negras",
+        "r1c3": "consumo excesivo, dilución del aceite",
+        "r1c4": "presión de combustible, inyectores, cartografía",
+        "r2c1": "AFR ≈ 14,7 en crucero",
+        "r2c2": "combustión estable",
+        "r2c3": "ninguno",
+        "r3c1": "AFR ≥ 16 en carga",
+        "r3c2": "calentamiento, posible picado",
+        "r3c3": "válvulas, pistones",
+        "r3c4": "enriquecer, buscar una entrada de aire",
+        "r4c1": "oscilaciones rápidas",
+        "r4c2": "ralentí inestable",
+        "r4c3": "fallos de encendido",
+        "r4c4": "sonda lambda, encendido"
+      }
+    }
+  },
+  "spark": {
+    "title": "Bujías y encendido",
+    "desc": "Separación de electrodos, picado y soluciones.",
+    "i1": {
+      "title": "Separación de electrodos",
+      "b1": {
+        "h1": "Motor",
+        "h2": "Separación (mm)",
+        "h3": "Observación",
+        "r1c1": "atmosférico",
+        "r1c3": "chispa larga, buen encendido",
+        "r2c1": "turbo, presión moderada",
+        "r2c3": "evita fallos bajo presión",
+        "r3c1": "turbo, presión alta",
+        "r3c3": "la presión dificulta la chispa"
+      },
+      "b2": {
+        "t": "Cuanto mayor es la presión en el cilindro, mayor es la tensión de encendido necesaria: se reduce la separación."
+      }
+    },
+    "i2": {
+      "title": "Causas del picado",
+      "b1": {
+        "l1": "Avance de encendido excesivo.",
+        "l2": "Combustible con octanaje demasiado bajo.",
+        "l3": "Aire de admisión demasiado caliente.",
+        "l4": "Mezcla demasiado pobre.",
+        "l5": "Carbonilla, punto caliente, relación de compresión elevada."
+      }
+    },
+    "i3": {
+      "title": "Soluciones",
+      "b1": {
+        "l1": "Combustible de mayor octanaje (o etanol).",
+        "l2": "Reducir el avance en la zona afectada.",
+        "l3": "Enfriar mejor el aire de admisión (intercooler, inyección de agua-metanol).",
+        "l4": "Enriquecer ligeramente.",
+        "l5": "Bujías de grado térmico más frío."
+      }
+    },
+    "i4": {
+      "title": "Temperatura de admisión",
+      "b1": {
+        "l1": "Aire frío = más denso = más potencia.",
+        "l2": "Aproximadamente un 1 % de potencia perdida por cada 5 a 6 °C adicionales.",
+        "l3": "Aire caliente = mayor riesgo de picado."
+      }
+    }
+  },
+  "egt": {
+    "title": "Temperaturas de gases de escape (EGT)",
+    "desc": "Referencias para un motor de gasolina (sonda en el colector).",
+    "i1": {
+      "title": "Referencias EGT",
+      "b1": {
+        "h2": "Situación",
+        "h3": "Riesgo",
+        "r1c2": "conducción normal",
+        "r1c3": "ninguno",
+        "r2c2": "carga elevada",
+        "r2c3": "normal en turbo de gasolina",
+        "r3c2": "plena carga prolongada",
+        "r3c3": "vigilar",
+        "r4c2": "superación",
+        "r4c3": "válvulas, pistones, turbina"
+      },
+      "b2": {
+        "t": "Una EGT elevada suele deberse a una mezcla pobre o a un encendido demasiado retrasado. Los turbos habituales están previstos para 950 a 1050 °C como máximo."
+      }
+    }
+  },
+  "faults": {
+    "title": "Averías habituales",
+    "desc": "Síntomas, causas y soluciones rápidas.",
+    "i1": {
+      "title": "Diagnóstico rápido",
+      "b1": {
+        "h1": "Síntoma",
+        "h2": "Causas posibles",
+        "h3": "Solución",
+        "r1c1": "fallos de encendido",
+        "r1c2": "bujías gastadas, separación, bobina",
+        "r1c3": "bujías nuevas, comprobar la separación, probar las bobinas",
+        "r2c1": "sobrecalentamiento",
+        "r2c2": "nivel de refrigerante bajo, termostato bloqueado, ventilador, mezcla pobre",
+        "r2c3": "nivel, termostato, ventilador, mezcla",
+        "r3c1": "fuerte olor a gasolina",
+        "r3c2": "inyector que gotea, mezcla rica, fuga",
+        "r3c3": "presión de combustible, estanqueidad",
+        "r4c1": "picado",
+        "r4c2": "octanaje demasiado bajo, avance excesivo, aire caliente",
+        "r4c3": "combustible adecuado, reducir el avance",
+        "r5c1": "pérdida de potencia del turbo",
+        "r5c2": "fuga en la admisión, wastegate, mezcla pobre",
+        "r5c3": "prueba de estanqueidad, wastegate, mezcla"
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Mantenimiento preventivo",
+    "desc": "Controles periódicos de un motor preparado.",
+    "i1": {
+      "title": "Lista de control",
+      "b1": {
+        "l1": "Bujías: revisar cada 10 000 km (más a menudo en un turbo preparado).",
+        "l2": "Comprobar la mezcla con sonda de banda ancha tras cualquier modificación.",
+        "l3": "Filtro de aire: limpiar o sustituir cada 15 000 km.",
+        "l4": "Vigilar la temperatura de admisión.",
+        "l5": "Leer los códigos de avería, sobre todo los de las sondas lambda.",
+        "l6": "Colector de escape: una fuga falsea la mezcla y la EGT.",
+        "l7": "Combustible de calidad, adecuado al reglaje.",
+        "l8": "Cambio de aceite y filtro según el fabricante (más a menudo en uso en circuito)."
+      }
+    }
+  },
+  "pressures": {
+    "title": "Presiones y temperaturas del motor",
+    "desc": "Aceite, combustible y sobrealimentación.",
+    "i1": {
+      "title": "Aceite del motor",
+      "b1": {
+        "h1": "Medida",
+        "h2": "Valor habitual",
+        "h3": "Si hay anomalía",
+        "r1c1": "presión al ralentí (en caliente)",
+        "r1c2": "1–2 bar",
+        "r1c3": "ruidos, desgaste: nivel, bomba, colador",
+        "r2c1": "presión en carga",
+        "r2c2": "3–5 bar",
+        "r2c3": "aproximadamente 1 bar por cada 1000 rpm hasta la válvula de descarga",
+        "r3c1": "temperatura del aceite",
+        "r3c3": "por encima de 130 °C el aceite se degrada"
+      }
+    },
+    "i2": {
+      "title": "Combustible",
+      "b1": {
+        "h1": "Inyección",
+        "h2": "Presión habitual",
+        "h3": "Si hay anomalía",
+        "r1c1": "inyección multipunto gasolina",
+        "r1c2": "3–4 bar",
+        "r1c3": "regulador, bomba, filtro",
+        "r2c1": "inyección directa gasolina",
+        "r2c2": "50–350 bar",
+        "r2c3": "bomba de alta presión, sensor de rail",
+        "r3c1": "sobrealimentación gasolina",
+        "r3c2": "0,5–1,5 bar",
+        "r3c3": "wastegate, manguitos, gestión"
+      }
+    }
+  },
+  "sensors": {
+    "title": "Sensores y sondas",
+    "desc": "Función de los sensores y valores típicos.",
+    "i1": {
+      "title": "Sensores del motor",
+      "b1": {
+        "h1": "Sensor",
+        "h2": "Abreviatura",
+        "h3": "Función",
+        "h4": "Valor típico",
+        "r1c1": "temperatura del motor",
+        "r1c3": "temperatura del refrigerante",
+        "r1c4": "85–105 °C en caliente",
+        "r2c1": "temperatura del aire",
+        "r2c3": "temperatura del aire de admisión",
+        "r2c4": "ambiente + 0–30 °C",
+        "r3c1": "presión del colector",
+        "r3c3": "presión absoluta de admisión (carga)",
+        "r3c4": "≈ 30 kPa al ralentí, 100 kPa plena carga atmo",
+        "r4c1": "caudalímetro",
+        "r4c3": "masa de aire admitida",
+        "r4c4": "≈ 2–5 g/s al ralentí (2 L)",
+        "r5c1": "sonda lambda de banda estrecha",
+        "r5c3": "mezcla en torno a λ = 1",
+        "r6c1": "sonda lambda de banda ancha",
+        "r6c3": "mezcla exacta (reglaje)",
+        "r7c1": "sensor de picado",
+        "r7c3": "vibraciones de detonación",
+        "r7c4": "señal piezoeléctrica",
+        "r8c1": "posición del cigüeñal",
+        "r8c3": "régimen y posición del motor",
+        "r8c4": "inductivo o de efecto Hall",
+        "r9c1": "posición del árbol de levas",
+        "r9c3": "fase (secuencial, distribución variable)",
+        "r9c4": "efecto Hall",
+        "r10c1": "posición de la mariposa",
+        "r10c3": "apertura de la mariposa",
+        "r11c1": "presión de combustible",
+        "r11c3": "presión del circuito o del rail",
+        "r11c4": "según la inyección",
+        "r12c1": "temperatura del aceite",
+        "r12c3": "temperatura del aceite",
+        "r13c1": "presión del aceite",
+        "r13c3": "presión del aceite",
+        "r13c4": "ver «Presiones»",
+        "r14c1": "temperatura de escape",
+        "r14c3": "temperatura de los gases (termopar tipo K)",
+        "r14c4": "ver «EGT»",
+        "r15c1": "temperatura tras el intercooler",
+        "r15c3": "eficacia del intercooler",
+        "r15c4": "ambiente + 5–25 °C",
+        "r16c1": "temperatura del combustible",
+        "r16c3": "corrección de densidad, etanol",
+        "r16c4": "ambiente",
+        "r17c1": "contenido de etanol",
+        "r17c3": "porcentaje de etanol",
+        "r18c1": "posición de la wastegate",
+        "r18c3": "apertura de la wastegate",
+        "r18c4": "registro, regulación",
+        "r19c3": "óxidos de nitrógeno (descontaminación)",
+        "r19c4": "diésel, inyección directa pobre"
+      }
+    }
+  },
+  "ui": {
+    "intro": "Valores de referencia para el taller: roscas, pares, frenos, electricidad, diagnóstico, sensores… Toque una sección para abrirla.",
+    "search": "Buscar en la guía de referencia…",
+    "no_result": "Ninguna ficha coincide con la búsqueda.",
+    "disclaimer": "Valores genéricos y orientativos: los datos del fabricante del vehículo o de la pieza tienen siempre prioridad."
+  }
+}

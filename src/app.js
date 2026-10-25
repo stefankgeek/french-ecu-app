@@ -186,6 +186,10 @@ async function moduleView({ id }) {
   const m = findModule(id);
   if (!m) return navigate('/');
   setChrome({ title: t(`modules.${id}.title`), back: true });
+  if (m.status === 'ready' && m.view) {
+    const { mountMemo } = await m.view();
+    return mountMemo(view());
+  }
   if (m.status === 'ready' && m.load) {
     const [{ default: spec }, { mountSimulator }] = await Promise.all([m.load(), import('./core/sim/page.js')]);
     return mountSimulator(view(), spec);
