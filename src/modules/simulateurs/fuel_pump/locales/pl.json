@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Wymagana wydajność pompy",
-    "pump_note": "Wydatek wtryskiwaczy + 20% zapasu, w odniesieniu do współczynnika wypełnienia",
+    "pump_note": "Zużycie wtryskiwaczy przy maksymalnym wypełnieniu + 20% zapasu",
     "return": "Przepływ powrotny",
     "pipe_max": "Maksymalny przepływ przewodu",
     "pipe_max_note": "Obciążenie {pct}% · prędkość graniczna {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Strata ciśnienia w układzie",
     "loss_pump": "Strata ciśnienia pompy",
     "loss_pump_note": "Wartość stała",
-    "loss_total": "Całkowita strata ciśnienia"
+    "loss_total": "Całkowita strata ciśnienia",
+    "return_note": "Nadmiar zawracany do zbiornika"
   },
   "note": {
     "pipe_too_small": "Przewód jest za mały dla tego przepływu: wybierz większą średnicę (patrz porównanie).",

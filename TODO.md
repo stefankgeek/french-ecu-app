@@ -30,11 +30,13 @@ comparaison des résultats avec l'ancien site.
 - ⏳ Châssis : répartition de freinage, radiateur d'huile
 - ⏳ Aide-mémoire (filetages, couples, inserts, capteurs, turbo, jeux…)
 - ⏳ À vérifier avec Stéphane : Bielle (couple 0 Nm par défaut), radiateur d'huile (−120 °C)
-- ⏳ Corrections de formules proposées (en attente de validation) :
-  - Injecteurs : correction de pression appliquée à l'envers ; temps d'injection faux (erreur d'unité ×1000)
-  - Débit pompe : débit requis qui augmente quand le duty cycle baisse (facteur 100/duty inversé)
-  - Lambda : EGT estimée trop basse entre λ 1,05 et 1,10 (mélange pauvre classé « sûr »)
-  - NOS : consommation de N₂O environ 4 à 5 fois trop faible → nombre de shots surestimé
+- ✅ Corrections de formules validées par Stéphane (v0.2.1, 25/10/2026) :
+  - Injecteurs : débit nominal ramené à 3 bar (Q ∝ √P, plus de correction inversée) ; temps d'injection
+    par cylindre (≈ 15,8 ms au lieu de ~1 ms) ; conversion lb/h ↔ cc/min selon la densité du carburant ;
+    comparateur avec le duty cycle réel de chaque taille ; courbe « régulateur non référencé » en turbo
+  - Débit pompe : consommation au duty cycle maxi × 1,2 (le débit augmente avec le duty) ; retour = excédent
+  - Lambda : zone légèrement pauvre (λ > 1,05) signalée comme la plus chaude, très pauvre (> 1,15) en danger
+  - NOS : consommation de N₂O déduite de la chimie (≈ 4 lb/h par hp, 10 lb ≈ 90 s pour 100 hp)
   - Champs sans effet supprimés : altitude, humidité, températures carburant/moteur (injecteurs),
     pression de rampe (pompe), taux de compression (E85)
 

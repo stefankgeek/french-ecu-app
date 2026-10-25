@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Débit de pompe requis",
-    "pump_note": "Débit des injecteurs + 20 % de réserve, ramené au duty cycle",
+    "pump_note": "Consommation des injecteurs au duty cycle maxi + 20 % de réserve",
     "return": "Débit de retour",
     "pipe_max": "Débit maxi du tuyau",
     "pipe_max_note": "Charge {pct} % · vitesse limite {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Perte de charge du circuit",
     "loss_pump": "Perte de charge de la pompe",
     "loss_pump_note": "Valeur forfaitaire",
-    "loss_total": "Perte de charge totale"
+    "loss_total": "Perte de charge totale",
+    "return_note": "Excédent renvoyé au réservoir"
   },
   "note": {
     "pipe_too_small": "Le tuyau est trop petit pour ce débit : choisissez un diamètre supérieur (voir le comparateur).",

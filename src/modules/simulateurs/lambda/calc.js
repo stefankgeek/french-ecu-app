@@ -23,18 +23,21 @@ export function mixtureStatus(lambda) {
   return { key: 'very_lean', status: 'danger' };
 }
 
-/** Correction carburant (%) et estimation EGT (°C) — logique d'origine. */
+/**
+ * Correction carburant (%) et estimation EGT (°C).
+ * Correction validée le 25/10/2026 : l'EGT est maximale côté légèrement pauvre (λ ≈ 1,05–1,15).
+ * L'ancien site classait λ 1,05–1,10 à 800 °C « sûr ». Valeurs indicatives (essence, pleine charge).
+ */
 export function correction(currentAfr, targetAfr, fuel) {
   const pct = (currentAfr / targetAfr - 1) * 100;
   const lambda = currentAfr / FUEL_PROPERTIES[fuel].afr;
   let egt;
-  if (lambda > 1.1) egt = 900;
-  else if (lambda >= 0.95 && lambda <= 1.05) egt = 850;
-  else if (lambda >= 0.85) egt = 800;
-  else egt = 750;
-  let egtKey = 'safe';
-  let egtStatus = 'ok';
-  if (egt > 900) { egtKey = 'high'; egtStatus = 'warn'; }
-  if (egt > 950) { egtKey = 'danger'; egtStatus = 'danger'; }
+  let egtKey;
+  let egtStatus;
+  if (lambda > 1.15) { egt = 900; egtKey = 'danger'; egtStatus = 'danger'; } // très pauvre : soupapes / détonation
+  else if (lambda > 1.05) { egt = 900; egtKey = 'high'; egtStatus = 'warn'; } // pic de température
+  else if (lambda >= 0.95) { egt = 850; egtKey = 'safe'; egtStatus = 'ok'; }
+  else if (lambda >= 0.85) { egt = 800; egtKey = 'safe'; egtStatus = 'ok'; }
+  else { egt = 750; egtKey = 'safe'; egtStatus = 'ok'; }
   return { pct, action: pct > 0 ? 'enrich' : 'lean', status: Math.abs(pct) > 10 ? 'warn' : 'ok', egt, egtKey, egtStatus, lambda };
 }

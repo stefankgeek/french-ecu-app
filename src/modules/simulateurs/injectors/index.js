@@ -3,7 +3,7 @@
  * Valeurs internes en unités de base (cm³, kW, g/kWh, bar…), converties vers les unités
  * des formules d'origine (L, hp, lb/hp·h) juste avant le calcul.
  */
-import { computeInjectors, injectorSizes, pressureCurve, velocityCurve, AIR_VELOCITY_INTAKE, AIR_VELOCITY_THROTTLE } from './calc.js';
+import { computeInjectors, injectorSizes, pressureCurve, velocityCurve, AIR_VELOCITY_INTAKE, AIR_VELOCITY_THROTTLE, RATED_PRESSURE_BAR } from './calc.js';
 import { FUELS, fuelName, fuelOptions } from '../../data/fuels.js';
 import { toBase, fromBase } from '../../../core/units-core.js';
 
@@ -57,6 +57,7 @@ export default {
       airTempC: v.airTemp,
       throttle: v.throttle / 100,
       tofi: v.tofi,
+      densityKgL: FUELS[v.fuel].density,
     };
     return { ...computeInjectors(inputs), inputs, v };
   },
@@ -64,8 +65,9 @@ export default {
   results(r, c) {
     const { v } = r;
     return [
-      { label: c.t('r.flow'), value: r.flowCcMin, q: 'injector_flow', alt: true, status: 'ok' },
-      { label: c.t('r.injtime'), value: r.injectionMs, q: 'u:ms', decimals: 2, note: c.t('r.injtime_note', { tofi: c.f('u:ms', v.tofi) }) },
+      { label: c.t('r.flow'), value: r.flowCcMin, q: 'injector_flow', alt: true, status: 'ok', opts: { density: r.inputs.densityKgL },
+        note: c.t('r.flow_note', { p: c.f('pressure', RATED_PRESSURE_BAR) }) },
+      { label: c.t('r.injtime'), value: r.injectionMs, q: 'u:ms', decimals: 2, note: c.t('r.injtime_note2', { open: c.f('u:ms', r.openMs, { decimals: 2 }), tofi: c.f('u:ms', v.tofi), cycle: c.f('u:ms', r.cycleMs, { decimals: 1 }) }) },
       { label: c.t('r.airflow'), value: r.airFlowLMin / 1000, q: 'air_flow', note: c.t('r.airflow_note', { rpm: c.f('u:rpm', v.rpm, { decimals: 0 }), ve: c.fmt(v.ve, { decimals: 0 }) }) },
       { label: c.t('r.intake_d'), value: r.intakeDiameterMm, q: 'length', decimals: 1, note: c.t('r.velocity_note', { v: c.f('flow_velocity', AIR_VELOCITY_INTAKE, { decimals: 0 }) }) },
       { label: c.t('r.throttle_d'), value: r.throttleDiameterMm, q: 'length', decimals: 1, note: c.t('r.throttle_note', { cyl: c.tc('common.cylinders', { count: v.cylinders }), v: c.f('flow_velocity', AIR_VELOCITY_THROTTLE, { decimals: 0 }) }) },
@@ -85,8 +87,8 @@ export default {
         title: c.t('table.inj_title'),
         intro: c.t('table.inj_intro'),
         columns: [c.t('table.size'), c.t('table.duty'), c.t('table.margin'), c.t('table.rating')],
-        rows: injectorSizes(r.flowCcMin).map((s) => ({
-          cells: [c.f('injector_flow', s.size), `${c.fmt(s.duty, { decimals: 1 })} %`, `${c.fmt(s.margin, { decimals: 1 })} %`, c.tc(`rating.${s.rating}`)],
+        rows: injectorSizes(r.flowCcMin, r.netRatedCcMin).map((s) => ({
+          cells: [c.f('injector_flow', s.size, { opts: { density: r.inputs.densityKgL } }), `${c.fmt(s.duty, { decimals: 1 })} %`, `${c.fmt(s.margin, { decimals: 1 })} %`, c.tc(`rating.${s.rating}`)],
           status: { excellent: 'ok', good: 'ok', adequate: 'warn', insufficient: 'danger' }[s.rating],
           highlight: s.closest,
         })),
@@ -108,7 +110,8 @@ export default {
   },
 
   charts(r, c) {
-    const pc = pressureCurve(r.flowCcMin, r.inputs.railBar, r.inputs.intakeBarA);
+    const pc = pressureCurve(r.flowCcMin, r.inputs.intakeBarA);
+    const dens = { density: r.inputs.densityKgL };
     const vc = velocityCurve();
     return [
       {
@@ -118,8 +121,8 @@ export default {
         xTitle: `${c.t('chart.pressure_x')} (${c.sym('pressure')})`,
         yTitle: `${c.t('chart.flow_y')} (${c.sym('injector_flow')})`,
         datasets: [
-          { label: c.t('chart.ds_flow'), data: pc.map((p) => c.cv('injector_flow', p.flow)), fill: true },
-          { label: c.t('chart.ds_boost', { p: c.f('pressure_abs', r.inputs.intakeBarA) }), data: pc.map((p) => c.cv('injector_flow', p.boosted)), dashed: true, color: '#4ecdc4' },
+          { label: c.t('chart.ds_flow'), data: pc.map((p) => c.cv('injector_flow', p.flow, dens)), fill: true },
+          ...(r.inputs.intakeBarA > 1 ? [{ label: c.t('chart.ds_unref', { p: c.f('pressure_abs', r.inputs.intakeBarA) }), data: pc.map((p) => c.cv('injector_flow', p.unref, dens)), dashed: true, color: '#ff9f0a' }] : []),
         ],
       },
       {

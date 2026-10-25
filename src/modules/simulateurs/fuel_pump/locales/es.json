@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Caudal de bomba necesario",
-    "pump_note": "Caudal de los inyectores + 20 % de reserva, según el ciclo de trabajo",
+    "pump_note": "Consumo de los inyectores al ciclo de trabajo máximo + 20 % de reserva",
     "return": "Caudal de retorno",
     "pipe_max": "Caudal máximo del tubo",
     "pipe_max_note": "Carga {pct} % · velocidad límite {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Pérdida de carga del circuito",
     "loss_pump": "Pérdida de carga de la bomba",
     "loss_pump_note": "Valor fijo",
-    "loss_total": "Pérdida de carga total"
+    "loss_total": "Pérdida de carga total",
+    "return_note": "Excedente devuelto al depósito"
   },
   "note": {
     "pipe_too_small": "El tubo es demasiado pequeño para este caudal: elige un diámetro mayor (ver el comparador).",

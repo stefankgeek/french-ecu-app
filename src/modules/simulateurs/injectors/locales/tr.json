@@ -24,7 +24,6 @@
   "r": {
     "flow": "Önerilen enjektör debisi",
     "injtime": "Tahmini enjeksiyon süresi",
-    "injtime_note": "Ölü zaman dahil: {tofi}",
     "airflow": "Silindir başına hava debisi",
     "airflow_note": "{rpm} devirde, hacimsel verim %{ve}",
     "intake_d": "Teorik emme çapı",
@@ -34,7 +33,9 @@
     "margin": "Güvenlik payı",
     "margin_note": "{p} basınçta görev döngüsü %{duty}",
     "corr": "Uygulanan düzeltmeler",
-    "corr_text": "Rampa basıncı ×{p} · Hava sıcaklığı ×{t} · Gaz kelebeği %{th}"
+    "corr_text": "Rampa basıncı ×{p} · Hava sıcaklığı ×{t} · Gaz kelebeği %{th}",
+    "flow_note": "{p} basınçta ölçülen nominal debi",
+    "injtime_note2": "Açılma {open} + ölü zaman {tofi} · motor çevrimi {cycle}"
   },
   "table": {
     "inj_title": "Enjektör karşılaştırması",
@@ -54,11 +55,11 @@
     "pressure_x": "Rampa basıncı",
     "flow_y": "Debi",
     "ds_flow": "Enjektör debisi",
-    "ds_boost": "Emme basıncı {p} ile",
     "velocity_title": "Gaz kelebeği açıklığına göre hızlar",
     "velocity_x": "Gaz kelebeği açıklığı (%)",
     "velocity_y": "Hız",
     "ds_air": "Hava",
-    "ds_fuel": "Yakıt"
+    "ds_fuel": "Yakıt",
+    "ds_unref": "Emmeye referanslı olmayan regülatör (emme {p})"
   }
 }

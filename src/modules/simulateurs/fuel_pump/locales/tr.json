@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Gereken pompa debisi",
-    "pump_note": "Enjektör debisi + %20 yedek, görev döngüsüne göre",
+    "pump_note": "Azami görev döngüsünde enjektör tüketimi + %20 yedek",
     "return": "Dönüş debisi",
     "pipe_max": "Hortumun azami debisi",
     "pipe_max_note": "Yük %{pct} · sınır hız {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Devre basınç kaybı",
     "loss_pump": "Pompa basınç kaybı",
     "loss_pump_note": "Sabit değer",
-    "loss_total": "Toplam basınç kaybı"
+    "loss_total": "Toplam basınç kaybı",
+    "return_note": "Depoya geri gönderilen fazla yakıt"
   },
   "note": {
     "pipe_too_small": "Hortum bu debi için çok küçük: daha büyük bir çap seçin (karşılaştırmaya bakın).",

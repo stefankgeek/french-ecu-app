@@ -39,7 +39,7 @@ export default {
     const loadStatus = r.loadRatio <= 0.8 ? 'ok' : r.loadRatio <= 1 ? 'warn' : 'danger';
     return [
       { label: c.t('r.pump'), value: r.pumpLh, q: 'fuel_flow', alt: true, status: 'ok', note: c.t('r.pump_note') },
-      { label: c.t('r.return'), value: ccToLh(r.returnCcMin), q: 'fuel_flow' },
+      { label: c.t('r.return'), value: ccToLh(r.returnCcMin), q: 'fuel_flow', note: c.t('r.return_note') },
       { label: c.t('r.pipe_max'), value: ccToLh(r.maxPipeCcMin), q: 'fuel_flow', status: loadStatus,
         note: c.t('r.pipe_max_note', { pct: c.fmt(r.loadRatio * 100, { decimals: 0 }), v: c.f('flow_velocity', MAX_FLOW_VELOCITY) }) },
       { label: c.t('r.velocity'), value: r.velocity, q: 'flow_velocity', status: r.velocity > MAX_FLOW_VELOCITY ? 'danger' : 'ok' },

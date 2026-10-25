@@ -1,5 +1,8 @@
 /**
- * Débit pompe & duty cycle — formules reprises À L'IDENTIQUE de l'ancien site (debit-pompe.php).
+ * Débit pompe & duty cycle — base : ancien site (debit-pompe.php), avec la correction validée le 25/10/2026 :
+ * le débit de pompe requis = consommation des injecteurs au duty cycle maxi × 1,2 (20 % de réserve).
+ * L'ancien site multipliait par 100/duty (débit requis qui AUGMENTAIT quand le duty cycle baissait).
+ * Le débit de retour est l'excédent renvoyé au réservoir (pompe − consommation).
  * Entrées : injFlowCcMin (cc/min par injecteur), injectors, densityKgL, pipeDiameterMm, pipeLengthM,
  *           circuit ('simple' | 'complex'), dutyMax (%).
  * Sorties : débits en cc/min (et L/h pour la pompe), pertes de charge en Pa, vitesses en m/s.
@@ -14,15 +17,15 @@ export function darcy(L, D, v, rho, f = FRICTION) {
   return f * (L / D) * ((rho * v * v) / 2);
 }
 
-const pumpOut = (inj, n, duty) => {
-  const d = duty > 100 ? 100 : duty;
-  return d === 0 ? 0 : inj * n * (100 / d) * 1.2;
-};
+export const PUMP_RESERVE = 1.2; // 20 % de réserve
+/** Consommation réelle des injecteurs (cc/min) au duty cycle donné (plafonné à 100 %). */
+const consumption = (inj, n, duty) => inj * n * Math.min(duty, 100) / 100;
+const pumpOut = (inj, n, duty) => consumption(inj, n, duty) * PUMP_RESERVE;
 
 export function computePump(i) {
   const rho = i.densityKgL * 1000;
   const outCcMin = pumpOut(i.injFlowCcMin, i.injectors, i.dutyMax);
-  const returnCcMin = outCcMin * 0.1;
+  const returnCcMin = outCcMin - consumption(i.injFlowCcMin, i.injectors, i.dutyMax);
   const pumpLh = outCcMin * 0.06;
   const D = i.pipeDiameterMm / 1000;
   const section = Math.PI * (D / 2) ** 2;
@@ -41,8 +44,8 @@ export function computePump(i) {
     const circuit = darcy(effLength, D, v, rho);
     curve.push({
       duty: d,
-      injectors: (d / 100) * i.injFlowCcMin * i.injectors,
-      out, ret: out * 0.1,
+      injectors: consumption(i.injFlowCcMin, i.injectors, d),
+      out, ret: out - consumption(i.injFlowCcMin, i.injectors, d),
       pipeLoss: darcy(i.pipeLengthM, D, v, rho), circuitLoss: circuit, pumpLoss: PUMP_LOSS_PA, totalLoss: circuit + PUMP_LOSS_PA,
     });
   }

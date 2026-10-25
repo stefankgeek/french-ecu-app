@@ -24,7 +24,6 @@
   "r": {
     "flow": "Caudal de injetor recomendado",
     "injtime": "Tempo de injeção estimado",
-    "injtime_note": "Tempo morto incluído: {tofi}",
     "airflow": "Caudal de ar por cilindro",
     "airflow_note": "A {rpm}, rendimento volumétrico {ve} %",
     "intake_d": "Diâmetro de admissão teórico",
@@ -34,7 +33,9 @@
     "margin": "Margem de segurança",
     "margin_note": "Duty cycle {duty} % a {p}",
     "corr": "Correções aplicadas",
-    "corr_text": "Pressão da rampa ×{p} · Temperatura do ar ×{t} · Borboleta {th} %"
+    "corr_text": "Pressão da rampa ×{p} · Temperatura do ar ×{t} · Borboleta {th} %",
+    "flow_note": "Caudal nominal medido a {p}",
+    "injtime_note2": "Abertura {open} + tempo morto {tofi} · ciclo do motor {cycle}"
   },
   "table": {
     "inj_title": "Comparador de injetores",
@@ -54,11 +55,11 @@
     "pressure_x": "Pressão da rampa",
     "flow_y": "Caudal",
     "ds_flow": "Caudal do injetor",
-    "ds_boost": "Com pressão de admissão {p}",
     "velocity_title": "Velocidades em função da abertura da borboleta",
     "velocity_x": "Abertura da borboleta (%)",
     "velocity_y": "Velocidade",
     "ds_air": "Ar",
-    "ds_fuel": "Combustível"
+    "ds_fuel": "Combustível",
+    "ds_unref": "Regulador não referenciado (admissão {p})"
   }
 }

@@ -55,7 +55,7 @@ export default {
   },
 
   charts(r, c) {
-    const curve = bottleCurve(r.v.bottle);
+    const curve = bottleCurve(r.v.bottle, r.v.duration);
     return [
       {
         title: c.t('chart.power_title'), type: 'bar', legend: false,

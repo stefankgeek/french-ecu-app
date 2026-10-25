@@ -24,7 +24,6 @@
   "r": {
     "flow": "Recommended injector flow",
     "injtime": "Estimated injection time",
-    "injtime_note": "Dead time included: {tofi}",
     "airflow": "Air flow per cylinder",
     "airflow_note": "At {rpm}, volumetric efficiency {ve}%",
     "intake_d": "Theoretical intake diameter",
@@ -34,7 +33,9 @@
     "margin": "Safety margin",
     "margin_note": "Duty cycle {duty}% at {p}",
     "corr": "Corrections applied",
-    "corr_text": "Rail pressure ×{p} · Air temperature ×{t} · Throttle {th}%"
+    "corr_text": "Rail pressure ×{p} · Air temperature ×{t} · Throttle {th}%",
+    "flow_note": "Rated flow measured at {p}",
+    "injtime_note2": "Opening {open} + dead time {tofi} · engine cycle {cycle}"
   },
   "table": {
     "inj_title": "Injector comparison",
@@ -54,11 +55,11 @@
     "pressure_x": "Rail pressure",
     "flow_y": "Flow",
     "ds_flow": "Injector flow",
-    "ds_boost": "With intake pressure {p}",
     "velocity_title": "Velocities versus throttle opening",
     "velocity_x": "Throttle opening (%)",
     "velocity_y": "Velocity",
     "ds_air": "Air",
-    "ds_fuel": "Fuel"
+    "ds_fuel": "Fuel",
+    "ds_unref": "Unreferenced regulator (intake {p})"
   }
 }

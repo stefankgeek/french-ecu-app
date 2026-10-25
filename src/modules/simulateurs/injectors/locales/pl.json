@@ -24,7 +24,6 @@
   "r": {
     "flow": "Zalecany wydatek wtryskiwacza",
     "injtime": "Szacowany czas wtrysku",
-    "injtime_note": "Z czasem martwym: {tofi}",
     "airflow": "Przepływ powietrza na cylinder",
     "airflow_note": "Przy {rpm}, sprawność napełniania {ve}%",
     "intake_d": "Teoretyczna średnica dolotu",
@@ -34,7 +33,9 @@
     "margin": "Margines bezpieczeństwa",
     "margin_note": "Współczynnik wypełnienia {duty}% przy {p}",
     "corr": "Zastosowane korekty",
-    "corr_text": "Ciśnienie w listwie ×{p} · Temperatura powietrza ×{t} · Przepustnica {th}%"
+    "corr_text": "Ciśnienie w listwie ×{p} · Temperatura powietrza ×{t} · Przepustnica {th}%",
+    "flow_note": "Wydatek nominalny mierzony przy {p}",
+    "injtime_note2": "Otwarcie {open} + czas martwy {tofi} · cykl silnika {cycle}"
   },
   "table": {
     "inj_title": "Porównanie wtryskiwaczy",
@@ -54,11 +55,11 @@
     "pressure_x": "Ciśnienie w listwie",
     "flow_y": "Wydatek",
     "ds_flow": "Wydatek wtryskiwacza",
-    "ds_boost": "Z ciśnieniem dolotu {p}",
     "velocity_title": "Prędkości w zależności od otwarcia przepustnicy",
     "velocity_x": "Otwarcie przepustnicy (%)",
     "velocity_y": "Prędkość",
     "ds_air": "Powietrze",
-    "ds_fuel": "Paliwo"
+    "ds_fuel": "Paliwo",
+    "ds_unref": "Regulator bez odniesienia do dolotu (dolot {p})"
   }
 }

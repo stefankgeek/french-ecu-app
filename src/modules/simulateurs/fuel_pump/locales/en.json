@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Required pump flow",
-    "pump_note": "Injector flow + 20% reserve, scaled to the duty cycle",
+    "pump_note": "Injector consumption at maximum duty cycle + 20% reserve",
     "return": "Return flow",
     "pipe_max": "Hose maximum flow",
     "pipe_max_note": "Load {pct}% · velocity limit {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Circuit pressure loss",
     "loss_pump": "Pump pressure loss",
     "loss_pump_note": "Fixed value",
-    "loss_total": "Total pressure loss"
+    "loss_total": "Total pressure loss",
+    "return_note": "Surplus sent back to the tank"
   },
   "note": {
     "pipe_too_small": "The hose is too small for this flow: choose a larger diameter (see the comparison).",

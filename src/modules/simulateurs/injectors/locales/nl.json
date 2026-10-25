@@ -24,7 +24,6 @@
   "r": {
     "flow": "Aanbevolen injectorcapaciteit",
     "injtime": "Geschatte inspuittijd",
-    "injtime_note": "Inclusief dode tijd: {tofi}",
     "airflow": "Luchtdebiet per cilinder",
     "airflow_note": "Bij {rpm}, volumetrisch rendement {ve} %",
     "intake_d": "Theoretische inlaatdiameter",
@@ -34,7 +33,9 @@
     "margin": "Veiligheidsmarge",
     "margin_note": "Duty cycle {duty} % bij {p}",
     "corr": "Toegepaste correcties",
-    "corr_text": "Raildruk ×{p} · Luchttemperatuur ×{t} · Gasklep {th} %"
+    "corr_text": "Raildruk ×{p} · Luchttemperatuur ×{t} · Gasklep {th} %",
+    "flow_note": "Nominaal debiet gemeten bij {p}",
+    "injtime_note2": "Opening {open} + dode tijd {tofi} · motorcyclus {cycle}"
   },
   "table": {
     "inj_title": "Injectorvergelijking",
@@ -54,11 +55,11 @@
     "pressure_x": "Raildruk",
     "flow_y": "Debiet",
     "ds_flow": "Injectordebiet",
-    "ds_boost": "Met inlaatdruk {p}",
     "velocity_title": "Snelheden afhankelijk van de gasklepopening",
     "velocity_x": "Gasklepopening (%)",
     "velocity_y": "Snelheid",
     "ds_air": "Lucht",
-    "ds_fuel": "Brandstof"
+    "ds_fuel": "Brandstof",
+    "ds_unref": "Regelaar zonder inlaatreferentie (inlaat {p})"
   }
 }

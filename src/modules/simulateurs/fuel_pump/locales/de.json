@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Benötigte Pumpenförderleistung",
-    "pump_note": "Düsendurchfluss + 20 % Reserve, bezogen auf das Tastverhältnis",
+    "pump_note": "Verbrauch der Düsen bei maximalem Tastverhältnis + 20 % Reserve",
     "return": "Rücklaufmenge",
     "pipe_max": "Maximaler Leitungsdurchfluss",
     "pipe_max_note": "Auslastung {pct} % · Grenzgeschwindigkeit {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Druckverlust des Kreislaufs",
     "loss_pump": "Druckverlust der Pumpe",
     "loss_pump_note": "Pauschalwert",
-    "loss_total": "Gesamtdruckverlust"
+    "loss_total": "Gesamtdruckverlust",
+    "return_note": "Überschuss, der in den Tank zurückfließt"
   },
   "note": {
     "pipe_too_small": "Die Leitung ist für diesen Durchfluss zu klein: größeren Durchmesser wählen (siehe Vergleich).",

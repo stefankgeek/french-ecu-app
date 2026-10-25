@@ -24,7 +24,6 @@
   "r": {
     "flow": "Empfohlener Düsendurchfluss",
     "injtime": "Geschätzte Einspritzzeit",
-    "injtime_note": "Inklusive Totzeit: {tofi}",
     "airflow": "Luftdurchsatz pro Zylinder",
     "airflow_note": "Bei {rpm}, Liefergrad {ve} %",
     "intake_d": "Theoretischer Ansaugdurchmesser",
@@ -34,7 +33,9 @@
     "margin": "Sicherheitsreserve",
     "margin_note": "Tastverhältnis {duty} % bei {p}",
     "corr": "Angewandte Korrekturen",
-    "corr_text": "Raildruck ×{p} · Lufttemperatur ×{t} · Drosselklappe {th} %"
+    "corr_text": "Raildruck ×{p} · Lufttemperatur ×{t} · Drosselklappe {th} %",
+    "flow_note": "Nenndurchfluss gemessen bei {p}",
+    "injtime_note2": "Öffnung {open} + Totzeit {tofi} · Motorzyklus {cycle}"
   },
   "table": {
     "inj_title": "Düsenvergleich",
@@ -54,11 +55,11 @@
     "pressure_x": "Raildruck",
     "flow_y": "Durchfluss",
     "ds_flow": "Düsendurchfluss",
-    "ds_boost": "Mit Ansaugdruck {p}",
     "velocity_title": "Geschwindigkeiten in Abhängigkeit von der Drosselklappenöffnung",
     "velocity_x": "Drosselklappenöffnung (%)",
     "velocity_y": "Geschwindigkeit",
     "ds_air": "Luft",
-    "ds_fuel": "Kraftstoff"
+    "ds_fuel": "Kraftstoff",
+    "ds_unref": "Regler ohne Saugrohrbezug (Ansaugdruck {p})"
   }
 }

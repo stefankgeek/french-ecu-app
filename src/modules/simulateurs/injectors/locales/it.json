@@ -24,7 +24,6 @@
   "r": {
     "flow": "Portata iniettore consigliata",
     "injtime": "Tempo di iniezione stimato",
-    "injtime_note": "Tempo morto incluso: {tofi}",
     "airflow": "Portata d'aria per cilindro",
     "airflow_note": "A {rpm}, rendimento volumetrico {ve} %",
     "intake_d": "Diametro di aspirazione teorico",
@@ -34,7 +33,9 @@
     "margin": "Margine di sicurezza",
     "margin_note": "Duty cycle {duty} % a {p}",
     "corr": "Correzioni applicate",
-    "corr_text": "Pressione rail ×{p} · Temperatura aria ×{t} · Farfalla {th} %"
+    "corr_text": "Pressione rail ×{p} · Temperatura aria ×{t} · Farfalla {th} %",
+    "flow_note": "Portata nominale misurata a {p}",
+    "injtime_note2": "Apertura {open} + tempo morto {tofi} · ciclo motore {cycle}"
   },
   "table": {
     "inj_title": "Confronto iniettori",
@@ -54,11 +55,11 @@
     "pressure_x": "Pressione del rail",
     "flow_y": "Portata",
     "ds_flow": "Portata iniettore",
-    "ds_boost": "Con pressione di aspirazione {p}",
     "velocity_title": "Velocità in funzione dell'apertura farfalla",
     "velocity_x": "Apertura farfalla (%)",
     "velocity_y": "Velocità",
     "ds_air": "Aria",
-    "ds_fuel": "Carburante"
+    "ds_fuel": "Carburante",
+    "ds_unref": "Regolatore non riferito (aspirazione {p})"
   }
 }

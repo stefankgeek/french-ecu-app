@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Portata della pompa necessaria",
-    "pump_note": "Portata degli iniettori + 20 % di riserva, riferita al duty cycle",
+    "pump_note": "Consumo degli iniettori al duty cycle massimo + 20 % di riserva",
     "return": "Portata di ritorno",
     "pipe_max": "Portata massima del tubo",
     "pipe_max_note": "Carico {pct} % · velocità limite {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Perdita di carico del circuito",
     "loss_pump": "Perdita di carico della pompa",
     "loss_pump_note": "Valore forfettario",
-    "loss_total": "Perdita di carico totale"
+    "loss_total": "Perdita di carico totale",
+    "return_note": "Eccedenza rinviata al serbatoio"
   },
   "note": {
     "pipe_too_small": "Il tubo è troppo piccolo per questa portata: scegli un diametro maggiore (vedi il confronto).",

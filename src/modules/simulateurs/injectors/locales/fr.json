@@ -24,7 +24,6 @@
   "r": {
     "flow": "Débit d'injecteur recommandé",
     "injtime": "Temps d'injection estimé",
-    "injtime_note": "Temps mort inclus : {tofi}",
     "airflow": "Débit d'air par cylindre",
     "airflow_note": "À {rpm}, rendement volumétrique {ve} %",
     "intake_d": "Diamètre d'admission théorique",
@@ -34,7 +33,9 @@
     "margin": "Marge de sécurité",
     "margin_note": "Duty cycle {duty} % à {p}",
     "corr": "Corrections appliquées",
-    "corr_text": "Pression de rampe ×{p} · Température d'air ×{t} · Papillon {th} %"
+    "corr_text": "Pression de rampe ×{p} · Température d'air ×{t} · Papillon {th} %",
+    "flow_note": "Débit nominal mesuré à {p}",
+    "injtime_note2": "Ouverture {open} + temps mort {tofi} · cycle moteur {cycle}"
   },
   "table": {
     "inj_title": "Comparateur d'injecteurs",
@@ -54,11 +55,11 @@
     "pressure_x": "Pression de rampe",
     "flow_y": "Débit",
     "ds_flow": "Débit injecteur",
-    "ds_boost": "Avec pression d'admission {p}",
     "velocity_title": "Vitesses selon l'ouverture du papillon",
     "velocity_x": "Ouverture du papillon (%)",
     "velocity_y": "Vitesse",
     "ds_air": "Air",
-    "ds_fuel": "Carburant"
+    "ds_fuel": "Carburant",
+    "ds_unref": "Régulateur non référencé (admission {p})"
   }
 }

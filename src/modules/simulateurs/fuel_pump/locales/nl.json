@@ -15,7 +15,7 @@
   },
   "r": {
     "pump": "Benodigd pompdebiet",
-    "pump_note": "Injectordebiet + 20 % reserve, omgerekend naar de duty cycle",
+    "pump_note": "Verbruik van de injectoren bij maximale duty cycle + 20 % reserve",
     "return": "Retourdebiet",
     "pipe_max": "Maximaal leidingdebiet",
     "pipe_max_note": "Belasting {pct} % · grenssnelheid {v}",
@@ -24,7 +24,8 @@
     "loss_circuit": "Drukverlies circuit",
     "loss_pump": "Drukverlies pomp",
     "loss_pump_note": "Vaste waarde",
-    "loss_total": "Totaal drukverlies"
+    "loss_total": "Totaal drukverlies",
+    "return_note": "Overschot dat terug naar de tank gaat"
   },
   "note": {
     "pipe_too_small": "De leiding is te klein voor dit debiet: kies een grotere diameter (zie de vergelijking).",
