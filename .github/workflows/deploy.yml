@@ -29,6 +29,10 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          # Clé PUBLIQUE PostHog (statistiques) : variable du dépôt, Settings → Secrets and variables → Actions → Variables
+          VITE_POSTHOG_KEY: ${{ vars.VITE_POSTHOG_KEY }}
+          VITE_POSTHOG_HOST: ${{ vars.VITE_POSTHOG_HOST || 'https://eu.i.posthog.com' }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

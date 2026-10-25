@@ -1,7 +1,7 @@
 {
   "name": "french-ecu-app",
-  "version": "0.7.1",
-  "description": "French ECU \u2013 simulateurs de pr\u00e9paration moteur et aide-m\u00e9moire (PWA multilingue)",
+  "version": "0.8.0",
+  "description": "French ECU – simulateurs de préparation moteur et aide-mémoire (PWA multilingue)",
   "scripts": {
     "dev": "vite",
     "build": "npm run i18n:check && vite build",
@@ -22,7 +22,8 @@
     "@fontsource/orbitron": "^5.1.0",
     "chart.js": "^4.4.4",
     "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.2"
+    "jspdf": "^2.5.2",
+    "posthog-js": "^1.438.21"
   },
   "private": true,
   "type": "module"

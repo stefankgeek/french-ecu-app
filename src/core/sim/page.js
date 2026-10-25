@@ -16,6 +16,7 @@ import { load, save } from '../store.js';
 import { currentQuery } from '../router.js';
 import { esc, toast } from '../ui.js';
 import { icon } from '../icons.js';
+import { track, summarizeInputs } from '../analytics.js';
 
 /** Encode / décode les valeurs pour un lien de partage (#/outil/x?v=…). */
 const encode = (obj) => btoa(unescape(encodeURIComponent(JSON.stringify(obj)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -179,11 +180,23 @@ export function mountSimulator(root, spec) {
       }
     }
     save(`sim:${NS}`, state);
+    lastField = id; changes++; trackCalc();
     schedule();
   }
 
   let timer;
+  let statTimer;
+  let lastField = null;
+  let changes = 0;
   function schedule() { clearTimeout(timer); timer = setTimeout(compute, 120); }
+  /** Statistiques : un événement « calcul » quand l'utilisateur a fini de modifier (4 s sans saisie). */
+  function trackCalc() {
+    clearTimeout(statTimer);
+    statTimer = setTimeout(() => {
+      track('tool_calculated', { tool: NS, field: lastField, changes, inputs: summarizeInputs(state) });
+      changes = 0;
+    }, 4000);
+  }
 
   function showError(on) { $('.sim__error').hidden = !on; root.querySelector('.sim__outputs').classList.toggle('is-stale', on); }
 
@@ -192,7 +205,7 @@ export function mountSimulator(root, spec) {
     if (Object.values(errors).some(Boolean)) return showError(true);
     showError(false);
     let r;
-    try { r = spec.compute({ ...state }); } catch (e) { console.error(e); return showError(true); }
+    try { r = spec.compute({ ...state }); } catch (e) { console.error(e); track('tool_error', { tool: NS, message: String(e?.message || e) }); return showError(true); }
     lastResult = r;
     lastView = buildView(r);
     renderResults(lastView);
@@ -213,6 +226,7 @@ export function mountSimulator(root, spec) {
     try {
       const d = lastView.downloads[+i];
       const blob = await d.build();
+      track('tool_download', { tool: NS, file: d.filename.split('.').pop(), inputs: summarizeInputs(state) });
       const { saveFile } = await import('../download.js');
       await saveFile(blob, d.filename);
     } catch (err) { console.error(err); toast(t('sim.pdf_error')); }
@@ -295,6 +309,7 @@ export function mountSimulator(root, spec) {
   /* ---------- Actions ---------- */
   root.querySelector('.sim__actions:not(.sim__downloads)').addEventListener('click', async (e) => {
     const act = e.target.closest('[data-act]')?.dataset.act;
+    if (act) track(`tool_${act}`, { tool: NS, inputs: summarizeInputs(state) });
     if (act === 'reset') {
       Object.assign(state, defaults);
       Object.keys(errors).forEach((k) => delete errors[k]);
@@ -357,7 +372,7 @@ export function mountSimulator(root, spec) {
     mountSimulator(root, spec);
     window.scrollTo(0, y);
   }
-  root._simCleanup = () => { charts.forEach((c) => c?.destroy()); charts = []; clearTimeout(timer); };
+  root._simCleanup = () => { charts.forEach((c) => c?.destroy()); charts = []; clearTimeout(timer); clearTimeout(statTimer); };
 
   compute();
 }

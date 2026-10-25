@@ -258,5 +258,20 @@
     "installed": "Installazione completata! Apri French ECU dall'icona nella schermata Home.",
     "already": "Già installata? Aprila dall'icona di French ECU.",
     "language": "Lingua"
+  },
+  "consent": {
+    "title": "Aiutaci a migliorare French ECU",
+    "text": "Accetti l'invio di statistiche d'uso anonime? Ci indicano quali strumenti sono utili e quali bug correggere. Non vengono raccolti nomi, e-mail o dati personali.",
+    "details_btn": "Cosa viene raccolto",
+    "d1": "Pagine e strumenti aperti, calcoli effettuati (valori inseriti), esportazioni PDF, condivisioni e download.",
+    "d2": "Lingua, unità, tipo di dispositivo e browser, paese approssimativo.",
+    "d3": "Installazione, aggiornamenti ed errori dell'app.",
+    "d4": "Dati ospitati in Europa (PostHog UE), nessun cookie pubblicitario, mai venduti.",
+    "d5": "Puoi cambiare idea in qualsiasi momento nelle Impostazioni.",
+    "accept": "Accetta",
+    "refuse": "Rifiuta",
+    "settings_title": "Statistiche",
+    "settings_label": "Invia statistiche anonime",
+    "settings_text": "Aiuta a migliorare l'app. Nessun dato personale. Hosting in Europa."
   }
 }

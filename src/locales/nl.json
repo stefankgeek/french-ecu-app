@@ -256,5 +256,20 @@
     "installed": "Installatie voltooid! Open French ECU via het pictogram op uw startscherm.",
     "already": "Al geïnstalleerd? Open de app via het French ECU-pictogram.",
     "language": "Taal"
+  },
+  "consent": {
+    "title": "Help ons French ECU te verbeteren",
+    "text": "Gaat u akkoord met het verzenden van anonieme gebruiksstatistieken? Ze tonen ons welke tools nuttig zijn en welke fouten we moeten oplossen. Er worden geen namen, e-mailadressen of persoonsgegevens verzameld.",
+    "details_btn": "Wat wordt verzameld",
+    "d1": "Geopende pagina's en tools, uitgevoerde berekeningen (ingevoerde waarden), PDF-exports, delen en downloads.",
+    "d2": "Taal, eenheden, type toestel en browser, land bij benadering.",
+    "d3": "Installatie, updates en fouten van de app.",
+    "d4": "Gegevens opgeslagen in Europa (PostHog EU), geen advertentiecookies, nooit verkocht.",
+    "d5": "U kunt uw keuze altijd wijzigen in Instellingen.",
+    "accept": "Accepteren",
+    "refuse": "Weigeren",
+    "settings_title": "Statistieken",
+    "settings_label": "Anonieme statistieken verzenden",
+    "settings_text": "Helpt de app te verbeteren. Geen persoonsgegevens. Opslag in Europa."
   }
 }

@@ -6,6 +6,7 @@ import { t, lang } from '../../../core/i18n.js';
 import { getLanguage } from '../../../core/i18n-core.js';
 import { esc } from '../../../core/ui.js';
 import { MEMO } from './content.js';
+import { track } from '../../../core/analytics.js';
 
 const NUMERIC = /^[≈><λ ]*\d[\d.]*(\s*[–-]\s*\d[\d.]*)?(\s?(%|°C|V|bar|kPa|mm|N·m|°|A|g\/s))?$/;
 const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -56,8 +57,12 @@ export function mountMemo(root) {
   // Recherche : affiche les fiches qui contiennent le texte et ouvre leur rubrique.
   const cats = [...root.querySelectorAll('.memo__cat')];
   cats.forEach((d) => d.querySelectorAll('.memo__item').forEach((s) => { s.dataset.search = norm(s.textContent); }));
+  cats.forEach((d) => d.addEventListener('toggle', () => { if (d.open && !root.querySelector('#memo-search').value) track('memo_open', { category: d.dataset.cat }); }));
+  let searchTimer;
   root.querySelector('#memo-search').addEventListener('input', (e) => {
     const q = norm(e.target.value.trim());
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { if (q) track('memo_search', { query: q, results: root.querySelectorAll('.memo__item:not([hidden])').length }); }, 1500);
     let any = false;
     cats.forEach((d) => {
       const head = norm(d.querySelector('summary').textContent);

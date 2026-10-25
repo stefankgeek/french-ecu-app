@@ -256,5 +256,20 @@
     "installed": "Yükleme tamamlandı! French ECU'yu ana ekranınızdaki simgeden açın.",
     "already": "Zaten yüklü mü? French ECU simgesinden açın.",
     "language": "Dil"
+  },
+  "consent": {
+    "title": "French ECU'yu geliştirmemize yardım edin",
+    "text": "Anonim kullanım istatistiklerinin gönderilmesini kabul ediyor musunuz? Hangi araçların faydalı olduğunu ve hangi hataların düzeltileceğini gösterirler. Ad, e-posta veya kişisel veri toplanmaz.",
+    "details_btn": "Neler toplanır",
+    "d1": "Açılan sayfalar ve araçlar, yapılan hesaplamalar (girilen değerler), PDF dışa aktarımları, paylaşımlar ve indirmeler.",
+    "d2": "Dil, birimler, cihaz ve tarayıcı türü, yaklaşık ülke.",
+    "d3": "Uygulamanın kurulumu, güncellemeleri ve hataları.",
+    "d4": "Veriler Avrupa'da barındırılır (PostHog AB), reklam çerezi yok, asla satılmaz.",
+    "d5": "Fikrinizi istediğiniz zaman Ayarlar'dan değiştirebilirsiniz.",
+    "accept": "Kabul et",
+    "refuse": "Reddet",
+    "settings_title": "İstatistikler",
+    "settings_label": "Anonim istatistik gönder",
+    "settings_text": "Uygulamanın gelişmesine yardımcı olur. Kişisel veri yok. Avrupa'da barındırma."
   }
 }

@@ -9,6 +9,7 @@ import { installMode, promptInstall, onInstallChange } from './core/install.js';
 import { MODULES, CATEGORIES, MEMO, findModule } from './modules/registry.js';
 import { icon } from './core/icons.js';
 import { esc } from './core/ui.js';
+import { track, trackPage, consent, setConsent, analyticsEnabled } from './core/analytics.js';
 
 const view = () => document.getElementById('view');
 let rerender = () => {};
@@ -171,6 +172,13 @@ function settings() {
       <p class="mono" dir="ltr">${esc(fmt(12345.678, { decimals: 3 }))}</p>
     </section>
 
+    ${analyticsEnabled() ? `<section class="panel">
+      <h2 class="panel__title">${esc(t('consent.settings_title'))}</h2>
+      <label class="switch-row"><span>${esc(t('consent.settings_label'))}</span>
+        <input type="checkbox" id="stats-toggle" ${consent() === 'granted' ? 'checked' : ''} /></label>
+      <p class="hint">${esc(t('consent.settings_text'))}</p>
+    </section>` : ''}
+
     <section class="panel">
       <h2 class="panel__title">${esc(t('settings.about'))}</h2>
       <p>French ECU — ${esc(t('settings.version', { version: __APP_VERSION__ }))}</p>
@@ -178,6 +186,7 @@ function settings() {
 
   view().querySelectorAll('input[name="lang"]').forEach((r) => r.addEventListener('change', (e) => setLanguage(e.target.value)));
   view().querySelectorAll('[data-system]').forEach((b) => b.addEventListener('click', () => setSystem(b.dataset.system)));
+  document.getElementById('stats-toggle')?.addEventListener('change', (e) => setConsent(e.target.checked ? 'granted' : 'denied'));
   view().querySelectorAll('select[data-quantity]').forEach((s) => s.addEventListener('change', () => setUnit(s.dataset.quantity, s.value)));
 }
 
@@ -186,6 +195,7 @@ async function moduleView({ id }) {
   const m = findModule(id);
   if (!m) return navigate('/');
   setChrome({ title: t(`modules.${id}.title`), back: true });
+  track('tool_open', { tool: id, category: m.category || 'memo' });
   if (m.status === 'ready' && m.view) {
     const { mountMemo } = await m.view();
     return mountMemo(view());
@@ -207,6 +217,7 @@ async function moduleView({ id }) {
 export function startApp() {
   shell();
   const wrap = (fn) => (params) => {
+    trackPage(currentPath(), params?.id ? { tool: params.id } : {});
     rerender = () => { view()._simCleanup?.(); fn(params); };
     view()._simCleanup?.();
     fn(params);

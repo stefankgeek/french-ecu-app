@@ -9,6 +9,7 @@
 import { t, lang, setLanguage, LANGUAGES, onLanguageChange } from './i18n.js';
 import { esc } from './ui.js';
 import { isStandalone, isIOS, installMode, promptInstall, onInstallChange } from './install.js';
+import { track, trackLaunch } from './analytics.js';
 
 const DISPLAY_MODES = ['standalone', 'fullscreen', 'minimal-ui', 'window-controls-overlay'];
 
@@ -77,17 +78,22 @@ export function mountGate(root = document.getElementById('app')) {
       </main>`;
     root.querySelector('.gate__lang select').addEventListener('change', (e) => setLanguage(e.target.value));
     root.querySelector('[data-act="install"]')?.addEventListener('click', async () => {
-      if (await promptInstall()) { justInstalled = true; render(); }
+      track('install_prompt_click', { device: platform() });
+      const ok = await promptInstall();
+      track('install_prompt_result', { outcome: ok ? 'accepted' : 'dismissed', device: platform() });
+      if (ok) { justInstalled = true; render(); }
     });
     root.querySelector('[data-act="copy"]')?.addEventListener('click', async (e) => {
+      track('install_copy_link', { device: platform() });
       try { await navigator.clipboard.writeText(location.href.split('#')[0]); e.target.textContent = t('gate.copied'); }
       catch { window.prompt(t('gate.copy'), location.href.split('#')[0]); }
     });
   };
   render();
+  trackLaunch('install_gate_view', { device: platform(), native_button: installMode() === 'native' });
   onLanguageChange(render);
   onInstallChange(render);
-  window.addEventListener('appinstalled', () => { justInstalled = true; render(); });
+  window.addEventListener('appinstalled', () => { justInstalled = true; track('app_installed', { device: platform() }); render(); });
   // Si l'utilisateur ouvre l'appli installée dans cet onglet (Chrome le propose), on bascule.
   window.matchMedia('(display-mode: standalone)').addEventListener?.('change', (e) => { if (e.matches) location.reload(); });
 }

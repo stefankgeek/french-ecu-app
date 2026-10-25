@@ -7,12 +7,14 @@
 import { registerSW } from 'virtual:pwa-register';
 import { banner, toast } from './ui.js';
 import { t } from './i18n.js';
+import { track } from './analytics.js';
 
 export function initUpdates() {
   if (!('serviceWorker' in navigator)) return;
   const updateSW = registerSW({
     onNeedRefresh() {
-      banner({ id: 'update-banner', textKey: 'update.available', actionKey: 'update.action', onAction: () => updateSW(true) });
+      track('update_available');
+      banner({ id: 'update-banner', textKey: 'update.available', actionKey: 'update.action', onAction: () => { track('update_applied'); updateSW(true); } });
     },
     onOfflineReady() {
       toast(t('update.offline_ready'));

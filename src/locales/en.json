@@ -256,5 +256,20 @@
     "installed": "Installation complete! Open French ECU from the icon on your home screen.",
     "already": "Already installed? Open it from the French ECU icon.",
     "language": "Language"
+  },
+  "consent": {
+    "title": "Help us improve French ECU",
+    "text": "Do you agree to send anonymous usage statistics? They show us which tools are useful and which bugs to fix. No name, e-mail or personal data is collected.",
+    "details_btn": "What is collected",
+    "d1": "Pages and tools opened, calculations made (values entered), PDF exports, shares and downloads.",
+    "d2": "Language, units, device and browser type, approximate country.",
+    "d3": "App installation, updates and errors.",
+    "d4": "Data hosted in Europe (PostHog EU), no advertising cookies, never sold.",
+    "d5": "You can change your mind at any time in Settings.",
+    "accept": "Accept",
+    "refuse": "Decline",
+    "settings_title": "Statistics",
+    "settings_label": "Send anonymous statistics",
+    "settings_text": "Helps improve the app. No personal data. Hosted in Europe."
   }
 }

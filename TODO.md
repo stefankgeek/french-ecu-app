@@ -12,7 +12,7 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 - ✅ Menu par catégories + recherche + réglages
 - ✅ Message « Nouvelle version disponible » + bouton « Installer »
 - ✅ Contrôle automatique des traductions avant publication
-- ✅ 209 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
+- ✅ 212 tests automatiques (conversions, traductions, nombres, physique des simulateurs)
 - ✅ Publication automatique GitHub Pages
 
 ## Phase 2 — Portage des logiciels ✅
@@ -76,10 +76,15 @@ comparaison des résultats avec l'ancien site.
   Mac Safari « Ajouter au Dock », navigateurs intégrés → copier le lien, Firefox PC → ouvrir avec Chrome/Edge)
 - ✅ Appli installée (ou future appli des stores) : accès complet
 
-## Phase 3 — Statistiques administrateur ⏳
-- ⏳ PostHog (UE) : installations, actifs en temps réel, logiciels utilisés, pays, langues, erreurs
-- ⏳ Écran de consentement RGPD au premier lancement
-- ⏳ Tableau de bord administrateur
+## Phase 3 — Statistiques administrateur 🔄 (v0.8.0)
+- ✅ PostHog UE branché (src/core/analytics.js), chargé seulement après accord
+- ✅ Écran de consentement RGPD au premier lancement + interrupteur dans Réglages (10 langues)
+- ✅ Événements : app_open, app_first_open_installed, app_installed, install_gate_view, install_prompt_*,
+  install_copy_link, $pageview, tool_open, tool_calculated (valeurs saisies), tool_pdf, tool_share, tool_reset,
+  tool_download, tool_error, memo_open, memo_search, language_changed, units_changed, update_available,
+  update_applied, consent_given/withdrawn, exceptions + clics (autocapture)
+- ⏳ Variable GitHub VITE_POSTHOG_KEY à créer par Stéphane (sinon la version en ligne n'envoie rien)
+- ⏳ Tableau de bord administrateur dans PostHog
 
 ## Phase 4 — Tests appareils ⏳
 - ⏳ Android téléphone / tablette, iPhone, iPad, PC (Chrome/Edge)

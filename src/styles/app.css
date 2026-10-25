@@ -329,3 +329,16 @@ button, input, select { font: inherit; color: inherit; }
 .gate__already { margin-top: 18px; }
 .gate__lang { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 13px; color: var(--text-3); }
 .gate__lang select { background: var(--bg-2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+
+/* ---------- Consentement statistiques (RGPD) ---------- */
+.consent { position: fixed; inset: 0; z-index: 90; display: flex; align-items: flex-end; justify-content: center; background: rgba(0, 0, 0, .55); padding: 12px 12px calc(12px + env(safe-area-inset-bottom)); }
+.consent__sheet { width: min(100%, 520px); background: var(--surface-2); border: 1px solid var(--line); border-radius: 20px; padding: 20px 18px; box-shadow: 0 -10px 40px rgba(0, 0, 0, .4); }
+.consent__title { margin: 0 0 8px; font-size: 18px; }
+.consent__text { margin: 0 0 10px; color: var(--text-2); line-height: 1.5; }
+.consent__details { margin: 0 0 14px; color: var(--text-2); font-size: 14px; }
+.consent__details summary { cursor: pointer; color: var(--accent); }
+.consent__details ul { margin: 8px 0 0; padding-inline-start: 20px; line-height: 1.5; }
+.consent__actions { display: flex; gap: 10px; }
+.consent__actions .btn { flex: 1; height: 48px; }
+.switch-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.switch-row input { width: 46px; height: 26px; accent-color: #00d4ff; }
