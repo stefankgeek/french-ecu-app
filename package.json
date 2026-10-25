@@ -1,0 +1,26 @@
+{
+  "name": "french-ecu-app",
+  "version": "0.1.0",
+  "description": "French ECU – simulateurs de préparation moteur et aide-mémoire (PWA multilingue)",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run i18n:check && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "i18n:check": "node scripts/check-i18n.mjs",
+    "icons": "node scripts/logo.mjs"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.20.5",
+    "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "@fontsource/orbitron": "^5.1.0"
+  },
+  "private": true,
+  "type": "module"
+}

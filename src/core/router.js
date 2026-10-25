@@ -1,0 +1,35 @@
+/**
+ * Navigation par « # » dans l'adresse (#/, #/outil/turbo, #/reglages).
+ * Choix volontaire : fonctionne sur GitHub Pages, hors connexion et dans Capacitor
+ * sans aucune configuration serveur.
+ */
+const routes = [];
+let notFound = () => {};
+
+export function route(pattern, handler) {
+  // "/outil/:id" → /^\/outil\/([^/]+)$/
+  const keys = [];
+  const re = new RegExp('^' + pattern.replace(/:(\w+)/g, (_, k) => { keys.push(k); return '([^/]+)'; }) + '$');
+  routes.push({ re, keys, handler });
+}
+
+export const fallback = (handler) => { notFound = handler; };
+export const navigate = (path) => { location.hash = '#' + path; };
+export const currentPath = () => decodeURI(location.hash.replace(/^#/, '')) || '/';
+
+function resolve() {
+  const path = currentPath();
+  for (const { re, keys, handler } of routes) {
+    const m = path.match(re);
+    if (m) {
+      const params = Object.fromEntries(keys.map((k, i) => [k, m[i + 1]]));
+      return handler(params);
+    }
+  }
+  return notFound();
+}
+
+export function startRouter() {
+  window.addEventListener('hashchange', resolve);
+  resolve();
+}

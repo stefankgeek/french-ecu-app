@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Outils de préparation moteur"
+  },
+  "nav": {
+    "home": "Accueil",
+    "settings": "Réglages",
+    "back": "Retour",
+    "memo": "Aide-mémoire"
+  },
+  "home": {
+    "search_placeholder": "Rechercher un outil…",
+    "search_label": "Rechercher",
+    "no_result": "Aucun outil trouvé",
+    "tools_count": {
+      "one": "{count} outil",
+      "other": "{count} outils"
+    }
+  },
+  "categories": {
+    "fuel": "Carburant & injection",
+    "boost": "Suralimentation & échappement",
+    "engine": "Moteur",
+    "ecu": "Cartographie",
+    "chassis": "Châssis & refroidissement",
+    "memo": "Aide-mémoire"
+  },
+  "status": {
+    "soon": "Bientôt"
+  },
+  "module": {
+    "coming_title": "Bientôt disponible",
+    "coming_text": "Ce simulateur est en cours de transfert vers la nouvelle application. Il arrivera dans une prochaine mise à jour, automatiquement."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Calculateur injecteurs",
+      "desc": "Débit d'injecteur requis selon la puissance visée"
+    },
+    "fuel_pump": {
+      "title": "Débit pompe & duty cycle",
+      "desc": "Pompe à carburant, pertes de charge et rapport cyclique"
+    },
+    "e85": {
+      "title": "Conversion E85",
+      "desc": "Injection, consommation et gains en éthanol"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Conversion lambda ↔ AFR et cibles par carburant"
+    },
+    "nitrous": {
+      "title": "Protoxyde d'azote (NOS)",
+      "desc": "Gicleurs, puissance ajoutée et autonomie bouteille"
+    },
+    "turbo": {
+      "title": "Calibrage turbo",
+      "desc": "Point de fonctionnement sur la carte compresseur"
+    },
+    "wastegate": {
+      "title": "Wastegate & pression",
+      "desc": "Ressort de wastegate et régulation de pression"
+    },
+    "intercooler": {
+      "title": "Efficacité intercooler",
+      "desc": "Températures, perte de charge et dimensionnement"
+    },
+    "exhaust": {
+      "title": "Contre-pression échappement",
+      "desc": "Pertes de charge et puissance perdue"
+    },
+    "compression": {
+      "title": "Taux de compression",
+      "desc": "Rapport statique / dynamique et octane requis"
+    },
+    "camshaft": {
+      "title": "Arbre à cames",
+      "desc": "Durée, croisement, LSA et plage de puissance"
+    },
+    "piston_speed": {
+      "title": "Vitesse de piston",
+      "desc": "Vitesse moyenne et forces d'inertie"
+    },
+    "valve_spring": {
+      "title": "Ressorts de soupapes",
+      "desc": "Force de ressort et marge contre l'affolement"
+    },
+    "ring_gap": {
+      "title": "Jeu à la coupe des segments",
+      "desc": "Jeux recommandés selon l'usage"
+    },
+    "conrod": {
+      "title": "Simulateur d'embiellage",
+      "desc": "Contraintes sur bielle, axe et vilebrequin"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Simulateur moteur complet : injection, allumage, turbo, thermique"
+    },
+    "ecu_map": {
+      "title": "Générateur de cartographie",
+      "desc": "Création de tables de calibration ECU"
+    },
+    "brake_bias": {
+      "title": "Répartition de freinage",
+      "desc": "Transfert de masse et équilibre au freinage"
+    },
+    "oil_cooler": {
+      "title": "Radiateur d'huile",
+      "desc": "Dimensionnement et analyse thermique"
+    },
+    "memo": {
+      "title": "Aide-mémoire technique",
+      "desc": "Filetages, couples de serrage, capteurs et méthodes"
+    }
+  },
+  "settings": {
+    "title": "Réglages",
+    "language": "Langue",
+    "units": "Unités",
+    "units_metric": "Métrique",
+    "units_imperial": "Impérial",
+    "units_hint": "Vous pourrez aussi changer l'unité de chaque champ directement dans les simulateurs.",
+    "units_advanced": "Unité par grandeur",
+    "number_format": "Format des nombres",
+    "example": "Exemple",
+    "about": "À propos",
+    "version": "Version {version}"
+  },
+  "quantity": {
+    "pressure": "Pression (relative)",
+    "pressure_abs": "Pression absolue",
+    "temperature": "Température",
+    "temperature_delta": "Écart de température",
+    "length": "Longueur",
+    "displacement": "Cylindrée",
+    "volume": "Volume",
+    "injector_flow": "Débit injecteur",
+    "fuel_flow": "Débit carburant",
+    "mass_flow": "Débit massique d'air",
+    "air_flow": "Débit d'air volumique",
+    "power": "Puissance",
+    "torque": "Couple",
+    "speed": "Vitesse de piston",
+    "vehicle_speed": "Vitesse du véhicule",
+    "mass": "Masse",
+    "small_mass": "Petite masse",
+    "force": "Force",
+    "spring_rate": "Raideur de ressort"
+  },
+  "update": {
+    "available": "Nouvelle version disponible",
+    "action": "Mettre à jour",
+    "later": "Plus tard",
+    "offline_ready": "L'application fonctionne maintenant hors connexion"
+  },
+  "install": {
+    "title": "Installer l'application",
+    "action": "Installer",
+    "ios_hint": "Sur iPhone et iPad : touchez Partager puis « Sur l'écran d'accueil »."
+  }
+}

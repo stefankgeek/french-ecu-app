@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Tools voor motortuning"
+  },
+  "nav": {
+    "home": "Start",
+    "settings": "Instellingen",
+    "back": "Terug",
+    "memo": "Naslag"
+  },
+  "home": {
+    "search_placeholder": "Zoek een tool…",
+    "search_label": "Zoeken",
+    "no_result": "Geen tool gevonden",
+    "tools_count": {
+      "one": "{count} tool",
+      "other": "{count} tools"
+    }
+  },
+  "categories": {
+    "fuel": "Brandstof & injectie",
+    "boost": "Drukvulling & uitlaat",
+    "engine": "Motor",
+    "ecu": "Mapping",
+    "chassis": "Onderstel & koeling",
+    "memo": "Naslag"
+  },
+  "status": {
+    "soon": "Binnenkort"
+  },
+  "module": {
+    "coming_title": "Binnenkort beschikbaar",
+    "coming_text": "Deze simulator wordt overgezet naar de nieuwe app. Hij komt automatisch beschikbaar met een volgende update."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Injectorcalculator",
+      "desc": "Benodigde injectorcapaciteit voor het beoogde vermogen"
+    },
+    "fuel_pump": {
+      "title": "Pompdebiet & duty cycle",
+      "desc": "Brandstofpomp, drukverliezen en duty cycle"
+    },
+    "e85": {
+      "title": "E85-ombouw",
+      "desc": "Injectie, verbruik en vermogenswinst met ethanol"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Omrekening lambda ↔ AFR en doelwaarden per brandstof"
+    },
+    "nitrous": {
+      "title": "Lachgas (NOS)",
+      "desc": "Jets, extra vermogen en flesduur"
+    },
+    "turbo": {
+      "title": "Turbo-afstemming",
+      "desc": "Werkpunt op de compressormap"
+    },
+    "wastegate": {
+      "title": "Wastegate & druk",
+      "desc": "Wastegateveer en drukregeling"
+    },
+    "intercooler": {
+      "title": "Intercooler-rendement",
+      "desc": "Temperaturen, drukval en dimensionering"
+    },
+    "exhaust": {
+      "title": "Uitlaattegendruk",
+      "desc": "Drukverliezen en vermogensverlies"
+    },
+    "compression": {
+      "title": "Compressieverhouding",
+      "desc": "Statische / dynamische verhouding en benodigd octaangetal"
+    },
+    "camshaft": {
+      "title": "Nokkenas",
+      "desc": "Openingsduur, overlap, LSA en vermogensband"
+    },
+    "piston_speed": {
+      "title": "Zuigersnelheid",
+      "desc": "Gemiddelde zuigersnelheid en traagheidskrachten"
+    },
+    "valve_spring": {
+      "title": "Klepveren",
+      "desc": "Veerkracht en marge tegen klepzweven"
+    },
+    "ring_gap": {
+      "title": "Zuigerveer-eindspeling",
+      "desc": "Aanbevolen eindspeling per toepassing"
+    },
+    "conrod": {
+      "title": "Drijfstangsimulator",
+      "desc": "Belasting op drijfstang, zuigerpen en krukas"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Complete motorsimulator: injectie, ontsteking, turbo, thermiek"
+    },
+    "ecu_map": {
+      "title": "Mapgenerator",
+      "desc": "ECU-kalibratietabellen maken"
+    },
+    "brake_bias": {
+      "title": "Remkrachtverdeling",
+      "desc": "Gewichtsverplaatsing en rembalans"
+    },
+    "oil_cooler": {
+      "title": "Oliekoeler",
+      "desc": "Dimensionering en thermische analyse"
+    },
+    "memo": {
+      "title": "Technisch naslagwerk",
+      "desc": "Schroefdraad, aanhaalmomenten, sensoren en methoden"
+    }
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "units": "Eenheden",
+    "units_metric": "Metrisch",
+    "units_imperial": "Imperiaal",
+    "units_hint": "Je kunt de eenheid van elk veld ook rechtstreeks in de simulators wijzigen.",
+    "units_advanced": "Eenheid per grootheid",
+    "number_format": "Getalnotatie",
+    "example": "Voorbeeld",
+    "about": "Over",
+    "version": "Versie {version}"
+  },
+  "quantity": {
+    "pressure": "Druk (relatief)",
+    "pressure_abs": "Absolute druk",
+    "temperature": "Temperatuur",
+    "temperature_delta": "Temperatuurverschil",
+    "length": "Lengte",
+    "displacement": "Cilinderinhoud",
+    "volume": "Volume",
+    "injector_flow": "Injectordebiet",
+    "fuel_flow": "Brandstofdebiet",
+    "mass_flow": "Luchtmassastroom",
+    "air_flow": "Luchtvolumestroom",
+    "power": "Vermogen",
+    "torque": "Koppel",
+    "speed": "Zuigersnelheid",
+    "vehicle_speed": "Voertuigsnelheid",
+    "mass": "Massa",
+    "small_mass": "Kleine massa",
+    "force": "Kracht",
+    "spring_rate": "Veerconstante"
+  },
+  "update": {
+    "available": "Nieuwe versie beschikbaar",
+    "action": "Bijwerken",
+    "later": "Later",
+    "offline_ready": "De app werkt nu ook offline"
+  },
+  "install": {
+    "title": "App installeren",
+    "action": "Installeren",
+    "ios_hint": "Op iPhone en iPad: tik op Deel en daarna op ‘Zet op beginscherm’."
+  }
+}

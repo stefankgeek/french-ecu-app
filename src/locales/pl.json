@@ -1,0 +1,165 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Narzędzia do tuningu silników"
+  },
+  "nav": {
+    "home": "Start",
+    "settings": "Ustawienia",
+    "back": "Wstecz",
+    "memo": "Ściągawka"
+  },
+  "home": {
+    "search_placeholder": "Szukaj narzędzia…",
+    "search_label": "Szukaj",
+    "no_result": "Nie znaleziono narzędzia",
+    "tools_count": {
+      "one": "{count} narzędzie",
+      "few": "{count} narzędzia",
+      "many": "{count} narzędzi",
+      "other": "{count} narzędzia"
+    }
+  },
+  "categories": {
+    "fuel": "Paliwo i wtrysk",
+    "boost": "Doładowanie i wydech",
+    "engine": "Silnik",
+    "ecu": "Mapy ECU",
+    "chassis": "Podwozie i chłodzenie",
+    "memo": "Ściągawka"
+  },
+  "status": {
+    "soon": "Wkrótce"
+  },
+  "module": {
+    "coming_title": "Wkrótce dostępne",
+    "coming_text": "Ten symulator jest przenoszony do nowej aplikacji. Pojawi się automatycznie w jednej z kolejnych aktualizacji."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Kalkulator wtryskiwaczy",
+      "desc": "Wymagany wydatek wtryskiwacza dla docelowej mocy"
+    },
+    "fuel_pump": {
+      "title": "Wydajność pompy i duty cycle",
+      "desc": "Pompa paliwa, straty ciśnienia i współczynnik wypełnienia"
+    },
+    "e85": {
+      "title": "Konwersja na E85",
+      "desc": "Wtrysk, zużycie i przyrost mocy na etanolu"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Przeliczanie lambda ↔ AFR i wartości docelowe dla paliw"
+    },
+    "nitrous": {
+      "title": "Podtlenek azotu (NOS)",
+      "desc": "Dysze, dodatkowa moc i wydajność butli"
+    },
+    "turbo": {
+      "title": "Dobór turbosprężarki",
+      "desc": "Punkt pracy na mapie sprężarki"
+    },
+    "wastegate": {
+      "title": "Wastegate i ciśnienie doładowania",
+      "desc": "Sprężyna wastegate i sterowanie doładowaniem"
+    },
+    "intercooler": {
+      "title": "Sprawność intercoolera",
+      "desc": "Temperatury, spadek ciśnienia i dobór"
+    },
+    "exhaust": {
+      "title": "Przeciwciśnienie wydechu",
+      "desc": "Straty ciśnienia i utrata mocy"
+    },
+    "compression": {
+      "title": "Stopień sprężania",
+      "desc": "Statyczny / dynamiczny stopień sprężania i wymagana liczba oktanowa"
+    },
+    "camshaft": {
+      "title": "Wałek rozrządu",
+      "desc": "Czas otwarcia, zakładka, LSA i zakres mocy"
+    },
+    "piston_speed": {
+      "title": "Prędkość tłoka",
+      "desc": "Średnia prędkość tłoka i siły bezwładności"
+    },
+    "valve_spring": {
+      "title": "Sprężyny zaworowe",
+      "desc": "Siła sprężyny i zapas przed zawisaniem zaworów"
+    },
+    "ring_gap": {
+      "title": "Luz na zamku pierścieni",
+      "desc": "Zalecane luzy w zależności od zastosowania"
+    },
+    "conrod": {
+      "title": "Symulator korbowodu",
+      "desc": "Naprężenia korbowodu, sworznia i wału korbowego"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Pełny symulator silnika: wtrysk, zapłon, turbo, termika"
+    },
+    "ecu_map": {
+      "title": "Generator map",
+      "desc": "Tworzenie tabel kalibracyjnych ECU"
+    },
+    "brake_bias": {
+      "title": "Rozdział siły hamowania",
+      "desc": "Przenoszenie masy i balans hamowania"
+    },
+    "oil_cooler": {
+      "title": "Chłodnica oleju",
+      "desc": "Dobór i analiza termiczna"
+    },
+    "memo": {
+      "title": "Ściągawka techniczna",
+      "desc": "Gwinty, momenty dokręcania, czujniki i metody"
+    }
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "language": "Język",
+    "units": "Jednostki",
+    "units_metric": "Metryczne",
+    "units_imperial": "Imperialne",
+    "units_hint": "Jednostkę każdego pola możesz też zmienić bezpośrednio w symulatorach.",
+    "units_advanced": "Jednostka dla każdej wielkości",
+    "number_format": "Format liczb",
+    "example": "Przykład",
+    "about": "O aplikacji",
+    "version": "Wersja {version}"
+  },
+  "quantity": {
+    "pressure": "Ciśnienie (względne)",
+    "pressure_abs": "Ciśnienie bezwzględne",
+    "temperature": "Temperatura",
+    "temperature_delta": "Różnica temperatur",
+    "length": "Długość",
+    "displacement": "Pojemność skokowa",
+    "volume": "Objętość",
+    "injector_flow": "Wydatek wtryskiwacza",
+    "fuel_flow": "Przepływ paliwa",
+    "mass_flow": "Masowy przepływ powietrza",
+    "air_flow": "Objętościowy przepływ powietrza",
+    "power": "Moc",
+    "torque": "Moment obrotowy",
+    "speed": "Prędkość tłoka",
+    "vehicle_speed": "Prędkość pojazdu",
+    "mass": "Masa",
+    "small_mass": "Mała masa",
+    "force": "Siła",
+    "spring_rate": "Sztywność sprężyny"
+  },
+  "update": {
+    "available": "Dostępna nowa wersja",
+    "action": "Aktualizuj",
+    "later": "Później",
+    "offline_ready": "Aplikacja działa teraz bez internetu"
+  },
+  "install": {
+    "title": "Zainstaluj aplikację",
+    "action": "Zainstaluj",
+    "ios_hint": "Na iPhonie i iPadzie: stuknij Udostępnij, a następnie „Do ekranu początkowego”."
+  }
+}

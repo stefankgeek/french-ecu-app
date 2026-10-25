@@ -1,0 +1,22 @@
+# Dépendances et constructions
+node_modules/
+dist/
+dev-dist/
+coverage/
+
+# Secrets (ne jamais publier)
+.env
+.env.*
+!.env.example
+
+# Systèmes / éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+
+# Futur : projets Capacitor générés
+android/app/build/
+ios/App/Pods/

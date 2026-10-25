@@ -1,0 +1,164 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Strumenti di preparazione motori"
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "Impostazioni",
+    "back": "Indietro",
+    "memo": "Promemoria"
+  },
+  "home": {
+    "search_placeholder": "Cerca uno strumento…",
+    "search_label": "Cerca",
+    "no_result": "Nessuno strumento trovato",
+    "tools_count": {
+      "one": "{count} strumento",
+      "many": "{count} strumenti",
+      "other": "{count} strumenti"
+    }
+  },
+  "categories": {
+    "fuel": "Carburante e iniezione",
+    "boost": "Sovralimentazione e scarico",
+    "engine": "Motore",
+    "ecu": "Mappatura",
+    "chassis": "Telaio e raffreddamento",
+    "memo": "Promemoria"
+  },
+  "status": {
+    "soon": "Presto"
+  },
+  "module": {
+    "coming_title": "Prossimamente",
+    "coming_text": "Questo simulatore è in fase di trasferimento nella nuova app. Arriverà automaticamente con un prossimo aggiornamento."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Calcolatore iniettori",
+      "desc": "Portata dell'iniettore necessaria per la potenza obiettivo"
+    },
+    "fuel_pump": {
+      "title": "Portata pompa e duty cycle",
+      "desc": "Pompa carburante, perdite di carico e duty cycle"
+    },
+    "e85": {
+      "title": "Conversione E85",
+      "desc": "Iniezione, consumi e guadagni con l'etanolo"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Conversione lambda ↔ AFR e obiettivi per carburante"
+    },
+    "nitrous": {
+      "title": "Protossido di azoto (NOS)",
+      "desc": "Getti, potenza aggiunta e autonomia della bombola"
+    },
+    "turbo": {
+      "title": "Calibrazione turbo",
+      "desc": "Punto di funzionamento sulla mappa del compressore"
+    },
+    "wastegate": {
+      "title": "Wastegate e pressione",
+      "desc": "Molla della wastegate e controllo della pressione"
+    },
+    "intercooler": {
+      "title": "Efficienza intercooler",
+      "desc": "Temperature, perdita di carico e dimensionamento"
+    },
+    "exhaust": {
+      "title": "Contropressione allo scarico",
+      "desc": "Perdite di carico e potenza persa"
+    },
+    "compression": {
+      "title": "Rapporto di compressione",
+      "desc": "Rapporto statico / dinamico e ottani necessari"
+    },
+    "camshaft": {
+      "title": "Albero a camme",
+      "desc": "Durata, incrocio, LSA e arco di potenza"
+    },
+    "piston_speed": {
+      "title": "Velocità del pistone",
+      "desc": "Velocità media e forze d'inerzia"
+    },
+    "valve_spring": {
+      "title": "Molle valvole",
+      "desc": "Forza della molla e margine contro lo sfarfallamento"
+    },
+    "ring_gap": {
+      "title": "Luce delle fasce elastiche",
+      "desc": "Luci consigliate in base all'uso"
+    },
+    "conrod": {
+      "title": "Simulatore biella",
+      "desc": "Sollecitazioni su biella, spinotto e albero motore"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Simulatore motore completo: iniezione, accensione, turbo, termica"
+    },
+    "ecu_map": {
+      "title": "Generatore di mappe",
+      "desc": "Creazione di tabelle di calibrazione ECU"
+    },
+    "brake_bias": {
+      "title": "Ripartizione di frenata",
+      "desc": "Trasferimento di carico ed equilibrio in frenata"
+    },
+    "oil_cooler": {
+      "title": "Radiatore dell'olio",
+      "desc": "Dimensionamento e analisi termica"
+    },
+    "memo": {
+      "title": "Promemoria tecnico",
+      "desc": "Filettature, coppie di serraggio, sensori e metodi"
+    }
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "language": "Lingua",
+    "units": "Unità",
+    "units_metric": "Metrico",
+    "units_imperial": "Imperiale",
+    "units_hint": "Potrai anche cambiare l'unità di ogni campo direttamente nei simulatori.",
+    "units_advanced": "Unità per grandezza",
+    "number_format": "Formato dei numeri",
+    "example": "Esempio",
+    "about": "Informazioni",
+    "version": "Versione {version}"
+  },
+  "quantity": {
+    "pressure": "Pressione (relativa)",
+    "pressure_abs": "Pressione assoluta",
+    "temperature": "Temperatura",
+    "temperature_delta": "Differenza di temperatura",
+    "length": "Lunghezza",
+    "displacement": "Cilindrata",
+    "volume": "Volume",
+    "injector_flow": "Portata iniettore",
+    "fuel_flow": "Portata carburante",
+    "mass_flow": "Portata massica d'aria",
+    "air_flow": "Portata volumetrica d'aria",
+    "power": "Potenza",
+    "torque": "Coppia",
+    "speed": "Velocità del pistone",
+    "vehicle_speed": "Velocità del veicolo",
+    "mass": "Massa",
+    "small_mass": "Massa piccola",
+    "force": "Forza",
+    "spring_rate": "Rigidezza della molla"
+  },
+  "update": {
+    "available": "Nuova versione disponibile",
+    "action": "Aggiorna",
+    "later": "Più tardi",
+    "offline_ready": "L'app ora funziona anche offline"
+  },
+  "install": {
+    "title": "Installa l'app",
+    "action": "Installa",
+    "ios_hint": "Su iPhone e iPad: tocca Condividi, poi «Aggiungi alla schermata Home»."
+  }
+}

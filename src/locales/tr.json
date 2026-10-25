@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Motor modifikasyon araçları"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "settings": "Ayarlar",
+    "back": "Geri",
+    "memo": "Başvuru kılavuzu"
+  },
+  "home": {
+    "search_placeholder": "Araç ara…",
+    "search_label": "Ara",
+    "no_result": "Araç bulunamadı",
+    "tools_count": {
+      "one": "{count} araç",
+      "other": "{count} araç"
+    }
+  },
+  "categories": {
+    "fuel": "Yakıt ve enjeksiyon",
+    "boost": "Aşırı doldurma ve egzoz",
+    "engine": "Motor",
+    "ecu": "Haritalama",
+    "chassis": "Şasi ve soğutma",
+    "memo": "Başvuru kılavuzu"
+  },
+  "status": {
+    "soon": "Yakında"
+  },
+  "module": {
+    "coming_title": "Yakında kullanıma sunulacak",
+    "coming_text": "Bu simülatör yeni uygulamaya aktarılıyor. Bir sonraki güncellemeyle otomatik olarak gelecek."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Enjektör hesaplayıcı",
+      "desc": "Hedef güç için gereken enjektör debisi"
+    },
+    "fuel_pump": {
+      "title": "Pompa debisi ve görev döngüsü",
+      "desc": "Yakıt pompası, basınç kayıpları ve görev döngüsü"
+    },
+    "e85": {
+      "title": "E85 dönüşümü",
+      "desc": "Etanolle enjeksiyon, tüketim ve güç kazancı"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Lambda ↔ AFR dönüşümü ve yakıta göre hedef değerler"
+    },
+    "nitrous": {
+      "title": "Nitröz oksit (NOS)",
+      "desc": "Jetler, ek güç ve tüp kullanım süresi"
+    },
+    "turbo": {
+      "title": "Turbo seçimi",
+      "desc": "Kompresör haritasındaki çalışma noktası"
+    },
+    "wastegate": {
+      "title": "Wastegate ve basınç",
+      "desc": "Wastegate yayı ve turbo basınç kontrolü"
+    },
+    "intercooler": {
+      "title": "Intercooler verimliliği",
+      "desc": "Sıcaklıklar, basınç düşüşü ve boyutlandırma"
+    },
+    "exhaust": {
+      "title": "Egzoz karşı basıncı",
+      "desc": "Basınç kayıpları ve kaybedilen güç"
+    },
+    "compression": {
+      "title": "Sıkıştırma oranı",
+      "desc": "Statik / dinamik oran ve gereken oktan"
+    },
+    "camshaft": {
+      "title": "Eksantrik mili",
+      "desc": "Süre, bindirme, LSA ve güç bandı"
+    },
+    "piston_speed": {
+      "title": "Piston hızı",
+      "desc": "Ortalama piston hızı ve atalet kuvvetleri"
+    },
+    "valve_spring": {
+      "title": "Supap yayları",
+      "desc": "Yay kuvveti ve supap yüzmesine karşı pay"
+    },
+    "ring_gap": {
+      "title": "Segman ağız aralığı",
+      "desc": "Kullanıma göre önerilen aralıklar"
+    },
+    "conrod": {
+      "title": "Biyel simülatörü",
+      "desc": "Biyel, piston pimi ve krank milindeki gerilmeler"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Tam motor simülatörü: enjeksiyon, ateşleme, turbo, termal"
+    },
+    "ecu_map": {
+      "title": "Harita oluşturucu",
+      "desc": "ECU kalibrasyon tabloları oluşturma"
+    },
+    "brake_bias": {
+      "title": "Fren dağılımı",
+      "desc": "Ağırlık transferi ve fren dengesi"
+    },
+    "oil_cooler": {
+      "title": "Yağ soğutucu",
+      "desc": "Boyutlandırma ve termal analiz"
+    },
+    "memo": {
+      "title": "Teknik başvuru kılavuzu",
+      "desc": "Diş açıları, sıkma torkları, sensörler ve yöntemler"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "units": "Birimler",
+    "units_metric": "Metrik",
+    "units_imperial": "İngiliz",
+    "units_hint": "Her alanın birimini doğrudan simülatörlerin içinden de değiştirebilirsiniz.",
+    "units_advanced": "Büyüklüğe göre birim",
+    "number_format": "Sayı biçimi",
+    "example": "Örnek",
+    "about": "Hakkında",
+    "version": "Sürüm {version}"
+  },
+  "quantity": {
+    "pressure": "Basınç (bağıl)",
+    "pressure_abs": "Mutlak basınç",
+    "temperature": "Sıcaklık",
+    "temperature_delta": "Sıcaklık farkı",
+    "length": "Uzunluk",
+    "displacement": "Silindir hacmi",
+    "volume": "Hacim",
+    "injector_flow": "Enjektör debisi",
+    "fuel_flow": "Yakıt debisi",
+    "mass_flow": "Hava kütle debisi",
+    "air_flow": "Hacimsel hava debisi",
+    "power": "Güç",
+    "torque": "Tork",
+    "speed": "Piston hızı",
+    "vehicle_speed": "Araç hızı",
+    "mass": "Kütle",
+    "small_mass": "Küçük kütle",
+    "force": "Kuvvet",
+    "spring_rate": "Yay sertliği"
+  },
+  "update": {
+    "available": "Yeni sürüm mevcut",
+    "action": "Güncelle",
+    "later": "Daha sonra",
+    "offline_ready": "Uygulama artık çevrimdışı da çalışıyor"
+  },
+  "install": {
+    "title": "Uygulamayı yükle",
+    "action": "Yükle",
+    "ios_hint": "iPhone ve iPad'de: Paylaş'a, ardından “Ana Ekrana Ekle”ye dokunun."
+  }
+}

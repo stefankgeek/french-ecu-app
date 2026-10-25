@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Werkzeuge für das Motortuning"
+  },
+  "nav": {
+    "home": "Start",
+    "settings": "Einstellungen",
+    "back": "Zurück",
+    "memo": "Nachschlagewerk"
+  },
+  "home": {
+    "search_placeholder": "Werkzeug suchen…",
+    "search_label": "Suchen",
+    "no_result": "Kein Werkzeug gefunden",
+    "tools_count": {
+      "one": "{count} Werkzeug",
+      "other": "{count} Werkzeuge"
+    }
+  },
+  "categories": {
+    "fuel": "Kraftstoff & Einspritzung",
+    "boost": "Aufladung & Abgas",
+    "engine": "Motor",
+    "ecu": "Kennfelder",
+    "chassis": "Fahrwerk & Kühlung",
+    "memo": "Nachschlagewerk"
+  },
+  "status": {
+    "soon": "Bald"
+  },
+  "module": {
+    "coming_title": "Demnächst verfügbar",
+    "coming_text": "Dieser Simulator wird gerade in die neue App übertragen. Er kommt automatisch mit einem der nächsten Updates."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Einspritzdüsen-Rechner",
+      "desc": "Benötigter Düsendurchfluss für die Zielleistung"
+    },
+    "fuel_pump": {
+      "title": "Pumpenförderleistung & Tastverhältnis",
+      "desc": "Kraftstoffpumpe, Druckverluste und Tastverhältnis"
+    },
+    "e85": {
+      "title": "E85-Umrüstung",
+      "desc": "Einspritzung, Verbrauch und Leistungsgewinn mit Ethanol"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Umrechnung Lambda ↔ AFR und Zielwerte je Kraftstoff"
+    },
+    "nitrous": {
+      "title": "Lachgas (NOS)",
+      "desc": "Düsen, Mehrleistung und Flaschenreichweite"
+    },
+    "turbo": {
+      "title": "Turbo-Auslegung",
+      "desc": "Betriebspunkt im Verdichterkennfeld"
+    },
+    "wastegate": {
+      "title": "Wastegate & Ladedruck",
+      "desc": "Wastegate-Feder und Ladedruckregelung"
+    },
+    "intercooler": {
+      "title": "Ladeluftkühler-Wirkungsgrad",
+      "desc": "Temperaturen, Druckverlust und Auslegung"
+    },
+    "exhaust": {
+      "title": "Abgasgegendruck",
+      "desc": "Druckverluste und Leistungsverlust"
+    },
+    "compression": {
+      "title": "Verdichtungsverhältnis",
+      "desc": "Statische / dynamische Verdichtung und benötigte Oktanzahl"
+    },
+    "camshaft": {
+      "title": "Nockenwelle",
+      "desc": "Öffnungsdauer, Überschneidung, LSA und Leistungsband"
+    },
+    "piston_speed": {
+      "title": "Kolbengeschwindigkeit",
+      "desc": "Mittlere Kolbengeschwindigkeit und Massenkräfte"
+    },
+    "valve_spring": {
+      "title": "Ventilfedern",
+      "desc": "Federkraft und Sicherheit gegen Ventilflattern"
+    },
+    "ring_gap": {
+      "title": "Kolbenring-Stoßspiel",
+      "desc": "Empfohlenes Stoßspiel je nach Einsatz"
+    },
+    "conrod": {
+      "title": "Pleuel-Simulator",
+      "desc": "Belastung von Pleuel, Kolbenbolzen und Kurbelwelle"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Kompletter Motorsimulator: Einspritzung, Zündung, Turbo, Thermik"
+    },
+    "ecu_map": {
+      "title": "Kennfeld-Generator",
+      "desc": "Erstellung von ECU-Kalibriertabellen"
+    },
+    "brake_bias": {
+      "title": "Bremskraftverteilung",
+      "desc": "Achslastverlagerung und Bremsbalance"
+    },
+    "oil_cooler": {
+      "title": "Ölkühler",
+      "desc": "Auslegung und thermische Analyse"
+    },
+    "memo": {
+      "title": "Technisches Nachschlagewerk",
+      "desc": "Gewinde, Anzugsmomente, Sensoren und Methoden"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "units": "Einheiten",
+    "units_metric": "Metrisch",
+    "units_imperial": "Imperial",
+    "units_hint": "Die Einheit jedes Feldes lässt sich auch direkt in den Simulatoren ändern.",
+    "units_advanced": "Einheit pro Größe",
+    "number_format": "Zahlenformat",
+    "example": "Beispiel",
+    "about": "Über",
+    "version": "Version {version}"
+  },
+  "quantity": {
+    "pressure": "Druck (relativ)",
+    "pressure_abs": "Absolutdruck",
+    "temperature": "Temperatur",
+    "temperature_delta": "Temperaturdifferenz",
+    "length": "Länge",
+    "displacement": "Hubraum",
+    "volume": "Volumen",
+    "injector_flow": "Düsendurchfluss",
+    "fuel_flow": "Kraftstoffdurchfluss",
+    "mass_flow": "Luftmassenstrom",
+    "air_flow": "Luftvolumenstrom",
+    "power": "Leistung",
+    "torque": "Drehmoment",
+    "speed": "Kolbengeschwindigkeit",
+    "vehicle_speed": "Fahrzeuggeschwindigkeit",
+    "mass": "Masse",
+    "small_mass": "Kleine Masse",
+    "force": "Kraft",
+    "spring_rate": "Federrate"
+  },
+  "update": {
+    "available": "Neue Version verfügbar",
+    "action": "Aktualisieren",
+    "later": "Später",
+    "offline_ready": "Die App funktioniert jetzt auch offline"
+  },
+  "install": {
+    "title": "App installieren",
+    "action": "Installieren",
+    "ios_hint": "Auf iPhone und iPad: Auf Teilen tippen, dann „Zum Home-Bildschirm“."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "app": {
+    "name": "French ECU",
+    "tagline": "Engine tuning tools"
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "Settings",
+    "back": "Back",
+    "memo": "Reference"
+  },
+  "home": {
+    "search_placeholder": "Search for a tool…",
+    "search_label": "Search",
+    "no_result": "No tool found",
+    "tools_count": {
+      "one": "{count} tool",
+      "other": "{count} tools"
+    }
+  },
+  "categories": {
+    "fuel": "Fuel & injection",
+    "boost": "Forced induction & exhaust",
+    "engine": "Engine",
+    "ecu": "Mapping",
+    "chassis": "Chassis & cooling",
+    "memo": "Reference"
+  },
+  "status": {
+    "soon": "Soon"
+  },
+  "module": {
+    "coming_title": "Coming soon",
+    "coming_text": "This simulator is being moved to the new app. It will arrive automatically in an upcoming update."
+  },
+  "modules": {
+    "injectors": {
+      "title": "Injector calculator",
+      "desc": "Required injector flow for your target power"
+    },
+    "fuel_pump": {
+      "title": "Fuel pump flow & duty cycle",
+      "desc": "Fuel pump, pressure losses and duty cycle"
+    },
+    "e85": {
+      "title": "E85 conversion",
+      "desc": "Injection, consumption and gains on ethanol"
+    },
+    "lambda": {
+      "title": "Lambda / AFR",
+      "desc": "Lambda ↔ AFR conversion and targets per fuel"
+    },
+    "nitrous": {
+      "title": "Nitrous oxide (NOS)",
+      "desc": "Jets, added power and bottle autonomy"
+    },
+    "turbo": {
+      "title": "Turbo matching",
+      "desc": "Operating point on the compressor map"
+    },
+    "wastegate": {
+      "title": "Wastegate & boost",
+      "desc": "Wastegate spring and boost control"
+    },
+    "intercooler": {
+      "title": "Intercooler efficiency",
+      "desc": "Temperatures, pressure drop and sizing"
+    },
+    "exhaust": {
+      "title": "Exhaust back pressure",
+      "desc": "Pressure losses and power lost"
+    },
+    "compression": {
+      "title": "Compression ratio",
+      "desc": "Static / dynamic ratio and required octane"
+    },
+    "camshaft": {
+      "title": "Camshaft",
+      "desc": "Duration, overlap, LSA and powerband"
+    },
+    "piston_speed": {
+      "title": "Piston speed",
+      "desc": "Mean piston speed and inertia forces"
+    },
+    "valve_spring": {
+      "title": "Valve springs",
+      "desc": "Spring force and margin against valve float"
+    },
+    "ring_gap": {
+      "title": "Piston ring gap",
+      "desc": "Recommended end gaps by application"
+    },
+    "conrod": {
+      "title": "Connecting rod simulator",
+      "desc": "Stress on rod, pin and crankshaft"
+    },
+    "harmonics": {
+      "title": "Harmonics3+",
+      "desc": "Full engine simulator: injection, ignition, turbo, thermal"
+    },
+    "ecu_map": {
+      "title": "Map generator",
+      "desc": "Create ECU calibration tables"
+    },
+    "brake_bias": {
+      "title": "Brake bias",
+      "desc": "Weight transfer and braking balance"
+    },
+    "oil_cooler": {
+      "title": "Oil cooler",
+      "desc": "Sizing and thermal analysis"
+    },
+    "memo": {
+      "title": "Technical reference",
+      "desc": "Threads, torque specs, sensors and methods"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "units": "Units",
+    "units_metric": "Metric",
+    "units_imperial": "Imperial",
+    "units_hint": "You can also change the unit of each field directly inside the simulators.",
+    "units_advanced": "Unit per quantity",
+    "number_format": "Number format",
+    "example": "Example",
+    "about": "About",
+    "version": "Version {version}"
+  },
+  "quantity": {
+    "pressure": "Pressure (gauge)",
+    "pressure_abs": "Absolute pressure",
+    "temperature": "Temperature",
+    "temperature_delta": "Temperature difference",
+    "length": "Length",
+    "displacement": "Displacement",
+    "volume": "Volume",
+    "injector_flow": "Injector flow",
+    "fuel_flow": "Fuel flow",
+    "mass_flow": "Air mass flow",
+    "air_flow": "Volumetric air flow",
+    "power": "Power",
+    "torque": "Torque",
+    "speed": "Piston speed",
+    "vehicle_speed": "Vehicle speed",
+    "mass": "Mass",
+    "small_mass": "Small mass",
+    "force": "Force",
+    "spring_rate": "Spring rate"
+  },
+  "update": {
+    "available": "New version available",
+    "action": "Update",
+    "later": "Later",
+    "offline_ready": "The app now works offline"
+  },
+  "install": {
+    "title": "Install the app",
+    "action": "Install",
+    "ios_hint": "On iPhone and iPad: tap Share, then “Add to Home Screen”."
+  }
+}
