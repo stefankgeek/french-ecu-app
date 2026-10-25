@@ -22,7 +22,7 @@ export function isInstalledContext() {
 /** Type d'appareil / navigateur pour choisir les bonnes explications. */
 export function platform(ua = navigator.userAgent) {
   if (/FBAN|FBAV|FB_IAB|Instagram|Messenger|Line\/|Snapchat|TikTok|musical_ly|LinkedInApp|Twitter|; wv\)/i.test(ua)) return 'inapp';
-  if (/iphone|ipad|ipod/i.test(ua) || (ua === navigator.userAgent && isIOS())) return 'ios';
+  if (/iphone|ipad|ipod/i.test(ua) || (typeof navigator !== 'undefined' && ua === navigator.userAgent && isIOS())) return 'ios';
   if (/Android/i.test(ua)) return 'android';
   if (/Firefox\//i.test(ua)) return 'unsupported';
   if (/Macintosh/i.test(ua) && /Safari\//i.test(ua) && !/Chrome|Chromium|Edg\//i.test(ua)) return 'mac_safari';
