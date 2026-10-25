@@ -147,7 +147,13 @@
     "mass": "Kütle",
     "small_mass": "Küçük kütle",
     "force": "Kuvvet",
-    "spring_rate": "Yay sertliği"
+    "spring_rate": "Yay sertliği",
+    "length_m": "Uzunluk (m)",
+    "distance": "Mesafe",
+    "flow_velocity": "Akış hızı",
+    "fuel_economy": "Yakıt tüketimi",
+    "price_volume": "Yakıt fiyatı",
+    "bsfc": "Özgül yakıt tüketimi (BSFC)"
   },
   "update": {
     "available": "Yeni sürüm mevcut",
@@ -159,5 +165,63 @@
     "title": "Uygulamayı yükle",
     "action": "Yükle",
     "ios_hint": "iPhone ve iPad'de: Paylaş'a, ardından “Ana Ekrana Ekle”ye dokunun."
+  },
+  "sim": {
+    "inputs": "Parametreler",
+    "results": "Sonuçlar",
+    "reset": "Varsayılan değerler",
+    "share": "Paylaş",
+    "pdf": "PDF olarak dışa aktar",
+    "pdf_generating": "PDF oluşturuluyor…",
+    "pdf_ready": "PDF indirildi",
+    "pdf_error": "PDF oluşturulamadı",
+    "link_copied": "Bağlantı kopyalandı",
+    "invalid_number": "Geçersiz sayı",
+    "invalid_range": "{min} ile {max} arasında bir değer",
+    "fix_inputs": "Sonuçları görmek için işaretli değerleri düzeltin.",
+    "report_title": "Hesaplama raporu",
+    "unit": "Birim",
+    "disclaimer": "Sonuçlar yol göstericidir; araçta değişiklik yapmadan önce bir uzmana doğrulatın."
+  },
+  "unit": {
+    "rpm": "dev/dak",
+    "ms": "ms",
+    "s": "sn",
+    "deg": "°",
+    "percent": "%",
+    "months": "ay",
+    "ratio": ":1",
+    "per_year": "/yıl"
+  },
+  "rating": {
+    "excellent": "Mükemmel",
+    "good": "İyi",
+    "adequate": "Yeterli",
+    "insufficient": "Yetersiz"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} silindir",
+      "other": "{count} silindir"
+    },
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "fuel_cat": {
+    "standard": "Standart benzinler",
+    "premium": "Premium benzinler",
+    "race": "Yarış yakıtları",
+    "ethanol": "Etanollü yakıtlar",
+    "diesel": "Dizel",
+    "methanol": "Metanol",
+    "special": "Özel yakıtlar"
+  },
+  "fuels": {
+    "race": "Yarış yakıtı RON {ron}",
+    "diesel": "Dizel",
+    "ethanol": "Saf etanol",
+    "methanol": "Metanol",
+    "toluene": "Toluen",
+    "custom": "Özel"
   }
 }

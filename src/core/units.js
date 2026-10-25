@@ -20,6 +20,15 @@ export function initUnits() {
 
 export const getSystem = () => system;
 
+/** Unité « de l'autre système » pour afficher une équivalence (ex. cc/min → lb/h). */
+export function altUnit(quantity) {
+  const cur = getUnit(quantity);
+  const m = SYSTEMS.metric[quantity];
+  const i = SYSTEMS.imperial[quantity];
+  if (!m || m === i) return null;
+  return cur === m ? i : m;
+}
+
 /** Unité actuellement utilisée pour une grandeur. */
 export const getUnit = (quantity) => overrides[quantity] || SYSTEMS[system][quantity];
 

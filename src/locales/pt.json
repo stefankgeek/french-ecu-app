@@ -148,7 +148,13 @@
     "mass": "Massa",
     "small_mass": "Massa pequena",
     "force": "Força",
-    "spring_rate": "Rigidez da mola"
+    "spring_rate": "Rigidez da mola",
+    "length_m": "Comprimento (m)",
+    "distance": "Distância",
+    "flow_velocity": "Velocidade de escoamento",
+    "fuel_economy": "Consumo",
+    "price_volume": "Preço do combustível",
+    "bsfc": "Consumo específico (BSFC)"
   },
   "update": {
     "available": "Nova versão disponível",
@@ -160,5 +166,64 @@
     "title": "Instalar a aplicação",
     "action": "Instalar",
     "ios_hint": "No iPhone e iPad: toque em Partilhar e depois em «Adicionar ao ecrã principal»."
+  },
+  "sim": {
+    "inputs": "Parâmetros",
+    "results": "Resultados",
+    "reset": "Valores predefinidos",
+    "share": "Partilhar",
+    "pdf": "Exportar para PDF",
+    "pdf_generating": "A criar o PDF…",
+    "pdf_ready": "PDF transferido",
+    "pdf_error": "Não foi possível criar o PDF",
+    "link_copied": "Ligação copiada",
+    "invalid_number": "Número inválido",
+    "invalid_range": "Valor entre {min} e {max}",
+    "fix_inputs": "Corrija os valores assinalados para ver os resultados.",
+    "report_title": "Relatório de cálculo",
+    "unit": "Unidade",
+    "disclaimer": "Resultados indicativos, a validar por um profissional antes de qualquer alteração ao veículo."
+  },
+  "unit": {
+    "rpm": "rpm",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "meses",
+    "ratio": ":1",
+    "per_year": "/ano"
+  },
+  "rating": {
+    "excellent": "Excelente",
+    "good": "Bom",
+    "adequate": "Adequado",
+    "insufficient": "Insuficiente"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} cilindro",
+      "many": "{count} cilindros",
+      "other": "{count} cilindros"
+    },
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "fuel_cat": {
+    "standard": "Gasolinas normais",
+    "premium": "Gasolinas premium",
+    "race": "Combustíveis de competição",
+    "ethanol": "Combustíveis com etanol",
+    "diesel": "Gasóleo",
+    "methanol": "Metanol",
+    "special": "Combustíveis especiais"
+  },
+  "fuels": {
+    "race": "Competição RON {ron}",
+    "diesel": "Gasóleo",
+    "ethanol": "Etanol puro",
+    "methanol": "Metanol",
+    "toluene": "Tolueno",
+    "custom": "Personalizado"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "intro": "Szacuje wtryskiwacze, ciśnienie, przyrost mocy i opłacalność przejścia na E85.",
+  "g_engine": "Obecny silnik",
+  "g_usage": "Eksploatacja i ceny",
+  "boost_hint": "0 dla silnika wolnossącego",
+  "in": {
+    "fuel": "Obecne paliwo",
+    "injectors": "Wydatek obecnych wtryskiwaczy",
+    "rail": "Obecne ciśnienie w listwie",
+    "power": "Obecna moc",
+    "boost": "Ciśnienie doładowania",
+    "consumption": "Obecne zużycie paliwa",
+    "distance": "Roczny przebieg",
+    "currency": "Waluta",
+    "priceFuel": "Cena obecnego paliwa ({cur})",
+    "priceE85": "Cena E85 ({cur})",
+    "conversionCost": "Koszt konwersji"
+  },
+  "r": {
+    "injectors": "Nowe wtryskiwacze",
+    "injectors_note": "+{pct}% wydatku",
+    "pressure": "Ciśnienie z obecnymi wtryskiwaczami",
+    "change_injectors": "Wymień wtryskiwacze",
+    "pressure_note": "Potrzeba by {p}: za dużo",
+    "pressure_keep": "Ciśnienie potrzebne przy zachowaniu wtryskiwaczy",
+    "power_gain": "Przyrost mocy",
+    "consumption": "Zużycie na E85",
+    "consumption_note": "+{pct}% względem benzyny",
+    "savings": "Roczne oszczędności",
+    "roi": "Okres zwrotu",
+    "roi_never": "Brak oszczędności przy tych cenach",
+    "details": "Szczegóły techniczne",
+    "details_text": "Stechiometryczne AFR {afr} → {afr85} · Oktany {ron} → {ron85} RON · Chłodzenie ładunku {cool} · Dodatkowe wyprzedzenie zapłonu +2–3°"
+  },
+  "chart": {
+    "economy_title": "Roczne porównanie kosztów",
+    "savings": "Oszczędności",
+    "power_title": "Przyrost mocy",
+    "power_y": "Moc"
+  }
+}

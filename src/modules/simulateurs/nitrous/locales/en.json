@@ -1,0 +1,43 @@
+{
+  "intro": "Works out the real gain of a nitrous kit, the flow, the timing retard, bottle autonomy and engine stress.",
+  "g_engine": "Engine",
+  "g_system": "Nitrous kit",
+  "in": {
+    "basePower": "Base power",
+    "compression": "Compression ratio",
+    "octane": "Fuel octane rating",
+    "timing": "Base ignition timing",
+    "shot": "Shot size",
+    "bottle": "Bottle size",
+    "duration": "Activation time"
+  },
+  "r": {
+    "gain": "Real gain",
+    "gain_note": "Efficiency {pct}%",
+    "total": "Total power",
+    "n2o_flow": "N₂O flow",
+    "ratio": "Fuel : N₂O ratio",
+    "ratio_note": "Fuel {fuel} · target lambda {lambda}",
+    "retard": "Timing retard needed",
+    "safe_timing": "Safe timing on nitrous",
+    "shots": "Number of shots",
+    "shots_note": "Shots of {d}",
+    "total_time": "Total usage time",
+    "minutes": "{m} minutes in total",
+    "per_shot": "Consumption per shot",
+    "pressure": "Cylinder pressure increase",
+    "pressure_note": "Cylinder pressure ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Warning: high compression ratio combined with a large shot.",
+    "high_stress": "Warning: high mechanical stress."
+  },
+  "chart": {
+    "power_title": "Base power and power on nitrous",
+    "base": "Base",
+    "power_y": "Power",
+    "bottle_title": "Bottle autonomy by shot size",
+    "shot_x": "Shot size (hp)",
+    "shots_y": "Number of shots"
+  }
+}

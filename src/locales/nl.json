@@ -147,7 +147,13 @@
     "mass": "Massa",
     "small_mass": "Kleine massa",
     "force": "Kracht",
-    "spring_rate": "Veerconstante"
+    "spring_rate": "Veerconstante",
+    "length_m": "Lengte (m)",
+    "distance": "Afstand",
+    "flow_velocity": "Stroomsnelheid",
+    "fuel_economy": "Verbruik",
+    "price_volume": "Brandstofprijs",
+    "bsfc": "Specifiek verbruik (BSFC)"
   },
   "update": {
     "available": "Nieuwe versie beschikbaar",
@@ -159,5 +165,63 @@
     "title": "App installeren",
     "action": "Installeren",
     "ios_hint": "Op iPhone en iPad: tik op Deel en daarna op ‘Zet op beginscherm’."
+  },
+  "sim": {
+    "inputs": "Invoer",
+    "results": "Resultaten",
+    "reset": "Standaardwaarden",
+    "share": "Delen",
+    "pdf": "Exporteren als pdf",
+    "pdf_generating": "Pdf wordt gemaakt…",
+    "pdf_ready": "Pdf gedownload",
+    "pdf_error": "Pdf kon niet worden gemaakt",
+    "link_copied": "Link gekopieerd",
+    "invalid_number": "Ongeldig getal",
+    "invalid_range": "Waarde tussen {min} en {max}",
+    "fix_inputs": "Corrigeer de gemarkeerde waarden om de resultaten te zien.",
+    "report_title": "Berekeningsrapport",
+    "unit": "Eenheid",
+    "disclaimer": "Indicatieve resultaten – laat ze controleren door een vakman voordat je het voertuig aanpast."
+  },
+  "unit": {
+    "rpm": "tpm",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "maanden",
+    "ratio": ":1",
+    "per_year": "/jaar"
+  },
+  "rating": {
+    "excellent": "Uitstekend",
+    "good": "Goed",
+    "adequate": "Voldoende",
+    "insufficient": "Onvoldoende"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} cilinder",
+      "other": "{count} cilinders"
+    },
+    "yes": "Ja",
+    "no": "Nee"
+  },
+  "fuel_cat": {
+    "standard": "Standaardbenzine",
+    "premium": "Premiumbenzine",
+    "race": "Racebrandstoffen",
+    "ethanol": "Ethanolbrandstoffen",
+    "diesel": "Diesel",
+    "methanol": "Methanol",
+    "special": "Speciale brandstoffen"
+  },
+  "fuels": {
+    "race": "Racebrandstof RON {ron}",
+    "diesel": "Diesel",
+    "ethanol": "Pure ethanol",
+    "methanol": "Methanol",
+    "toluene": "Tolueen",
+    "custom": "Aangepast"
   }
 }

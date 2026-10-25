@@ -1,0 +1,54 @@
+{
+  "intro": "Convertit lambda ↔ AFR selon le carburant, donne les cibles par usage et calcule la correction de carburant à appliquer.",
+  "g_convert": "Conversion lambda / AFR",
+  "g_target": "Cible selon l'usage",
+  "g_correction": "Correction de carburant",
+  "in": {
+    "fuel": "Carburant",
+    "lambda": "Valeur lambda",
+    "afr": "Valeur AFR",
+    "usage": "Type d'utilisation",
+    "currentAfr": "AFR mesuré",
+    "targetAfr": "AFR souhaité"
+  },
+  "usage": {
+    "idle": "Ralenti",
+    "cruise": "Conduite normale",
+    "part_throttle": "Charge partielle",
+    "wot_na": "Pleine charge (atmosphérique)",
+    "wot_turbo": "Pleine charge (turbo)",
+    "cold_start": "Démarrage à froid"
+  },
+  "mix": {
+    "very_rich": "Très riche",
+    "rich": "Riche",
+    "stoich": "Stœchiométrique",
+    "lean": "Pauvre",
+    "very_lean": "Très pauvre"
+  },
+  "r": {
+    "status": "État du mélange",
+    "target_lambda": "Lambda cible",
+    "target_afr": "AFR cible",
+    "correction": "Correction nécessaire",
+    "action": "Action : {a}",
+    "egt": "Température d'échappement estimée"
+  },
+  "action": {
+    "enrich": "enrichir",
+    "lean": "appauvrir"
+  },
+  "egt": {
+    "safe": "Température sûre",
+    "high": "Température élevée",
+    "danger": "Danger : risque de fonte des soupapes"
+  },
+  "table": {
+    "title": "Propriétés des carburants",
+    "fuel": "Carburant",
+    "afr": "AFR stœchio.",
+    "octane": "Octane",
+    "ethanol": "Éthanol",
+    "energy": "Énergie"
+  }
+}

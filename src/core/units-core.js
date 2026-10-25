@@ -71,14 +71,17 @@ export const QUANTITIES = {
   fuel_flow: { base: 'Lh', units: {
     Lh: { ...lin(1), symbol: 'L/h', decimals: 1 },
     galh: { ...lin(3.785411784), symbol: 'gal/h', decimals: 1 },
+    ccmin: { ...lin(0.06), symbol: 'cc/min', decimals: 0 },
   } },
   mass_flow: { base: 'gs', units: {
     gs: { ...lin(1), symbol: 'g/s', decimals: 1 },
     lbmin: { ...lin(LB_G / 60), symbol: 'lb/min', decimals: 1 },
+    lbh: { ...lin(LB_G / 3600), symbol: 'lb/h', decimals: 1 },
     kgh: { ...lin(1000 / 3600), symbol: 'kg/h', decimals: 0 },
   } },
   air_flow: { base: 'm3min', units: {
     m3min: { ...lin(1), symbol: 'm³/min', decimals: 2 },
+    Lmin: { ...lin(0.001), symbol: 'L/min', decimals: 0 },
     cfm: { ...lin(0.0283168466), symbol: 'CFM', decimals: 0 },
   } },
   power: { base: 'kW', units: {
@@ -110,6 +113,34 @@ export const QUANTITIES = {
     N: { ...lin(1), symbol: 'N', decimals: 0 },
     lbf: { ...lin(4.4482216153), symbol: 'lbf', decimals: 0 },
   } },
+  length_m: { base: 'm', units: {
+    m: { ...lin(1), symbol: 'm', decimals: 2 },
+    ft: { ...lin(0.3048), symbol: 'ft', decimals: 1 },
+  } },
+  distance: { base: 'km', units: {
+    km: { ...lin(1), symbol: 'km', decimals: 0 },
+    mi: { ...lin(1.609344), symbol: 'mi', decimals: 0 },
+  } },
+  flow_velocity: { base: 'ms', units: {
+    ms: { ...lin(1), symbol: 'm/s', decimals: 2 },
+    fts: { ...lin(0.3048), symbol: 'ft/s', decimals: 2 },
+  } },
+  // Consommation : relation INVERSE entre L/100 km et mpg (pas un simple facteur)
+  fuel_economy: { base: 'L100', units: {
+    L100: { ...lin(1), symbol: 'L/100 km', decimals: 1 },
+    mpgUS: { toBase: (v) => 235.214583 / v, fromBase: (v) => 235.214583 / v, symbol: 'mpg (US)', decimals: 1 },
+    mpgUK: { toBase: (v) => 282.480936 / v, fromBase: (v) => 282.480936 / v, symbol: 'mpg (UK)', decimals: 1 },
+  } },
+  // Prix du carburant (par litre ou par gallon US) ; la devise est choisie à part
+  price_volume: { base: 'perL', units: {
+    perL: { ...lin(1), symbol: '/L', decimals: 2 },
+    perGal: { ...lin(1 / 3.785411784), symbol: '/gal', decimals: 2 },
+  } },
+  // Consommation spécifique (BSFC)
+  bsfc: { base: 'gkWh', units: {
+    gkWh: { ...lin(1), symbol: 'g/kWh', decimals: 0 },
+    lbhph: { ...lin(608.2773), symbol: 'lb/hp·h', decimals: 2 },
+  } },
   spring_rate: { base: 'Nmm', units: {
     Nmm: { ...lin(1), symbol: 'N/mm', decimals: 1 },
     lbin: { ...lin(4.4482216153 / 25.4), symbol: 'lb/in', decimals: 0 },
@@ -121,14 +152,16 @@ export const SYSTEMS = {
   metric: {
     pressure: 'bar', pressure_abs: 'bara', temperature: 'C', temperature_delta: 'dC', length: 'mm',
     displacement: 'cc', volume: 'L', injector_flow: 'ccmin', fuel_flow: 'Lh', mass_flow: 'gs',
-    air_flow: 'm3min', power: 'ch', torque: 'Nm', speed: 'ms', vehicle_speed: 'kmh', mass: 'kg',
-    small_mass: 'g', force: 'N', spring_rate: 'Nmm',
+    air_flow: 'Lmin', power: 'ch', torque: 'Nm', speed: 'ms', vehicle_speed: 'kmh', mass: 'kg',
+    small_mass: 'g', force: 'N', spring_rate: 'Nmm', length_m: 'm', distance: 'km', flow_velocity: 'ms',
+    fuel_economy: 'L100', price_volume: 'perL', bsfc: 'gkWh',
   },
   imperial: {
     pressure: 'psi', pressure_abs: 'psia', temperature: 'F', temperature_delta: 'dF', length: 'in',
     displacement: 'ci', volume: 'galUS', injector_flow: 'lbh', fuel_flow: 'galh', mass_flow: 'lbmin',
     air_flow: 'cfm', power: 'hp', torque: 'lbft', speed: 'ftmin', vehicle_speed: 'mph', mass: 'lb',
-    small_mass: 'oz', force: 'lbf', spring_rate: 'lbin',
+    small_mass: 'oz', force: 'lbf', spring_rate: 'lbin', length_m: 'ft', distance: 'mi', flow_velocity: 'fts',
+    fuel_economy: 'mpgUS', price_volume: 'perGal', bsfc: 'lbhph',
   },
 };
 

@@ -1,0 +1,60 @@
+{
+  "intro": "Dimensiona la pompa carburante e la linea di alimentazione a partire dagli iniettori, con le perdite di carico.",
+  "g_injection": "Iniezione",
+  "g_line": "Linea di alimentazione",
+  "circuit_simple": "Semplice (linea diretta)",
+  "circuit_complex": "Complesso (curve, filtri, raccordi)",
+  "in": {
+    "injFlow": "Portata di un iniettore",
+    "injectors": "Numero di iniettori",
+    "fuel": "Carburante",
+    "duty": "Duty cycle massimo",
+    "pipeD": "Diametro interno del tubo",
+    "pipeL": "Lunghezza del tubo",
+    "circuit": "Tipo di circuito"
+  },
+  "r": {
+    "pump": "Portata della pompa necessaria",
+    "pump_note": "Portata degli iniettori + 20 % di riserva, riferita al duty cycle",
+    "return": "Portata di ritorno",
+    "pipe_max": "Portata massima del tubo",
+    "pipe_max_note": "Carico {pct} % · velocità limite {v}",
+    "velocity": "Velocità nel tubo",
+    "loss_pipe": "Perdita di carico del tubo",
+    "loss_circuit": "Perdita di carico del circuito",
+    "loss_pump": "Perdita di carico della pompa",
+    "loss_pump_note": "Valore forfettario",
+    "loss_total": "Perdita di carico totale"
+  },
+  "note": {
+    "pipe_too_small": "Il tubo è troppo piccolo per questa portata: scegli un diametro maggiore (vedi il confronto).",
+    "pipe_limit": "Il tubo lavora vicino al limite: un diametro maggiore darebbe margine."
+  },
+  "table": {
+    "pump_title": "Confronto pompe",
+    "pump": "Pompa",
+    "margin": "Margine",
+    "rating": "Giudizio",
+    "pipe_title": "Confronto tubi",
+    "pipe_intro": "Diametri intorno a quello ideale (velocità limite {v}).",
+    "diameter": "Diametro",
+    "max_flow": "Portata max",
+    "velocity": "Velocità"
+  },
+  "chart": {
+    "flows_title": "Portate in funzione del duty cycle",
+    "duty_x": "Duty cycle (%)",
+    "flow_y": "Portata",
+    "log": "scala log.",
+    "ds_out": "Portata pompa",
+    "ds_inj": "Portata iniettori",
+    "ds_ret": "Portata di ritorno",
+    "ds_max": "Portata massima del tubo",
+    "loss_title": "Perdite di carico in funzione del duty cycle",
+    "loss_y": "Perdita di carico",
+    "ds_pipe": "Tubo",
+    "ds_circuit": "Circuito",
+    "ds_pump": "Pompa",
+    "ds_total": "Totale"
+  }
+}

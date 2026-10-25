@@ -1,0 +1,43 @@
+{
+  "intro": "Berekent de werkelijke winst van een lachgaskit, het debiet, de ontstekingsvertraging, de flesduur en de motorbelasting.",
+  "g_engine": "Motor",
+  "g_system": "Lachgaskit",
+  "in": {
+    "basePower": "Basisvermogen",
+    "compression": "Compressieverhouding",
+    "octane": "Octaangetal brandstof",
+    "timing": "Basisontsteking",
+    "shot": "Kitgrootte",
+    "bottle": "Flesgrootte",
+    "duration": "Activeringsduur"
+  },
+  "r": {
+    "gain": "Werkelijke winst",
+    "gain_note": "Rendement {pct} %",
+    "total": "Totaal vermogen",
+    "n2o_flow": "N₂O-debiet",
+    "ratio": "Verhouding brandstof : N₂O",
+    "ratio_note": "Brandstof {fuel} · doel-lambda {lambda}",
+    "retard": "Benodigde ontstekingsvertraging",
+    "safe_timing": "Veilige ontsteking op lachgas",
+    "shots": "Aantal activeringen",
+    "shots_note": "Activeringen van {d}",
+    "total_time": "Totale gebruiksduur",
+    "minutes": "{m} minuten in totaal",
+    "per_shot": "Verbruik per activering",
+    "pressure": "Stijging cilinderdruk",
+    "pressure_note": "Cilinderdruk ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Let op: hoge compressie in combinatie met een grote kit.",
+    "high_stress": "Let op: hoge mechanische belasting."
+  },
+  "chart": {
+    "power_title": "Basisvermogen en vermogen met lachgas",
+    "base": "Basis",
+    "power_y": "Vermogen",
+    "bottle_title": "Flesduur per kitgrootte",
+    "shot_x": "Kitgrootte (hp)",
+    "shots_y": "Aantal activeringen"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Rechnet Lambda ↔ AFR je nach Kraftstoff um, nennt Zielwerte je Einsatz und berechnet die nötige Kraftstoffkorrektur.",
+  "g_convert": "Umrechnung Lambda / AFR",
+  "g_target": "Zielwert je Einsatz",
+  "g_correction": "Kraftstoffkorrektur",
+  "in": {
+    "fuel": "Kraftstoff",
+    "lambda": "Lambdawert",
+    "afr": "AFR-Wert",
+    "usage": "Einsatzart",
+    "currentAfr": "Gemessenes AFR",
+    "targetAfr": "Gewünschtes AFR"
+  },
+  "usage": {
+    "idle": "Leerlauf",
+    "cruise": "Normaler Fahrbetrieb",
+    "part_throttle": "Teillast",
+    "wot_na": "Volllast (Saugmotor)",
+    "wot_turbo": "Volllast (Turbo)",
+    "cold_start": "Kaltstart"
+  },
+  "mix": {
+    "very_rich": "Sehr fett",
+    "rich": "Fett",
+    "stoich": "Stöchiometrisch",
+    "lean": "Mager",
+    "very_lean": "Sehr mager"
+  },
+  "r": {
+    "status": "Gemischzustand",
+    "target_lambda": "Ziel-Lambda",
+    "target_afr": "Ziel-AFR",
+    "correction": "Nötige Korrektur",
+    "action": "Maßnahme: {a}",
+    "egt": "Geschätzte Abgastemperatur"
+  },
+  "action": {
+    "enrich": "anfetten",
+    "lean": "abmagern"
+  },
+  "egt": {
+    "safe": "Unkritische Temperatur",
+    "high": "Hohe Temperatur",
+    "danger": "Gefahr: Ventile können verbrennen"
+  },
+  "table": {
+    "title": "Kraftstoffeigenschaften",
+    "fuel": "Kraftstoff",
+    "afr": "Stöch. AFR",
+    "octane": "Oktan",
+    "ethanol": "Ethanol",
+    "energy": "Energie"
+  }
+}

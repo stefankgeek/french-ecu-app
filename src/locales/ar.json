@@ -151,7 +151,13 @@
     "mass": "الكتلة",
     "small_mass": "كتلة صغيرة",
     "force": "القوة",
-    "spring_rate": "صلابة النابض"
+    "spring_rate": "صلابة النابض",
+    "length_m": "الطول (م)",
+    "distance": "المسافة",
+    "flow_velocity": "سرعة التدفق",
+    "fuel_economy": "استهلاك الوقود",
+    "price_volume": "سعر الوقود",
+    "bsfc": "الاستهلاك النوعي للوقود (BSFC)"
   },
   "update": {
     "available": "يتوفر إصدار جديد",
@@ -163,5 +169,67 @@
     "title": "تثبيت التطبيق",
     "action": "تثبيت",
     "ios_hint": "على iPhone وiPad: اضغط على مشاركة ثم «إضافة إلى الشاشة الرئيسية»."
+  },
+  "sim": {
+    "inputs": "المُدخلات",
+    "results": "النتائج",
+    "reset": "القيم الافتراضية",
+    "share": "مشاركة",
+    "pdf": "تصدير بصيغة PDF",
+    "pdf_generating": "جارٍ إنشاء ملف PDF…",
+    "pdf_ready": "تم تنزيل ملف PDF",
+    "pdf_error": "تعذّر إنشاء ملف PDF",
+    "link_copied": "تم نسخ الرابط",
+    "invalid_number": "رقم غير صالح",
+    "invalid_range": "قيمة بين {min} و{max}",
+    "fix_inputs": "صحّح القيم المحددة لعرض النتائج.",
+    "report_title": "تقرير الحساب",
+    "unit": "الوحدة",
+    "disclaimer": "نتائج تقديرية، يجب التحقق منها لدى مختص قبل أي تعديل على المركبة."
+  },
+  "unit": {
+    "rpm": "دورة/دقيقة",
+    "ms": "مللي ثانية",
+    "s": "ث",
+    "deg": "°",
+    "percent": "%",
+    "months": "شهر",
+    "ratio": ":1",
+    "per_year": "/سنة"
+  },
+  "rating": {
+    "excellent": "ممتاز",
+    "good": "جيد",
+    "adequate": "مقبول",
+    "insufficient": "غير كافٍ"
+  },
+  "common": {
+    "cylinders": {
+      "zero": "بدون أسطوانات",
+      "one": "أسطوانة واحدة",
+      "two": "أسطوانتان",
+      "few": "{count} أسطوانات",
+      "many": "{count} أسطوانة",
+      "other": "{count} أسطوانة"
+    },
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "fuel_cat": {
+    "standard": "بنزين عادي",
+    "premium": "بنزين ممتاز",
+    "race": "وقود السباقات",
+    "ethanol": "وقود الإيثانول",
+    "diesel": "ديزل",
+    "methanol": "ميثانول",
+    "special": "أنواع وقود خاصة"
+  },
+  "fuels": {
+    "race": "وقود سباقات RON {ron}",
+    "diesel": "ديزل",
+    "ethanol": "إيثانول نقي",
+    "methanol": "ميثانول",
+    "toluene": "تولوين",
+    "custom": "مخصص"
   }
 }

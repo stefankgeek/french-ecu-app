@@ -1,0 +1,41 @@
+{
+  "intro": "Schat injectoren, druk, vermogenswinst en terugverdientijd van een overstap op E85.",
+  "g_engine": "Huidige motor",
+  "g_usage": "Gebruik en prijzen",
+  "boost_hint": "0 voor een atmosferische motor",
+  "in": {
+    "fuel": "Huidige brandstof",
+    "injectors": "Debiet van de huidige injectoren",
+    "rail": "Huidige raildruk",
+    "power": "Huidig vermogen",
+    "boost": "Turbodruk",
+    "consumption": "Huidig verbruik",
+    "distance": "Jaarlijkse afstand",
+    "currency": "Valuta",
+    "priceFuel": "Prijs huidige brandstof ({cur})",
+    "priceE85": "Prijs E85 ({cur})",
+    "conversionCost": "Kosten van de ombouw"
+  },
+  "r": {
+    "injectors": "Nieuwe injectoren",
+    "injectors_note": "+{pct} % debiet",
+    "pressure": "Druk met de huidige injectoren",
+    "change_injectors": "Injectoren vervangen",
+    "pressure_note": "Er zou {p} nodig zijn: te hoog",
+    "pressure_keep": "Benodigde druk bij behoud van de injectoren",
+    "power_gain": "Vermogenswinst",
+    "consumption": "Verbruik op E85",
+    "consumption_note": "+{pct} % ten opzichte van benzine",
+    "savings": "Jaarlijkse besparing",
+    "roi": "Terugverdientijd",
+    "roi_never": "Geen besparing met deze prijzen",
+    "details": "Technische details",
+    "details_text": "Stoichiometrische AFR {afr} → {afr85} · Octaan {ron} → {ron85} RON · Ladingskoeling {cool} · Extra voorontsteking +2 tot 3°"
+  },
+  "chart": {
+    "economy_title": "Jaarlijkse kostenvergelijking",
+    "savings": "Besparing",
+    "power_title": "Vermogenswinst",
+    "power_y": "Vermogen"
+  }
+}

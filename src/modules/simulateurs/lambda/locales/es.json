@@ -1,0 +1,54 @@
+{
+  "intro": "Convierte lambda ↔ AFR según el combustible, da los objetivos por uso y calcula la corrección de combustible.",
+  "g_convert": "Conversión lambda / AFR",
+  "g_target": "Objetivo según el uso",
+  "g_correction": "Corrección de combustible",
+  "in": {
+    "fuel": "Combustible",
+    "lambda": "Valor lambda",
+    "afr": "Valor AFR",
+    "usage": "Tipo de uso",
+    "currentAfr": "AFR medido",
+    "targetAfr": "AFR deseado"
+  },
+  "usage": {
+    "idle": "Ralentí",
+    "cruise": "Conducción normal",
+    "part_throttle": "Carga parcial",
+    "wot_na": "Plena carga (atmosférico)",
+    "wot_turbo": "Plena carga (turbo)",
+    "cold_start": "Arranque en frío"
+  },
+  "mix": {
+    "very_rich": "Muy rica",
+    "rich": "Rica",
+    "stoich": "Estequiométrica",
+    "lean": "Pobre",
+    "very_lean": "Muy pobre"
+  },
+  "r": {
+    "status": "Estado de la mezcla",
+    "target_lambda": "Lambda objetivo",
+    "target_afr": "AFR objetivo",
+    "correction": "Corrección necesaria",
+    "action": "Acción: {a}",
+    "egt": "Temperatura de escape estimada"
+  },
+  "action": {
+    "enrich": "enriquecer",
+    "lean": "empobrecer"
+  },
+  "egt": {
+    "safe": "Temperatura segura",
+    "high": "Temperatura elevada",
+    "danger": "Peligro: riesgo de quemar las válvulas"
+  },
+  "table": {
+    "title": "Propiedades de los combustibles",
+    "fuel": "Combustible",
+    "afr": "AFR estequio.",
+    "octane": "Octanaje",
+    "ethanol": "Etanol",
+    "energy": "Energía"
+  }
+}

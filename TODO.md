@@ -15,18 +15,28 @@ Légende : ✅ terminé · 🔄 en cours · ⏳ à faire
 - ✅ 80 tests automatiques (conversions, traductions, nombres)
 - ✅ Publication automatique GitHub Pages
 
-## Phase 2 — Portage des logiciels ⏳
+## Phase 2 — Portage des logiciels 🔄
 Pour chaque logiciel : formules inchangées (en métrique), champs avec choix d'unité,
 graphiques corrigés (hauteur mini mobile, légendes lisibles), traduction complète,
 comparaison des résultats avec l'ancien site.
-- ⏳ Composants communs : champ avec unité, carte de résultat, graphique (Chart.js), export PDF
-- ⏳ Carburant : injecteurs, débit pompe, E85, lambda/AFR, NOS
+- ✅ Composants communs : champ avec unité, calcul automatique, cartes de résultat, tableaux,
+  graphiques mobiles (Chart.js 4), export PDF (toutes langues, arabe compris), lien de partage,
+  mémorisation des dernières valeurs
+- ✅ Carburant : injecteurs, débit pompe, E85, lambda/AFR, NOS — 75/75 résultats identiques à l'ancien site
+- ⏳ Export PDF : éviter qu'un saut de page coupe une ligne de tableau
 - ⏳ Suralimentation : turbo, wastegate, intercooler, échappement
 - ⏳ Moteur : compression, arbre à cames, vitesse piston, ressorts, segments, embiellage, Harmonics3+
 - ⏳ Cartographie : générateur de tables ECU
 - ⏳ Châssis : répartition de freinage, radiateur d'huile
 - ⏳ Aide-mémoire (filetages, couples, inserts, capteurs, turbo, jeux…)
 - ⏳ À vérifier avec Stéphane : Bielle (couple 0 Nm par défaut), radiateur d'huile (−120 °C)
+- ⏳ Corrections de formules proposées (en attente de validation) :
+  - Injecteurs : correction de pression appliquée à l'envers ; temps d'injection faux (erreur d'unité ×1000)
+  - Débit pompe : débit requis qui augmente quand le duty cycle baisse (facteur 100/duty inversé)
+  - Lambda : EGT estimée trop basse entre λ 1,05 et 1,10 (mélange pauvre classé « sûr »)
+  - NOS : consommation de N₂O environ 4 à 5 fois trop faible → nombre de shots surestimé
+  - Champs sans effet supprimés : altitude, humidité, températures carburant/moteur (injecteurs),
+    pression de rampe (pompe), taux de compression (E85)
 
 ## Phase 3 — Statistiques administrateur ⏳
 - ⏳ PostHog (UE) : installations, actifs en temps réel, logiciels utilisés, pays, langues, erreurs

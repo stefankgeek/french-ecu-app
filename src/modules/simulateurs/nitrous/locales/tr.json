@@ -1,0 +1,43 @@
+{
+  "intro": "Nitröz kitinin gerçek kazancını, debisini, ateşleme geciktirmesini, tüp süresini ve motor zorlanmasını hesaplar.",
+  "g_engine": "Motor",
+  "g_system": "Nitröz kiti",
+  "in": {
+    "basePower": "Temel güç",
+    "compression": "Sıkıştırma oranı",
+    "octane": "Yakıt oktanı",
+    "timing": "Temel ateşleme avansı",
+    "shot": "Kit boyutu",
+    "bottle": "Tüp boyutu",
+    "duration": "Etkinleştirme süresi"
+  },
+  "r": {
+    "gain": "Gerçek kazanç",
+    "gain_note": "Verim %{pct}",
+    "total": "Toplam güç",
+    "n2o_flow": "N₂O debisi",
+    "ratio": "Yakıt : N₂O oranı",
+    "ratio_note": "Yakıt {fuel} · hedef lambda {lambda}",
+    "retard": "Gereken avans geri alma",
+    "safe_timing": "Nitrözle güvenli avans",
+    "shots": "Kullanım sayısı",
+    "shots_note": "{d} süreli kullanımlar",
+    "total_time": "Toplam kullanım süresi",
+    "minutes": "Toplam {m} dakika",
+    "per_shot": "Kullanım başına tüketim",
+    "pressure": "Silindir basıncı artışı",
+    "pressure_note": "Silindir basıncı ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Dikkat: yüksek sıkıştırma oranı ile büyük kit bir arada.",
+    "high_stress": "Dikkat: yüksek mekanik zorlanma."
+  },
+  "chart": {
+    "power_title": "Temel güç ve nitrözlü güç",
+    "base": "Temel",
+    "power_y": "Güç",
+    "bottle_title": "Kit boyutuna göre tüp süresi",
+    "shot_x": "Kit boyutu (hp)",
+    "shots_y": "Kullanım sayısı"
+  }
+}

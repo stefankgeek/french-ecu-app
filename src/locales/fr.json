@@ -147,7 +147,13 @@
     "mass": "Masse",
     "small_mass": "Petite masse",
     "force": "Force",
-    "spring_rate": "Raideur de ressort"
+    "spring_rate": "Raideur de ressort",
+    "length_m": "Longueur (m)",
+    "distance": "Distance",
+    "flow_velocity": "Vitesse d'écoulement",
+    "fuel_economy": "Consommation",
+    "price_volume": "Prix du carburant",
+    "bsfc": "Consommation spécifique (BSFC)"
   },
   "update": {
     "available": "Nouvelle version disponible",
@@ -159,5 +165,63 @@
     "title": "Installer l'application",
     "action": "Installer",
     "ios_hint": "Sur iPhone et iPad : touchez Partager puis « Sur l'écran d'accueil »."
+  },
+  "sim": {
+    "inputs": "Paramètres",
+    "results": "Résultats",
+    "reset": "Valeurs par défaut",
+    "share": "Partager",
+    "pdf": "Exporter en PDF",
+    "pdf_generating": "Création du PDF…",
+    "pdf_ready": "PDF téléchargé",
+    "pdf_error": "Impossible de créer le PDF",
+    "link_copied": "Lien copié",
+    "invalid_number": "Nombre invalide",
+    "invalid_range": "Valeur entre {min} et {max}",
+    "fix_inputs": "Corrigez les valeurs signalées pour voir les résultats.",
+    "report_title": "Rapport de calcul",
+    "unit": "Unité",
+    "disclaimer": "Résultats indicatifs, à valider par un professionnel avant toute modification du véhicule."
+  },
+  "unit": {
+    "rpm": "tr/min",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "mois",
+    "ratio": ":1",
+    "per_year": "/an"
+  },
+  "rating": {
+    "excellent": "Excellent",
+    "good": "Bon",
+    "adequate": "Adéquat",
+    "insufficient": "Insuffisant"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} cylindre",
+      "other": "{count} cylindres"
+    },
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "fuel_cat": {
+    "standard": "Essences standard",
+    "premium": "Essences premium",
+    "race": "Carburants compétition",
+    "ethanol": "Carburants éthanol",
+    "diesel": "Diesel",
+    "methanol": "Méthanol",
+    "special": "Carburants spéciaux"
+  },
+  "fuels": {
+    "race": "Course RON {ron}",
+    "diesel": "Gazole",
+    "ethanol": "Éthanol pur",
+    "methanol": "Méthanol",
+    "toluene": "Toluène",
+    "custom": "Personnalisé"
   }
 }

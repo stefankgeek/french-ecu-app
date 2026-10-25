@@ -1,0 +1,41 @@
+{
+  "intro": "Schätzt Einspritzdüsen, Druck, Leistungsgewinn und Amortisation einer Umrüstung auf E85.",
+  "g_engine": "Aktueller Motor",
+  "g_usage": "Nutzung und Preise",
+  "boost_hint": "0 bei einem Saugmotor",
+  "in": {
+    "fuel": "Aktueller Kraftstoff",
+    "injectors": "Durchfluss der aktuellen Düsen",
+    "rail": "Aktueller Raildruck",
+    "power": "Aktuelle Leistung",
+    "boost": "Ladedruck",
+    "consumption": "Aktueller Verbrauch",
+    "distance": "Jahresfahrleistung",
+    "currency": "Währung",
+    "priceFuel": "Preis des aktuellen Kraftstoffs ({cur})",
+    "priceE85": "E85-Preis ({cur})",
+    "conversionCost": "Kosten der Umrüstung"
+  },
+  "r": {
+    "injectors": "Neue Einspritzdüsen",
+    "injectors_note": "+{pct} % Durchfluss",
+    "pressure": "Druck mit den aktuellen Düsen",
+    "change_injectors": "Düsen tauschen",
+    "pressure_note": "Nötig wären {p}: zu hoch",
+    "pressure_keep": "Benötigter Druck bei Beibehaltung der Düsen",
+    "power_gain": "Leistungsgewinn",
+    "consumption": "Verbrauch mit E85",
+    "consumption_note": "+{pct} % gegenüber Benzin",
+    "savings": "Jährliche Ersparnis",
+    "roi": "Amortisationsdauer",
+    "roi_never": "Keine Ersparnis bei diesen Preisen",
+    "details": "Technische Details",
+    "details_text": "Stöchiometrisches AFR {afr} → {afr85} · Oktan {ron} → {ron85} ROZ · Ladungskühlung {cool} · Zusätzliche Frühzündung +2 bis 3°"
+  },
+  "chart": {
+    "economy_title": "Jährlicher Kostenvergleich",
+    "savings": "Ersparnis",
+    "power_title": "Leistungsgewinn",
+    "power_y": "Leistung"
+  }
+}

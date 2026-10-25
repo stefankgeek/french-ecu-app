@@ -1,0 +1,41 @@
+{
+  "intro": "Estime les injecteurs, la pression, le gain de puissance et la rentabilité d'un passage à l'E85.",
+  "g_engine": "Moteur actuel",
+  "g_usage": "Utilisation et prix",
+  "boost_hint": "0 pour un moteur atmosphérique",
+  "in": {
+    "fuel": "Carburant actuel",
+    "injectors": "Débit des injecteurs actuels",
+    "rail": "Pression de rampe actuelle",
+    "power": "Puissance actuelle",
+    "boost": "Pression de suralimentation",
+    "consumption": "Consommation actuelle",
+    "distance": "Kilométrage annuel",
+    "currency": "Devise",
+    "priceFuel": "Prix du carburant actuel ({cur})",
+    "priceE85": "Prix de l'E85 ({cur})",
+    "conversionCost": "Coût de la conversion"
+  },
+  "r": {
+    "injectors": "Nouveaux injecteurs",
+    "injectors_note": "+{pct} % de débit",
+    "pressure": "Pression avec les injecteurs actuels",
+    "change_injectors": "Changer d'injecteurs",
+    "pressure_note": "Il faudrait {p} : trop élevé",
+    "pressure_keep": "Pression nécessaire en gardant les injecteurs",
+    "power_gain": "Gain de puissance",
+    "consumption": "Consommation en E85",
+    "consumption_note": "+{pct} % par rapport à l'essence",
+    "savings": "Économies annuelles",
+    "roi": "Retour sur investissement",
+    "roi_never": "Aucune économie avec ces prix",
+    "details": "Détails techniques",
+    "details_text": "AFR stœchiométrique {afr} → {afr85} · Octane {ron} → {ron85} RON · Refroidissement de la charge {cool} · Avance supplémentaire +2 à 3°"
+  },
+  "chart": {
+    "economy_title": "Comparaison économique annuelle",
+    "savings": "Économies",
+    "power_title": "Gain de puissance",
+    "power_y": "Puissance"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "intro": "Sizes the fuel pump and feed line from your injectors, including pressure losses.",
+  "g_injection": "Injection",
+  "g_line": "Fuel feed line",
+  "circuit_simple": "Simple (straight line)",
+  "circuit_complex": "Complex (bends, filters, fittings)",
+  "in": {
+    "injFlow": "Flow of one injector",
+    "injectors": "Number of injectors",
+    "fuel": "Fuel",
+    "duty": "Maximum duty cycle",
+    "pipeD": "Hose inside diameter",
+    "pipeL": "Hose length",
+    "circuit": "Circuit type"
+  },
+  "r": {
+    "pump": "Required pump flow",
+    "pump_note": "Injector flow + 20% reserve, scaled to the duty cycle",
+    "return": "Return flow",
+    "pipe_max": "Hose maximum flow",
+    "pipe_max_note": "Load {pct}% · velocity limit {v}",
+    "velocity": "Velocity in the hose",
+    "loss_pipe": "Hose pressure loss",
+    "loss_circuit": "Circuit pressure loss",
+    "loss_pump": "Pump pressure loss",
+    "loss_pump_note": "Fixed value",
+    "loss_total": "Total pressure loss"
+  },
+  "note": {
+    "pipe_too_small": "The hose is too small for this flow: choose a larger diameter (see the comparison).",
+    "pipe_limit": "The hose is close to its limit: a larger diameter would give some margin."
+  },
+  "table": {
+    "pump_title": "Pump comparison",
+    "pump": "Pump",
+    "margin": "Margin",
+    "rating": "Verdict",
+    "pipe_title": "Hose comparison",
+    "pipe_intro": "Diameters around the ideal one (velocity limit {v}).",
+    "diameter": "Diameter",
+    "max_flow": "Max flow",
+    "velocity": "Velocity"
+  },
+  "chart": {
+    "flows_title": "Flows versus duty cycle",
+    "duty_x": "Duty cycle (%)",
+    "flow_y": "Flow",
+    "log": "log scale",
+    "ds_out": "Pump flow",
+    "ds_inj": "Injector flow",
+    "ds_ret": "Return flow",
+    "ds_max": "Hose maximum flow",
+    "loss_title": "Pressure losses versus duty cycle",
+    "loss_y": "Pressure loss",
+    "ds_pipe": "Hose",
+    "ds_circuit": "Circuit",
+    "ds_pump": "Pump",
+    "ds_total": "Total"
+  }
+}

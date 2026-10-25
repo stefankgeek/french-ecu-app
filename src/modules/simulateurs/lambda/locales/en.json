@@ -1,0 +1,54 @@
+{
+  "intro": "Converts lambda ↔ AFR for each fuel, gives targets by use and works out the fuel correction to apply.",
+  "g_convert": "Lambda / AFR conversion",
+  "g_target": "Target by use",
+  "g_correction": "Fuel correction",
+  "in": {
+    "fuel": "Fuel",
+    "lambda": "Lambda value",
+    "afr": "AFR value",
+    "usage": "Type of use",
+    "currentAfr": "Measured AFR",
+    "targetAfr": "Desired AFR"
+  },
+  "usage": {
+    "idle": "Idle",
+    "cruise": "Normal driving",
+    "part_throttle": "Part throttle",
+    "wot_na": "Full load (naturally aspirated)",
+    "wot_turbo": "Full load (turbo)",
+    "cold_start": "Cold start"
+  },
+  "mix": {
+    "very_rich": "Very rich",
+    "rich": "Rich",
+    "stoich": "Stoichiometric",
+    "lean": "Lean",
+    "very_lean": "Very lean"
+  },
+  "r": {
+    "status": "Mixture status",
+    "target_lambda": "Target lambda",
+    "target_afr": "Target AFR",
+    "correction": "Required correction",
+    "action": "Action: {a}",
+    "egt": "Estimated exhaust gas temperature"
+  },
+  "action": {
+    "enrich": "richen",
+    "lean": "lean out"
+  },
+  "egt": {
+    "safe": "Safe temperature",
+    "high": "High temperature",
+    "danger": "Danger: risk of burnt valves"
+  },
+  "table": {
+    "title": "Fuel properties",
+    "fuel": "Fuel",
+    "afr": "Stoich. AFR",
+    "octane": "Octane",
+    "ethanol": "Ethanol",
+    "energy": "Energy"
+  }
+}

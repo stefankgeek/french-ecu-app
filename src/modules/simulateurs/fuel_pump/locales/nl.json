@@ -1,0 +1,60 @@
+{
+  "intro": "Dimensioneert de brandstofpomp en de toevoerleiding op basis van de injectoren, inclusief drukverliezen.",
+  "g_injection": "Injectie",
+  "g_line": "Toevoerleiding",
+  "circuit_simple": "Eenvoudig (rechte leiding)",
+  "circuit_complex": "Complex (bochten, filters, koppelingen)",
+  "in": {
+    "injFlow": "Debiet van één injector",
+    "injectors": "Aantal injectoren",
+    "fuel": "Brandstof",
+    "duty": "Maximale duty cycle",
+    "pipeD": "Binnendiameter leiding",
+    "pipeL": "Leidinglengte",
+    "circuit": "Type circuit"
+  },
+  "r": {
+    "pump": "Benodigd pompdebiet",
+    "pump_note": "Injectordebiet + 20 % reserve, omgerekend naar de duty cycle",
+    "return": "Retourdebiet",
+    "pipe_max": "Maximaal leidingdebiet",
+    "pipe_max_note": "Belasting {pct} % · grenssnelheid {v}",
+    "velocity": "Snelheid in de leiding",
+    "loss_pipe": "Drukverlies leiding",
+    "loss_circuit": "Drukverlies circuit",
+    "loss_pump": "Drukverlies pomp",
+    "loss_pump_note": "Vaste waarde",
+    "loss_total": "Totaal drukverlies"
+  },
+  "note": {
+    "pipe_too_small": "De leiding is te klein voor dit debiet: kies een grotere diameter (zie de vergelijking).",
+    "pipe_limit": "De leiding werkt dicht bij haar grens: een grotere diameter geeft marge."
+  },
+  "table": {
+    "pump_title": "Pompvergelijking",
+    "pump": "Pomp",
+    "margin": "Marge",
+    "rating": "Oordeel",
+    "pipe_title": "Leidingvergelijking",
+    "pipe_intro": "Diameters rond de ideale diameter (grenssnelheid {v}).",
+    "diameter": "Diameter",
+    "max_flow": "Max. debiet",
+    "velocity": "Snelheid"
+  },
+  "chart": {
+    "flows_title": "Debieten afhankelijk van de duty cycle",
+    "duty_x": "Duty cycle (%)",
+    "flow_y": "Debiet",
+    "log": "log. schaal",
+    "ds_out": "Pompdebiet",
+    "ds_inj": "Injectordebiet",
+    "ds_ret": "Retourdebiet",
+    "ds_max": "Max. leidingdebiet",
+    "loss_title": "Drukverliezen afhankelijk van de duty cycle",
+    "loss_y": "Drukverlies",
+    "ds_pipe": "Leiding",
+    "ds_circuit": "Circuit",
+    "ds_pump": "Pomp",
+    "ds_total": "Totaal"
+  }
+}

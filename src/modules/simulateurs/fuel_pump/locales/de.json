@@ -1,0 +1,60 @@
+{
+  "intro": "Legt Kraftstoffpumpe und Zulaufleitung anhand der Einspritzdüsen aus, inklusive Druckverlusten.",
+  "g_injection": "Einspritzung",
+  "g_line": "Zulaufleitung",
+  "circuit_simple": "Einfach (gerade Leitung)",
+  "circuit_complex": "Komplex (Bögen, Filter, Anschlüsse)",
+  "in": {
+    "injFlow": "Durchfluss einer Düse",
+    "injectors": "Anzahl der Düsen",
+    "fuel": "Kraftstoff",
+    "duty": "Maximales Tastverhältnis",
+    "pipeD": "Innendurchmesser der Leitung",
+    "pipeL": "Leitungslänge",
+    "circuit": "Kreislaufart"
+  },
+  "r": {
+    "pump": "Benötigte Pumpenförderleistung",
+    "pump_note": "Düsendurchfluss + 20 % Reserve, bezogen auf das Tastverhältnis",
+    "return": "Rücklaufmenge",
+    "pipe_max": "Maximaler Leitungsdurchfluss",
+    "pipe_max_note": "Auslastung {pct} % · Grenzgeschwindigkeit {v}",
+    "velocity": "Strömungsgeschwindigkeit in der Leitung",
+    "loss_pipe": "Druckverlust der Leitung",
+    "loss_circuit": "Druckverlust des Kreislaufs",
+    "loss_pump": "Druckverlust der Pumpe",
+    "loss_pump_note": "Pauschalwert",
+    "loss_total": "Gesamtdruckverlust"
+  },
+  "note": {
+    "pipe_too_small": "Die Leitung ist für diesen Durchfluss zu klein: größeren Durchmesser wählen (siehe Vergleich).",
+    "pipe_limit": "Die Leitung arbeitet nahe an ihrer Grenze: ein größerer Durchmesser schafft Reserve."
+  },
+  "table": {
+    "pump_title": "Pumpenvergleich",
+    "pump": "Pumpe",
+    "margin": "Reserve",
+    "rating": "Bewertung",
+    "pipe_title": "Leitungsvergleich",
+    "pipe_intro": "Durchmesser rund um den Idealwert (Grenzgeschwindigkeit {v}).",
+    "diameter": "Durchmesser",
+    "max_flow": "Max. Durchfluss",
+    "velocity": "Geschwindigkeit"
+  },
+  "chart": {
+    "flows_title": "Durchflüsse in Abhängigkeit vom Tastverhältnis",
+    "duty_x": "Tastverhältnis (%)",
+    "flow_y": "Durchfluss",
+    "log": "log. Skala",
+    "ds_out": "Pumpenförderung",
+    "ds_inj": "Düsendurchfluss",
+    "ds_ret": "Rücklauf",
+    "ds_max": "Max. Leitungsdurchfluss",
+    "loss_title": "Druckverluste in Abhängigkeit vom Tastverhältnis",
+    "loss_y": "Druckverlust",
+    "ds_pipe": "Leitung",
+    "ds_circuit": "Kreislauf",
+    "ds_pump": "Pumpe",
+    "ds_total": "Gesamt"
+  }
+}

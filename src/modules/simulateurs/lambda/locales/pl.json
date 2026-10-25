@@ -1,0 +1,54 @@
+{
+  "intro": "Przelicza lambda ↔ AFR dla danego paliwa, podaje wartości docelowe według zastosowania i oblicza korektę paliwa.",
+  "g_convert": "Przeliczanie lambda / AFR",
+  "g_target": "Wartość docelowa według zastosowania",
+  "g_correction": "Korekta paliwa",
+  "in": {
+    "fuel": "Paliwo",
+    "lambda": "Wartość lambda",
+    "afr": "Wartość AFR",
+    "usage": "Rodzaj użytkowania",
+    "currentAfr": "Zmierzone AFR",
+    "targetAfr": "Docelowe AFR"
+  },
+  "usage": {
+    "idle": "Bieg jałowy",
+    "cruise": "Normalna jazda",
+    "part_throttle": "Częściowe obciążenie",
+    "wot_na": "Pełne obciążenie (wolnossący)",
+    "wot_turbo": "Pełne obciążenie (turbo)",
+    "cold_start": "Zimny start"
+  },
+  "mix": {
+    "very_rich": "Bardzo bogata",
+    "rich": "Bogata",
+    "stoich": "Stechiometryczna",
+    "lean": "Uboga",
+    "very_lean": "Bardzo uboga"
+  },
+  "r": {
+    "status": "Stan mieszanki",
+    "target_lambda": "Docelowa lambda",
+    "target_afr": "Docelowe AFR",
+    "correction": "Wymagana korekta",
+    "action": "Działanie: {a}",
+    "egt": "Szacowana temperatura spalin"
+  },
+  "action": {
+    "enrich": "wzbogacić",
+    "lean": "zubożyć"
+  },
+  "egt": {
+    "safe": "Bezpieczna temperatura",
+    "high": "Wysoka temperatura",
+    "danger": "Niebezpieczeństwo: ryzyko przepalenia zaworów"
+  },
+  "table": {
+    "title": "Właściwości paliw",
+    "fuel": "Paliwo",
+    "afr": "AFR stech.",
+    "octane": "Oktany",
+    "ethanol": "Etanol",
+    "energy": "Energia"
+  }
+}

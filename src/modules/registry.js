@@ -11,11 +11,11 @@ export const CATEGORIES = ['fuel', 'boost', 'engine', 'ecu', 'chassis'];
 
 export const MODULES = [
   // Carburant & injection
-  { id: 'injectors', category: 'fuel', icon: 'injector', color: '#ff6b6b', status: 'soon' },
-  { id: 'fuel_pump', category: 'fuel', icon: 'pump', color: '#4ecdc4', status: 'soon' },
-  { id: 'e85', category: 'fuel', icon: 'drop', color: '#34c759', status: 'soon' },
-  { id: 'lambda', category: 'fuel', icon: 'lambda', color: '#ff2d55', status: 'soon' },
-  { id: 'nitrous', category: 'fuel', icon: 'bottle', color: '#ff9500', status: 'soon' },
+  { id: 'injectors', category: 'fuel', icon: 'injector', color: '#ff6b6b', status: 'ready', load: () => import('./simulateurs/injectors/index.js') },
+  { id: 'fuel_pump', category: 'fuel', icon: 'pump', color: '#4ecdc4', status: 'ready', load: () => import('./simulateurs/fuel_pump/index.js') },
+  { id: 'e85', category: 'fuel', icon: 'drop', color: '#34c759', status: 'ready', load: () => import('./simulateurs/e85/index.js') },
+  { id: 'lambda', category: 'fuel', icon: 'lambda', color: '#ff2d55', status: 'ready', load: () => import('./simulateurs/lambda/index.js') },
+  { id: 'nitrous', category: 'fuel', icon: 'bottle', color: '#ff9500', status: 'ready', load: () => import('./simulateurs/nitrous/index.js') },
   // Suralimentation & échappement
   { id: 'turbo', category: 'boost', icon: 'turbo', color: '#ff9500', status: 'soon' },
   { id: 'wastegate', category: 'boost', icon: 'gauge', color: '#5ac8fa', status: 'soon' },

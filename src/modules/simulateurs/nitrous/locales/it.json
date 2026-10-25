@@ -1,0 +1,43 @@
+{
+  "intro": "Calcola il guadagno reale di un kit protossido, la portata, il ritardo dell'anticipo, l'autonomia della bombola e le sollecitazioni del motore.",
+  "g_engine": "Motore",
+  "g_system": "Kit protossido",
+  "in": {
+    "basePower": "Potenza di base",
+    "compression": "Rapporto di compressione",
+    "octane": "Numero di ottano del carburante",
+    "timing": "Anticipo di base",
+    "shot": "Taglia del kit",
+    "bottle": "Dimensione della bombola",
+    "duration": "Durata di attivazione"
+  },
+  "r": {
+    "gain": "Guadagno reale",
+    "gain_note": "Efficienza {pct} %",
+    "total": "Potenza totale",
+    "n2o_flow": "Portata di N₂O",
+    "ratio": "Rapporto carburante : N₂O",
+    "ratio_note": "Carburante {fuel} · lambda obiettivo {lambda}",
+    "retard": "Riduzione d'anticipo necessaria",
+    "safe_timing": "Anticipo sicuro con protossido",
+    "shots": "Numero di attivazioni",
+    "shots_note": "Attivazioni da {d}",
+    "total_time": "Tempo totale di utilizzo",
+    "minutes": "{m} minuti in totale",
+    "per_shot": "Consumo per attivazione",
+    "pressure": "Aumento della pressione nel cilindro",
+    "pressure_note": "Pressione nel cilindro ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Attenzione: rapporto di compressione elevato combinato con un kit grande.",
+    "high_stress": "Attenzione: sollecitazioni meccaniche elevate."
+  },
+  "chart": {
+    "power_title": "Potenza di base e con protossido",
+    "base": "Base",
+    "power_y": "Potenza",
+    "bottle_title": "Autonomia della bombola in base al kit",
+    "shot_x": "Taglia del kit (hp)",
+    "shots_y": "Numero di attivazioni"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "intro": "Berechnet den tatsächlichen Gewinn eines Lachgas-Kits, den Durchfluss, die Zündverstellung, die Flaschenreichweite und die Motorbelastung.",
+  "g_engine": "Motor",
+  "g_system": "Lachgas-Kit",
+  "in": {
+    "basePower": "Grundleistung",
+    "compression": "Verdichtungsverhältnis",
+    "octane": "Oktanzahl des Kraftstoffs",
+    "timing": "Grundzündzeitpunkt",
+    "shot": "Kit-Stufe",
+    "bottle": "Flaschengröße",
+    "duration": "Aktivierungsdauer"
+  },
+  "r": {
+    "gain": "Tatsächlicher Gewinn",
+    "gain_note": "Wirkungsgrad {pct} %",
+    "total": "Gesamtleistung",
+    "n2o_flow": "N₂O-Durchfluss",
+    "ratio": "Verhältnis Kraftstoff : N₂O",
+    "ratio_note": "Kraftstoff {fuel} · Ziel-Lambda {lambda}",
+    "retard": "Nötige Spätverstellung",
+    "safe_timing": "Sicherer Zündzeitpunkt mit Lachgas",
+    "shots": "Anzahl der Aktivierungen",
+    "shots_note": "Aktivierungen à {d}",
+    "total_time": "Gesamte Nutzungsdauer",
+    "minutes": "{m} Minuten insgesamt",
+    "per_shot": "Verbrauch pro Aktivierung",
+    "pressure": "Anstieg des Zylinderdrucks",
+    "pressure_note": "Zylinderdruck ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Achtung: hohe Verdichtung in Kombination mit einer großen Kit-Stufe.",
+    "high_stress": "Achtung: hohe mechanische Belastung."
+  },
+  "chart": {
+    "power_title": "Grundleistung und Leistung mit Lachgas",
+    "base": "Basis",
+    "power_y": "Leistung",
+    "bottle_title": "Flaschenreichweite je Kit-Stufe",
+    "shot_x": "Kit-Stufe (hp)",
+    "shots_y": "Anzahl der Aktivierungen"
+  }
+}

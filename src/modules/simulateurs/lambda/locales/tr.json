@@ -1,0 +1,54 @@
+{
+  "intro": "Yakıta göre lambda ↔ AFR dönüşümü yapar, kullanıma göre hedefleri verir ve gereken yakıt düzeltmesini hesaplar.",
+  "g_convert": "Lambda / AFR dönüşümü",
+  "g_target": "Kullanıma göre hedef",
+  "g_correction": "Yakıt düzeltmesi",
+  "in": {
+    "fuel": "Yakıt",
+    "lambda": "Lambda değeri",
+    "afr": "AFR değeri",
+    "usage": "Kullanım türü",
+    "currentAfr": "Ölçülen AFR",
+    "targetAfr": "İstenen AFR"
+  },
+  "usage": {
+    "idle": "Rölanti",
+    "cruise": "Normal sürüş",
+    "part_throttle": "Kısmi yük",
+    "wot_na": "Tam yük (atmosferik)",
+    "wot_turbo": "Tam yük (turbo)",
+    "cold_start": "Soğuk çalıştırma"
+  },
+  "mix": {
+    "very_rich": "Çok zengin",
+    "rich": "Zengin",
+    "stoich": "Stokiyometrik",
+    "lean": "Fakir",
+    "very_lean": "Çok fakir"
+  },
+  "r": {
+    "status": "Karışım durumu",
+    "target_lambda": "Hedef lambda",
+    "target_afr": "Hedef AFR",
+    "correction": "Gereken düzeltme",
+    "action": "Yapılacak işlem: {a}",
+    "egt": "Tahmini egzoz gazı sıcaklığı"
+  },
+  "action": {
+    "enrich": "zenginleştir",
+    "lean": "fakirleştir"
+  },
+  "egt": {
+    "safe": "Güvenli sıcaklık",
+    "high": "Yüksek sıcaklık",
+    "danger": "Tehlike: supap yanma riski"
+  },
+  "table": {
+    "title": "Yakıt özellikleri",
+    "fuel": "Yakıt",
+    "afr": "Stok. AFR",
+    "octane": "Oktan",
+    "ethanol": "Etanol",
+    "energy": "Enerji"
+  }
+}

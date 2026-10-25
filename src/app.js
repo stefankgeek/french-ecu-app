@@ -187,8 +187,8 @@ async function moduleView({ id }) {
   if (!m) return navigate('/');
   setChrome({ title: t(`modules.${id}.title`), back: true });
   if (m.status === 'ready' && m.load) {
-    const mod = await m.load();
-    return mod.render(view());
+    const [{ default: spec }, { mountSimulator }] = await Promise.all([m.load(), import('./core/sim/page.js')]);
+    return mountSimulator(view(), spec);
   }
   view().innerHTML = `
     <section class="panel coming" style="--c:${m.color}">
@@ -203,7 +203,8 @@ async function moduleView({ id }) {
 export function startApp() {
   shell();
   const wrap = (fn) => (params) => {
-    rerender = () => fn(params);
+    rerender = () => { view()._simCleanup?.(); fn(params); };
+    view()._simCleanup?.();
     fn(params);
     view().scrollTo?.(0, 0);
     window.scrollTo(0, 0);

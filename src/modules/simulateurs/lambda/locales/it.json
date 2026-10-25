@@ -1,0 +1,54 @@
+{
+  "intro": "Converte lambda ↔ AFR in base al carburante, indica i valori obiettivo per uso e calcola la correzione di carburante.",
+  "g_convert": "Conversione lambda / AFR",
+  "g_target": "Obiettivo in base all'uso",
+  "g_correction": "Correzione carburante",
+  "in": {
+    "fuel": "Carburante",
+    "lambda": "Valore lambda",
+    "afr": "Valore AFR",
+    "usage": "Tipo di utilizzo",
+    "currentAfr": "AFR misurato",
+    "targetAfr": "AFR desiderato"
+  },
+  "usage": {
+    "idle": "Minimo",
+    "cruise": "Guida normale",
+    "part_throttle": "Carico parziale",
+    "wot_na": "Pieno carico (aspirato)",
+    "wot_turbo": "Pieno carico (turbo)",
+    "cold_start": "Avviamento a freddo"
+  },
+  "mix": {
+    "very_rich": "Molto grassa",
+    "rich": "Grassa",
+    "stoich": "Stechiometrica",
+    "lean": "Magra",
+    "very_lean": "Molto magra"
+  },
+  "r": {
+    "status": "Stato della miscela",
+    "target_lambda": "Lambda obiettivo",
+    "target_afr": "AFR obiettivo",
+    "correction": "Correzione necessaria",
+    "action": "Azione: {a}",
+    "egt": "Temperatura dei gas di scarico stimata"
+  },
+  "action": {
+    "enrich": "arricchire",
+    "lean": "smagrire"
+  },
+  "egt": {
+    "safe": "Temperatura sicura",
+    "high": "Temperatura elevata",
+    "danger": "Pericolo: rischio di bruciare le valvole"
+  },
+  "table": {
+    "title": "Proprietà dei carburanti",
+    "fuel": "Carburante",
+    "afr": "AFR stech.",
+    "octane": "Ottani",
+    "ethanol": "Etanolo",
+    "energy": "Energia"
+  }
+}

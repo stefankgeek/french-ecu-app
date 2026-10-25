@@ -1,0 +1,60 @@
+{
+  "intro": "Dimensiona la bomba de combustible y la línea de alimentación a partir de los inyectores, con las pérdidas de carga.",
+  "g_injection": "Inyección",
+  "g_line": "Línea de alimentación",
+  "circuit_simple": "Simple (línea directa)",
+  "circuit_complex": "Complejo (codos, filtros, racores)",
+  "in": {
+    "injFlow": "Caudal de un inyector",
+    "injectors": "Número de inyectores",
+    "fuel": "Combustible",
+    "duty": "Ciclo de trabajo máximo",
+    "pipeD": "Diámetro interior del tubo",
+    "pipeL": "Longitud del tubo",
+    "circuit": "Tipo de circuito"
+  },
+  "r": {
+    "pump": "Caudal de bomba necesario",
+    "pump_note": "Caudal de los inyectores + 20 % de reserva, según el ciclo de trabajo",
+    "return": "Caudal de retorno",
+    "pipe_max": "Caudal máximo del tubo",
+    "pipe_max_note": "Carga {pct} % · velocidad límite {v}",
+    "velocity": "Velocidad en el tubo",
+    "loss_pipe": "Pérdida de carga del tubo",
+    "loss_circuit": "Pérdida de carga del circuito",
+    "loss_pump": "Pérdida de carga de la bomba",
+    "loss_pump_note": "Valor fijo",
+    "loss_total": "Pérdida de carga total"
+  },
+  "note": {
+    "pipe_too_small": "El tubo es demasiado pequeño para este caudal: elige un diámetro mayor (ver el comparador).",
+    "pipe_limit": "El tubo trabaja cerca de su límite: un diámetro mayor daría margen."
+  },
+  "table": {
+    "pump_title": "Comparador de bombas",
+    "pump": "Bomba",
+    "margin": "Margen",
+    "rating": "Valoración",
+    "pipe_title": "Comparador de tubos",
+    "pipe_intro": "Diámetros en torno al ideal (velocidad límite {v}).",
+    "diameter": "Diámetro",
+    "max_flow": "Caudal máx.",
+    "velocity": "Velocidad"
+  },
+  "chart": {
+    "flows_title": "Caudales según el ciclo de trabajo",
+    "duty_x": "Ciclo de trabajo (%)",
+    "flow_y": "Caudal",
+    "log": "escala log.",
+    "ds_out": "Caudal de la bomba",
+    "ds_inj": "Caudal de los inyectores",
+    "ds_ret": "Caudal de retorno",
+    "ds_max": "Caudal máximo del tubo",
+    "loss_title": "Pérdidas de carga según el ciclo de trabajo",
+    "loss_y": "Pérdida de carga",
+    "ds_pipe": "Tubo",
+    "ds_circuit": "Circuito",
+    "ds_pump": "Bomba",
+    "ds_total": "Total"
+  }
+}

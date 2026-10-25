@@ -1,0 +1,41 @@
+{
+  "intro": "Estima os injetores, a pressão, o ganho de potência e a rentabilidade da passagem para E85.",
+  "g_engine": "Motor atual",
+  "g_usage": "Utilização e preços",
+  "boost_hint": "0 para um motor atmosférico",
+  "in": {
+    "fuel": "Combustível atual",
+    "injectors": "Caudal dos injetores atuais",
+    "rail": "Pressão da rampa atual",
+    "power": "Potência atual",
+    "boost": "Pressão de sobrealimentação",
+    "consumption": "Consumo atual",
+    "distance": "Quilometragem anual",
+    "currency": "Moeda",
+    "priceFuel": "Preço do combustível atual ({cur})",
+    "priceE85": "Preço do E85 ({cur})",
+    "conversionCost": "Custo da conversão"
+  },
+  "r": {
+    "injectors": "Novos injetores",
+    "injectors_note": "+{pct} % de caudal",
+    "pressure": "Pressão com os injetores atuais",
+    "change_injectors": "Trocar os injetores",
+    "pressure_note": "Seriam necessários {p}: demasiado alto",
+    "pressure_keep": "Pressão necessária mantendo os injetores",
+    "power_gain": "Ganho de potência",
+    "consumption": "Consumo com E85",
+    "consumption_note": "+{pct} % em relação à gasolina",
+    "savings": "Poupança anual",
+    "roi": "Prazo de retorno",
+    "roi_never": "Sem poupança com estes preços",
+    "details": "Detalhes técnicos",
+    "details_text": "AFR estequiométrico {afr} → {afr85} · Octanas {ron} → {ron85} RON · Arrefecimento da carga {cool} · Avanço adicional +2 a 3°"
+  },
+  "chart": {
+    "economy_title": "Comparação económica anual",
+    "savings": "Poupança",
+    "power_title": "Ganho de potência",
+    "power_y": "Potência"
+  }
+}

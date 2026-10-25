@@ -147,7 +147,13 @@
     "mass": "Mass",
     "small_mass": "Small mass",
     "force": "Force",
-    "spring_rate": "Spring rate"
+    "spring_rate": "Spring rate",
+    "length_m": "Length (m)",
+    "distance": "Distance",
+    "flow_velocity": "Flow velocity",
+    "fuel_economy": "Fuel consumption",
+    "price_volume": "Fuel price",
+    "bsfc": "Specific fuel consumption (BSFC)"
   },
   "update": {
     "available": "New version available",
@@ -159,5 +165,63 @@
     "title": "Install the app",
     "action": "Install",
     "ios_hint": "On iPhone and iPad: tap Share, then “Add to Home Screen”."
+  },
+  "sim": {
+    "inputs": "Inputs",
+    "results": "Results",
+    "reset": "Default values",
+    "share": "Share",
+    "pdf": "Export to PDF",
+    "pdf_generating": "Creating PDF…",
+    "pdf_ready": "PDF downloaded",
+    "pdf_error": "Could not create the PDF",
+    "link_copied": "Link copied",
+    "invalid_number": "Invalid number",
+    "invalid_range": "Value between {min} and {max}",
+    "fix_inputs": "Fix the highlighted values to see the results.",
+    "report_title": "Calculation report",
+    "unit": "Unit",
+    "disclaimer": "Indicative results — have them checked by a professional before modifying the vehicle."
+  },
+  "unit": {
+    "rpm": "rpm",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "months",
+    "ratio": ":1",
+    "per_year": "/yr"
+  },
+  "rating": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "adequate": "Adequate",
+    "insufficient": "Insufficient"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} cylinder",
+      "other": "{count} cylinders"
+    },
+    "yes": "Yes",
+    "no": "No"
+  },
+  "fuel_cat": {
+    "standard": "Standard petrol",
+    "premium": "Premium petrol",
+    "race": "Race fuels",
+    "ethanol": "Ethanol fuels",
+    "diesel": "Diesel",
+    "methanol": "Methanol",
+    "special": "Special fuels"
+  },
+  "fuels": {
+    "race": "Race fuel RON {ron}",
+    "diesel": "Diesel",
+    "ethanol": "Pure ethanol",
+    "methanol": "Methanol",
+    "toluene": "Toluene",
+    "custom": "Custom"
   }
 }

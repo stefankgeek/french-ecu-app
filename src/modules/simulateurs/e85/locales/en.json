@@ -1,0 +1,41 @@
+{
+  "intro": "Estimates injectors, pressure, power gain and payback of switching to E85.",
+  "g_engine": "Current engine",
+  "g_usage": "Usage and prices",
+  "boost_hint": "0 for a naturally aspirated engine",
+  "in": {
+    "fuel": "Current fuel",
+    "injectors": "Current injector flow",
+    "rail": "Current rail pressure",
+    "power": "Current power",
+    "boost": "Boost pressure",
+    "consumption": "Current fuel consumption",
+    "distance": "Annual distance",
+    "currency": "Currency",
+    "priceFuel": "Current fuel price ({cur})",
+    "priceE85": "E85 price ({cur})",
+    "conversionCost": "Conversion cost"
+  },
+  "r": {
+    "injectors": "New injectors",
+    "injectors_note": "+{pct}% flow",
+    "pressure": "Pressure with current injectors",
+    "change_injectors": "Change injectors",
+    "pressure_note": "Would need {p}: too high",
+    "pressure_keep": "Pressure needed if you keep the injectors",
+    "power_gain": "Power gain",
+    "consumption": "Consumption on E85",
+    "consumption_note": "+{pct}% compared with petrol",
+    "savings": "Annual savings",
+    "roi": "Payback period",
+    "roi_never": "No savings with these prices",
+    "details": "Technical details",
+    "details_text": "Stoichiometric AFR {afr} → {afr85} · Octane {ron} → {ron85} RON · Charge cooling {cool} · Extra ignition advance +2 to 3°"
+  },
+  "chart": {
+    "economy_title": "Annual cost comparison",
+    "savings": "Savings",
+    "power_title": "Power gain",
+    "power_y": "Power"
+  }
+}

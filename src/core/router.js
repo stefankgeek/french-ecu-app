@@ -15,7 +15,10 @@ export function route(pattern, handler) {
 
 export const fallback = (handler) => { notFound = handler; };
 export const navigate = (path) => { location.hash = '#' + path; };
-export const currentPath = () => decodeURI(location.hash.replace(/^#/, '')) || '/';
+/** Chemin sans les paramètres (#/outil/turbo?v=… → /outil/turbo). */
+export const currentPath = () => decodeURI(location.hash.replace(/^#/, '').split('?')[0]) || '/';
+/** Paramètres après le « ? » (lien de partage d'un calcul). */
+export const currentQuery = () => new URLSearchParams(location.hash.split('?')[1] || '');
 
 function resolve() {
   const path = currentPath();

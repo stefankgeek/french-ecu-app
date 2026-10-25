@@ -147,7 +147,13 @@
     "mass": "Masse",
     "small_mass": "Kleine Masse",
     "force": "Kraft",
-    "spring_rate": "Federrate"
+    "spring_rate": "Federrate",
+    "length_m": "Länge (m)",
+    "distance": "Strecke",
+    "flow_velocity": "Strömungsgeschwindigkeit",
+    "fuel_economy": "Verbrauch",
+    "price_volume": "Kraftstoffpreis",
+    "bsfc": "Spezifischer Verbrauch (BSFC)"
   },
   "update": {
     "available": "Neue Version verfügbar",
@@ -159,5 +165,63 @@
     "title": "App installieren",
     "action": "Installieren",
     "ios_hint": "Auf iPhone und iPad: Auf Teilen tippen, dann „Zum Home-Bildschirm“."
+  },
+  "sim": {
+    "inputs": "Eingaben",
+    "results": "Ergebnisse",
+    "reset": "Standardwerte",
+    "share": "Teilen",
+    "pdf": "Als PDF exportieren",
+    "pdf_generating": "PDF wird erstellt…",
+    "pdf_ready": "PDF heruntergeladen",
+    "pdf_error": "PDF konnte nicht erstellt werden",
+    "link_copied": "Link kopiert",
+    "invalid_number": "Ungültige Zahl",
+    "invalid_range": "Wert zwischen {min} und {max}",
+    "fix_inputs": "Korrigiere die markierten Werte, um die Ergebnisse zu sehen.",
+    "report_title": "Berechnungsbericht",
+    "unit": "Einheit",
+    "disclaimer": "Richtwerte – vor jeder Änderung am Fahrzeug von einer Fachkraft prüfen lassen."
+  },
+  "unit": {
+    "rpm": "U/min",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "Monate",
+    "ratio": ":1",
+    "per_year": "/Jahr"
+  },
+  "rating": {
+    "excellent": "Sehr gut",
+    "good": "Gut",
+    "adequate": "Ausreichend",
+    "insufficient": "Ungenügend"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} Zylinder",
+      "other": "{count} Zylinder"
+    },
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "fuel_cat": {
+    "standard": "Normalbenzin",
+    "premium": "Premiumbenzin",
+    "race": "Rennkraftstoffe",
+    "ethanol": "Ethanolkraftstoffe",
+    "diesel": "Diesel",
+    "methanol": "Methanol",
+    "special": "Sonderkraftstoffe"
+  },
+  "fuels": {
+    "race": "Rennkraftstoff ROZ {ron}",
+    "diesel": "Diesel",
+    "ethanol": "Reines Ethanol",
+    "methanol": "Methanol",
+    "toluene": "Toluol",
+    "custom": "Benutzerdefiniert"
   }
 }

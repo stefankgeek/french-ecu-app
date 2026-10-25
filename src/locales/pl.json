@@ -149,7 +149,13 @@
     "mass": "Masa",
     "small_mass": "Mała masa",
     "force": "Siła",
-    "spring_rate": "Sztywność sprężyny"
+    "spring_rate": "Sztywność sprężyny",
+    "length_m": "Długość (m)",
+    "distance": "Dystans",
+    "flow_velocity": "Prędkość przepływu",
+    "fuel_economy": "Zużycie paliwa",
+    "price_volume": "Cena paliwa",
+    "bsfc": "Jednostkowe zużycie paliwa (BSFC)"
   },
   "update": {
     "available": "Dostępna nowa wersja",
@@ -161,5 +167,65 @@
     "title": "Zainstaluj aplikację",
     "action": "Zainstaluj",
     "ios_hint": "Na iPhonie i iPadzie: stuknij Udostępnij, a następnie „Do ekranu początkowego”."
+  },
+  "sim": {
+    "inputs": "Parametry",
+    "results": "Wyniki",
+    "reset": "Wartości domyślne",
+    "share": "Udostępnij",
+    "pdf": "Eksportuj do PDF",
+    "pdf_generating": "Tworzenie PDF…",
+    "pdf_ready": "Pobrano PDF",
+    "pdf_error": "Nie udało się utworzyć PDF",
+    "link_copied": "Skopiowano link",
+    "invalid_number": "Nieprawidłowa liczba",
+    "invalid_range": "Wartość od {min} do {max}",
+    "fix_inputs": "Popraw zaznaczone wartości, aby zobaczyć wyniki.",
+    "report_title": "Raport z obliczeń",
+    "unit": "Jednostka",
+    "disclaimer": "Wyniki orientacyjne – przed modyfikacją pojazdu skonsultuj je ze specjalistą."
+  },
+  "unit": {
+    "rpm": "obr/min",
+    "ms": "ms",
+    "s": "s",
+    "deg": "°",
+    "percent": "%",
+    "months": "mies.",
+    "ratio": ":1",
+    "per_year": "/rok"
+  },
+  "rating": {
+    "excellent": "Doskonały",
+    "good": "Dobry",
+    "adequate": "Wystarczający",
+    "insufficient": "Niewystarczający"
+  },
+  "common": {
+    "cylinders": {
+      "one": "{count} cylinder",
+      "few": "{count} cylindry",
+      "many": "{count} cylindrów",
+      "other": "{count} cylindra"
+    },
+    "yes": "Tak",
+    "no": "Nie"
+  },
+  "fuel_cat": {
+    "standard": "Benzyny standardowe",
+    "premium": "Benzyny premium",
+    "race": "Paliwa wyścigowe",
+    "ethanol": "Paliwa etanolowe",
+    "diesel": "Olej napędowy",
+    "methanol": "Metanol",
+    "special": "Paliwa specjalne"
+  },
+  "fuels": {
+    "race": "Paliwo wyścigowe RON {ron}",
+    "diesel": "Olej napędowy",
+    "ethanol": "Czysty etanol",
+    "methanol": "Metanol",
+    "toluene": "Toluen",
+    "custom": "Własne"
   }
 }

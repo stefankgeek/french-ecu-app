@@ -1,0 +1,60 @@
+{
+  "intro": "Dimensiona a bomba de combustível e a linha de alimentação a partir dos injetores, com as perdas de carga.",
+  "g_injection": "Injeção",
+  "g_line": "Linha de alimentação",
+  "circuit_simple": "Simples (linha direta)",
+  "circuit_complex": "Complexo (curvas, filtros, uniões)",
+  "in": {
+    "injFlow": "Caudal de um injetor",
+    "injectors": "Número de injetores",
+    "fuel": "Combustível",
+    "duty": "Duty cycle máximo",
+    "pipeD": "Diâmetro interior do tubo",
+    "pipeL": "Comprimento do tubo",
+    "circuit": "Tipo de circuito"
+  },
+  "r": {
+    "pump": "Caudal de bomba necessário",
+    "pump_note": "Caudal dos injetores + 20 % de reserva, em função do duty cycle",
+    "return": "Caudal de retorno",
+    "pipe_max": "Caudal máximo do tubo",
+    "pipe_max_note": "Carga {pct} % · velocidade limite {v}",
+    "velocity": "Velocidade no tubo",
+    "loss_pipe": "Perda de carga do tubo",
+    "loss_circuit": "Perda de carga do circuito",
+    "loss_pump": "Perda de carga da bomba",
+    "loss_pump_note": "Valor fixo",
+    "loss_total": "Perda de carga total"
+  },
+  "note": {
+    "pipe_too_small": "O tubo é demasiado pequeno para este caudal: escolha um diâmetro maior (ver o comparador).",
+    "pipe_limit": "O tubo trabalha perto do limite: um diâmetro maior daria margem."
+  },
+  "table": {
+    "pump_title": "Comparador de bombas",
+    "pump": "Bomba",
+    "margin": "Margem",
+    "rating": "Avaliação",
+    "pipe_title": "Comparador de tubos",
+    "pipe_intro": "Diâmetros em torno do ideal (velocidade limite {v}).",
+    "diameter": "Diâmetro",
+    "max_flow": "Caudal máx.",
+    "velocity": "Velocidade"
+  },
+  "chart": {
+    "flows_title": "Caudais em função do duty cycle",
+    "duty_x": "Duty cycle (%)",
+    "flow_y": "Caudal",
+    "log": "escala log.",
+    "ds_out": "Caudal da bomba",
+    "ds_inj": "Caudal dos injetores",
+    "ds_ret": "Caudal de retorno",
+    "ds_max": "Caudal máximo do tubo",
+    "loss_title": "Perdas de carga em função do duty cycle",
+    "loss_y": "Perda de carga",
+    "ds_pipe": "Tubo",
+    "ds_circuit": "Circuito",
+    "ds_pump": "Bomba",
+    "ds_total": "Total"
+  }
+}

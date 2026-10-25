@@ -1,0 +1,43 @@
+{
+  "intro": "Calcula la ganancia real de un kit de óxido nitroso, el caudal, el retraso del encendido, la autonomía de la botella y los esfuerzos del motor.",
+  "g_engine": "Motor",
+  "g_system": "Kit de óxido nitroso",
+  "in": {
+    "basePower": "Potencia de base",
+    "compression": "Relación de compresión",
+    "octane": "Octanaje del combustible",
+    "timing": "Avance de base",
+    "shot": "Tamaño del kit",
+    "bottle": "Tamaño de la botella",
+    "duration": "Duración de activación"
+  },
+  "r": {
+    "gain": "Ganancia real",
+    "gain_note": "Eficiencia {pct} %",
+    "total": "Potencia total",
+    "n2o_flow": "Caudal de N₂O",
+    "ratio": "Relación combustible : N₂O",
+    "ratio_note": "Combustible {fuel} · lambda objetivo {lambda}",
+    "retard": "Retraso de encendido necesario",
+    "safe_timing": "Avance seguro con óxido nitroso",
+    "shots": "Número de activaciones",
+    "shots_note": "Activaciones de {d}",
+    "total_time": "Tiempo total de uso",
+    "minutes": "{m} minutos en total",
+    "per_shot": "Consumo por activación",
+    "pressure": "Aumento de presión en el cilindro",
+    "pressure_note": "Presión en el cilindro ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Atención: relación de compresión alta combinada con un kit grande.",
+    "high_stress": "Atención: esfuerzos mecánicos elevados."
+  },
+  "chart": {
+    "power_title": "Potencia de base y con óxido nitroso",
+    "base": "Base",
+    "power_y": "Potencia",
+    "bottle_title": "Autonomía de la botella según el kit",
+    "shot_x": "Tamaño del kit (hp)",
+    "shots_y": "Número de activaciones"
+  }
+}

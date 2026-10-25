@@ -1,0 +1,60 @@
+{
+  "intro": "Dimensionne la pompe à carburant et la ligne d'alimentation à partir des injecteurs, avec les pertes de charge.",
+  "g_injection": "Injection",
+  "g_line": "Ligne d'alimentation",
+  "circuit_simple": "Simple (ligne directe)",
+  "circuit_complex": "Complexe (coudes, filtres, raccords)",
+  "in": {
+    "injFlow": "Débit d'un injecteur",
+    "injectors": "Nombre d'injecteurs",
+    "fuel": "Carburant",
+    "duty": "Duty cycle maxi",
+    "pipeD": "Diamètre intérieur du tuyau",
+    "pipeL": "Longueur du tuyau",
+    "circuit": "Type de circuit"
+  },
+  "r": {
+    "pump": "Débit de pompe requis",
+    "pump_note": "Débit des injecteurs + 20 % de réserve, ramené au duty cycle",
+    "return": "Débit de retour",
+    "pipe_max": "Débit maxi du tuyau",
+    "pipe_max_note": "Charge {pct} % · vitesse limite {v}",
+    "velocity": "Vitesse dans le tuyau",
+    "loss_pipe": "Perte de charge du tuyau",
+    "loss_circuit": "Perte de charge du circuit",
+    "loss_pump": "Perte de charge de la pompe",
+    "loss_pump_note": "Valeur forfaitaire",
+    "loss_total": "Perte de charge totale"
+  },
+  "note": {
+    "pipe_too_small": "Le tuyau est trop petit pour ce débit : choisissez un diamètre supérieur (voir le comparateur).",
+    "pipe_limit": "Le tuyau travaille près de sa limite : un diamètre supérieur donnerait de la marge."
+  },
+  "table": {
+    "pump_title": "Comparateur de pompes",
+    "pump": "Pompe",
+    "margin": "Marge",
+    "rating": "Avis",
+    "pipe_title": "Comparateur de tuyaux",
+    "pipe_intro": "Diamètres autour du diamètre idéal (vitesse limite {v}).",
+    "diameter": "Diamètre",
+    "max_flow": "Débit maxi",
+    "velocity": "Vitesse"
+  },
+  "chart": {
+    "flows_title": "Débits selon le duty cycle",
+    "duty_x": "Duty cycle (%)",
+    "flow_y": "Débit",
+    "log": "échelle log.",
+    "ds_out": "Débit pompe",
+    "ds_inj": "Débit injecteurs",
+    "ds_ret": "Débit retour",
+    "ds_max": "Débit maxi du tuyau",
+    "loss_title": "Pertes de charge selon le duty cycle",
+    "loss_y": "Perte de charge",
+    "ds_pipe": "Tuyau",
+    "ds_circuit": "Circuit",
+    "ds_pump": "Pompe",
+    "ds_total": "Totale"
+  }
+}

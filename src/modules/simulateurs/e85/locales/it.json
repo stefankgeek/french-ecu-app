@@ -1,0 +1,41 @@
+{
+  "intro": "Stima iniettori, pressione, guadagno di potenza e convenienza del passaggio all'E85.",
+  "g_engine": "Motore attuale",
+  "g_usage": "Utilizzo e prezzi",
+  "boost_hint": "0 per un motore aspirato",
+  "in": {
+    "fuel": "Carburante attuale",
+    "injectors": "Portata degli iniettori attuali",
+    "rail": "Pressione del rail attuale",
+    "power": "Potenza attuale",
+    "boost": "Pressione di sovralimentazione",
+    "consumption": "Consumo attuale",
+    "distance": "Percorrenza annua",
+    "currency": "Valuta",
+    "priceFuel": "Prezzo del carburante attuale ({cur})",
+    "priceE85": "Prezzo dell'E85 ({cur})",
+    "conversionCost": "Costo della conversione"
+  },
+  "r": {
+    "injectors": "Nuovi iniettori",
+    "injectors_note": "+{pct} % di portata",
+    "pressure": "Pressione con gli iniettori attuali",
+    "change_injectors": "Sostituire gli iniettori",
+    "pressure_note": "Servirebbero {p}: troppo alta",
+    "pressure_keep": "Pressione necessaria mantenendo gli iniettori",
+    "power_gain": "Guadagno di potenza",
+    "consumption": "Consumo con E85",
+    "consumption_note": "+{pct} % rispetto alla benzina",
+    "savings": "Risparmio annuo",
+    "roi": "Tempo di ammortamento",
+    "roi_never": "Nessun risparmio con questi prezzi",
+    "details": "Dettagli tecnici",
+    "details_text": "AFR stechiometrico {afr} → {afr85} · Ottani {ron} → {ron85} RON · Raffreddamento della carica {cool} · Anticipo supplementare +2–3°"
+  },
+  "chart": {
+    "economy_title": "Confronto economico annuo",
+    "savings": "Risparmio",
+    "power_title": "Guadagno di potenza",
+    "power_y": "Potenza"
+  }
+}

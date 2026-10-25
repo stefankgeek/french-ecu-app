@@ -1,0 +1,43 @@
+{
+  "intro": "Oblicza rzeczywisty przyrost mocy z podtlenku azotu, przepływ, cofnięcie zapłonu, wydajność butli i obciążenia silnika.",
+  "g_engine": "Silnik",
+  "g_system": "Zestaw podtlenku azotu",
+  "in": {
+    "basePower": "Moc bazowa",
+    "compression": "Stopień sprężania",
+    "octane": "Liczba oktanowa paliwa",
+    "timing": "Bazowe wyprzedzenie zapłonu",
+    "shot": "Wielkość zestawu",
+    "bottle": "Wielkość butli",
+    "duration": "Czas aktywacji"
+  },
+  "r": {
+    "gain": "Rzeczywisty przyrost",
+    "gain_note": "Sprawność {pct}%",
+    "total": "Moc całkowita",
+    "n2o_flow": "Przepływ N₂O",
+    "ratio": "Stosunek paliwo : N₂O",
+    "ratio_note": "Paliwo {fuel} · docelowa lambda {lambda}",
+    "retard": "Wymagane cofnięcie zapłonu",
+    "safe_timing": "Bezpieczne wyprzedzenie z podtlenkiem",
+    "shots": "Liczba aktywacji",
+    "shots_note": "Aktywacje po {d}",
+    "total_time": "Całkowity czas użycia",
+    "minutes": "Łącznie {m} min",
+    "per_shot": "Zużycie na aktywację",
+    "pressure": "Wzrost ciśnienia w cylindrze",
+    "pressure_note": "Ciśnienie w cylindrze ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Uwaga: wysoki stopień sprężania w połączeniu z dużym zestawem.",
+    "high_stress": "Uwaga: wysokie obciążenia mechaniczne."
+  },
+  "chart": {
+    "power_title": "Moc bazowa i z podtlenkiem azotu",
+    "base": "Baza",
+    "power_y": "Moc",
+    "bottle_title": "Wydajność butli według zestawu",
+    "shot_x": "Wielkość zestawu (hp)",
+    "shots_y": "Liczba aktywacji"
+  }
+}

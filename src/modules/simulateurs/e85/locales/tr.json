@@ -1,0 +1,41 @@
+{
+  "intro": "E85'e geçişte enjektörleri, basıncı, güç kazancını ve geri dönüş süresini tahmin eder.",
+  "g_engine": "Mevcut motor",
+  "g_usage": "Kullanım ve fiyatlar",
+  "boost_hint": "Atmosferik motor için 0",
+  "in": {
+    "fuel": "Mevcut yakıt",
+    "injectors": "Mevcut enjektör debisi",
+    "rail": "Mevcut rampa basıncı",
+    "power": "Mevcut güç",
+    "boost": "Turbo basıncı",
+    "consumption": "Mevcut tüketim",
+    "distance": "Yıllık mesafe",
+    "currency": "Para birimi",
+    "priceFuel": "Mevcut yakıt fiyatı ({cur})",
+    "priceE85": "E85 fiyatı ({cur})",
+    "conversionCost": "Dönüşüm maliyeti"
+  },
+  "r": {
+    "injectors": "Yeni enjektörler",
+    "injectors_note": "Debi +%{pct}",
+    "pressure": "Mevcut enjektörlerle basınç",
+    "change_injectors": "Enjektörleri değiştirin",
+    "pressure_note": "{p} gerekirdi: çok yüksek",
+    "pressure_keep": "Enjektörler korunursa gereken basınç",
+    "power_gain": "Güç kazancı",
+    "consumption": "E85 ile tüketim",
+    "consumption_note": "Benzine göre +%{pct}",
+    "savings": "Yıllık tasarruf",
+    "roi": "Geri dönüş süresi",
+    "roi_never": "Bu fiyatlarla tasarruf yok",
+    "details": "Teknik ayrıntılar",
+    "details_text": "Stokiyometrik AFR {afr} → {afr85} · Oktan {ron} → {ron85} RON · Dolgu soğuması {cool} · Ek ateşleme avansı +2–3°"
+  },
+  "chart": {
+    "economy_title": "Yıllık maliyet karşılaştırması",
+    "savings": "Tasarruf",
+    "power_title": "Güç kazancı",
+    "power_y": "Güç"
+  }
+}

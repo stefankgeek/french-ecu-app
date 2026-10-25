@@ -1,0 +1,43 @@
+{
+  "intro": "Calcule le gain réel d'un kit protoxyde, le débit, le retrait d'avance, l'autonomie de la bouteille et les contraintes moteur.",
+  "g_engine": "Moteur",
+  "g_system": "Kit protoxyde",
+  "in": {
+    "basePower": "Puissance de base",
+    "compression": "Taux de compression",
+    "octane": "Indice d'octane du carburant",
+    "timing": "Avance de base",
+    "shot": "Taille du kit",
+    "bottle": "Taille de la bouteille",
+    "duration": "Durée d'activation"
+  },
+  "r": {
+    "gain": "Gain réel",
+    "gain_note": "Efficacité {pct} %",
+    "total": "Puissance totale",
+    "n2o_flow": "Débit de N₂O",
+    "ratio": "Rapport carburant : N₂O",
+    "ratio_note": "Carburant {fuel} · lambda cible {lambda}",
+    "retard": "Retrait d'avance nécessaire",
+    "safe_timing": "Avance sûre sous protoxyde",
+    "shots": "Nombre d'activations",
+    "shots_note": "Activations de {d}",
+    "total_time": "Durée totale d'utilisation",
+    "minutes": "{m} minutes au total",
+    "per_shot": "Consommation par activation",
+    "pressure": "Hausse de pression cylindre",
+    "pressure_note": "Pression cylindre ×{x}"
+  },
+  "warn": {
+    "cr_and_shot": "Attention : taux de compression élevé combiné à un gros kit.",
+    "high_stress": "Attention : contraintes mécaniques élevées."
+  },
+  "chart": {
+    "power_title": "Puissance de base et avec protoxyde",
+    "base": "Base",
+    "power_y": "Puissance",
+    "bottle_title": "Autonomie de la bouteille selon le kit",
+    "shot_x": "Taille du kit (hp)",
+    "shots_y": "Nombre d'activations"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "intro": "Dobiera pompę paliwa i przewód zasilający na podstawie wtryskiwaczy, z uwzględnieniem strat ciśnienia.",
+  "g_injection": "Wtrysk",
+  "g_line": "Przewód zasilający",
+  "circuit_simple": "Prosty (przewód bezpośredni)",
+  "circuit_complex": "Złożony (kolana, filtry, złączki)",
+  "in": {
+    "injFlow": "Wydatek jednego wtryskiwacza",
+    "injectors": "Liczba wtryskiwaczy",
+    "fuel": "Paliwo",
+    "duty": "Maksymalny współczynnik wypełnienia",
+    "pipeD": "Średnica wewnętrzna przewodu",
+    "pipeL": "Długość przewodu",
+    "circuit": "Rodzaj układu"
+  },
+  "r": {
+    "pump": "Wymagana wydajność pompy",
+    "pump_note": "Wydatek wtryskiwaczy + 20% zapasu, w odniesieniu do współczynnika wypełnienia",
+    "return": "Przepływ powrotny",
+    "pipe_max": "Maksymalny przepływ przewodu",
+    "pipe_max_note": "Obciążenie {pct}% · prędkość graniczna {v}",
+    "velocity": "Prędkość w przewodzie",
+    "loss_pipe": "Strata ciśnienia w przewodzie",
+    "loss_circuit": "Strata ciśnienia w układzie",
+    "loss_pump": "Strata ciśnienia pompy",
+    "loss_pump_note": "Wartość stała",
+    "loss_total": "Całkowita strata ciśnienia"
+  },
+  "note": {
+    "pipe_too_small": "Przewód jest za mały dla tego przepływu: wybierz większą średnicę (patrz porównanie).",
+    "pipe_limit": "Przewód pracuje blisko swojej granicy: większa średnica da zapas."
+  },
+  "table": {
+    "pump_title": "Porównanie pomp",
+    "pump": "Pompa",
+    "margin": "Zapas",
+    "rating": "Ocena",
+    "pipe_title": "Porównanie przewodów",
+    "pipe_intro": "Średnice wokół średnicy idealnej (prędkość graniczna {v}).",
+    "diameter": "Średnica",
+    "max_flow": "Maks. przepływ",
+    "velocity": "Prędkość"
+  },
+  "chart": {
+    "flows_title": "Przepływy w zależności od współczynnika wypełnienia",
+    "duty_x": "Współczynnik wypełnienia (%)",
+    "flow_y": "Przepływ",
+    "log": "skala log.",
+    "ds_out": "Wydajność pompy",
+    "ds_inj": "Wydatek wtryskiwaczy",
+    "ds_ret": "Przepływ powrotny",
+    "ds_max": "Maks. przepływ przewodu",
+    "loss_title": "Straty ciśnienia w zależności od współczynnika wypełnienia",
+    "loss_y": "Strata ciśnienia",
+    "ds_pipe": "Przewód",
+    "ds_circuit": "Układ",
+    "ds_pump": "Pompa",
+    "ds_total": "Całkowita"
+  }
+}

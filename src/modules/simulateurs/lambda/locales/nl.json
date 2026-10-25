@@ -1,0 +1,54 @@
+{
+  "intro": "Rekent lambda ↔ AFR om per brandstof, geeft doelwaarden per gebruik en berekent de benodigde brandstofcorrectie.",
+  "g_convert": "Omrekening lambda / AFR",
+  "g_target": "Doelwaarde per gebruik",
+  "g_correction": "Brandstofcorrectie",
+  "in": {
+    "fuel": "Brandstof",
+    "lambda": "Lambdawaarde",
+    "afr": "AFR-waarde",
+    "usage": "Type gebruik",
+    "currentAfr": "Gemeten AFR",
+    "targetAfr": "Gewenste AFR"
+  },
+  "usage": {
+    "idle": "Stationair",
+    "cruise": "Normaal rijden",
+    "part_throttle": "Deellast",
+    "wot_na": "Vollast (atmosferisch)",
+    "wot_turbo": "Vollast (turbo)",
+    "cold_start": "Koude start"
+  },
+  "mix": {
+    "very_rich": "Zeer rijk",
+    "rich": "Rijk",
+    "stoich": "Stoichiometrisch",
+    "lean": "Arm",
+    "very_lean": "Zeer arm"
+  },
+  "r": {
+    "status": "Toestand van het mengsel",
+    "target_lambda": "Doel-lambda",
+    "target_afr": "Doel-AFR",
+    "correction": "Benodigde correctie",
+    "action": "Actie: {a}",
+    "egt": "Geschatte uitlaatgastemperatuur"
+  },
+  "action": {
+    "enrich": "verrijken",
+    "lean": "armer maken"
+  },
+  "egt": {
+    "safe": "Veilige temperatuur",
+    "high": "Hoge temperatuur",
+    "danger": "Gevaar: kleppen kunnen verbranden"
+  },
+  "table": {
+    "title": "Brandstofeigenschappen",
+    "fuel": "Brandstof",
+    "afr": "Stoich. AFR",
+    "octane": "Octaan",
+    "ethanol": "Ethanol",
+    "energy": "Energie"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "intro": "Enjektörlerden yola çıkarak yakıt pompasını ve besleme hattını basınç kayıplarıyla birlikte boyutlandırır.",
+  "g_injection": "Enjeksiyon",
+  "g_line": "Besleme hattı",
+  "circuit_simple": "Basit (düz hat)",
+  "circuit_complex": "Karmaşık (dirsekler, filtreler, bağlantılar)",
+  "in": {
+    "injFlow": "Bir enjektörün debisi",
+    "injectors": "Enjektör sayısı",
+    "fuel": "Yakıt",
+    "duty": "Azami görev döngüsü",
+    "pipeD": "Hortum iç çapı",
+    "pipeL": "Hortum uzunluğu",
+    "circuit": "Devre tipi"
+  },
+  "r": {
+    "pump": "Gereken pompa debisi",
+    "pump_note": "Enjektör debisi + %20 yedek, görev döngüsüne göre",
+    "return": "Dönüş debisi",
+    "pipe_max": "Hortumun azami debisi",
+    "pipe_max_note": "Yük %{pct} · sınır hız {v}",
+    "velocity": "Hortumdaki hız",
+    "loss_pipe": "Hortum basınç kaybı",
+    "loss_circuit": "Devre basınç kaybı",
+    "loss_pump": "Pompa basınç kaybı",
+    "loss_pump_note": "Sabit değer",
+    "loss_total": "Toplam basınç kaybı"
+  },
+  "note": {
+    "pipe_too_small": "Hortum bu debi için çok küçük: daha büyük bir çap seçin (karşılaştırmaya bakın).",
+    "pipe_limit": "Hortum sınırına yakın çalışıyor: daha büyük bir çap pay sağlar."
+  },
+  "table": {
+    "pump_title": "Pompa karşılaştırması",
+    "pump": "Pompa",
+    "margin": "Pay",
+    "rating": "Değerlendirme",
+    "pipe_title": "Hortum karşılaştırması",
+    "pipe_intro": "İdeal çapın çevresindeki çaplar (sınır hız {v}).",
+    "diameter": "Çap",
+    "max_flow": "Azami debi",
+    "velocity": "Hız"
+  },
+  "chart": {
+    "flows_title": "Görev döngüsüne göre debiler",
+    "duty_x": "Görev döngüsü (%)",
+    "flow_y": "Debi",
+    "log": "log. ölçek",
+    "ds_out": "Pompa debisi",
+    "ds_inj": "Enjektör debisi",
+    "ds_ret": "Dönüş debisi",
+    "ds_max": "Hortumun azami debisi",
+    "loss_title": "Görev döngüsüne göre basınç kayıpları",
+    "loss_y": "Basınç kaybı",
+    "ds_pipe": "Hortum",
+    "ds_circuit": "Devre",
+    "ds_pump": "Pompa",
+    "ds_total": "Toplam"
+  }
+}
